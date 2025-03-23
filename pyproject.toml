@@ -1,7 +1,81 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "pubmed-playground"
 version = "0.1.0"
-description = "Add your description here"
+description = "Tools for searching and analyzing PubMed and PMC articles"
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = []
+requires-python = ">=3.11"  # Updated to 3.11+ to match Sphinx requirements
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "requests>=2.32.3",
+    "beautifulsoup4>=4.13.3",
+    "lxml>=5.3.1",
+    "pandas>=2.2.3",
+    "numpy>=2.2.4",
+    "tqdm>=4.67.1",
+    "python-dotenv>=1.0.1",
+    "regex>=2024.11.6",
+    "google-genai>=1.7.0",
+    "rich>=13.7.1",
+]
+
+[project.optional-dependencies]
+scholarly = [
+    "scholarly>=1.7.11",
+    "semanticscholar>=0.10.0",
+]
+arxiv = [
+    "arxiv>=2.1.3",
+]
+visualization = [
+    "matplotlib>=3.10.1",
+    "seaborn>=0.13.2",
+    "pillow>=11.1.0",
+]
+nlp = [
+    "scikit-learn>=1.6.1",
+    "scipy>=1.15.2",
+    "neuroquery>=1.0.4",
+]
+paperscraper = [
+    "paperscraper>=0.2.16",
+    "pymed_paperscraper>=1.0.3",
+    "pubget>=0.0.7",
+]
+dev = [
+    "pytest>=8.3.5",
+    "sphinx>=7.2.6",  # Downgraded to a stable version compatible with Python 3.11
+    "sphinx-rtd-theme>=2.0.0",
+]
+ai = [
+    "google-generativeai>=0.7.2",
+    "langchain>=0.1.12",
+    "transformers>=4.39.3",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/pubmed-playground"
+"Bug Tracker" = "https://github.com/yourusername/pubmed-playground/issues"
+
+[tool.setuptools]
+packages = ["utils"]
+
+[tool.pytest]
+testpaths = ["tests"]
+python_files = "test_*.py"
+
+# UV-specific configuration goes in this section
+[tool.uv]
+python-version = "3.11"  # Specify Python version here
