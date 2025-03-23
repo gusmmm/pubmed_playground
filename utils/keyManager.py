@@ -90,7 +90,8 @@ class KeyManager:
                 "GROQ_API_KEY": os.getenv("GROQ_API_KEY"),
                 "MISTRAL_API_KEY": os.getenv("MISTRAL_API_KEY"),
                 "CODESTRAL_API_KEY": os.getenv("CODESTRAL_API_KEY"),
-                "PUBMED_API_KEY": os.getenv("PUBMED_API_KEY")
+                "PUBMED_API_KEY": os.getenv("PUBMED_API_KEY"),
+                "SERPAPI_KEY": os.getenv("SERPAPI_KEY"),
             }
             print("✅ API keys loaded successfully")
         else:
@@ -105,6 +106,7 @@ class KeyManager:
                 "\n   MISTRAL_API_KEY=your_key_here"
                 "\n   CODESTRAL_API_KEY=your_key_here"
                 "\n   PUBMED_API_KEY=your_key_here"
+                "\n   SERPAPI_KEY=your_key_here"
             )
             
     def _find_env_file(self) -> Optional[Path]:
