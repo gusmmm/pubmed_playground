@@ -1,0 +1,396 @@
+{
+  "query": "severe malaria treatment",
+  "timestamp": "2025-03-23T18:38:22.281645",
+  "num_results": 10,
+  "articles": [
+    {
+      "id": "31369419",
+      "pmid": "31369419",
+      "title": "Severe malaria: update on pathophysiology and treatment.",
+      "first_author": "Brejt JA",
+      "co_authors": [
+        "Golightly LM"
+      ],
+      "journal": "Current opinion in infectious diseases",
+      "publication_date": "2019 Oct",
+      "abstract": "PURPOSE OF REVIEW: Malaria threatens the lives of over 200 million individuals with the disease each year. Plasmodium falciparum is the predominant cause of severe malaria which may be lethal and result in neurocognitive sequelae despite appropriate treatment. We review recent advances regarding the pathophysiology of severe malaria and treatment recommendations for severe disease in the United States. RECENT FINDINGS: Infected red blood cell (iRBC) sequestration in microvascular beds is a critical factor in the development of severe malaria syndromes. Interactions between iRBC variant adhesive peptides and the endothelial protein C receptor (EPCR) result in perturbations of coagulation and cytopreservation pathways. Alterations in the protein C/EPCR axis are implicated in cerebral malaria, respiratory distress, and anemia. Brain MRIs reveal the posterior reversible encephalopathy syndrome in cerebral malaria patients. Transcriptomic analysis reveals commonalities in disease pathogenesis in children and adults despite differences in clinical presentation. US guidelines for severe malaria treatment currently recommend intravenous artesunate including in pregnant women and children. SUMMARY: Despite advances in our understanding of malarial pathogenesis much remains unknown. Antimalarial agents eradicate parasites but no treatments are available to prevent or ameliorate severe malaria or prevent disease sequelae. Further study is needed to develop effective adjunctive therapies. FAU - Brejt, Josef A AU - Brejt JA AD - Department of Medicine, Division of Infectious Diseases, Weill Cornell Medicine, New York, New York, USA. FAU - Golightly, Linnie M AU - Golightly LM LA - eng GR - K24 AI110732/AI/NIAID NIH HHS/United States PT - Journal Article PT - Research Support, N.I.H., Extramural PT - Review PL - United States TA - Curr Opin Infect Dis JT - Current opinion in infectious diseases JID - 8809878 RN - 0 (Antimalarials) RN - 60W3249T9M (Artesunate) SB - IM MH - Administration, Intravenous MH - Antimalarials/*administration & dosage MH - Artesunate/*administration & dosage MH - Humans MH - Malaria, Falciparum/*drug therapy/*physiopathology MH - United States EDAT- 2019/08/02 06:00 MHDA- 2020/07/30 06:00 CRDT- 2019/08/02 06:00 PHST- 2019/08/02 06:00 [pubmed] PHST- 2020/07/30 06:00 [medline] PHST- 2019/08/02 06:00 [entrez] AID - 10.1097/QCO.0000000000000584 [doi] PST - ppublish SO - Curr Opin Infect Dis. 2019 Oct;32(5):413-418. doi: 10.1097/QCO.0000000000000584.",
+      "mesh_terms": [
+        "Administration, Intravenous",
+        "Antimalarials",
+        "Artesunate",
+        "Humans",
+        "Malaria, Falciparum",
+        "United States"
+      ],
+      "keywords": [],
+      "full_text_links": [
+        "https://doi.org/10.1097/QCO.0000000000000584"
+      ],
+      "doi": "10.1097/QCO.0000000000000584",
+      "pmc_id": null,
+      "research_insight": "This 2019 review article directly addresses the researcher's query on severe malaria treatment by providing an update on the pathophysiology of severe *Plasmodium falciparum* malaria and current US treatment recommendations, specifically highlighting the use of intravenous artesunate. The paper emphasizes the critical role of iRBC sequestration and the protein C/EPCR axis in severe malaria syndromes, suggesting that further research into adjunctive therapies targeting these mechanisms is needed to prevent or ameliorate severe malaria and its sequelae. As a review in a reputable infectious disease journal, this article provides a valuable overview of the current understanding and treatment landscape, serving as a strong foundation for further investigation into novel therapeutic strategies.\n"
+    },
+    {
+      "id": "35916842",
+      "pmid": "35916842",
+      "title": "Diagnosis, Treatment, and Prevention of Malaria in the US: A Review.",
+      "first_author": "Daily JP",
+      "co_authors": [
+        "Minuti A",
+        "Khan N"
+      ],
+      "journal": "JAMA",
+      "publication_date": "2022 Aug 2",
+      "abstract": "IMPORTANCE: Malaria is caused by protozoa parasites of the genus Plasmodium and is diagnosed in approximately 2000 people in the US each year who have returned from visiting regions with endemic malaria. The mortality rate from malaria is approximately 0.3% in the US and 0.26% worldwide. OBSERVATIONS: In the US, most malaria is diagnosed in people who traveled to an endemic region. More than 80% of people diagnosed with malaria in the US acquired the infection in Africa. Of the approximately 2000 people diagnosed with malaria in the US in 2017, an estimated 82.4% were adults and about 78.6% were Black or African American. Among US residents diagnosed with malaria, 71.7% had not taken malaria chemoprophylaxis during travel. In 2017 in the US, P falciparum was the species diagnosed in approximately 79% of patients, whereas P vivax was diagnosed in an estimated 11.2% of patients. In 2017 in the US, severe malaria, defined as vital organ involvement including shock, pulmonary edema, significant bleeding, seizures, impaired consciousness, and laboratory abnormalities such as kidney impairment, acidosis, anemia, or high parasitemia, occurred in approximately 14% of patients, and an estimated 0.3% of those receiving a diagnosis of malaria in the US died. P falciparum has developed resistance to chloroquine in most regions of the world, including Africa. First-line therapy for P falciparum malaria in the US is combination therapy that includes artemisinin. If P falciparum was acquired in a known chloroquine-sensitive region such as Haiti, chloroquine remains an alternative option. When artemisinin-based combination therapies are not available, atovaquone-proguanil or quinine plus clindamycin is used for chloroquine-resistant malaria. P vivax, P ovale, P malariae, and P knowlesi are typically chloroquine sensitive, and treatment with either artemisinin-based combination therapy or chloroquine for regions with chloroquine-susceptible infections for uncomplicated malaria is recommended. For severe malaria, intravenous artesunate is first-line therapy. Treatment of mild malaria due to a chloroquine-resistant parasite consists of a combination therapy that includes artemisinin or chloroquine for chloroquine-sensitive malaria. P vivax and P ovale require additional therapy with an 8-aminoquinoline to eradicate the liver stage. Several options exist for chemoprophylaxis and selection should be based on patient characteristics and preferences. CONCLUSIONS AND RELEVANCE: Approximately 2000 cases of malaria are diagnosed each year in the US, most commonly in travelers returning from visiting endemic areas. Prevention and treatment of malaria depend on the species and the drug sensitivity of parasites from the region of acquisition. Intravenous artesunate is first-line therapy for severe malaria. FAU - Daily, Johanna P AU - Daily JP AD - Department of Medicine (Infectious Diseases), Albert Einstein College of Medicine, Bronx, New York. FAU - Minuti, Aurelia AU - Minuti A AD - D. Samuel Gottesman Library, Albert Einstein College of Medicine, Bronx, New York. FAU - Khan, Nazia AU - Khan N AD - Department of Medicine (Infectious Diseases), Albert Einstein College of Medicine, Bronx, New York. LA - eng PT - Journal Article PT - Review PL - United States TA - JAMA JT - JAMA JID - 7501160 RN - 0 (Antimalarials) RN - 0 (Artemisinins) RN - 60W3249T9M (Artesunate) RN - 886U3H6UFF (Chloroquine) SB - IM MH - Adult MH - *Antimalarials/adverse effects/therapeutic use MH - Artemisinins/adverse effects/therapeutic use MH - Artesunate/adverse effects/therapeutic use MH - Chloroquine/adverse effects/therapeutic use MH - *Drug Resistance MH - Humans MH - *Malaria/diagnosis/drug therapy/epidemiology/prevention & control MH - Malaria, Falciparum/diagnosis/drug therapy/epidemiology/prevention & control MH - Travel/statistics & numerical data MH - *Travel-Related Illness MH - United States/epidemiology EDAT- 2022/08/03 06:00 MHDA- 2022/08/05 06:00 CRDT- 2022/08/02 11:03 PHST- 2022/08/02 11:03 [entrez] PHST- 2022/08/03 06:00 [pubmed] PHST- 2022/08/05 06:00 [medline] AID - 2794759 [pii] AID - 10.1001/jama.2022.12366 [doi] PST - ppublish SO - JAMA. 2022 Aug 2;328(5):460-471. doi: 10.1001/jama.2022.12366.",
+      "mesh_terms": [
+        "Adult",
+        "Antimalarials",
+        "Artemisinins",
+        "Artesunate",
+        "Chloroquine",
+        "Drug Resistance",
+        "Humans",
+        "Malaria",
+        "Malaria, Falciparum",
+        "Travel",
+        "Travel-Related Illness",
+        "United States"
+      ],
+      "keywords": [],
+      "full_text_links": [
+        "https://doi.org/10.1001/jama.2022.12366"
+      ],
+      "doi": "10.1001/jama.2022.12366",
+      "pmc_id": null,
+      "research_insight": "This 2022 JAMA review article by Daily et al. is highly relevant to the researcher's query on severe malaria treatment as it explicitly states that intravenous artesunate is the first-line therapy for severe malaria in the US, a crucial piece of information for treatment protocols. The article also details the prevalence of severe malaria (14% of US cases) and the importance of considering drug resistance patterns (particularly to chloroquine) when selecting treatment options, which are key factors in managing severe cases. Further exploration should focus on the specific protocols for administering intravenous artesunate in the US context, including dosage, monitoring, and management of potential adverse effects, as the article provides a general recommendation but lacks detailed practical guidance.\n"
+    },
+    {
+      "id": "8703186",
+      "pmid": "8703186",
+      "title": "The treatment of malaria.",
+      "first_author": "White NJ",
+      "co_authors": [],
+      "journal": "The New England journal of medicine",
+      "publication_date": "1996 Sep 12",
+      "abstract": "Increasing drug resistance in Plasmodium falciparum and a resurgence of malaria in tropical areas have effected a change in treatment of malaria in the last two decades. Symptoms of malaria are fever, chills, headache, and malaise. The prognosis worsens as the parasite counts, counts of mature parasites, and counts of neutrophils containing pigment increase. Treatment depends on severity, age of patient, degree of background immunity, likely pattern of susceptibility to antimalarial drugs, and the cost and availability of drugs. Chloroquine should be used for P. vivax, P. malariae, and P. ovale. P. vivax has shown high resistance to chloroquine in Oceania, however. Primaquine may be needed to treat P. vivax and P. ovale to rid the body of hypnozoites that survive in the liver. Chloroquine can treat P. falciparum infections acquired in North Africa, Central America north of the Panama Canal, Haiti, or the Middle East but not in most of Africa and some parts of Asia and South America. In areas of low grade resistance to chloroquine, amodiaquine can be used to effectively treat falciparum malaria. A combination of sulfadoxine-pyrimethamine is responsive to falciparum infections with high grade resistance to chloroquine. Mefloquine, halofantrine, or quinine with tetracycline can be used to treat multidrug-resistant P. falciparum. Derivatives of artemisinin obtained from qinghao or sweet wormwood developed as pharmaceuticals in China are the most rapidly acting of all antimalarial drugs. Children tend to tolerate antimalarial drugs well. Children who weigh less than 15 kg should not be given mefloquine. Health workers should not prescribe primaquine to pregnant women or newborns due to the risk of hemolysis. Chloroquine, sulfadoxine-pyrimethamine, quinine, and quinidine can be safely given in therapeutic doses throughout pregnancy. Clinical manifestations of severe malaria are hypoglycemia, convulsions, severe anemia, acute renal failure, jaundice, pulmonary edema, cerebral malaria, shock, and acidosis. Health workers should be prepared to treat these symptoms accordingly. OABL- eng OTO - PIP OT - Age Factors OT - *Child OT - Demographic Factors OT - *Developing Countries OT - Diseases OT - *Drugs--therapeutic use OT - *Literature Review OT - *Malaria--prevention and control OT - Parasitic Diseases OT - Population OT - Population Characteristics OT - *Pregnant Women OT - *Signs And Symptoms OT - *Treatment--contraindications OT - Youth GN - PIP: TJ: NEW ENGLAND JOURNAL OF MEDICINE. EDAT- 1996/09/12 00:00 MHDA- 1996/09/12 00:01 CRDT- 1996/09/12 00:00 PHST- 1996/09/12 00:00 [pubmed] PHST- 1996/09/12 00:01 [medline] PHST- 1996/09/12 00:00 [entrez] AID - 10.1056/NEJM199609123351107 [doi] PST - ppublish SO - N Engl J Med. 1996 Sep 12;335(11):800-6. doi: 10.1056/NEJM199609123351107.",
+      "mesh_terms": [
+        "Adult",
+        "Antimalarials",
+        "Artemisinins",
+        "Child",
+        "Chloroquine",
+        "Drug Resistance",
+        "Female",
+        "Humans",
+        "Malaria",
+        "Malaria, Falciparum",
+        "Pregnancy",
+        "Prognosis",
+        "Sesquiterpenes"
+      ],
+      "keywords": [
+        "Age Factors",
+        "Child",
+        "Demographic Factors",
+        "Developing Countries",
+        "Diseases",
+        "Drugs--therapeutic use",
+        "Literature Review",
+        "Malaria--prevention and control",
+        "Parasitic Diseases",
+        "Population",
+        "Population Characteristics",
+        "Pregnant Women",
+        "Signs And Symptoms",
+        "Treatment--contraindications",
+        "Youth"
+      ],
+      "full_text_links": [
+        "https://doi.org/10.1056/NEJM199609123351107"
+      ],
+      "doi": "10.1056/NEJM199609123351107",
+      "pmc_id": null,
+      "research_insight": "This 1996 review article by White in the *New England Journal of Medicine* is relevant to the researcher's query on severe malaria treatment as it comprehensively outlines treatment strategies for malaria, including specific clinical manifestations like hypoglycemia and cerebral malaria that define severe cases, and discusses drug resistance patterns affecting treatment choices. While the article provides a good overview of treatment options available at the time, the rapid evolution of drug resistance in *P. falciparum* warrants further exploration of more recent research on artemisinin-based combination therapies (ACTs) and novel drug candidates. As a review in a highly respected medical journal, this article provides a foundational understanding of malaria treatment that is essential for researchers in the field, but it needs to be supplemented with more current data.\n"
+    },
+    {
+      "id": "32946831",
+      "pmid": "32946831",
+      "title": "Treatment and prevention of malaria in children.",
+      "first_author": "Ashley EA",
+      "co_authors": [
+        "Poespoprodjo JR"
+      ],
+      "journal": "The Lancet. Child & adolescent health",
+      "publication_date": "2020 Oct",
+      "abstract": "Malaria disproportionately affects children younger than 5 years. Falciparum malaria is responsible for more than 200 000 child deaths per year in Africa and vivax malaria is well documented as a cause of severe anaemia and excess mortality in children in Asia and Oceania. For the treatment of malaria in children, paediatric dosing recommendations for several agents, including parenteral artesunate and dihydroartemisinin-piperaquine, have belatedly been shown to be suboptimal. Worsening antimalarial resistance in Plasmodium falciparum in the Greater Mekong Subregion threatens to undermine global efforts to control malaria. Triple antimalarial combination therapies are being evaluated to try to impede this threat. The RTS,S/AS01 vaccine gives partial protection against falciparum malaria and is being evaluated in large, pilot studies in Ghana, Malawi, and Kenya as a complementary tool to other preventive measures. Seasonal malaria chemoprevention in west Africa has resulted in declines in malaria incidence and deaths and there is interest in scaling up efforts by expanding the age range of eligible recipients. Preventing relapse in Plasmodium vivax infection with primaquine is challenging because treating children who have G6PD deficiency with primaquine can cause acute haemolytic anaemia. The safety of escalating dose regimens for primaquine is being studied to mitigate this risk. CI - Copyright (c) 2020 Elsevier Ltd. All rights reserved. FAU - Ashley, Elizabeth A AU - Ashley EA AD - Lao-Oxford-Mahosot Hospital-Wellcome Trust Research Unit, Vientiane, Laos; Centre for Tropical Medicine and Global Health, Nuffield Department of Medicine, University of Oxford, Oxford, UK. Electronic address: liz@tropmedres.ac. FAU - Poespoprodjo, Jeanne Rini AU - Poespoprodjo JR AD - Timika Research Facility, Papuan Health and Community Development Foundation, Timika, Indonesia; Department of Child Health, Faculty of Medicine, Public Health and Nursing, Gadjah Mada University, Yogyakarta, Indonesia. LA - eng PT - Journal Article PT - Research Support, Non-U.S. Gov't PT - Review PL - England TA - Lancet Child Adolesc Health JT - The Lancet. Child & adolescent health JID - 101712925 RN - 0 (Antimalarials) RN - 0 (Artemisinins) RN - 0 (Malaria Vaccines) RN - 9RMU91N5K2 (artemisinin) SB - IM MH - Antimalarials/*therapeutic use MH - Artemisinins/*therapeutic use MH - Child MH - Child Welfare/*statistics & numerical data MH - Dose-Response Relationship, Drug MH - Drug Resistance, Multiple MH - Female MH - Humans MH - Malaria/*drug therapy/epidemiology/*prevention & control MH - Malaria Vaccines/*therapeutic use MH - Male MH - Seasons MH - Vaccination/statistics & numerical data EDAT- 2020/09/19 06:00 MHDA- 2020/10/03 06:00 CRDT- 2020/09/18 20:12 PHST- 2019/12/24 00:00 [received] PHST- 2020/03/11 00:00 [revised] PHST- 2020/03/25 00:00 [accepted] PHST- 2020/09/19 06:00 [pubmed] PHST- 2020/10/03 06:00 [medline] PHST- 2020/09/18 20:12 [entrez] AID - S2352-4642(20)30127-9 [pii] AID - 10.1016/S2352-4642(20)30127-9 [doi] PST - ppublish SO - Lancet Child Adolesc Health. 2020 Oct;4(10):775-789. doi: 10.1016/S2352-4642(20)30127-9.",
+      "mesh_terms": [
+        "Antimalarials",
+        "Artemisinins",
+        "Child",
+        "Child Welfare",
+        "Dose-Response Relationship, Drug",
+        "Drug Resistance, Multiple",
+        "Female",
+        "Humans",
+        "Malaria",
+        "Malaria Vaccines",
+        "Male",
+        "Seasons",
+        "Vaccination"
+      ],
+      "keywords": [],
+      "full_text_links": [
+        "https://doi.org/10.1016/S2352-4642(20)30127-9"
+      ],
+      "doi": "10.1016/S2352-4642(20)30127-9",
+      "pmc_id": null,
+      "research_insight": "This 2020 review article on malaria treatment and prevention in children is highly relevant to the researcher's query on severe malaria treatment, as it specifically addresses suboptimal dosing of key antimalarials like parenteral artesunate in children, a critical factor in managing severe cases. The discussion of worsening antimalarial resistance, particularly in Southeast Asia, warrants further exploration to understand its implications for treatment efficacy in severe malaria and potential alternative therapies. As a review in a high-impact journal like The Lancet Child & Adolescent Health, this article provides a valuable overview of current challenges and emerging strategies in pediatric malaria management, directly impacting the field's efforts to reduce child mortality.\n"
+    },
+    {
+      "id": "35959375",
+      "pmid": "35959375",
+      "title": "Cerebral malaria induced by plasmodium falciparum: clinical features, pathogenesis, diagnosis, and treatment.",
+      "first_author": "Song X",
+      "co_authors": [
+        "Wei W",
+        "Cheng W",
+        "Zhu H",
+        "Wang W",
+        "Dong H",
+        "Li J"
+      ],
+      "journal": "Frontiers in cellular and infection microbiology",
+      "publication_date": "2022",
+      "abstract": "Cerebral malaria (CM) caused by Plasmodium falciparum is a fatal neurological complication of malaria, resulting in coma and death, and even survivors may suffer long-term neurological sequelae. In sub-Saharan Africa, CM occurs mainly in children under five years of age. Although intravenous artesunate is considered the preferred treatment for CM, the clinical efficacy is still far from satisfactory. The neurological damage induced by CM is irreversible and lethal, and it is therefore of great significance to unravel the exact etiology of CM, which may be beneficial for the effective management of this severe disease. Here, we review the clinical characteristics, pathogenesis, diagnosis, and clinical therapy of CM, with the aim of providing insights into the development of novel tools for improved CM treatments. CI - Copyright (c) 2022 Song, Wei, Cheng, Zhu, Wang, Dong and Li. FAU - Song, Xiaonan AU - Song X AD - School of Basic Medical Sciences, Hubei University of Medicine, Shiyan, China. FAU - Wei, Wei AU - Wei W AD - Beijing School of Chemistry and Bioengineering, University of Science and Technology Beijing, Beijing, China. FAU - Cheng, Weijia AU - Cheng W AD - School of Basic Medical Sciences, Hubei University of Medicine, Shiyan, China. FAU - Zhu, Huiyin AU - Zhu H AD - School of Basic Medical Sciences, Hubei University of Medicine, Shiyan, China. FAU - Wang, Wei AU - Wang W AD - Key Laboratory of National Health Commission on Technology for Parasitic Diseases Prevention and Control, Jiangsu Provincial Key Laboratory on Parasites and Vector Control Technology, Jiangsu Institute of Parasitic Diseases, Wuxi, China. FAU - Dong, Haifeng AU - Dong H AD - Guangdong Key Laboratory for Genome Stability and Human Disease Prevention, Department of Biochemistry and Molecular Biology, School of Medicine, Shenzhen University, Shenzhen, China. FAU - Li, Jian AU - Li J AD - School of Basic Medical Sciences, Hubei University of Medicine, Shiyan, China. LA - eng PT - Journal Article PT - Research Support, Non-U.S. Gov't PT - Review DEP - 20220725 PL - Switzerland TA - Front Cell Infect Microbiol JT - Frontiers in cellular and infection microbiology JID - 101585359 SB - IM MH - Child MH - Child, Preschool MH - Humans MH - *Malaria, Cerebral/diagnosis/therapy MH - *Malaria, Falciparum/diagnosis/drug therapy MH - Plasmodium falciparum PMC - PMC9359465 OTO - NOTNLM OT - Plasmodium falciparum OT - blood-brain barrier OT - cerebral malaria OT - clinical manifestation OT - clinical treatment OT - neurological damage COIS- The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest. EDAT- 2022/08/13 06:00 MHDA- 2022/08/16 06:00 PMCR- 2022/01/01 CRDT- 2022/08/12 03:12 PHST- 2022/05/09 00:00 [received] PHST- 2022/06/28 00:00 [accepted] PHST- 2022/08/12 03:12 [entrez] PHST- 2022/08/13 06:00 [pubmed] PHST- 2022/08/16 06:00 [medline] PHST- 2022/01/01 00:00 [pmc-release] AID - 10.3389/fcimb.2022.939532 [doi] PST - epublish SO - Front Cell Infect Microbiol. 2022 Jul 25;12:939532. doi: 10.3389/fcimb.2022.939532. eCollection 2022.",
+      "mesh_terms": [
+        "Child",
+        "Child, Preschool",
+        "Humans",
+        "Malaria, Cerebral",
+        "Malaria, Falciparum",
+        "Plasmodium falciparum"
+      ],
+      "keywords": [
+        "Plasmodium falciparum",
+        "blood&#x2013;brain barrier",
+        "cerebral malaria",
+        "clinical manifestation",
+        "clinical treatment",
+        "neurological damage"
+      ],
+      "full_text_links": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMCpmc-id: PMC9359465;",
+        "https://doi.org/10.3389/fcimb.2022.939532"
+      ],
+      "doi": "10.3389/fcimb.2022.939532",
+      "pmc_id": "pmc-id: PMC9359465;",
+      "research_insight": "This 2022 review article is highly relevant to the researcher's query on severe malaria treatment, as it specifically focuses on cerebral malaria (CM) caused by *Plasmodium falciparum*, a severe and often fatal complication. The paper's discussion of current clinical therapies, including intravenous artesunate, and their limitations, directly addresses the treatment aspect of the query, while also highlighting the need for improved strategies due to unsatisfactory clinical efficacy and long-term neurological sequelae. Further exploration of the \"novel tools for improved CM treatments\" mentioned in the abstract is warranted, as this could lead to advancements in the field of malaria treatment and improved patient outcomes.\n"
+    },
+    {
+      "id": "32656850",
+      "pmid": "32656850",
+      "title": "Advances and roadblocks in the treatment of malaria.",
+      "first_author": "Hanboonkunupakarn B",
+      "co_authors": [
+        "White NJ"
+      ],
+      "journal": "British journal of clinical pharmacology",
+      "publication_date": "2022 Feb",
+      "abstract": "The deployment of artesunate for severe malaria and the artemisinin combination therapies (ACTs) for uncomplicated malaria has been a major advance in antimalarial therapeutics. These drugs have reduced treated mortality, accelerated recovery and reduced treatment failure rates and transmission from the treated infection. Artemisinin derivatives remain highly effective against falciparum malaria in most malaria endemic areas, but significant resistance has emerged in the Greater Mekong subregion of Southeast Asia. Resistance to artemisinins was followed by resistance to the ACT partner drugs, and fit multidrug resistant parasite lineages have now spread widely across the region. ACTs remain highly effective against P. vivax and the other malaria species. Recent studies have shown that radical curative regimens of primaquine (to prevent relapse) can be shortened to 7 days, and that the newly introduced single dose tafenoquine is an alternative, although the currently recommended dose is insufficient in Southeast Asia and Oceania. Targeted malaria elimination using focal mass treatments with dihydroartemisinin-piperaquine have proved safe and effective malaria elimination accelerators, but progress overall towards malaria elimination is slow. Indeed since 2015 overall malaria case numbers globally have risen. As new drugs will not become widely available in the near future, active measures to preserve the current antimalarials should be given the highest priority. CI - (c) 2020 The Authors. British Journal of Clinical Pharmacology published by John Wiley & Sons Ltd on behalf of British Pharmacological Society. FAU - Hanboonkunupakarn, Borimas AU - Hanboonkunupakarn B AD - Faculty of Tropical Medicine, Mahidol University, Bangkok, Thailand. FAU - White, Nicholas J AU - White NJ AUID- ORCID: 0000-0002-1897-1978 AD - Faculty of Tropical Medicine, Mahidol University, Bangkok, Thailand. AD - Centre for Tropical Medicine and Global Health, Nuffield Department of Medicine, Oxford University, UK. LA - eng GR - WT_/Wellcome Trust/United Kingdom GR - 106698/B/14/Z/WT_/Wellcome Trust/United Kingdom PT - Journal Article PT - Research Support, Non-U.S. Gov't PT - Review DEP - 20200801 PL - England TA - Br J Clin Pharmacol JT - British journal of clinical pharmacology JID - 7503323 RN - 0 (Antimalarials) RN - 0 (Artemisinins) RN - 0 (Quinolines) RN - MVR3634GX1 (Primaquine) SB - IM MH - *Antimalarials/therapeutic use MH - *Artemisinins/therapeutic use MH - Drug Resistance MH - Drug Therapy, Combination MH - Humans MH - *Malaria/drug therapy/prevention & control MH - *Malaria, Falciparum/drug therapy/prevention & control MH - *Malaria, Vivax/drug therapy MH - Primaquine MH - *Quinolines/adverse effects PMC - PMC9437935 OTO - NOTNLM OT - antimalarial drugs OT - artemisinin OT - malaria OT - resistance EDAT- 2020/07/14 06:00 MHDA- 2022/04/12 06:00 PMCR- 2020/08/01 CRDT- 2020/07/14 06:00 PHST- 2020/05/11 00:00 [revised] PHST- 2020/04/16 00:00 [received] PHST- 2020/05/15 00:00 [accepted] PHST- 2020/07/14 06:00 [pubmed] PHST- 2022/04/12 06:00 [medline] PHST- 2020/07/14 06:00 [entrez] PHST- 2020/08/01 00:00 [pmc-release] AID - BCP14474 [pii] AID - 10.1111/bcp.14474 [doi] PST - ppublish SO - Br J Clin Pharmacol. 2022 Feb;88(2):374-382. doi: 10.1111/bcp.14474. Epub 2020 Aug 1.",
+      "mesh_terms": [
+        "Antimalarials",
+        "Artemisinins",
+        "Drug Resistance",
+        "Drug Therapy, Combination",
+        "Humans",
+        "Malaria",
+        "Malaria, Falciparum",
+        "Malaria, Vivax",
+        "Primaquine",
+        "Quinolines"
+      ],
+      "keywords": [
+        "antimalarial drugs",
+        "artemisinin",
+        "malaria",
+        "resistance"
+      ],
+      "full_text_links": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMCpmc-id: PMC9437935;",
+        "https://doi.org/10.1111/bcp.14474"
+      ],
+      "doi": "10.1111/bcp.14474",
+      "pmc_id": "pmc-id: PMC9437935;",
+      "research_insight": "This 2022 review article from the *British Journal of Clinical Pharmacology* is highly relevant to the researcher's query on severe malaria treatment, as it directly addresses the use of artesunate for severe malaria and the challenges posed by emerging artemisinin resistance, particularly in Southeast Asia. The spread of multidrug-resistant parasite lineages and the need to preserve current antimalarials warrant further investigation, especially concerning alternative treatment strategies in regions where resistance is prevalent. This paper contributes to the broader field of malaria research by highlighting the urgent need for new drug development and resistance management strategies to maintain effective treatment options for severe malaria.\n"
+    },
+    {
+      "id": "38835069",
+      "pmid": "38835069",
+      "title": "Defining the next generation of severe malaria treatment: a target product profile.",
+      "first_author": "Achan J",
+      "co_authors": [
+        "Barry A",
+        "Leroy D",
+        "Kamara G",
+        "Duparc S",
+        "Kaszubska W",
+        "Gandhi P",
+        "Buffet B",
+        "Tshilab P",
+        "Ogutu B",
+        "Taylor T",
+        "Krishna S",
+        "Richardson N",
+        "Ramachandruni H",
+        "Rietveld H"
+      ],
+      "journal": "Malaria journal",
+      "publication_date": "2024 Jun 5",
+      "abstract": "BACKGROUND: Severe malaria is a life-threatening infection, particularly affecting children under the age of 5 years in Africa. Current treatment with parenteral artemisinin derivatives is highly efficacious. However, artemisinin partial resistance is widespread in Southeast Asia, resulting in delayed parasite clearance after therapy, and has emerged independently in South America, Oceania, and Africa. Hence, new treatments for severe malaria are needed, and it is prudent to define their characteristics now. This manuscript focuses on the target product profile (TPP) for new treatments for severe malaria. It also highlights preparedness when considering ways of protecting the utility of artemisinin-based therapies. TARGET PRODUCT PROFILE: Severe malaria treatments must be highly potent, with rapid onset of antiparasitic activity to clear the infection as quickly as possible to prevent complications. They should also have a low potential for drug resistance selection, given the high parasite burden in patients with severe malaria. Combination therapies are needed to deter resistance selection and dissemination. Partner drugs which are approved for uncomplicated malaria treatment would provide the most rapid development pathway for combinations, though new candidate molecules should be considered. Artemisinin combination approaches to severe malaria would extend the lifespan of current therapy, but ideally, completely novel, non-artemisinin-based combination therapies for severe malaria should be developed. These should be advanced to at least phase 2 clinical trials, enabling rapid progression to patient use should current treatment fail clinically. New drug combinations for severe malaria should be available as injectable formulations for rapid and effective treatment, or as rectal formulations for pre-referral intervention in resource-limited settings. CONCLUSION: Defining the TPP is a key step to align responses across the community to proactively address the potential for clinical failure of artesunate in severe malaria. In the shorter term, artemisinin-based combination therapies should be developed using approved or novel drugs. In the longer term, novel combination treatments should be pursued. Thus, this TPP aims to direct efforts to preserve the efficacy of existing treatments while improving care and outcomes for individuals affected by this life-threatening disease. CI - (c) 2024. The Author(s). FAU - Achan, Jane AU - Achan J AD - Malaria Consortium, London, UK. FAU - Barry, Aissata AU - Barry A AD - Centre National de Recherche et de Formation sur le Paludisme, Ouagadougou, Burkina Faso. FAU - Leroy, Didier AU - Leroy D AD - Medicines for Malaria Venture, Route de Pre-Bois 20, Post Box 1826, CH-1215, Geneva 15, Switzerland. FAU - Kamara, George AU - Kamara G AD - Medecins Sans Frontieres, Magburaka District Hospital, Freetown, Sierra Leone. FAU - Duparc, Stephan AU - Duparc S AD - Medicines for Malaria Venture, Route de Pre-Bois 20, Post Box 1826, CH-1215, Geneva 15, Switzerland. FAU - Kaszubska, Wiweka AU - Kaszubska W AD - Medicines for Malaria Venture, Route de Pre-Bois 20, Post Box 1826, CH-1215, Geneva 15, Switzerland. FAU - Gandhi, Preetam AU - Gandhi P AD - Novartis, Basel, Switzerland. FAU - Buffet, Benedicte AU - Buffet B AD - Medicines for Malaria Venture, Route de Pre-Bois 20, Post Box 1826, CH-1215, Geneva 15, Switzerland. FAU - Tshilab, Patrick AU - Tshilab P AD - Ministry of Health, Lusaka, Zambia. FAU - Ogutu, Bernhards AU - Ogutu B AD - Centre for Clinical Research, Kenya Medical Research Institute, Kisumu, Kenya. FAU - Taylor, Terrie AU - Taylor T AD - Queen Elizabeth Central Hospital and Blantyre Malaria Project, Kamuzu University of Health Sciences, Blantyre, Malawi. FAU - Krishna, Sanjeev AU - Krishna S AD - Institut Fur Tropenmedizin, Eberhard Karls Universitat Tubingen, and German Center for Infection Research (Dzif), Tubingen, Germany. AD - Centre de Recherches Medicales de Lambarene (CERMEL), Lambarene, Gabon. AD - Clinical Academic Group, Institute for Infection and Immunity, St. George's University of London, London, UK. AD - St George's University Hospitals NHS Foundation Trust, London, UK. FAU - Richardson, Naomi AU - Richardson N AD - Magenta Communications Ltd, Abingdon, UK. FAU - Ramachandruni, Hanu AU - Ramachandruni H AD - Medicines for Malaria Venture, Route de Pre-Bois 20, Post Box 1826, CH-1215, Geneva 15, Switzerland. ramachandrunih@mmv.org. FAU - Rietveld, Hans AU - Rietveld H AD - Medicines for Malaria Venture, Route de Pre-Bois 20, Post Box 1826, CH-1215, Geneva 15, Switzerland. rietveldh@mmv.org. LA - eng PT - Journal Article PT - Review DEP - 20240605 PL - England TA - Malar J JT - Malaria journal JID - 101139802 RN - 0 (Antimalarials) RN - 0 (Artemisinins) SB - IM MH - *Antimalarials/therapeutic use MH - Humans MH - *Malaria/drug therapy MH - Artemisinins/therapeutic use MH - Drug Resistance PMC - PMC11151482 OTO - NOTNLM OT - Drug development OT - Severe malaria OT - Translational medicine COIS- JA, AB, GK, PG, PT, AD, BO, TT declare no conflict of interest. DL, SD, WK, BB, HRa and HRi are employed by Medicines for Malaria Venture. NR was funded by Medicines for Malaria Venture. SK serves on Guidelines Review Committee of WHO and has co-chaired the Guidelines Development Group for anti-malarials for WHO. Views expressed are his personal ones and not those of WHO committees. He is a Director of the Centre for Affordable Diagnostics and Therapeutics, a social enterprise that is not for shareholder's profit. EDAT- 2024/06/05 01:51 MHDA- 2024/06/05 06:42 PMCR- 2024/06/05 CRDT- 2024/06/04 23:38 PHST- 2024/02/09 00:00 [received] PHST- 2024/05/14 00:00 [accepted] PHST- 2024/06/05 06:42 [medline] PHST- 2024/06/05 01:51 [pubmed] PHST- 2024/06/04 23:38 [entrez] PHST- 2024/06/05 00:00 [pmc-release] AID - 10.1186/s12936-024-04986-z [pii] AID - 4986 [pii] AID - 10.1186/s12936-024-04986-z [doi] PST - epublish SO - Malar J. 2024 Jun 5;23(1):174. doi: 10.1186/s12936-024-04986-z.",
+      "mesh_terms": [
+        "Antimalarials",
+        "Humans",
+        "Malaria",
+        "Artemisinins",
+        "Drug Resistance"
+      ],
+      "keywords": [
+        "Drug development",
+        "Severe malaria",
+        "Translational medicine"
+      ],
+      "full_text_links": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMCpmc-id: PMC11151482;",
+        "https://doi.org/10.1186/s12936-024-04986-z"
+      ],
+      "doi": "10.1186/s12936-024-04986-z",
+      "pmc_id": "pmc-id: PMC11151482;",
+      "research_insight": "This 2024 *Malaria Journal* article directly addresses the researcher's query on severe malaria treatment by defining a target product profile (TPP) for next-generation therapies, crucial given emerging artemisinin resistance. The specific characteristics outlined in the TPP, such as the need for highly potent, rapidly acting, and resistance-deterring combination therapies, warrant further exploration to identify specific drug candidates that meet these criteria. This TPP is highly relevant to the field as it proactively guides drug development efforts to combat severe malaria and preserve the efficacy of existing treatments in the face of increasing resistance.\n"
+    },
+    {
+      "id": "32858690",
+      "pmid": "32858690",
+      "title": "Treatment Approved for Severe Malaria.",
+      "first_author": "Aschenbrenner DS",
+      "co_authors": [],
+      "journal": "The American journal of nursing",
+      "publication_date": "2020 Sep",
+      "abstract": "Abstract not available",
+      "mesh_terms": [
+        "Adult",
+        "Amodiaquine",
+        "Antimalarials",
+        "Artemisinins",
+        "Artesunate",
+        "Child",
+        "Drug Combinations",
+        "Drug Monitoring",
+        "Humans",
+        "Injections, Intravenous",
+        "Malaria",
+        "Severity of Illness Index",
+        "Treatment Outcome"
+      ],
+      "keywords": [],
+      "full_text_links": [
+        "https://doi.org/10.1097/01.NAJ.0000697616.63800.cc"
+      ],
+      "doi": "10.1097/01.NAJ.0000697616.63800.cc",
+      "pmc_id": null,
+      "research_insight": "This 2020 article in *The American Journal of Nursing* titled \"Treatment Approved for Severe Malaria\" is relevant to the researcher's query on severe malaria treatment because it discusses approved treatments, likely including artesunate, amodiaquine, and artemisinin-based combination therapies (ACTs) given the MeSH terms. The route of administration (intravenous injections) and the inclusion of both adult and child populations are important details. Further exploration should focus on the specific treatment protocol approved and any monitoring recommendations, as indicated by the \"Drug Monitoring\" MeSH term, to understand the practical implications for patient care. This article contributes to the field by providing nurses and other healthcare professionals with information on current, approved treatment strategies for severe malaria, potentially impacting patient outcomes.\n"
+    },
+    {
+      "id": "23953767",
+      "pmid": "23953767",
+      "title": "Malaria.",
+      "first_author": "White NJ",
+      "co_authors": [
+        "Pukrittayakamee S",
+        "Hien TT",
+        "Faiz MA",
+        "Mokuolu OA",
+        "Dondorp AM"
+      ],
+      "journal": "Lancet (London, England)",
+      "publication_date": "2014 Feb 22",
+      "abstract": "Although global morbidity and mortality have decreased substantially, malaria, a parasite infection of red blood cells, still kills roughly 2000 people per day, most of whom are children in Africa. Two factors largely account for these decreases; increased deployment of insecticide-treated bednets and increased availability of highly effective artemisinin combination treatments. In large trials, parenteral artesunate (an artemisinin derivative) reduced severe malaria mortality by 22.5% in Africa and 34.7% in Asia compared with quinine, whereas adjunctive interventions have been uniformly unsuccessful. Rapid tests have been an important addition to microscopy for malaria diagnosis. Chemopreventive strategies have been increasingly deployed in Africa, notably intermittent sulfadoxine-pyrimethamine treatment in pregnancy, and monthly amodiaquine-sulfadoxine-pyrimethamine during the rainy season months in children aged between 3 months and 5 years across the sub-Sahel. Enthusiasm for malaria elimination has resurfaced. This ambitious but laudable goal faces many challenges, including the worldwide economic downturn, difficulties in elimination of vivax malaria, development of pyrethroid resistance in some anopheline mosquitoes, and the emergence of artemisinin resistance in Plasmodium falciparum in southeast Asia. We review the epidemiology, clinical features, pathology, prevention, and treatment of malaria. CI - Copyright (c) 2014 Elsevier Ltd. All rights reserved. FAU - White, Nicholas J AU - White NJ AD - Faculty of Tropical Medicine, Mahidol University, Bangkok, Thailand; Centre for Tropical Medicine, Nuffield Department of Clinical Medicine, Oxford, UK. Electronic address: nickw@tropmedres.ac. FAU - Pukrittayakamee, Sasithon AU - Pukrittayakamee S AD - Faculty of Tropical Medicine, Mahidol University, Bangkok, Thailand. FAU - Hien, Tran Tinh AU - Hien TT AD - Oxford University Clinical Research Unit, Hospital for Tropical Diseases, Ho Chi Minh City, Vietnam. FAU - Faiz, M Abul AU - Faiz MA AD - Department of Medicine, Dev Care Foundation, Dhaka, Bangladesh. FAU - Mokuolu, Olugbenga A AU - Mokuolu OA AD - University of Ilorin Teaching Hospital, Ilorin, Nigeria. FAU - Dondorp, Arjen M AU - Dondorp AM AD - Faculty of Tropical Medicine, Mahidol University, Bangkok, Thailand; Centre for Tropical Medicine, Nuffield Department of Clinical Medicine, Oxford, UK. LA - eng GR - 089276/WT_/Wellcome Trust/United Kingdom GR - 093956/WT_/Wellcome Trust/United Kingdom PT - Journal Article PT - Research Support, Non-U.S. Gov't PT - Review DEP - 20130815 PL - England TA - Lancet JT - Lancet (London, England) JID - 2985213R RN - 0 (Antimalarials) RN - 0 (Artemisinins) RN - 0 (Drug Combinations) RN - 0 (Insecticides) RN - 0 (Malaria Vaccines) RN - 0 (Quinolines) RN - 220236ED28 (Amodiaquine) RN - 37338-39-9 (fanasil, pyrimethamine drug combination) RN - 60W3249T9M (Artesunate) RN - 88463U4SM5 (Sulfadoxine) RN - 886U3H6UFF (Chloroquine) RN - 9RMU91N5K2 (artemisinin) RN - A7V27PHC7A (Quinine) RN - TML814419R (Mefloquine) RN - Z3614QOX8W (Pyrimethamine) SB - IM MH - Africa South of the Sahara/epidemiology MH - Amodiaquine/therapeutic use MH - Animals MH - Anopheles MH - Antimalarials/*therapeutic use MH - Artemisinins/*therapeutic use MH - Artesunate MH - Asia, Southeastern/epidemiology MH - Chloroquine/therapeutic use MH - Drug Administration Schedule MH - Drug Combinations MH - Drug Resistance MH - Drug Therapy, Combination MH - Female MH - Humans MH - Insecticide-Treated Bednets MH - Insecticides/pharmacology MH - *Malaria/complications/diagnosis/drug therapy/epidemiology/pathology/physiopathology/prevention & control MH - Malaria Vaccines/administration & dosage MH - Malaria, Falciparum MH - Malaria, Vivax MH - Mefloquine/therapeutic use MH - Pregnancy MH - Pregnancy Complications, Infectious/drug therapy/epidemiology/parasitology/physiopathology/prevention & control MH - Primary Prevention/*methods MH - Pyrimethamine/therapeutic use MH - Quinine/therapeutic use MH - Quinolines/*therapeutic use MH - Seasons MH - Sulfadoxine/therapeutic use EDAT- 2013/08/21 06:00 MHDA- 2014/03/04 06:00 CRDT- 2013/08/20 06:00 PHST- 2013/08/20 06:00 [entrez] PHST- 2013/08/21 06:00 [pubmed] PHST- 2014/03/04 06:00 [medline] AID - S0140-6736(13)60024-0 [pii] AID - 10.1016/S0140-6736(13)60024-0 [doi] PST - ppublish SO - Lancet. 2014 Feb 22;383(9918):723-35. doi: 10.1016/S0140-6736(13)60024-0. Epub 2013 Aug 15.",
+      "mesh_terms": [
+        "Africa South of the Sahara",
+        "Amodiaquine",
+        "Animals",
+        "Anopheles",
+        "Antimalarials",
+        "Artemisinins",
+        "Artesunate",
+        "Asia, Southeastern",
+        "Chloroquine",
+        "Drug Administration Schedule",
+        "Drug Combinations",
+        "Drug Resistance",
+        "Drug Therapy, Combination",
+        "Female",
+        "Humans",
+        "Insecticide-Treated Bednets",
+        "Insecticides",
+        "Malaria",
+        "Malaria Vaccines",
+        "Malaria, Falciparum",
+        "Malaria, Vivax",
+        "Mefloquine",
+        "Pregnancy",
+        "Pregnancy Complications, Infectious",
+        "Primary Prevention",
+        "Pyrimethamine",
+        "Quinine",
+        "Quinolines",
+        "Seasons",
+        "Sulfadoxine"
+      ],
+      "keywords": [],
+      "full_text_links": [
+        "https://doi.org/10.1016/S0140-6736(13)60024-0"
+      ],
+      "doi": "10.1016/S0140-6736(13)60024-0",
+      "pmc_id": null,
+      "research_insight": "This 2014 Lancet review article by White et al. is highly relevant to the researcher's query on severe malaria treatment, as it directly addresses the topic, highlighting the significant mortality reduction achieved with parenteral artesunate compared to quinine in both African and Asian contexts. The paper's discussion of adjunctive interventions being uniformly unsuccessful warrants further exploration, prompting investigation into the reasons behind their failure and potential avenues for improving supportive care in severe malaria. As a comprehensive review published in a leading medical journal, this article provides a valuable overview of the epidemiology, clinical features, prevention, and treatment of malaria, serving as a foundational resource for researchers in the field.\n"
+    },
+    {
+      "id": "34620385",
+      "pmid": "34620385",
+      "title": "Clinical management of Plasmodium knowlesi malaria.",
+      "first_author": "Barber BE",
+      "co_authors": [
+        "Grigg MJ",
+        "Cooper DJ",
+        "van Schalkwyk DA",
+        "William T",
+        "Rajahram GS",
+        "Anstey NM"
+      ],
+      "journal": "Advances in parasitology",
+      "publication_date": "2021",
+      "abstract": "The zoonotic parasite Plasmodium knowlesi has emerged as an important cause of human malaria in parts of Southeast Asia. The parasite is indistinguishable by microscopy from the more benign P. malariae, but can result in high parasitaemias with multiorgan failure, and deaths have been reported. Recognition of severe knowlesi malaria, and prompt initiation of effective therapy is therefore essential to prevent adverse outcomes. Here we review all studies reporting treatment of uncomplicated and severe knowlesi malaria. We report that although chloroquine is effective for the treatment of uncomplicated knowlesi malaria, artemisinin combination treatment is associated with faster parasite clearance times and lower rates of anaemia during follow-up, and should be considered the treatment of choice, particularly given the risk of administering chloroquine to drug-resistant P. vivax or P. falciparum misdiagnosed as P. knowlesi malaria in co-endemic areas. For severe knowlesi malaria, intravenous artesunate has been shown to be highly effective and associated with reduced case-fatality rates, and should be commenced without delay. Regular paracetamol may also be considered for patients with severe knowlesi malaria or for those with acute kidney injury, to attenuate the renal damage resulting from haemolysis-induced lipid peroxidation. CI - Copyright (c) 2021 Elsevier Ltd. All rights reserved. FAU - Barber, Bridget E AU - Barber BE AD - QIMR Berghofer Medical Research Institute, Brisbane, QLD, Australia; Menzies School of Health Research, Charles Darwin University, Darwin, NT, Australia. Electronic address: bridget.barber@qimrberghofer.edu.au. FAU - Grigg, Matthew J AU - Grigg MJ AD - Menzies School of Health Research, Charles Darwin University, Darwin, NT, Australia. FAU - Cooper, Daniel J AU - Cooper DJ AD - Menzies School of Health Research, Charles Darwin University, Darwin, NT, Australia; Department of Medicine, University of Cambridge School of Medicine, Cambridge, United Kingdom. FAU - van Schalkwyk, Donelly A AU - van Schalkwyk DA AD - London School of Hygiene and Tropical Medicine, London, United Kingdom. FAU - William, Timothy AU - William T AD - Gleneagles Medical Centre, Kota Kinabalu, Malaysia; Clinical Research Centre, Queen Elizabeth Hospital 1, Kota Kinabalu, Malaysia. FAU - Rajahram, Giri S AU - Rajahram GS AD - Clinical Research Centre, Queen Elizabeth Hospital 1, Kota Kinabalu, Malaysia; Queen Elizabeth Hospital 2, Kota Kinabalu, Malaysia. FAU - Anstey, Nicholas M AU - Anstey NM AD - Menzies School of Health Research, Charles Darwin University, Darwin, NT, Australia. LA - eng GR - R01 AI160457/AI/NIAID NIH HHS/United States PT - Journal Article PT - Research Support, N.I.H., Extramural PT - Research Support, Non-U.S. Gov't PT - Review DEP - 20210901 PL - England TA - Adv Parasitol JT - Advances in parasitology JID - 0370435 RN - 0 (Antimalarials) RN - 60W3249T9M (Artesunate) SB - IM MH - *Antimalarials/therapeutic use MH - Artesunate/therapeutic use MH - Humans MH - *Malaria/complications/diagnosis/drug therapy MH - *Malaria, Falciparum/drug therapy MH - *Plasmodium knowlesi PMC - PMC9299581 MID - NIHMS1821601 OTO - NOTNLM OT - P. falciparum OT - Parasitaemias OT - Plasmodium knowlesi OT - Severe knowlesi malaria EDAT- 2021/10/09 06:00 MHDA- 2021/11/12 06:00 PMCR- 2022/07/20 CRDT- 2021/10/08 05:48 PHST- 2021/10/08 05:48 [entrez] PHST- 2021/10/09 06:00 [pubmed] PHST- 2021/11/12 06:00 [medline] PHST- 2022/07/20 00:00 [pmc-release] AID - S0065-308X(21)00029-4 [pii] AID - 10.1016/bs.apar.2021.08.004 [doi] PST - ppublish SO - Adv Parasitol. 2021;113:45-76. doi: 10.1016/bs.apar.2021.08.004. Epub 2021 Sep 1.",
+      "mesh_terms": [
+        "Antimalarials",
+        "Artesunate",
+        "Humans",
+        "Malaria",
+        "Malaria, Falciparum",
+        "Plasmodium knowlesi"
+      ],
+      "keywords": [
+        "P. falciparum",
+        "Parasitaemias",
+        "Plasmodium knowlesi",
+        "Severe knowlesi malaria"
+      ],
+      "full_text_links": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMCpmc-id: PMC9299581;manuscript-id: NIHMS1821601;",
+        "https://doi.org/10.1016/bs.apar.2021.08.004"
+      ],
+      "doi": "10.1016/bs.apar.2021.08.004",
+      "pmc_id": "pmc-id: PMC9299581;manuscript-id: NIHMS1821601;",
+      "research_insight": "This article is highly relevant to the researcher's query on severe malaria treatment because it specifically reviews the clinical management of *Plasmodium knowlesi* malaria, including treatment strategies for both uncomplicated and severe cases. The paper highlights the effectiveness of intravenous artesunate for severe *knowlesi* malaria and suggests paracetamol as a potential adjunct therapy for kidney injury, which warrants further investigation into the mechanisms and optimal dosage of paracetamol in this context. Given the increasing prevalence of *P. knowlesi* and its potential for severe outcomes, this review contributes significantly to the field by providing updated treatment recommendations and highlighting areas for future research in managing this emerging parasitic disease.\n"
+    }
+  ]
+}

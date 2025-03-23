@@ -1,0 +1,377 @@
+{
+  "query": "severe burn patients treatment",
+  "timestamp": "2025-03-23T18:46:12.969197",
+  "num_results": 10,
+  "articles": [
+    {
+      "id": "36892959",
+      "pmid": "36892959",
+      "title": "Nutrition after severe burn injury.",
+      "first_author": "Rousseau AF",
+      "co_authors": [
+        "Pantet O",
+        "Heyland DK"
+      ],
+      "journal": "Current opinion in clinical nutrition and metabolic care",
+      "publication_date": "2023 Mar 1",
+      "abstract": "PURPOSE OF REVIEW: Severe burn injury causes significant metabolic changes and demands that make nutritional support particularly important. Feeding the severe burn patient is a real challenge in regard to the specific needs and the clinical constraints. This review aims to challenge the existing recommendations in the light of the few recently published data on nutritional support in burn patients. RECENT FINDINGS: Some key macro- and micro-nutrients have been recently studied in severe burn patients. Repletion, complementation or supplementation of omega-3 fatty acids, vitamin C, vitamin D, antioxidant micronutrients may be promising from a physiologic perspective, but evidence of benefits on hard outcomes is still weak due to the studies' design. On the contrary, the anticipated positive effects of glutamine on the time to discharge, mortality and bacteremias have been disproved in the largest randomized controlled trial investigating glutamine supplementation in burns. An individualized approach in term of nutrients quantity and quality may proof highly valuable and needs to be validated in adequate trials. The combination of nutrition and physical exercises is another studied strategy that could improve muscle outcomes. SUMMARY: Due to the low number of clinical trials focused on severe burn injury, most often including limited number of patients, developing new evidence-based guidelines is challenging. More high-quality trials are needed to improve the existing recommendations in the very next future. CI - Copyright (c) 2023 Wolters Kluwer Health, Inc. All rights reserved. FAU - Rousseau, Anne-Francoise AU - Rousseau AF AD - Intensive Care Department and Burn Center, University Hospital of Liege, Liege University, Liege, Belgium. FAU - Pantet, Olivier AU - Pantet O AD - Intensive Care Department, Lausanne University Hospital, University of Lausanne, Lausanne, Switzerland. FAU - Heyland, Daren K AU - Heyland DK AD - Clinical Evaluation Research Unit, Department of Critical Care Medicine, Queen's University, Kingston, ON, Canada. LA - eng PT - Journal Article PT - Review DEP - 20230120 PL - England TA - Curr Opin Clin Nutr Metab Care JT - Current opinion in clinical nutrition and metabolic care JID - 9804399 RN - 0RH81L854J (Glutamine) RN - 0 (Vitamins) SB - IM MH - Humans MH - *Glutamine/therapeutic use MH - Nutritional Status MH - *Burns/therapy/drug therapy MH - Nutritional Support MH - Vitamins EDAT- 2023/03/10 06:00 MHDA- 2023/03/14 06:00 CRDT- 2023/03/09 12:12 PHST- 2023/03/09 12:12 [entrez] PHST- 2023/03/10 06:00 [pubmed] PHST- 2023/03/14 06:00 [medline] AID - 00075197-202303000-00007 [pii] AID - 10.1097/MCO.0000000000000904 [doi] PST - ppublish SO - Curr Opin Clin Nutr Metab Care. 2023 Mar 1;26(2):99-104. doi: 10.1097/MCO.0000000000000904. Epub 2023 Jan 20.",
+      "mesh_terms": [
+        "Humans",
+        "Glutamine",
+        "Nutritional Status",
+        "Burns",
+        "Nutritional Support",
+        "Vitamins"
+      ],
+      "keywords": [],
+      "full_text_links": [
+        "https://doi.org/10.1097/MCO.0000000000000904"
+      ],
+      "doi": "10.1097/MCO.0000000000000904",
+      "pmc_id": null,
+      "research_insight": "This 2023 review article on nutrition after severe burn injury is highly relevant to the researcher's query, as it directly addresses the challenges and recent findings in nutritional support for these patients. The article highlights the weak evidence supporting the use of specific macro- and micronutrients like omega-3 fatty acids and vitamin C, while also disproving the benefits of glutamine supplementation, suggesting that an individualized approach to nutrition may be more valuable. Further exploration is warranted regarding the design of high-quality clinical trials to validate individualized nutritional strategies and the combination of nutrition with physical exercise to improve muscle outcomes in severe burn patients, which is crucial for advancing evidence-based guidelines in this field.\n"
+    },
+    {
+      "id": "31567292",
+      "pmid": "31567292",
+      "title": "Initial management of severe burn injury.",
+      "first_author": "Tejiram S",
+      "co_authors": [
+        "Romanowski KS",
+        "Palmieri TL"
+      ],
+      "journal": "Current opinion in critical care",
+      "publication_date": "2019 Dec",
+      "abstract": "PURPOSE OF REVIEW: Patients with severe burn injuries pose significant challenges for the intensivist. Though average burn sizes have decreased over time, severe burn injuries involving greater than 20% of the total body surface area still occur. Verified burn centers are limited, making the management of severely burn injured patients at nonspecialized ICUs likely. Current practices in burn care have increased survivability even from massive burns. It is important for intensivists to be aware of the unique complications and therapeutic options in burn critical care management. This review critically discusses current practices and recently published data regarding the evaluation and management of severe burn injury. RECENT FINDINGS: Burn patients have long, complex ICU stays with accompanying multiorgan dysfunction. Recent advances in burn intensive care have focused on acute respiratory distress syndrome from inhalation injury, acute kidney injury (AKI), and transfusion, resulting in new strategies for organ failure, including renal replacement therapy and extracorporeal life support. SUMMARY: Initial evaluation and treatment of acute severe burn injury remains an ongoing area of study. This manuscript reviews current practices and considerations in the acute management of the severely burn injured patient. FAU - Tejiram, Shawn AU - Tejiram S AD - Burn Division, Department of Surgery, University of California Davis, Shriners Hospital for Children Northern California, Sacramento, California, USA. FAU - Romanowski, Kathleen S AU - Romanowski KS FAU - Palmieri, Tina L AU - Palmieri TL LA - eng PT - Journal Article PT - Review PL - United States TA - Curr Opin Crit Care JT - Current opinion in critical care JID - 9504454 SB - IM MH - Burns/*therapy MH - *Critical Care MH - Humans MH - Trauma Severity Indices EDAT- 2019/10/01 06:00 MHDA- 2020/04/23 06:00 CRDT- 2019/10/01 06:00 PHST- 2019/10/01 06:00 [pubmed] PHST- 2020/04/23 06:00 [medline] PHST- 2019/10/01 06:00 [entrez] AID - 10.1097/MCC.0000000000000662 [doi] PST - ppublish SO - Curr Opin Crit Care. 2019 Dec;25(6):647-652. doi: 10.1097/MCC.0000000000000662.",
+      "mesh_terms": [
+        "Burns",
+        "Critical Care",
+        "Humans",
+        "Trauma Severity Indices"
+      ],
+      "keywords": [],
+      "full_text_links": [
+        "https://doi.org/10.1097/MCC.0000000000000662"
+      ],
+      "doi": "10.1097/MCC.0000000000000662",
+      "pmc_id": null,
+      "research_insight": "This 2019 review article by Tejiram et al. is highly relevant to a researcher studying severe burn patient treatment as it focuses on the initial management of these patients, particularly within the context of critical care and the challenges faced in non-specialized ICUs. The paper's discussion of recent advances in managing complications like ARDS from inhalation injury and AKI, including strategies like renal replacement therapy, warrants further exploration, especially regarding specific protocols and their impact on patient outcomes. This article contributes to the field by providing a current overview of best practices in acute burn care and highlighting evolving strategies for managing organ dysfunction, a critical aspect of improving survival rates in severe burn cases.\n"
+    },
+    {
+      "id": "28103165",
+      "pmid": "28103165",
+      "title": "Burn wound healing: present concepts, treatment strategies and future directions.",
+      "first_author": "Oryan A",
+      "co_authors": [
+        "Alemzadeh E",
+        "Moshiri A"
+      ],
+      "journal": "Journal of wound care",
+      "publication_date": "2017 Jan 2",
+      "abstract": "Burns are the most extensive forms of soft tissue injuries occasionally resulting in extensive and deep wounds and death. Burns can lead to severe mental and emotional distress, because of excessive scarring and skin contractures. Treatment of burns has always been a difficult medical problem and many different methods have been used to treat such injuries, locally. Biofilms are a collection of microorganisms that delay wound healing. One of the new methods of prevention and treatment of burn wound infections is application of antimicrobials, which act on biofilms and prevent the wound infection. Biofilm initiates a persistent, low-grade, inflammatory response, impairing both the epithelialisation and granulation tissue formation. Skin grafts have been shown to dramatically reduce deaths from infection. However, grafting has considerable limitations. Such injuries are long-lasting and many patients suffer from chronic pain for a long time. Tissue engineering is a new approach in reducing the limitations of conventional treatments and producing a supply of immunologically tolerant artificial tissue, leading to a permanent solution for damaged tissues; such criteria make it a cost-effective and reliable treatment modality. To overcome the present limitations of burn wound healing, knowledge about the latest findings regarding healing mechanisms is important. Here the authors discuss the most important events regarding burn wound healing and review the latest treatment strategies that have been used for burn wounds from in vitro to clinical levels. Finally, we discuss the role of tissue engineering and regenerative medicine in the future of burn wound healing, modelling and remodelling. FAU - Oryan, A AU - Oryan A AD - Professor, Department of Pathology, School of Veterinary Medicine, Shiraz University, Iran. FAU - Alemzadeh, E AU - Alemzadeh E AD - PhD student, Department of Biotechnology, School of Veterinary Medicine, Shiraz University, Iran. FAU - Moshiri, A AU - Moshiri A AD - Assistant Professor, Division of Regenerative Pharmacology, RAZI Drug Research Centre, Iran University of Medical Sciences, Tehran, Iran; and Division of Surgery and Radiology, Department of Clinical Sciences, School of Veterinary Medicine, Shiraz University, Iran. LA - eng PT - Journal Article PT - Review PL - England TA - J Wound Care JT - Journal of wound care JID - 9417080 MH - Animals MH - Burns/*therapy MH - Genetic Therapy MH - Humans MH - Skin Transplantation MH - Stem Cell Transplantation MH - Stem Cells MH - Tissue Engineering MH - *Wound Healing OTO - NOTNLM OT - biofilm OT - burn wounds OT - regenerative medicine OT - skin grafts OT - tissue engineering EDAT- 2017/01/20 06:00 MHDA- 2017/05/11 06:00 CRDT- 2017/01/20 06:00 PHST- 2017/01/20 06:00 [entrez] PHST- 2017/01/20 06:00 [pubmed] PHST- 2017/05/11 06:00 [medline] AID - 10.12968/jowc.2017.26.1.5 [doi] PST - ppublish SO - J Wound Care. 2017 Jan 2;26(1):5-19. doi: 10.12968/jowc.2017.26.1.5.",
+      "mesh_terms": [
+        "Animals",
+        "Burns",
+        "Genetic Therapy",
+        "Humans",
+        "Skin Transplantation",
+        "Stem Cell Transplantation",
+        "Stem Cells",
+        "Tissue Engineering",
+        "Wound Healing"
+      ],
+      "keywords": [
+        "biofilm",
+        "burn wounds",
+        "regenerative medicine",
+        "skin grafts",
+        "tissue engineering"
+      ],
+      "full_text_links": [
+        "https://doi.org/10.12968/jowc.2017.26.1.5"
+      ],
+      "doi": "10.12968/jowc.2017.26.1.5",
+      "pmc_id": null,
+      "research_insight": "This 2017 review article by Oryan et al. in the *Journal of Wound Care* is highly relevant to a researcher studying severe burn patient treatment, as it comprehensively covers current concepts and treatment strategies, including antimicrobials for biofilms, skin grafts, and tissue engineering approaches. The discussion of tissue engineering and regenerative medicine as future directions for burn wound healing, specifically addressing limitations of conventional treatments and the creation of immunologically tolerant artificial tissue, warrants further exploration. Given the persistent challenges in burn wound management, this review provides a valuable overview of the field and highlights promising avenues for research and development of more effective therapies.\n"
+    },
+    {
+      "id": "28951113",
+      "pmid": "28951113",
+      "title": "Update on metabolism and nutrition therapy in critically ill burn patients.",
+      "first_author": "Moreira E",
+      "co_authors": [
+        "Burghi G",
+        "Manzanares W"
+      ],
+      "journal": "Medicina intensiva",
+      "publication_date": "2018 Jun-Jul",
+      "abstract": "Major burn injury triggers severe oxidative stress, a systemic inflammatory response, and a persistent hypermetabolic and hypercatabolic state with secondary sarcopenia, multiorgan dysfunction, sepsis and an increased mortality risk. Calorie deficit, negative protein balance and antioxidant micronutrient deficiency after thermal injury have been associated to poor clinical outcomes. In this context, personalized nutrition therapy with early enteral feeding from the start of resuscitation are indicated. Over the last four decades, different nutritional and pharmacological interventions aimed at modulating the immune and metabolic responses have been evaluated. These strategies have been shown to be able to minimize acute malnutrition, as well as modulate the immunoinflammatory response, and improve relevant clinical outcomes in this patient population. The purpose of this updating review is to summarize the most current evidence on metabolic response and nutrition therapy in critically ill burn patients. CI - Copyright (c) 2017 Elsevier Espana, S.L.U. y SEMICYUC. All rights reserved. FAU - Moreira, E AU - Moreira E AD - Centro de Tratamiento Intensivo del Hospital Maciel, ASSE, Montevideo, Uruguay. FAU - Burghi, G AU - Burghi G AD - Centro Nacional de Quemados, Hospital de Clinicas, Facultad de Medicina, Universidad de la Republica (UdelaR), Montevideo, Uruguay. FAU - Manzanares, W AU - Manzanares W AD - Catedra de Medicina Intensiva, Hospital de Clinicas, Facultad de Medicina, Universidad de la Republica (UdelaR), Montevideo, Uruguay. Electronic address: wmanzanares@adinet.com.uy. LA - eng LA - spa PT - Journal Article PT - Review TT - Metabolismo y terapia nutricional en el paciente quemado critico: una revision actualizada. DEP - 20170923 PL - Spain TA - Med Intensiva (Engl Ed) JT - Medicina intensiva JID - 101717568 SB - IM MH - Burns/*metabolism/*therapy MH - Critical Illness MH - Humans MH - *Nutrition Therapy OTO - NOTNLM OT - Burn injury OT - Critical care OT - Cuidados criticos OT - Glutamina OT - Glutamine OT - Hipercatabolismo OT - Hipermetabolismo OT - Hypercatabolism OT - Hypermetabolism OT - Micronutrientes OT - Micronutrients OT - Quemados EDAT- 2017/09/28 06:00 MHDA- 2019/01/25 06:00 CRDT- 2017/09/28 06:00 PHST- 2017/05/22 00:00 [received] PHST- 2017/07/16 00:00 [revised] PHST- 2017/07/24 00:00 [accepted] PHST- 2017/09/28 06:00 [pubmed] PHST- 2019/01/25 06:00 [medline] PHST- 2017/09/28 06:00 [entrez] AID - S0210-5691(17)30223-1 [pii] AID - 10.1016/j.medin.2017.07.007 [doi] PST - ppublish SO - Med Intensiva (Engl Ed). 2018 Jun-Jul;42(5):306-316. doi: 10.1016/j.medin.2017.07.007. Epub 2017 Sep 23.",
+      "mesh_terms": [
+        "Burns",
+        "Critical Illness",
+        "Humans",
+        "Nutrition Therapy"
+      ],
+      "keywords": [
+        "Burn injury",
+        "Critical care",
+        "Cuidados cr&#xed;ticos",
+        "Glutamina",
+        "Glutamine",
+        "Hipercatabolismo",
+        "Hipermetabolismo",
+        "Hypercatabolism",
+        "Hypermetabolism",
+        "Micronutrientes",
+        "Micronutrients",
+        "Quemados"
+      ],
+      "full_text_links": [
+        "https://doi.org/10.1016/j.medin.2017.07.007"
+      ],
+      "doi": "10.1016/j.medin.2017.07.007",
+      "pmc_id": null,
+      "research_insight": "This 2018 review article directly addresses the researcher's query on severe burn patient treatment by focusing on the crucial role of metabolism and nutrition therapy in critically ill burn patients. The paper highlights the importance of personalized nutrition, early enteral feeding, and various nutritional and pharmacological interventions to mitigate malnutrition, modulate the immune response, and improve clinical outcomes. Further exploration should focus on the specific protocols and dosages of micronutrients and glutamine mentioned in the review, as these are identified as key components of effective nutritional support. This article is relevant to the field as it provides an updated synthesis of evidence-based nutritional strategies for managing the complex metabolic challenges associated with severe burn injuries, a critical aspect of burn care.\n"
+    },
+    {
+      "id": "28456441",
+      "pmid": "28456441",
+      "title": "Surgical treatment and management of the severely burn patient: Review and update.",
+      "first_author": "Gacto-Sanchez P",
+      "co_authors": [],
+      "journal": "Medicina intensiva",
+      "publication_date": "2017 Aug-Sep",
+      "abstract": "Since one of the main challenges in treating acute burn injuries is preventing infection, early excising of the eschar and covering of the wound becomes critical. Non-viable tissue is removed by initial aggressive surgical debridement. Many surgical options for covering the wound bed have been described, although split-thickness skin grafts remain the standard for the rapid and permanent closure of full-thickness burns. Significant advances made in the past decades have greatly improved burns patient care, as such that major future improvements in survival rates seem to be more difficult. Research into stem cells, grafting, biomarkers, inflammation control, and rehabilitation will continue to improve individualized care and create new treatment options for these patients. CI - Copyright (c) 2017 Elsevier Espana, S.L.U. y SEMICYUC. All rights reserved. FAU - Gacto-Sanchez, P AU - Gacto-Sanchez P AD - Plastic Surgeon, Plastic and Reconstructive Department, Burns Unit, Virgen del Rocio University Hospital, Sevilla, Spain. Electronic address: purigacto@gmail.com. LA - eng LA - spa PT - Journal Article PT - Review DEP - 20170426 PL - Spain TA - Med Intensiva JT - Medicina intensiva JID - 9207689 SB - IM MH - Burns/complications/*surgery MH - Humans MH - Injury Severity Score MH - Pain/etiology MH - Pain Management MH - Surgical Procedures, Operative/methods OTO - NOTNLM OT - Avances quirurgicos OT - Burns OT - Quemaduras OT - Surgical advancements OT - Surgical treatment OT - Tratamiento quirurgico EDAT- 2017/05/01 06:00 MHDA- 2018/06/13 06:00 CRDT- 2017/05/01 06:00 PHST- 2016/11/02 00:00 [received] PHST- 2017/02/08 00:00 [revised] PHST- 2017/02/18 00:00 [accepted] PHST- 2017/05/01 06:00 [pubmed] PHST- 2018/06/13 06:00 [medline] PHST- 2017/05/01 06:00 [entrez] AID - S0210-5691(17)30100-6 [pii] AID - 10.1016/j.medin.2017.02.008 [doi] PST - ppublish SO - Med Intensiva. 2017 Aug-Sep;41(6):356-364. doi: 10.1016/j.medin.2017.02.008. Epub 2017 Apr 26.",
+      "mesh_terms": [
+        "Burns",
+        "Humans",
+        "Injury Severity Score",
+        "Pain",
+        "Pain Management",
+        "Surgical Procedures, Operative"
+      ],
+      "keywords": [
+        "Avances quir&#xfa;rgicos",
+        "Burns",
+        "Quemaduras",
+        "Surgical advancements",
+        "Surgical treatment",
+        "Tratamiento quir&#xfa;rgico"
+      ],
+      "full_text_links": [
+        "https://doi.org/10.1016/j.medin.2017.02.008"
+      ],
+      "doi": "10.1016/j.medin.2017.02.008",
+      "pmc_id": null,
+      "research_insight": "This 2017 review article on surgical treatment and management of severe burn patients is highly relevant to the researcher's query, as it directly addresses the surgical approaches to treating these injuries. The paper highlights the importance of early eschar excision and wound coverage, emphasizing split-thickness skin grafts as the standard. Further exploration of the advancements in stem cell research, grafting techniques, and inflammation control mentioned in the abstract is warranted, as these areas represent potential avenues for improving individualized care and developing novel treatment options beyond traditional skin grafting. The article contributes to the field by providing an updated overview of surgical strategies and identifying promising research directions for improving outcomes in severe burn patients.\n"
+    },
+    {
+      "id": "37806693",
+      "pmid": "37806693",
+      "title": "Burn Patient Metabolism and Nutrition.",
+      "first_author": "Nunez JH",
+      "co_authors": [
+        "Clark AT"
+      ],
+      "journal": "Physical medicine and rehabilitation clinics of North America",
+      "publication_date": "2023 Nov",
+      "abstract": "Following severe burns, patients have unique metabolic derangements that make adequate nutritional support imperative for their survival and recovery. Patients with burns have persistent and prolonged hypermetabolic states that lead to increased catabolism following injury. During rehabilitation, catabolism leads to increased muscle wasting and cachexia. Failure to adequately meet the patient's increased nutritional requirements can lead to poor wound healing, increased infections, and overall organ dysfunction. Because of these risks, adequate assessment and provision of nutritional needs are imperative to care for these patients. CI - Published by Elsevier Inc. FAU - Nunez, Johanna H AU - Nunez JH AD - University of Texas Southwestern Medical Center, Dallas, TX, USA. FAU - Clark, Audra T AU - Clark AT AD - Department of Surgery, University of Texas Southwestern Medical Center, E05514B, 5323 Harry Hines Boulevard, Dallas, TX 75390, USA. Electronic address: audra.clark@utsouthwestern.edu. LA - eng PT - Journal Article PT - Review DEP - 20230706 PL - United States TA - Phys Med Rehabil Clin N Am JT - Physical medicine and rehabilitation clinics of North America JID - 9102787 SB - IM MH - Humans MH - *Nutritional Status MH - Nutritional Support MH - *Burns/complications/therapy OTO - NOTNLM OT - Burn OT - Critical care OT - Metabolism OT - Nutrition EDAT- 2023/10/09 00:41 MHDA- 2023/11/02 12:44 CRDT- 2023/10/08 20:57 PHST- 2023/11/02 12:44 [medline] PHST- 2023/10/09 00:41 [pubmed] PHST- 2023/10/08 20:57 [entrez] AID - S1047-9651(23)00039-6 [pii] AID - 10.1016/j.pmr.2023.06.001 [doi] PST - ppublish SO - Phys Med Rehabil Clin N Am. 2023 Nov;34(4):717-731. doi: 10.1016/j.pmr.2023.06.001. Epub 2023 Jul 6.",
+      "mesh_terms": [
+        "Humans",
+        "Nutritional Status",
+        "Nutritional Support",
+        "Burns"
+      ],
+      "keywords": [
+        "Burn",
+        "Critical care",
+        "Metabolism",
+        "Nutrition"
+      ],
+      "full_text_links": [
+        "https://doi.org/10.1016/j.pmr.2023.06.001"
+      ],
+      "doi": "10.1016/j.pmr.2023.06.001",
+      "pmc_id": null,
+      "research_insight": "This 2023 review article on burn patient metabolism and nutrition is highly relevant to the researcher's query on severe burn patient treatment because it directly addresses the critical role of nutritional support in the survival and recovery of these patients, focusing on the hypermetabolic state and catabolism induced by severe burns. The article highlights the consequences of inadequate nutritional support, such as poor wound healing and organ dysfunction, suggesting that further exploration of specific nutritional interventions (e.g., optimal protein intake, micronutrient supplementation) during different phases of burn recovery would be valuable. As a review published in a physical medicine and rehabilitation journal, it emphasizes the importance of nutritional management within the broader context of burn rehabilitation, connecting metabolic derangements to functional outcomes like muscle wasting.\n"
+    },
+    {
+      "id": "25485468",
+      "pmid": "25485468",
+      "title": "Acute and perioperative care of the burn-injured patient.",
+      "first_author": "Bittner EA",
+      "co_authors": [
+        "Shank E",
+        "Woodson L",
+        "Martyn JA"
+      ],
+      "journal": "Anesthesiology",
+      "publication_date": "2015 Feb",
+      "abstract": "Care of burn-injured patients requires knowledge of the pathophysiologic changes affecting virtually all organs from the onset of injury until wounds are healed. Massive airway and/or lung edema can occur rapidly and unpredictably after burn and/or inhalation injury. Hemodynamics in the early phase of severe burn injury is characterized by a reduction in cardiac output and increased systemic and pulmonary vascular resistance. Approximately 2 to 5 days after major burn injury, a hyperdynamic and hypermetabolic state develops. Electrical burns result in morbidity much higher than expected based on burn size alone. Formulae for fluid resuscitation should serve only as guideline; fluids should be titrated to physiologic endpoints. Burn injury is associated basal and procedural pain requiring higher than normal opioid and sedative doses. Operating room concerns for the burn-injured patient include airway abnormalities, impaired lung function, vascular access, deceptively large and rapid blood loss, hypothermia, and altered pharmacology. FAU - Bittner, Edward A AU - Bittner EA AD - From the Department of Anesthesiology, Critical Care and Pain Medicine, Massachusetts General Hospital, Harvard Medical School, Boston, Massachusetts (E.A.B., E.S., J.A.J.M.); Shriners Hospitals for Children(R), Boston, Massachusetts (E.A.B., E.S., J.A.J.M.); Department of Anesthesiology, University of Texas Medical Branch, Galveston, Texas (L.W.); and Shriners Hospitals for Children(R), Galveston, Texas (L.W.). FAU - Shank, Erik AU - Shank E FAU - Woodson, Lee AU - Woodson L FAU - Martyn, J A Jeevendra AU - Martyn JA LA - eng GR - P50 GM021700/GM/NIGMS NIH HHS/United States GR - P50-GM 2500/GM/NIGMS NIH HHS/United States PT - Journal Article PT - Research Support, N.I.H., Extramural PT - Research Support, Non-U.S. Gov't PT - Review PL - United States TA - Anesthesiology JT - Anesthesiology JID - 1300217 SB - IM MH - Anesthesia MH - Burns/*therapy MH - Burns, Electric/therapy MH - Burns, Inhalation/therapy MH - Humans MH - Pain Management/methods MH - Perioperative Care/*methods PMC - PMC4844008 MID - NIHMS643790 COIS- The authors declare no competing interests EDAT- 2014/12/09 06:00 MHDA- 2015/03/25 06:00 PMCR- 2016/04/25 CRDT- 2014/12/09 06:00 PHST- 2014/12/09 06:00 [entrez] PHST- 2014/12/09 06:00 [pubmed] PHST- 2015/03/25 06:00 [medline] PHST- 2016/04/25 00:00 [pmc-release] AID - 10.1097/ALN.0000000000000559 [doi] PST - ppublish SO - Anesthesiology. 2015 Feb;122(2):448-64. doi: 10.1097/ALN.0000000000000559.",
+      "mesh_terms": [
+        "Anesthesia",
+        "Burns",
+        "Burns, Electric",
+        "Burns, Inhalation",
+        "Humans",
+        "Pain Management",
+        "Perioperative Care"
+      ],
+      "keywords": [],
+      "full_text_links": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMCpmc-id: PMC4844008;manuscript-id: NIHMS643790;",
+        "https://doi.org/10.1097/ALN.0000000000000559"
+      ],
+      "doi": "10.1097/ALN.0000000000000559",
+      "pmc_id": "pmc-id: PMC4844008;manuscript-id: NIHMS643790;",
+      "research_insight": "This 2015 *Anesthesiology* review article by Bittner et al. is highly relevant to a researcher studying severe burn patient treatment as it provides a comprehensive overview of acute and perioperative care, detailing the complex pathophysiological changes, hemodynamic challenges, and pain management issues specific to burn injuries. The section on altered pharmacology in burn patients, particularly regarding opioid and sedative dosing, warrants further exploration, as it highlights the need for individualized treatment strategies due to the unique metabolic and physiological changes induced by burns. Given its focus on anesthetic considerations and perioperative management, this article is crucial for anesthesiologists and critical care physicians involved in the care of burn patients, offering a valuable synthesis of knowledge for optimizing treatment strategies.\n"
+    },
+    {
+      "id": "37806692",
+      "pmid": "37806692",
+      "title": "Assessment and Management of Acute Burn Injuries.",
+      "first_author": "Haruta A",
+      "co_authors": [
+        "Mandell SP"
+      ],
+      "journal": "Physical medicine and rehabilitation clinics of North America",
+      "publication_date": "2023 Nov",
+      "abstract": "Burn injuries can affect patients from all walks of life and represent a significant healthcare problem globally. The skin is the largest organ of the body and consequences of injury range of minor pain to severe end-organ dysfunction and even death. The acute assessment and management of burn-injured patients is a critical part of their short-term and long-term outcomes and often benefit from specialty, multidisciplinary care. Local wound care and appropriate excision and grafting are important parts of managing the functional, cosmetic, and physiologic derangements caused by burn injuries. Large burns also require judicious fluid resuscitation. Electrical, chemical, and inhalational injuries are less common than thermal burns but require additional care and are often associated with increased morbidity. CI - Copyright (c) 2023 Elsevier Inc. All rights reserved. FAU - Haruta, Alison AU - Haruta A AD - Department of Burns, Trauma, Acute, and Critical Care Surgery, UT Southwestern, 5323 Harry Hines Boulevard, Dallas, TX 75390-9005, USA. Electronic address: aharuta@uw.edu. FAU - Mandell, Samuel P AU - Mandell SP AD - Department of Burns, Trauma, Acute, and Critical Care Surgery, UT Southwestern, 5323 Harry Hines Boulevard, Dallas, TX 75390-9005, USA. LA - eng PT - Journal Article PT - Review DEP - 20230727 PL - United States TA - Phys Med Rehabil Clin N Am JT - Physical medicine and rehabilitation clinics of North America JID - 9102787 SB - IM MH - Humans MH - *Burns/complications/diagnosis/therapy MH - Skin MH - Pain MH - Fluid Therapy OTO - NOTNLM OT - Acute burn OT - Burn assessment OT - Early burn management EDAT- 2023/10/09 00:42 MHDA- 2023/11/01 12:42 CRDT- 2023/10/08 20:57 PHST- 2023/11/01 12:42 [medline] PHST- 2023/10/09 00:42 [pubmed] PHST- 2023/10/08 20:57 [entrez] AID - S1047-9651(23)00070-0 [pii] AID - 10.1016/j.pmr.2023.06.019 [doi] PST - ppublish SO - Phys Med Rehabil Clin N Am. 2023 Nov;34(4):701-716. doi: 10.1016/j.pmr.2023.06.019. Epub 2023 Jul 27.",
+      "mesh_terms": [
+        "Humans",
+        "Burns",
+        "Skin",
+        "Pain",
+        "Fluid Therapy"
+      ],
+      "keywords": [
+        "Acute burn",
+        "Burn assessment",
+        "Early burn management"
+      ],
+      "full_text_links": [
+        "https://doi.org/10.1016/j.pmr.2023.06.019"
+      ],
+      "doi": "10.1016/j.pmr.2023.06.019",
+      "pmc_id": null,
+      "research_insight": "This 2023 review article on \"Assessment and Management of Acute Burn Injuries\" is highly relevant to a researcher studying severe burn patient treatment as it provides a comprehensive overview of the acute phase, covering assessment, fluid resuscitation, wound care (excision and grafting), and management of different burn types (thermal, electrical, chemical, inhalational). The discussion of multidisciplinary care and its impact on short- and long-term outcomes warrants further exploration, specifically regarding the specific protocols and team compositions that lead to improved patient outcomes in severe burn cases. As a recent publication in a rehabilitation-focused journal, it highlights the importance of early and comprehensive management in minimizing long-term functional and cosmetic impairments, thus contributing to the evolving standards of care in burn treatment.\n"
+    },
+    {
+      "id": "24034453",
+      "pmid": "24034453",
+      "title": "Burns in children: standard and new treatments.",
+      "first_author": "Jeschke MG",
+      "co_authors": [
+        "Herndon DN"
+      ],
+      "journal": "Lancet (London, England)",
+      "publication_date": "2014 Mar 29",
+      "abstract": "Outcomes of patients with burns have improved substantially over the past two decades. Findings from a 2012 study in The Lancet showed that a burn size of more than 60% total body surface area burned (an increase from 40% a decade ago) is associated with risks and mortality. Similar data have been obtained in adults and elderly people who have been severely burned. We discuss recent and future developments in burn care to improve outcomes of children. CI - Copyright (c) 2014 Elsevier Ltd. All rights reserved. FAU - Jeschke, Marc G AU - Jeschke MG AD - Ross Tilley Burn Centre, Sunnybrook Health Sciences Centre, Toronto, Canada; Department of Surgery, Division of Plastic Surgery, Department of Immunology, University of Toronto, Toronto, Canada; Sunnybrook Research Institute, Toronto, Canada. Electronic address: marc.jeschke@sunnybrook.ca. FAU - Herndon, David N AU - Herndon DN AD - Shriners Hospitals for Children and Department of Surgery, University of Texas Medical Branch, Galveston, TX, USA. LA - eng GR - 123336/CAPMC/CIHR/Canada GR - R01-GM087285/GM/NIGMS NIH HHS/United States GR - P50-GM60338/GM/NIGMS NIH HHS/United States GR - T32-GM008256/GM/NIGMS NIH HHS/United States GR - R01 GM056687/GM/NIGMS NIH HHS/United States GR - P50 GM060338/GM/NIGMS NIH HHS/United States GR - R01 GM087285/GM/NIGMS NIH HHS/United States GR - T32 GM008256/GM/NIGMS NIH HHS/United States GR - R01-GM56687/GM/NIGMS NIH HHS/United States PT - Journal Article PT - Research Support, N.I.H., Extramural PT - Research Support, Non-U.S. Gov't PT - Research Support, U.S. Gov't, Non-P.H.S. PT - Review DEP - 20130911 PL - England TA - Lancet JT - Lancet (London, England) JID - 2985213R SB - IM MH - Adolescent MH - Biological Dressings MH - Burns/complications/pathology/*therapy MH - Child MH - Child, Preschool MH - Facial Transplantation/methods MH - Humans MH - Infant MH - Infant, Newborn MH - Metabolic Diseases/etiology/therapy MH - Resuscitation/methods MH - Smoke Inhalation Injury/therapy MH - Wound Closure Techniques PMC - PMC7859869 MID - NIHMS1665490 COIS- Conflicts of interest The authors have no conflicts of interest to declare. EDAT- 2013/09/17 06:00 MHDA- 2014/04/16 06:00 PMCR- 2021/02/04 CRDT- 2013/09/17 06:00 PHST- 2013/09/17 06:00 [entrez] PHST- 2013/09/17 06:00 [pubmed] PHST- 2014/04/16 06:00 [medline] PHST- 2021/02/04 00:00 [pmc-release] AID - S0140-6736(13)61093-4 [pii] AID - 10.1016/S0140-6736(13)61093-4 [doi] PST - ppublish SO - Lancet. 2014 Mar 29;383(9923):1168-78. doi: 10.1016/S0140-6736(13)61093-4. Epub 2013 Sep 11.",
+      "mesh_terms": [
+        "Adolescent",
+        "Biological Dressings",
+        "Burns",
+        "Child",
+        "Child, Preschool",
+        "Facial Transplantation",
+        "Humans",
+        "Infant",
+        "Infant, Newborn",
+        "Metabolic Diseases",
+        "Resuscitation",
+        "Smoke Inhalation Injury",
+        "Wound Closure Techniques"
+      ],
+      "keywords": [],
+      "full_text_links": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMCpmc-id: PMC7859869;manuscript-id: NIHMS1665490;",
+        "https://doi.org/10.1016/S0140-6736(13)61093-4"
+      ],
+      "doi": "10.1016/S0140-6736(13)61093-4",
+      "pmc_id": "pmc-id: PMC7859869;manuscript-id: NIHMS1665490;",
+      "research_insight": "This 2014 Lancet article by Jeschke et al. is highly relevant to a researcher studying severe burn patient treatment, as it specifically focuses on advancements in burn care for children and highlights improved survival rates for burns exceeding 60% total body surface area. The discussion of \"recent and future developments\" warrants further exploration, particularly regarding the specific new treatments and strategies employed to achieve these improved outcomes in pediatric burn patients. Given the article's publication in a high-impact journal like The Lancet, it represents a significant contribution to the field of burn care, reflecting the evolving standards and therapeutic approaches for pediatric burn management.\n"
+    },
+    {
+      "id": "26971391",
+      "pmid": "26971391",
+      "title": "The wound/burn guidelines - 6: Guidelines for the management of burns.",
+      "first_author": "Yoshino Y",
+      "co_authors": [
+        "Ohtsuka M",
+        "Kawaguchi M",
+        "Sakai K",
+        "Hashimoto A",
+        "Hayashi M",
+        "Madokoro N",
+        "Asano Y",
+        "Abe M",
+        "Ishii T",
+        "Isei T",
+        "Ito T",
+        "Inoue Y",
+        "Imafuku S",
+        "Irisawa R",
+        "Ohtsuka M",
+        "Ogawa F",
+        "Kadono T",
+        "Kawakami T",
+        "Kukino R",
+        "Kono T",
+        "Kodera M",
+        "Takahara M",
+        "Tanioka M",
+        "Nakanishi T",
+        "Nakamura Y",
+        "Hasegawa M",
+        "Fujimoto M",
+        "Fujiwara H",
+        "Maekawa T",
+        "Matsuo K",
+        "Yamasaki O",
+        "Le Pavoux A",
+        "Tachibana T",
+        "Ihn H",
+        "Wound/Burn Guidelines Committee"
+      ],
+      "journal": "The Journal of dermatology",
+      "publication_date": "2016 Sep",
+      "abstract": "Burns are a common type of skin injury encountered at all levels of medical facilities from private clinics to core hospitals. Minor burns heal by topical treatment alone, but moderate to severe burns require systemic management, and skin grafting is often necessary also for topical treatment. Inappropriate initial treatment or delay of initial treatment may exert adverse effects on the subsequent treatment and course. Therefore, accurate evaluation of the severity and initiation of appropriate treatment are necessary. The Guidelines for the Management of Burn Injuries were issued in March 2009 from the Japanese Society for Burn Injuries as guidelines concerning burns, but they were focused on the treatment for extensive and severe burns in the acute period. Therefore, we prepared guidelines intended to support the appropriate diagnosis and initial treatment for patients with burns that are commonly encountered including minor as well as moderate and severe cases. Because of this intention of the present guidelines, there is no recommendation of individual surgical procedures. CI - (c) 2016 Japanese Dermatological Association. FAU - Yoshino, Yuichiro AU - Yoshino Y AD - Department of Dermatology, Japanese Red Cross Kumamoto Hospital, Kumamoto, Japan. FAU - Ohtsuka, Mikio AU - Ohtsuka M AD - Department of Dermatology, Fukushima Medical University, Fukushima, Japan. FAU - Kawaguchi, Masakazu AU - Kawaguchi M AD - Department of Dermatology, Yamagata University Faculty of Medicine, Yamagata, Japan. FAU - Sakai, Keisuke AU - Sakai K AD - Intensive Care Unit, Kumamoto University Hospital, Kumamoto, Japan. FAU - Hashimoto, Akira AU - Hashimoto A AD - Department of Dermatology, Tohoku University Graduate School of Medicine, Miyagi, Japan. FAU - Hayashi, Masahiro AU - Hayashi M AD - Department of Dermatology, Yamagata University Faculty of Medicine, Yamagata, Japan. FAU - Madokoro, Naoki AU - Madokoro N AD - Department of Dermatology, Mazda Hospital, Hiroshima, Japan. FAU - Asano, Yoshihide AU - Asano Y AD - Department of Dermatology, Faculty of Medicine, University of Tokyo, Tokyo, Japan. FAU - Abe, Masatoshi AU - Abe M AD - Department of Dermatology, Gunma University Graduate School of Medicine, Gunma, Japan. FAU - Ishii, Takayuki AU - Ishii T AD - Department of Dermatology, Faculty of Medicine, Institute of Medical, Pharmaceutical and Health Sciences, Kanazawa University, Ishikawa, Japan. FAU - Isei, Taiki AU - Isei T AD - Department of Dermatology, Kansai Medical University, Osaka, Japan. FAU - Ito, Takaaki AU - Ito T AD - Department of Dermatology, Hyogo College of Medicine, Hyogo, Japan. FAU - Inoue, Yuji AU - Inoue Y AD - Department of Dermatology and Plastic Surgery, Faculty of Life Sciences, Kumamoto University, Kumamoto, Japan. FAU - Imafuku, Shinichi AU - Imafuku S AD - Department of Dermatology, Faculty of Medicine, Fukuoka University, Fukuoka, Japan. FAU - Irisawa, Ryokichi AU - Irisawa R AD - Department of Dermatology, Tokyo Medical University, Tokyo, Japan. FAU - Ohtsuka, Masaki AU - Ohtsuka M AD - Department of Dermatology, Okayama University Graduate School of Medicine, Dentistry, and Pharmaceutical Sciences, Okayama, Japan. FAU - Ogawa, Fumihide AU - Ogawa F AD - Department of Dermatology, Nagasaki University Graduate School of Biomedical Sciences, Nagasaki, Japan. FAU - Kadono, Takafumi AU - Kadono T AD - Department of Dermatology, Faculty of Medicine, University of Tokyo, Tokyo, Japan. FAU - Kawakami, Tamihiro AU - Kawakami T AD - Department of Dermatology, St. Marianna University School of Medicine, Kanagawa, Japan. FAU - Kukino, Ryuichi AU - Kukino R AD - Department of Dermatology, NTT Medical Center, Tokyo, Japan. FAU - Kono, Takeshi AU - Kono T AD - Department of Dermatology, Nippon Medical School, Tokyo, Japan. FAU - Kodera, Masanari AU - Kodera M AD - Department of Dermatology, Japan Community Health Care Organization Chukyo Hospital, Aichi, Japan. FAU - Takahara, Masakazu AU - Takahara M AD - Department of Dermatology, Graduate School of Medical Sciences, Kyushu University, Fukuoka, Japan. FAU - Tanioka, Miki AU - Tanioka M AD - Department of Dermatology, Kyoto University Graduate School of Medicine, Kyoto, Japan. FAU - Nakanishi, Takeshi AU - Nakanishi T AD - Department of Dermatology, Osaka City University Graduate School of Medicine, Osaka, Japan. FAU - Nakamura, Yasuhiro AU - Nakamura Y AD - Department of Dermatology, University of Tsukuba, Ibaraki, Japan. FAU - Hasegawa, Minoru AU - Hasegawa M AD - Department of Dermatology, Faculty of Medicine, Institute of Medical, Pharmaceutical and Health Sciences, Kanazawa University, Ishikawa, Japan. FAU - Fujimoto, Manabu AU - Fujimoto M AD - Department of Dermatology, Faculty of Medicine, Institute of Medical, Pharmaceutical and Health Sciences, Kanazawa University, Ishikawa, Japan. FAU - Fujiwara, Hiroshi AU - Fujiwara H AD - Department of Dermatology, Niigata University Graduate School of Medical and Dental Sciences, Niigata, Japan. FAU - Maekawa, Takeo AU - Maekawa T AD - Department of Dermatology, Jichi Medical University, Tochigi, Japan. FAU - Matsuo, Koma AU - Matsuo K AD - Department of Dermatology, The Jikei University School of Medicine, Tokyo, Japan. FAU - Yamasaki, Osamu AU - Yamasaki O AD - Department of Dermatology, Okayama University Graduate School of Medicine, Dentistry, and Pharmaceutical Sciences, Okayama, Japan. FAU - Le Pavoux, Andres AU - Le Pavoux A AD - Ichige Dermatology Clinic, Ibaraki, Japan. FAU - Tachibana, Takao AU - Tachibana T AD - Department of Dermatology, Osaka Red Cross Hospital, Osaka, Japan. FAU - Ihn, Hironobu AU - Ihn H AD - Department of Dermatology and Plastic Surgery, Faculty of Life Sciences, Kumamoto University, Kumamoto, Japan. CN - Wound/Burn Guidelines Committee LA - eng PT - Journal Article PT - Practice Guideline DEP - 20160312 PL - England TA - J Dermatol JT - The Journal of dermatology JID - 7600545 RN - 0 (Adrenal Cortex Hormones) RN - 0 (Anti-Bacterial Agents) RN - 0 (Anti-Infective Agents, Local) RN - 0 (Ointments) RN - 0 (Tetanus Toxoid) RN - W46JY43EJR (Silver Sulfadiazine) SB - IM MH - Administration, Cutaneous MH - Adrenal Cortex Hormones/administration & dosage/therapeutic use MH - Anti-Bacterial Agents/therapeutic use MH - Anti-Infective Agents, Local/therapeutic use MH - Bandages MH - Bronchoscopy MH - Burns/classification/*diagnosis/*therapy MH - Burns, Inhalation/diagnosis/therapy MH - Fluid Therapy/*methods MH - Humans MH - Hydrotherapy MH - Lung/diagnostic imaging MH - Ointments/administration & dosage/therapeutic use MH - Prognosis MH - Radiography MH - *Severity of Illness Index MH - Silver Sulfadiazine/therapeutic use MH - Tetanus/prevention & control MH - Tetanus Toxoid/therapeutic use MH - *Wound Healing MH - Wound Infection/prevention & control OTO - NOTNLM OT - burn index OT - deep burn OT - deep dermal burn OT - epidermal burn OT - superficial dermal burn EDAT- 2016/03/15 06:00 MHDA- 2017/06/07 06:00 CRDT- 2016/03/15 06:00 PHST- 2015/12/03 00:00 [received] PHST- 2015/12/04 00:00 [accepted] PHST- 2016/03/15 06:00 [entrez] PHST- 2016/03/15 06:00 [pubmed] PHST- 2017/06/07 06:00 [medline] AID - 10.1111/1346-8138.13288 [doi] PST - ppublish SO - J Dermatol. 2016 Sep;43(9):989-1010. doi: 10.1111/1346-8138.13288. Epub 2016 Mar 12.",
+      "mesh_terms": [
+        "Administration, Cutaneous",
+        "Adrenal Cortex Hormones",
+        "Anti-Bacterial Agents",
+        "Anti-Infective Agents, Local",
+        "Bandages",
+        "Bronchoscopy",
+        "Burns",
+        "Burns, Inhalation",
+        "Fluid Therapy",
+        "Humans",
+        "Hydrotherapy",
+        "Lung",
+        "Ointments",
+        "Prognosis",
+        "Radiography",
+        "Severity of Illness Index",
+        "Silver Sulfadiazine",
+        "Tetanus",
+        "Tetanus Toxoid",
+        "Wound Healing",
+        "Wound Infection"
+      ],
+      "keywords": [
+        "burn index",
+        "deep burn",
+        "deep dermal burn",
+        "epidermal burn",
+        "superficial dermal burn"
+      ],
+      "full_text_links": [
+        "https://doi.org/10.1111/1346-8138.13288"
+      ],
+      "doi": "10.1111/1346-8138.13288",
+      "pmc_id": null,
+      "research_insight": "This article, \"The wound/burn guidelines - 6: Guidelines for the management of burns,\" is highly relevant to a researcher studying severe burn patient treatment because it provides a comprehensive overview of burn management, including systemic approaches and skin grafting, which are crucial for moderate to severe cases. The paper's emphasis on appropriate initial treatment and evaluation of severity is particularly important, as it directly addresses factors influencing the subsequent course of treatment for severe burns. Further exploration of the specific systemic management protocols recommended in the guidelines would be beneficial, as the abstract only broadly mentions this aspect. As a guideline published in *The Journal of Dermatology* by the Japanese Society for Burn Injuries, it represents a consensus of expert opinion and contributes to standardized burn care practices within the field.\n"
+    }
+  ]
+}
