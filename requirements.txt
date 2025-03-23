@@ -1,1 +1,3 @@
-pip==24.0
+# Editable Git install with no remote (pubmed-playground==0.1.0)
+-e /home/gusmmm/Desktop/testes/pubmed_playground
+python-dotenv==1.0.1
