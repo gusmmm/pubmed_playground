@@ -1,0 +1,1 @@
+("Magnetic Resonance Imaging, Functional"[MeSH Terms] OR fmri[Title/Abstract] OR "functional magnetic resonance imaging"[Title/Abstract]) AND ("last 90 days"[PDat]) AND "journal article"[Publication Type] AND "english"[Language] AND "open access"[Filter]

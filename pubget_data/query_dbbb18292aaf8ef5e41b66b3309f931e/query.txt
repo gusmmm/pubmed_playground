@@ -1,0 +1,1 @@
+(fmri[Title] OR "functional magnetic resonance imaging"[Title]) AND (2025[PDAT]) AND "open access"[Filter] AND "journal article"[Publication Type] AND "english"[Language]

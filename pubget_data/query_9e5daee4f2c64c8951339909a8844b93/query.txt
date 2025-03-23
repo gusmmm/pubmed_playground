@@ -1,0 +1,1 @@
+(fmri[Title/Abstract] OR "functional MRI"[Title/Abstract]) AND (free full text[filter] AND open access[filter]) AND "loattrfree full text"[sb] AND journal article[Publication Type] AND 2024:2025[dp]
