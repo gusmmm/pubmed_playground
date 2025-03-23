@@ -1,0 +1,157 @@
+# Cline Rules for Scientific Data Retrieval Project
+
+## Rule for coding and writing scripts
+- Always annotate with information useful for devs.
+- when an important functionality is added, create print statements to the terminal to help visualize it. 
+- when creating print statements to the terminal, use simple, informative and beautiful output to make it easy for a human to read.
+- write docstrings that are useful for both devs and LLMs to use
+
+## Project Structure Rules
+
+### File Organization
+- Source code in src/
+- Tests in tests/
+- Documentation in docs/
+- Examples in examples/
+
+### Naming Conventions
+- Class names: CapitalizedWords
+- Function names: lowercase_with_underscores
+- Variables: lowercase_with_underscores
+- Constants: UPPERCASE_WITH_UNDERSCORES
+- Private members: _prefixed_with_underscore
+
+## Code Style Preferences
+
+### Python Specifics
+- Type hints required
+- Docstrings in Google style
+- Async functions preferred for I/O
+- Exception classes must be descriptive
+- Black formatting
+- Ruff linting
+- MyPy strict mode
+
+### Pattern Implementation
+- Adapter classes named as {Source}Adapter
+- Factory methods use create_{thing} naming
+- Strategy classes end with Strategy
+- Observer classes end with Observer
+
+## Documentation Rules
+
+### Code Documentation
+- All public methods documented
+- Examples in docstrings
+- Type hints in documentation
+- Exception documentation required
+- Return value documentation required
+
+### Error Messages
+- Must be descriptive
+- Include error codes
+- Provide resolution hints
+- No sensitive data
+
+## Testing Requirements
+
+### Test Organization
+- One test file per source file
+- Test classes match source classes
+- Integration tests separate
+- Fixtures in conftest.py
+
+### Test Naming
+- test_{unit}_{scenario}
+- Given_When_Then style for complex tests
+- async_test_ prefix for async tests
+
+## Development Workflow
+
+### Version Control
+- Feature branches from main
+- Branch naming: feature/, bugfix/, hotfix/
+- Commits: type(scope): message
+- PR reviews required
+
+### Issue Management
+- Use GitHub issues
+- Labels: bug, enhancement, documentation
+- Priority levels: P0, P1, P2, P3
+- Size estimates: S, M, L, XL
+
+## Implementation Patterns
+
+### Class Structure
+```python
+class ExampleAdapter:
+    """Template for adapter implementation.
+    
+    Attributes:
+        _client: API client instance
+        _cache: Cache manager
+        _rate_limiter: Rate limit controller
+    """
+    
+    def __init__(self) -> None:
+        self._setup()
+    
+    async def fetch_data(self, id: str) -> dict:
+        """Template for data fetching method."""
+        pass
+```
+
+### Error Handling
+```python
+try:
+    result = await adapter.fetch_data(id)
+except AdapterError as e:
+    logger.error(f"Adapter error: {e}")
+    raise DataRetrievalError(f"Failed to fetch data: {e}") from e
+```
+
+### Configuration
+```python
+config = {
+    "cache_ttl": 3600,
+    "retry_attempts": 3,
+    "timeout": 30,
+    "batch_size": 100
+}
+```
+
+## API Integration Rules
+
+### Rate Limiting
+- Implement token bucket algorithm
+- Per-source rate limits
+- Global rate limiting
+- Retry with exponential backoff
+
+### Caching
+- TTL-based caching
+- Cache invalidation on error
+- Cache size limits
+- Cache hit/miss logging
+
+### Error Recovery
+- Max 3 retries
+- Exponential backoff
+- Circuit breaker pattern
+- Fallback strategies
+
+## Performance Guidelines
+
+### Optimization
+- Cache aggressively
+- Batch requests when possible
+- Use connection pooling
+- Implement async operations
+
+### Resource Usage
+- Monitor memory usage
+- Limit concurrent connections
+- Control response sizes
+- Manage timeouts
+
+These rules will evolve as we discover more patterns and preferences through implementation.
