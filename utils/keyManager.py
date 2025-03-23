@@ -92,6 +92,7 @@ class KeyManager:
                 "CODESTRAL_API_KEY": os.getenv("CODESTRAL_API_KEY"),
                 "PUBMED_API_KEY": os.getenv("PUBMED_API_KEY"),
                 "SERPAPI_KEY": os.getenv("SERPAPI_KEY"),
+                "UNPAYWALL_EMAIL=": os.getenv("UNPAYWALL_EMAIL"),
             }
             print("✅ API keys loaded successfully")
         else:
@@ -107,6 +108,7 @@ class KeyManager:
                 "\n   CODESTRAL_API_KEY=your_key_here"
                 "\n   PUBMED_API_KEY=your_key_here"
                 "\n   SERPAPI_KEY=your_key_here"
+                "\n   UNPAYWALL_EMAIL=your_email_here"
             )
             
     def _find_env_file(self) -> Optional[Path]:

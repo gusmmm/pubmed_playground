@@ -386,3 +386,134 @@ HTML Results
 
 HTML output is useful to debug JSON results or support features not supported yet by SerpApi.
 HTML output gives you the raw HTML results from Google.
+
+------------------------------------------------
+# Google News API
+API uptime
+99.999%
+
+Our Google News API allows you to scrape results from the Google News search page. The API is accessed through the following endpoint: /search?engine=google_news.
+
+A user may query the following: https://serpapi.com/search?engine=google_news utilizing a GET request. Head to the playground for a live and interactive demo.
+API Parameters
+Search Query
+
+q
+
+Optional
+
+Parameter defines the query you want to search. You can use anything that you would use in a regular Google News search. e.g. site:, when:.
+
+Parameter can't be used together with publication_token, story_token, and topic_token parameters.
+Localization
+
+gl
+
+Optional
+
+Parameter defines the country to use for the Google News search. It's a two-letter country code. (e.g., us for the United States (default), uk for United Kingdom, or fr for France). Head to the Google countries page for a full list of supported Google News countries.
+
+hl
+
+Optional
+
+Parameter defines the language to use for the Google News search. It's a two-letter language code. (e.g., en for English, es for Spanish, or fr for French). Head to the Google languages page for a full list of supported Google languages.
+Advanced Google News Parameters
+
+topic_token
+
+Optional
+
+Parameter defines the Google News topic token. It is used for accessing the news results for a specific topic (e.g., "World", "Business", "Technology").
+
+The token can be found in our JSON response or the URL of the Google News page (in the URL, it is a string of characters preceded by /topics/).
+
+Parameter can't be used together with q, story_token, and publication_token parameters.
+
+publication_token
+
+Optional
+
+Parameter defines the Google News publication token. It is used for accessing the news results from a specific publisher (e.g., "CNN", "BBC", "The Guardian").
+
+The token can be found in our JSON response or the URL of the Google News page (in the URL, it is a string of characters preceded by /publications/).
+
+Parameter can't be used together with q, story_token, and topic_token parameters.
+
+section_token
+
+Optional
+
+Parameter defines the Google News section token. It is used for accessing the sub-section of a specific topic. (e.g., "Business -> Economy").
+
+The token can be found in our JSON response or the URL of the Google News page (in the URL, it is a string of characters preceded by /sections/)
+
+Parameter can only be used in combination with topic_token or publication_token parameters.
+
+story_token
+
+Optional
+
+Parameter defines the Google News story token. It is used for accessing the news results with full coverage of a specific story.
+
+The token can be found in our JSON response or the URL of the Google News page (in the URL, it is a string of characters preceded by /stories/)
+
+Parameter can't be used together with q, topic_token, and publication_token parameters.
+
+so
+
+Optional
+
+Parameter defines the sorting method. Results can be sorted by relevance or by date. By default, the results are sorted by relevance.
+List of supported values are:
+
+0 - Relevance
+1 - Date
+
+Parameter can only be used in combination with story_token parameter.
+Serpapi Parameters
+
+engine
+
+Required
+
+Set parameter to google_news to use the Google News API engine.
+
+no_cache
+
+Optional
+
+Parameter will force SerpApi to fetch the Google News results even if a cached version is already present. A cache is served only if the query and all parameters are exactly the same. Cache expires after 1h. Cached searches are free, and are not counted towards your searches per month. It can be set to false (default) to allow results from the cache, or true to disallow results from the cache. no_cache and async parameters should not be used together.
+
+async
+
+Optional
+
+Parameter defines the way you want to submit your search to SerpApi. It can be set to false (default) to open an HTTP connection and keep it open until you got your search results, or true to just submit your search to SerpApi and retrieve them later. In this case, you'll need to use our Searches Archive API to retrieve your results. async and no_cache parameters should not be used together. async should not be used on accounts with Ludicrous Speed enabled.
+
+zero_trace
+
+Optional
+
+Enterprise only. Parameter enables ZeroTrace mode. It can be set to false (default) or true. Enable this mode to skip storing search parameters, search files, and search metadata on our servers. This may make debugging more difficult.
+
+api_key
+
+Required
+
+Parameter defines the SerpApi private key to use.
+
+output
+
+Optional
+
+Parameter defines the final output you want. It can be set to json (default) to get a structured JSON of the results, or html to get the raw html retrieved.
+API Results
+JSON Results
+
+JSON output includes structured data for News Results.
+
+A search status is accessible through search_metadata.status. It flows this way: Processing -> Success || Error. If a search has failed, error will contain an error message. search_metadata.id is the search ID inside SerpApi.
+HTML Results
+
+This API does not have the HTML response, just a text. search_metadata.prettify_html_file contains prettified version of the result. It is displayed in the playground.

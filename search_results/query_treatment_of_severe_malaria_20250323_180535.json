@@ -1,0 +1,17 @@
+{
+  "user_query": "treatment of severe malaria",
+  "timestamp": "2025-03-23T18:05:35.731073",
+  "model_used": "gemini-2.0-flash",
+  "tiered_queries": {
+    "simple": {
+      "query": "\"severe malaria\" AND treatment",
+      "explanation": "This simple query searches for articles that mention both \"severe malaria\" and \"treatment\" anywhere in the article metadata. It uses the basic Boolean operator AND to ensure both terms are present. The phrase \"severe malaria\" is enclosed in quotes to ensure that PubMed searches for this exact phrase."
+    },
+    "medium": {
+      "query": "(\"severe malaria\"[MeSH Terms] OR \"cerebral malaria\"[MeSH Terms]) AND (treatment[Title/Abstract] OR therapy[Title/Abstract] OR management[Title/Abstract]) AND \"last 5 years\"[PDat]",
+      "explanation": "This medium-complexity query uses MeSH terms for \"severe malaria\" and \"cerebral malaria\" to increase specificity. It also searches for treatment, therapy, or management in the title or abstract to focus on articles directly discussing therapeutic interventions. Finally, it limits the results to the last 5 years to retrieve recent publications."
+    }
+  },
+  "raw_ai_response": "## Simple Query\n```\n\"severe malaria\" AND treatment\n```\n\n**Explanation**: This simple query searches for articles that mention both \"severe malaria\" and \"treatment\" anywhere in the article metadata. It uses the basic Boolean operator AND to ensure both terms are present. The phrase \"severe malaria\" is enclosed in quotes to ensure that PubMed searches for this exact phrase.\n\n## Medium Query\n```\n(\"severe malaria\"[MeSH Terms] OR \"cerebral malaria\"[MeSH Terms]) AND (treatment[Title/Abstract] OR therapy[Title/Abstract] OR management[Title/Abstract]) AND \"last 5 years\"[PDat]\n```\n\n**Explanation**: This medium-complexity query uses MeSH terms for \"severe malaria\" and \"cerebral malaria\" to increase specificity. It also searches for treatment, therapy, or management in the title or abstract to focus on articles directly discussing therapeutic interventions. Finally, it limits the results to the last 5 years to retrieve recent publications.\n",
+  "web_info_provided": true
+}

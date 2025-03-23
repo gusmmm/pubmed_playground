@@ -29,6 +29,7 @@ dependencies = [
     "regex>=2024.11.6",
     "google-genai>=1.7.0",
     "rich>=13.7.1",
+    "newspaper3k",
 ]
 
 [project.optional-dependencies]
@@ -76,6 +77,6 @@ packages = ["utils"]
 testpaths = ["tests"]
 python_files = "test_*.py"
 
-# UV-specific configuration goes in this section
+# UV-specific configuration 
 [tool.uv]
-python-version = "3.11"  # Specify Python version here
+python-version = 3.12  # String value doesn't need quotes in TOML

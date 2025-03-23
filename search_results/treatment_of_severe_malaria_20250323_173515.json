@@ -1,0 +1,79 @@
+{
+  "query": "treatment of severe malaria",
+  "timestamp": "2025-03-23T17:35:09.574284",
+  "news_results": [
+    {
+      "title": "Global research led by UT Health San Antonio uncovers critical weakness in malaria parasite",
+      "source": "UT Health San Antonio",
+      "date": "Dec 11, 2024",
+      "snippet": "Our study shows for the first time how antibodies can protect against severe malaria and provides new insights into prevention and treatment of this often-...",
+      "url": "https://news.uthscsa.edu/global-research-led-by-ut-health-san-antonio-uncovers-critical-weakness-in-malaria-parasite-2/"
+    },
+    {
+      "title": "Resistance to crucial malaria drug detected in severely ill kids in Africa",
+      "source": "Nature",
+      "date": "Nov 14, 2024",
+      "snippet": "The development worries researchers because children are particularly vulnerable to the disease.",
+      "url": "https://www.nature.com/articles/d41586-024-03672-z"
+    },
+    {
+      "title": "Severe Malaria Identified as Cause of Outbreak in DRC's Kwango Province",
+      "source": "Contagion Live",
+      "date": "Dec 18, 2024",
+      "snippet": "143 deaths and 592 cases confirmed in Kwango Province, with concerns about treatment access, drug resistance, and more.",
+      "url": "https://www.contagionlive.com/view/severe-malaria-identified-as-cause-of-outbreak-in-drc-s-kwango-province"
+    },
+    {
+      "title": "Elevated uric acid levels may contribute to severe malaria outcomes in children",
+      "source": "News-Medical",
+      "date": "1 month ago",
+      "snippet": "Indiana University School of Medicine researchers and their collaborators in Uganda at the Makerere University School of Medicine have...",
+      "url": "https://www.news-medical.net/news/20250127/Elevated-uric-acid-levels-may-contribute-to-severe-malaria-outcomes-in-children.aspx"
+    },
+    {
+      "title": "Uganda study reports first evidence of resistance to vital antimalarial in children with severe malaria",
+      "source": "Medical Xpress",
+      "date": "Nov 14, 2024",
+      "snippet": "Mutations in malarial parasites linked to artemisinin-resistance in Southeast Asia have now been found in African children hospitalized for complicated malaria.",
+      "url": "https://medicalxpress.com/news/2024-11-uganda-evidence-resistance-vital-antimalarial.html"
+    }
+  ],
+  "scholar_results": [
+    {
+      "title": "Severe malaria",
+      "authors": "NJ White - Malaria journal, 2022 - Springer",
+      "snippet": "\u2026 treatments were rolled out and parenteral artesunate was replacing quinine as first line parenteral treatment) [2, 27\u2026 The outcome of cerebral malaria depends on access to treatment and \u2026",
+      "url": "https://link.springer.com/article/10.1186/s12936-022-04301-8",
+      "publication_info": {}
+    },
+    {
+      "title": "Defining the next generation of severe malaria treatment: a target product profile",
+      "authors": "J Achan, A Barry, D Leroy, G Kamara, S Duparc\u2026 - Malaria Journal, 2024 - Springer",
+      "snippet": "\u2026 Current treatment with parenteral artemisinin derivatives is \u2026 Hence, new treatments for severe malaria are needed, and it \u2026 (TPP) for new treatments for severe malaria. It also highlights \u2026",
+      "url": "https://link.springer.com/article/10.1186/s12936-024-04986-z",
+      "publication_info": {}
+    },
+    {
+      "title": "Treating severe malaria",
+      "authors": "JD Berman - Clinical Infectious Diseases, 2021 - academic.oup.com",
+      "snippet": "\u2026 US Food and Drug Administration (FDA) for the treatment of severe malaria [5]. The indication is \u201cinitial treatment of severe malaria in adult and pediatric patients \u201cand the recommended \u2026",
+      "url": "https://academic.oup.com/cid/article-abstract/72/10/1818/5913352",
+      "publication_info": {}
+    },
+    {
+      "title": "Advances and roadblocks in the treatment of malaria",
+      "authors": "B Hanboonkunupakarn, NJ White - British journal of clinical \u2026, 2022 - Wiley Online Library",
+      "snippet": "\u2026 treatment for severe malaria 1 and usage has increased substantially, although unfortunately quinine is still the only available parenteral antimalarial in some malaria endemic areas. \u2026",
+      "url": "https://bpspubs.onlinelibrary.wiley.com/doi/abs/10.1111/bcp.14474",
+      "publication_info": {}
+    },
+    {
+      "title": "The impact of delayed treatment of uncomplicated P. falciparum malaria on progression to severe malaria: A systematic review and a pooled multicentre individual \u2026",
+      "authors": "A Mousa, A Al-Taiar, NM Anstey, C Badaut\u2026 - PLoS \u2026, 2020 - journals.plos.org",
+      "snippet": "\u2026 treatment for uncomplicated malaria (UM) is often reported to increase the risk of developing severe malaria (SM), but access to treatment \u2026 of treatment delay on progression to severe \u2026",
+      "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1003359",
+      "publication_info": {}
+    }
+  ],
+  "fallback_results": []
+}

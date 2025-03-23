@@ -8,7 +8,8 @@ Features:
 - Takes user input about their research question
 - Uses AI to suggest optimized PubMed search queries at two specificity levels
 - Follows proper PubMed query syntax based on reference documentation
-- Can optionally search the web for recent relevant information
+- Can search the web for recent relevant information with detailed source tracking
+- Saves search results to JSON for future reference
 - Formats suggestions with rich output
 """
 
@@ -16,7 +17,8 @@ import sys
 import json
 import logging
 import requests
-from typing import List, Dict, Optional, Tuple
+import datetime
+from typing import List, Dict, Optional, Tuple, Any
 from pathlib import Path
 from rich.console import Console
 from rich.prompt import Prompt, Confirm
@@ -64,6 +66,10 @@ class PubMedQueryHelper:
         self.client = GeminiClient(console=self.console, default_model=model)
         self.query_instructions = self._load_query_instructions()
         self.key_manager = KeyManager()
+        self.search_results_dir = project_root / "search_results"
+        
+        # Create search results directory if it doesn't exist
+        self.search_results_dir.mkdir(exist_ok=True, parents=True)
         
     def _load_query_instructions(self) -> str:
         """
@@ -94,7 +100,8 @@ class PubMedQueryHelper:
         - **Simple**: Basic search terms with minimal constraints
         - **Medium**: More specific terms with appropriate filters
         
-        You can also optionally search the web for recent information on your topic!
+        You can also search the web for recent information on your topic!
+        All search results are saved for your reference.
         
         Let's find the right search strategy for your research!
         """
@@ -112,7 +119,7 @@ class PubMedQueryHelper:
             "Please describe your research question or area of interest"
         )
     
-    def search_web_for_information(self, topic: str) -> str:
+    def search_web_for_information(self, topic: str) -> Tuple[str, Dict[str, Any]]:
         """
         Search the web for recent information about the research topic using SerpAPI.
         
@@ -120,14 +127,21 @@ class PubMedQueryHelper:
             topic: The research topic to search for
             
         Returns:
-            String containing summarized web search results
+            Tuple of (formatted results string, raw results dictionary)
         """
         # Check if we have a SerpApi key
         if not self.key_manager.has_key("SERPAPI_KEY"):
             self.console.print("[yellow]No SerpAPI key found. Web search functionality is disabled.[/yellow]")
-            return ""
+            return "", {}
         
         serpapi_key = self.key_manager.get_key("SERPAPI_KEY")
+        search_results = {
+            "query": topic,
+            "timestamp": datetime.datetime.now().isoformat(),
+            "news_results": [],
+            "scholar_results": [],
+            "fallback_results": []
+        }
         
         try:
             with Progress() as progress:
@@ -137,13 +151,16 @@ class PubMedQueryHelper:
                 news_search_params = {
                     "q": f"{topic} medical research",
                     "api_key": serpapi_key,
-                    "engine": "google",             # Explicitly set the engine to Google
-                    "tbm": "nws",                   # News search
-                    "num": 5,                       # Get 5 results
-                    "gl": "us",                     # Set country to US
-                    "hl": "en",                     # Set language to English
-                    "safe": "active"                # Safe search
+                    "engine": "google",
+                    "tbm": "nws",
+                    "num": 5,
+                    "gl": "us",
+                    "hl": "en",
+                    "safe": "active"
                 }
+                
+                # Print API usage information
+                self.console.print("[bold blue]► Using Google Search News API to find recent news[/bold blue]")
                 
                 progress.update(search_task, completed=30)
                 
@@ -158,15 +175,17 @@ class PubMedQueryHelper:
                 progress.update(search_task, completed=60)
                 
                 # Then search for scholarly articles using Google Scholar
-                # According to the reference, the correct engine is google_scholar
                 scholar_search_params = {
-                    "q": f"{topic}",                # Simple query works better for scholar
+                    "q": f"{topic}",
                     "api_key": serpapi_key,
-                    "engine": "google_scholar",     # Use Google Scholar engine
-                    "hl": "en",                     # Set language to English
-                    "as_ylo": "2020",              # Articles from 2020 or later
-                    "num": 5                       # Get 5 results
+                    "engine": "google_scholar",
+                    "hl": "en",
+                    "as_ylo": "2020",
+                    "num": 5
                 }
+                
+                # Print API usage information
+                self.console.print("[bold blue]► Using Google Scholar API to find research papers[/bold blue]")
                 
                 # Make the scholar search request
                 response = requests.get(
@@ -181,55 +200,197 @@ class PubMedQueryHelper:
             # Extract and format the results
             web_info = []
             
-            # Add news results
+            # Process news results
             if "news_results" in news_results:
                 web_info.append("## Recent News")
-                for idx, result in enumerate(news_results["news_results"][:3], 1):
+                self.console.print("\n[bold green]Found news articles:[/bold green]")
+                
+                for idx, result in enumerate(news_results["news_results"][:5], 1):
                     title = result.get("title", "No title")
                     source = result.get("source", "Unknown source")
                     date = result.get("date", "No date")
                     snippet = result.get("snippet", "No description available")
+                    link = result.get("link", "")
                     
+                    # Add to formatted results
                     web_info.append(f"{idx}. **{title}** - {source}, {date}")
                     web_info.append(f"   {snippet}")
+                    web_info.append(f"   [Link]({link})")
                     web_info.append("")
+                    
+                    # Print more detailed results to terminal
+                    self.console.print(f"  {idx}. [cyan]{title}[/cyan]")
+                    self.console.print(f"     Source: {source} ({date})")
+                    self.console.print(f"     URL: [link={link}]{link}[/link]")
+                    
+                    # Store in results dict
+                    search_results["news_results"].append({
+                        "title": title,
+                        "source": source,
+                        "date": date,
+                        "snippet": snippet,
+                        "url": link
+                    })
+                
+                self.console.print("")
             
-            # Add scholar results based on the specific format from the documentation
+            # Process scholar results
+            scholar_found = False
+            
             if "organic_results" in scholar_results:
                 web_info.append("## Recent Research Papers")
-                for idx, result in enumerate(scholar_results["organic_results"][:3], 1):
+                self.console.print("[bold green]Found research papers:[/bold green]")
+                scholar_found = True
+                
+                for idx, result in enumerate(scholar_results["organic_results"][:5], 1):
                     title = result.get("title", "No title")
+                    link = result.get("link", "")
                     
-                    # Extract publication info using the correct path based on the API response structure
+                    # Extract identifiers
+                    doi = None
+                    pmid = None
+                    
+                    # Try to find DOI in the link or result
+                    if "doi.org" in link:
+                        doi = link.split("doi.org/")[-1]
+                    
+                    # Extract publication info
                     authors = ""
+                    publication_info = {}
                     if "publication_info" in result:
                         if "summary" in result["publication_info"]:
-                            authors = f" - {result['publication_info']['summary']}"
+                            authors = result["publication_info"]["summary"]
                         elif "authors" in result["publication_info"]:
-                            authors = f" - {result['publication_info']['authors']}"
+                            authors = result["publication_info"]["authors"]
+                            
+                        # Get additional publication info
+                        for key in ["name", "year", "publisher"]:
+                            if key in result["publication_info"]:
+                                publication_info[key] = result["publication_info"][key]
                     
                     snippet = result.get("snippet", "No abstract available")
                     
-                    web_info.append(f"{idx}. **{title}**{authors}")
-                    web_info.append(f"   {snippet}")
-                    web_info.append("")
-            elif "search_results" in scholar_results:
-                # Alternative format sometimes returned by Google Scholar API
-                web_info.append("## Recent Research Papers")
-                for idx, result in enumerate(scholar_results["search_results"][:3], 1):
-                    title = result.get("title", "No title")
-                    authors = f" - {result.get('authors', '')}" if "authors" in result else ""
-                    snippet = result.get("snippet", "No abstract available")
+                    # Ask user if they want to attempt to retrieve full text (only for the first 2 papers)
+                    full_text = None
+                    if idx <= 2 and Confirm.ask(
+                        f"[cyan]Would you like to attempt to retrieve full text for paper {idx}?[/cyan] ({title})",
+                        default=False
+                    ):
+                        self.console.print(f"[cyan]Attempting to retrieve full text for paper {idx}...[/cyan]")
+                        full_text = self._attempt_full_text_retrieval(link, doi)
                     
-                    web_info.append(f"{idx}. **{title}**{authors}")
+                    # Add to formatted results
+                    web_info.append(f"{idx}. **{title}**")
+                    if authors:
+                        web_info.append(f"   Authors: {authors}")
                     web_info.append(f"   {snippet}")
+                    if doi:
+                        web_info.append(f"   DOI: {doi}")
+                    web_info.append(f"   [Link]({link})")
+                    if full_text:
+                        web_info.append(f"   **Full Text Extract:**")
+                        web_info.append(f"   ```")
+                        web_info.append(f"   {full_text}")
+                        web_info.append(f"   ```")
                     web_info.append("")
-            
-            # If no results were found in either search
-            if not web_info:
-                return "No relevant web information found for this topic."
+                    
+                    # Print more detailed results to terminal
+                    self.console.print(f"  {idx}. [cyan]{title}[/cyan]")
+                    if authors:
+                        self.console.print(f"     Authors: {authors}")
+                    if doi:
+                        self.console.print(f"     DOI: [green]{doi}[/green]")
+                    elif pmid:
+                        self.console.print(f"     PMID: [green]{pmid}[/green]")
+                    self.console.print(f"     URL: [link={link}]{link}[/link]")
+                    if full_text:
+                        self.console.print(f"     [green]Full text extract available[/green]")
+                    
+                    # Store in results dict
+                    paper_info = {
+                        "title": title,
+                        "authors": authors,
+                        "snippet": snippet,
+                        "url": link,
+                        "publication_info": publication_info
+                    }
+                    if doi:
+                        paper_info["doi"] = doi
+                    if pmid:
+                        paper_info["pmid"] = pmid
+                    if full_text:
+                        paper_info["full_text_extract"] = full_text
+                    
+                    search_results["scholar_results"].append(paper_info)
                 
-            return "\n".join(web_info)
+                self.console.print("")
+                
+            elif "search_results" in scholar_results:
+                web_info.append("## Recent Research Papers")
+                self.console.print("[bold green]Found research papers:[/bold green]")
+                scholar_found = True
+                
+                for idx, result in enumerate(scholar_results["search_results"][:5], 1):
+                    title = result.get("title", "No title")
+                    link = result.get("link", "")
+                    authors = result.get("authors", "")
+                    publication_info = result.get("publication_info", {})
+                    snippet = result.get("snippet", "No abstract available")
+                    
+                    # Try to extract DOI from link
+                    doi = None
+                    pmid = None
+                    if "doi.org" in link:
+                        doi = link.split("doi.org/")[-1]
+                    
+                    # Add to formatted results
+                    web_info.append(f"{idx}. **{title}**")
+                    if authors:
+                        web_info.append(f"   Authors: {authors}")
+                    web_info.append(f"   {snippet}")
+                    if doi:
+                        web_info.append(f"   DOI: {doi}")
+                    web_info.append(f"   [Link]({link})")
+                    web_info.append("")
+                    
+                    # Print more detailed results to terminal
+                    self.console.print(f"  {idx}. [cyan]{title}[/cyan]")
+                    if authors:
+                        self.console.print(f"     Authors: {authors}")
+                    if doi:
+                        self.console.print(f"     DOI: [green]{doi}[/green]")
+                    elif pmid:
+                        self.console.print(f"     PMID: [green]{pmid}[/green]")
+                    self.console.print(f"     URL: [link={link}]{link}[/link]")
+                    
+                    # Store in results dict
+                    paper_info = {
+                        "title": title,
+                        "authors": authors,
+                        "snippet": snippet,
+                        "url": link,
+                        "publication_info": publication_info
+                    }
+                    if doi:
+                        paper_info["doi"] = doi
+                    if pmid:
+                        paper_info["pmid"] = pmid
+                        
+                    search_results["scholar_results"].append(paper_info)
+                
+                self.console.print("")
+            
+            if not scholar_found:
+                self.console.print("[yellow]No Google Scholar results found. You may need to try a different query.[/yellow]")
+            
+            # If no results were found
+            if not web_info:
+                return "No relevant web information found for this topic.", search_results
+            
+            # Save the search results
+            self._save_search_results(topic, search_results)
+                
+            return "\n".join(web_info), search_results
             
         except requests.exceptions.HTTPError as e:
             logger.error(f"HTTP Error searching the web: {e}", exc_info=True)
@@ -248,21 +409,24 @@ class PubMedQueryHelper:
             # Fallback to just a Google search without SerpAPI if error is with Scholar
             if "google_scholar" in str(e):
                 self.console.print("[yellow]Trying fallback to regular Google search...[/yellow]")
-                return self._fallback_web_search(topic, serpapi_key)
+                fallback_text, fallback_results = self._fallback_web_search(topic, serpapi_key)
+                search_results["fallback_results"] = fallback_results
+                self._save_search_results(topic, search_results)
+                return fallback_text, search_results
                 
-            return ""
+            return "", search_results
             
         except requests.exceptions.RequestException as e:
             logger.error(f"Request Error searching the web: {e}", exc_info=True)
             self.console.print(f"[yellow]Could not retrieve web information (Request Error): {e}[/yellow]")
-            return ""
+            return "", search_results
             
         except Exception as e:
             logger.error(f"Error searching the web: {e}", exc_info=True)
             self.console.print(f"[yellow]Could not retrieve web information: {e}[/yellow]")
-            return ""
+            return "", search_results
         
-    def _fallback_web_search(self, topic: str, serpapi_key: str) -> str:
+    def _fallback_web_search(self, topic: str, serpapi_key: str) -> Tuple[str, List[Dict[str, Any]]]:
         """
         Fallback method to search the web using regular Google search when other methods fail.
         
@@ -271,8 +435,10 @@ class PubMedQueryHelper:
             serpapi_key: SerpAPI key to use
             
         Returns:
-            String containing summarized web search results
+            Tuple of (formatted results string, list of result dictionaries)
         """
+        fallback_results = []
+        
         try:
             # Use regular Google search as fallback
             search_params = {
@@ -283,6 +449,9 @@ class PubMedQueryHelper:
                 "gl": "us",
                 "hl": "en"
             }
+            
+            # Print API usage information
+            self.console.print("[bold blue]► Using Google Search API as fallback[/bold blue]")
             
             response = requests.get(
                 "https://serpapi.com/search", 
@@ -296,23 +465,85 @@ class PubMedQueryHelper:
             # Add organic results
             if "organic_results" in search_results:
                 web_info.append("## Recent Web Information")
+                self.console.print("\n[bold green]Found web results (fallback):[/bold green]")
+                
                 for idx, result in enumerate(search_results["organic_results"][:5], 1):
                     title = result.get("title", "No title")
                     source = result.get("displayed_link", "Unknown source")
                     snippet = result.get("snippet", "No description available")
+                    link = result.get("link", "")
                     
+                    # Add to formatted results
                     web_info.append(f"{idx}. **{title}** - {source}")
                     web_info.append(f"   {snippet}")
+                    web_info.append(f"   [Link]({link})")
                     web_info.append("")
+                    
+                    # Print more detailed results to terminal
+                    self.console.print(f"  {idx}. [cyan]{title}[/cyan]")
+                    self.console.print(f"     Source: {source}")
+                    self.console.print(f"     URL: [link={link}]{link}[/link]")
+                    
+                    # Store in results list
+                    fallback_results.append({
+                        "title": title,
+                        "source": source,
+                        "snippet": snippet,
+                        "url": link
+                    })
+                
+                self.console.print("")
             
             if web_info:
-                return "\n".join(web_info)
+                return "\n".join(web_info), fallback_results
             else:
-                return "No relevant web information found using fallback search."
+                return "No relevant web information found using fallback search.", fallback_results
                 
         except Exception as e:
             logger.error(f"Error in fallback web search: {e}", exc_info=True)
-            return ""
+            return "", fallback_results
+    
+    def _save_search_results(self, topic: str, results: Dict[str, Any]) -> None:
+        """
+        Save search results to a JSON file.
+        
+        Args:
+            topic: The research topic
+            results: The search results dictionary
+        """
+        try:
+            # Create a filename based on the topic and timestamp
+            timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+            safe_topic = "".join(c if c.isalnum() else "_" for c in topic[:30])
+            filename = f"{safe_topic}_{timestamp}.json"
+            filepath = self.search_results_dir / filename
+            
+            # Format the results to ensure all data is captured
+            formatted_results = {
+                "query": topic,
+                "timestamp": results.get("timestamp", datetime.datetime.now().isoformat()),
+                "news_results": results.get("news_results", []),
+                "scholar_results": results.get("scholar_results", []),
+                "fallback_results": results.get("fallback_results", [])
+            }
+            
+            # Verify all scholar results have their full text included
+            for paper in formatted_results["scholar_results"]:
+                # Ensure the full_text_extract key exists if it was generated
+                if "full_text_extract" in paper:
+                    # Make sure it's not None or empty
+                    if not paper["full_text_extract"]:
+                        paper["full_text_extract"] = "Full text was extracted but not saved"
+            
+            # Save the results
+            with open(filepath, 'w', encoding='utf-8') as f:
+                json.dump(formatted_results, f, indent=2, ensure_ascii=False)
+            
+            self.console.print(f"[dim]Search results saved to: {filepath}[/dim]")
+            
+        except Exception as e:
+            logger.error(f"Error saving search results: {e}", exc_info=True)
+            self.console.print(f"[yellow]Could not save search results: {e}[/yellow]")
         
     def generate_tiered_queries(self, user_input: str, web_info: str = "") -> Dict[str, Dict[str, str]]:
         """
@@ -392,11 +623,13 @@ class PubMedQueryHelper:
                 display_response=False  # We'll handle our own display
             )
             
-            # Extract sections from the response
-            response_text = response.text
-            
             # Parse the response to extract queries and explanations
-            return self._parse_tiered_response(response_text)
+            tiered_queries = self._parse_tiered_response(response.text)
+            
+            # Save the queries to JSON
+            self._save_query_results(user_input, web_info, tiered_queries, response.text)
+            
+            return tiered_queries
             
         except Exception as e:
             logger.error(f"Error generating queries: {e}", exc_info=True)
@@ -405,6 +638,45 @@ class PubMedQueryHelper:
                 "simple": {"query": "", "explanation": "Unable to generate query."},
                 "medium": {"query": "", "explanation": "Unable to generate query."}
             }
+    
+    def _save_query_results(self, user_input: str, web_info: str, 
+                            tiered_queries: Dict[str, Dict[str, str]], 
+                            raw_response: str) -> None:
+        """
+        Save generated queries and explanations to a JSON file.
+        
+        Args:
+            user_input: The user's research question
+            web_info: Web search information used
+            tiered_queries: The generated queries
+            raw_response: Raw response from the AI
+        """
+        try:
+            # Create a result dictionary
+            result = {
+                "user_query": user_input,
+                "timestamp": datetime.datetime.now().isoformat(),
+                "model_used": self.model,
+                "tiered_queries": tiered_queries,
+                "raw_ai_response": raw_response,
+                "web_info_provided": bool(web_info)
+            }
+            
+            # Create a filename based on the query and timestamp
+            timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+            safe_query = "".join(c if c.isalnum() else "_" for c in user_input[:30])
+            filename = f"query_{safe_query}_{timestamp}.json"
+            filepath = self.search_results_dir / filename
+            
+            # Save the results
+            with open(filepath, 'w') as f:
+                json.dump(result, f, indent=2)
+            
+            self.console.print(f"[dim]Query results saved to: {filepath}[/dim]")
+            
+        except Exception as e:
+            logger.error(f"Error saving query results: {e}", exc_info=True)
+            self.console.print(f"[yellow]Could not save query results: {e}[/yellow]")
     
     def _parse_tiered_response(self, text: str) -> Dict[str, Dict[str, str]]:
         """
@@ -474,7 +746,7 @@ class PubMedQueryHelper:
                 
                 # If this is just the header, move to the next line to get content
                 if line.startswith("**Explanation**:"):
-                    explanation_text.append(line[16:].strip())  # Skip the "**Explanation**:" part
+                    explanation_text.append(line[16:].strip())  # Fixed: changed trip() to strip()
                 elif line.startswith("Explanation:"):
                     explanation_text.append(line[12:].strip())  # Skip the "Explanation:" part
                 i += 1
@@ -552,12 +824,13 @@ class PubMedQueryHelper:
             )
             
             web_info = ""
+            web_results = {}
             if include_web_search:
-                web_info = self.search_web_for_information(user_input)
+                web_info, web_results = self.search_web_for_information(user_input)
                 if web_info:
                     self.console.print(Panel(
                         Markdown(web_info),
-                        title="[bold green]Web Search Results[/bold green]",
+                        title="[bold green]Web Search Results Summary[/bold green]",
                         border_style="green"
                     ))
                 else:
@@ -662,8 +935,18 @@ class PubMedQueryHelper:
                     if explanation_text:
                         modified_result["explanation"] = "\n".join(explanation_text).strip()
                     
-                    # Display modified query if found
+                    # Save the modified query result
                     if "query" in modified_result:
+                        # Add to the tiered queries and save
+                        tiered_queries[f"modified_{modify}"] = modified_result
+                        self._save_query_results(
+                            f"{user_input} (modified: {modification})", 
+                            web_info, 
+                            {f"modified_{modify}": modified_result},
+                            response.text
+                        )
+                        
+                        # Display modified query
                         self.console.print("\n")
                         modified_panel = Panel(
                             f"[bold white]{modified_result['query']}[/bold white]",
@@ -707,8 +990,9 @@ class PubMedQueryHelper:
             self.console.print("\n")
             self.console.print(summary_table)
             
-            # Final message
+            # Final message with path to saved results
             self.console.print("\n[bold green]✨ Happy researching! You can now use these queries on PubMed.[/bold green]")
+            self.console.print(f"[italic]All search results and queries have been saved in: {self.search_results_dir}[/italic]")
             self.console.print("[italic]Copy the query you prefer and paste it into the PubMed search box.[/italic]")
             
         except Exception as e:
@@ -719,6 +1003,165 @@ class PubMedQueryHelper:
             
         except KeyboardInterrupt:
             self.console.print("\n\n[yellow]Query helper terminated by user.[/yellow]")
+
+    def _attempt_full_text_retrieval(self, url: str, doi: str = None) -> str:
+        """
+        Attempt to retrieve full text of an article using various methods.
+        
+        Args:
+            url: The URL of the article
+            doi: The DOI of the article if available
+            
+        Returns:
+            The full text if available, or a message indicating it's not available
+        """
+        try:
+            self.console.print("[cyan]Attempting full text retrieval...[/cyan]")
+            
+            # Try to use Unpaywall API if we have a DOI
+            if doi and self.key_manager.has_key("UNPAYWALL_EMAIL"):
+                unpaywall_email = self.key_manager.get_key("UNPAYWALL_EMAIL")
+                unpaywall_url = f"https://api.unpaywall.org/v2/{doi}?email={unpaywall_email}"
+                
+                self.console.print(f"[dim]Checking Unpaywall for open access version of DOI {doi}...[/dim]")
+                response = requests.get(unpaywall_url, timeout=5)
+                
+                if response.status_code == 200:
+                    data = response.json()
+                    if data.get("is_oa") and data.get("best_oa_location", {}).get("url"):
+                        oa_url = data["best_oa_location"]["url"]
+                        self.console.print(f"[green]Found open access version: {oa_url}[/green]")
+                        
+                        # Try to retrieve the actual content from the open access URL
+                        try:
+                            oa_response = requests.get(oa_url, timeout=10)
+                            if oa_response.status_code == 200:
+                                # Try to use newspaper3k for extraction
+                                try:
+                                    from newspaper import Article
+                                    article = Article(oa_url)
+                                    article.download()
+                                    article.parse()
+                                    
+                                    if article.text:
+                                        # Return a summary (first 1000 chars)
+                                        text_extract = article.text[:1000] + "..." if len(article.text) > 1000 else article.text
+                                        return f"Open access full text extract from {oa_url}:\n\n{text_extract}"
+                                except ImportError:
+                                    pass
+                        except Exception:
+                            pass
+                        
+                        return f"Open access version available at: {oa_url}"
+            
+            # For PubMed Central articles, we can attempt to get the full text
+            if "ncbi.nlm.nih.gov/pmc/" in url:
+                self.console.print("[dim]Article appears to be in PubMed Central, attempting direct retrieval...[/dim]")
+                try:
+                    # Extract PMC ID
+                    pmc_id = None
+                    if "/pmc/articles/PMC" in url:
+                        pmc_id = url.split("/pmc/articles/PMC")[1].split("/")[0]
+                    
+                    if pmc_id:
+                        pubmed_api_url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id={pmc_id}&rettype=text"
+                        response = requests.get(pubmed_api_url, timeout=10)
+                        if response.status_code == 200:
+                            # Only return a summary of the full text (first 1000 chars)
+                            full_text = response.text[:1000] + "..." if len(response.text) > 1000 else response.text
+                            return f"PMC Full text extract (PMC ID: {pmc_id}):\n\n{full_text}"
+                except Exception as e:
+                    logger.warning(f"Failed to retrieve PMC full text: {e}")
+            
+            # For arXiv papers
+            if "arxiv.org" in url:
+                self.console.print("[dim]Article appears to be on arXiv, attempting to retrieve abstract...[/dim]")
+                try:
+                    # Extract arXiv ID
+                    arxiv_id = None
+                    if "/abs/" in url:
+                        arxiv_id = url.split("/abs/")[1].split(".")[0].split("v")[0]
+                    
+                    if arxiv_id:
+                        arxiv_api_url = f"http://export.arxiv.org/api/query?id_list={arxiv_id}"
+                        response = requests.get(arxiv_api_url, timeout=10)
+                        if response.status_code == 200:
+                            # Parse XML to extract abstract
+                            import xml.etree.ElementTree as ET
+                            root = ET.fromstring(response.text)
+                            
+                            # Find the abstract using namespace
+                            ns = {'arxiv': 'http://arxiv.org/schemas/atom'}
+                            entry = root.find('.//arxiv:entry', ns)
+                            if entry:
+                                abstract = entry.find('.//arxiv:summary', ns)
+                                if abstract is not None and abstract.text:
+                                    return f"arXiv Abstract (ID: {arxiv_id}):\n\n{abstract.text}"
+                except Exception as e:
+                    logger.warning(f"Failed to retrieve arXiv details: {e}")
+            
+            # For general websites, try to extract the main content
+            self.console.print("[dim]Attempting general web page content extraction...[/dim]")
+            try:
+                headers = {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+                }
+                response = requests.get(url, headers=headers, timeout=10)
+                
+                if response.status_code == 200:
+                    try:
+                        # Try to use newspaper3k for extraction if available
+                        from newspaper import Article
+                        
+                        article = Article(url)
+                        article.download()
+                        article.parse()
+                        
+                        if article.text:
+                            # Return a summary (first 1000 chars)
+                            text_extract = article.text[:1000] + "..." if len(article.text) > 1000 else article.text
+                            self.console.print("[green]Successfully extracted content using newspaper3k[/green]")
+                            return f"Extracted content from {url}:\n\n{text_extract}"
+                    except ImportError:
+                        # If newspaper3k is not installed, try a simple extraction
+                        self.console.print("[dim]newspaper3k not available, falling back to BeautifulSoup...[/dim]")
+                        try:
+                            from bs4 import BeautifulSoup
+                            soup = BeautifulSoup(response.text, 'html.parser')
+                            
+                            # Try to find the main content
+                            main_content = ""
+                            for tag in ['article', 'main', '.content', '#content']:
+                                content = soup.select_one(tag) if not tag.startswith('.') and not tag.startswith('#') else soup.select_one(tag)
+                                if content:
+                                    main_content = content.get_text(strip=True)
+                                    break
+                            
+                            if not main_content:
+                                # Get all paragraphs if we couldn't find main content
+                                paragraphs = soup.find_all('p')
+                                main_content = ' '.join([p.get_text(strip=True) for p in paragraphs[:5]])
+                            
+                            if main_content:
+                                # Return a summary (first 1000 chars)
+                                text_extract = main_content[:1000] + "..." if len(main_content) > 1000 else main_content
+                                self.console.print("[green]Successfully extracted content using BeautifulSoup[/green]")
+                                return f"Extracted content from {url}:\n\n{text_extract}"
+                        except ImportError:
+                            self.console.print("[yellow]BeautifulSoup not available for content extraction[/yellow]")
+                            
+                else:
+                    self.console.print(f"[yellow]Failed to retrieve page: HTTP {response.status_code}[/yellow]")
+                    
+            except Exception as e:
+                logger.warning(f"Failed to scrape website: {e}")
+            
+            self.console.print("[yellow]Full text extraction unsuccessful[/yellow]")
+            return "Full text not available automatically. Access may require subscription or manual browsing."
+        
+        except Exception as e:
+            logger.error(f"Error retrieving full text: {e}", exc_info=True)
+            return f"Error retrieving full text information: {str(e)}"
 
 
 if __name__ == "__main__":

@@ -1,0 +1,17 @@
+{
+  "user_query": "treatment of severe malaria",
+  "timestamp": "2025-03-23T17:57:56.443824",
+  "model_used": "gemini-2.0-flash",
+  "tiered_queries": {
+    "simple": {
+      "query": "\"severe malaria\" AND treatment",
+      "explanation": "This simple query searches for articles that mention both \"severe malaria\" and \"treatment\" anywhere in the article metadata. It uses the basic Boolean operator AND to ensure both terms are present. The phrase \"severe malaria\" is enclosed in quotes to ensure that PubMed searches for this exact phrase."
+    },
+    "medium": {
+      "query": "(\"severe malaria\"[Title/Abstract]) AND (treatment[Title/Abstract] OR therapy[Title/Abstract] OR management[Title/Abstract]) AND \"2024/01/01\"[Date - Publication]",
+      "explanation": "This medium-complexity query searches for \"severe malaria\" in the title or abstract. It also searches for treatment, therapy, or management in the title or abstract, using the OR operator to broaden the search for interventions. Finally, it limits the results to publications from 2024 onwards using the date filter."
+    }
+  },
+  "raw_ai_response": "## Simple Query\n```\n\"severe malaria\" AND treatment\n```\n\n**Explanation**: This simple query searches for articles that mention both \"severe malaria\" and \"treatment\" anywhere in the article metadata. It uses the basic Boolean operator AND to ensure both terms are present. The phrase \"severe malaria\" is enclosed in quotes to ensure that PubMed searches for this exact phrase.\n\n## Medium Query\n```\n(\"severe malaria\"[Title/Abstract]) AND (treatment[Title/Abstract] OR therapy[Title/Abstract] OR management[Title/Abstract]) AND \"2024/01/01\"[Date - Publication]\n```\n\n**Explanation**: This medium-complexity query searches for \"severe malaria\" in the title or abstract. It also searches for treatment, therapy, or management in the title or abstract, using the OR operator to broaden the search for interventions. Finally, it limits the results to publications from 2024 onwards using the date filter.\n",
+  "web_info_provided": true
+}
