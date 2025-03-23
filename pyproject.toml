@@ -10,7 +10,7 @@ authors = [
     {name = "Your Name", email = "your.email@example.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.11"  # Updated to 3.11+ to match Sphinx requirements
+requires-python = ">=3.11"  # This already specifies Python 3.11+ requirement
 license = {text = "MIT"}
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -76,7 +76,3 @@ packages = ["utils"]
 [tool.pytest]
 testpaths = ["tests"]
 python_files = "test_*.py"
-
-# UV-specific configuration 
-[tool.uv]
-python-version = 3.12  # String value doesn't need quotes in TOML
