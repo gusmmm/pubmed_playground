@@ -1,0 +1,78 @@
+{
+  "query": "suzetrigine",
+  "search_date": "2025-03-23T13:22:51.934388",
+  "metadata": {
+    "count": "2",
+    "retmax": "2",
+    "retstart": "0",
+    "querykey": "1",
+    "webenv": "MCID_67e00b28da8822cd930f4d48",
+    "idlist": [
+      "11914629",
+      "11570969"
+    ],
+    "translationset": [],
+    "translationstack": [
+      {
+        "term": "suzetrigine[All Fields]",
+        "field": "All Fields",
+        "count": "4",
+        "explode": "N"
+      },
+      "GROUP"
+    ],
+    "querytranslation": "suzetrigine[All Fields]"
+  },
+  "articles": [
+    {
+      "pmcid": "11914629",
+      "title": "Pharmacology and Mechanism of Action of Suzetrigine, a Potent and Selective NaV1.8 Pain Signal Inhibitor for the Treatment of Moderate to Severe Pain",
+      "first_author": "Osteen JD",
+      "co_authors": [
+        "Immani S",
+        "Tapley TL",
+        "Indersmitten T",
+        "Hurst NW",
+        "Healey T",
+        "Aertgeerts K",
+        "Negulescu PA",
+        "Lechner SM"
+      ],
+      "journal": "Pain and Therapy",
+      "publication_date": "2025 Jan 8",
+      "abstract": "Abstract not available",
+      "full_text_links": [
+        "https://doi.org/10.1007/s40122-024-00697-0",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMCPMC11914629"
+      ],
+      "doi": "10.1007/s40122-024-00697-0"
+    },
+    {
+      "pmcid": "11570969",
+      "title": "Sodium channels Nav1.7, Nav1.8 and pain; two distinct mechanisms for Nav1.7 null analgesia",
+      "first_author": "Iseppon F",
+      "co_authors": [
+        "Kanellopoulos AH",
+        "Tian N",
+        "Zhou J",
+        "Caan G",
+        "Chiozzi R",
+        "Thalassinos K",
+        "\u00c7ubuk C",
+        "Lewis MJ",
+        "Cox JJ",
+        "Zhao J",
+        "Woods CG",
+        "Wood JN"
+      ],
+      "journal": "Neurobiology of Pain",
+      "publication_date": "2024 Oct 11",
+      "abstract": "Highlights &#x2022; Distinct mechanisms of analgesia occur in embryonic and adult SCN9A Nav1.7 null mutants. &#x2022; Embryonic null mutants lose nociceptor neurotransmitter release through an endogenous opioid regulatory system. &#x2022; Adult gene deletion results in loss of excitability with no role for the opioid system. &#x2022; Embryonic null mice are viable because of compensatory expression of Nav1.1 and Nav1.2 in sensory neurons. &#x2022; Nav1.7 targeted drugs act on both pain and the autonomic nervous system to produce unacceptable side effects.",
+      "full_text_links": [
+        "https://doi.org/10.1016/j.ynpai.2024.100168",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMCPMC11570969"
+      ],
+      "doi": "10.1016/j.ynpai.2024.100168"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-"""PubMed Central searcher using E-utilities directly."""
+"""PubMed and PMC searcher using E-utilities directly."""
 
 import os
 import json
@@ -6,35 +6,62 @@ import requests
 from typing import Dict, List, Optional, Tuple
 from datetime import datetime, timedelta
 from pathlib import Path
+from time import sleep
 
-class PMCSearcher:
-    """Class to handle PubMed Central searches using E-utilities."""
+class PubmedSearcher:
+    """Class to handle PubMed/PMC searches using E-utilities."""
     
-    def __init__(self, output_dir: str = "pmc_results", api_key: Optional[str] = None):
-        """Initialize with optional API key and output directory."""
+    def __init__(self, output_dir: str = "pubmed_results", api_key: Optional[str] = None, use_pmc: bool = False):
+        """Initialize with optional API key and output directory.
+        
+        Args:
+            output_dir: Directory to save results
+            api_key: NCBI API key for higher rate limits
+            use_pmc: If True, search PMC instead of PubMed
+        """
         self.base_url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
         self.api_key = api_key or os.getenv("PUBMED_API_KEY")
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(exist_ok=True)
+        self.db = "pmc" if use_pmc else "pubmed"
+        # Rate limiting settings (with API key: 10/sec, without: 3/sec)
+        self.requests_per_second = 10 if self.api_key else 3
+        self.last_request_time = 0
         
     def _make_request(self, endpoint: str, params: Dict) -> requests.Response:
-        """Make a request to E-utilities API with proper error handling."""
+        """Make a request to E-utilities API with proper error handling and rate limiting."""
+        # Add API key if available
         if self.api_key:
             params['api_key'] = self.api_key
             
+        # Apply rate limiting
+        current_time = datetime.now().timestamp()
+        time_since_last_request = current_time - self.last_request_time
+        if time_since_last_request < 1/self.requests_per_second:
+            sleep_time = 1/self.requests_per_second - time_since_last_request
+            sleep(sleep_time)
+            
         url = f"{self.base_url}/{endpoint}"
-        response = requests.get(url, params=params)
-        response.raise_for_status()
-        return response
+        try:
+            response = requests.get(url, params=params)
+            response.raise_for_status()
+            self.last_request_time = datetime.now().timestamp()
+            return response
+        except requests.exceptions.RequestException as e:
+            if response.status_code == 429:  # Too Many Requests
+                print("Rate limit exceeded. Waiting before retrying...")
+                sleep(2)  # Wait 2 seconds before retry
+                return self._make_request(endpoint, params)  # Retry the request
+            raise
 
     def search(self, query: str, max_results: int = 5, recent_days: Optional[int] = None) -> Tuple[List[str], Dict]:
-        """Search PubMed Central with a query."""
+        """Search PubMed/PMC with a query."""
         if recent_days:
             date_start = (datetime.now() - timedelta(days=recent_days)).strftime("%Y/%m/%d")
             query = f"{query} AND {date_start}:3000[edat]"
         
         params = {
-            'db': 'pmc',
+            'db': self.db,
             'term': query,
             'retmax': max_results,
             'usehistory': 'y',
@@ -47,14 +74,14 @@ class PMCSearcher:
         
         return result['esearchresult'].get('idlist', []), result['esearchresult']
     
-    def get_article_details(self, pmids: List[str]) -> Dict:
-        """Get detailed information for a list of PMIDs."""
-        if not pmids:
+    def get_article_details(self, ids: List[str]) -> Dict:
+        """Get detailed information for a list of IDs (PMIDs or PMCIDs)."""
+        if not ids:
             return {}
             
         params = {
-            'db': 'pmc',
-            'id': ','.join(pmids),
+            'db': self.db,
+            'id': ','.join(ids),
             'retmode': 'json'
         }
         
@@ -63,13 +90,13 @@ class PMCSearcher:
         
         return result.get('result', {})
 
-    def get_article_abstract(self, pmid: str) -> Optional[str]:
+    def get_article_abstract(self, article_id: str) -> Optional[str]:
         """Get article abstract using efetch."""
         try:
             # First try to get the abstract directly using the abstract rettype
             params = {
-                'db': 'pmc',
-                'id': pmid,
+                'db': self.db,
+                'id': article_id,
                 'rettype': 'abstract',
                 'retmode': 'xml'
             }
@@ -96,8 +123,8 @@ class PMCSearcher:
             
             # If that fails, try getting the full article
             params = {
-                'db': 'pmc',
-                'id': pmid,
+                'db': self.db,
+                'id': article_id,
                 'rettype': 'full',
                 'retmode': 'xml'
             }
@@ -122,6 +149,25 @@ class PMCSearcher:
                 abstract_text = re.sub(r'\s+', ' ', abstract_text).strip()
                 if abstract_text and len(abstract_text) > 20:
                     return abstract_text
+                    
+            # If still no abstract found and we're in PubMed, try medline format
+            if self.db == 'pubmed':
+                params = {
+                    'db': self.db,
+                    'id': article_id,
+                    'rettype': 'medline',
+                    'retmode': 'text'
+                }
+                
+                response = self._make_request('efetch.fcgi', params)
+                
+                if response.text:
+                    # Look for AB field in MEDLINE format
+                    medline_match = re.search(r'AB\s+-\s+(.*?)(?:\n\n|\Z)', response.text, re.DOTALL)
+                    if medline_match:
+                        abstract_text = re.sub(r'\s+', ' ', medline_match.group(1)).strip()
+                        if abstract_text and len(abstract_text) > 20:
+                            return abstract_text
             
             # Pattern 4: Look for p tags within abstract
             abstract_p_match = re.search(r'<abstract[^>]*>.*?<p>(.*?)</p>.*?</abstract>', response.text, re.DOTALL)
@@ -142,8 +188,8 @@ class PMCSearcher:
             # Try a different approach - use the summary endpoint
             try:
                 params = {
-                    'db': 'pmc',
-                    'id': pmid,
+                    'db': self.db,
+                    'id': article_id,
                     'retmode': 'xml'
                 }
                 
@@ -193,38 +239,34 @@ class PMCSearcher:
             "articles": articles
         }
         
-        output_file = self.output_dir / f"pmc_search_{timestamp}.json"
+        output_file = self.output_dir / f"{self.db}_search_{timestamp}.json"
         with open(output_file, 'w') as f:
             json.dump(results, f, indent=2)
             
         return str(output_file)
 
-def demo_pmc_search():
-    """Demonstrate PMC searching capabilities."""
+def demo_search():
+    """Demonstrate PubMed/PMC searching capabilities."""
     
-    searcher = PMCSearcher()
+    # Create searcher for PubMed (not PMC)
+    searcher = PubmedSearcher(use_pmc=False)
     
-    # More specific query for fMRI articles
-    query = '("fMRI"[Title] OR "functional magnetic resonance imaging"[Title]) AND "open access"[filter]'
+    # Example query
+    query = "suzetrigine"
     
     print(f"\nExecuting query: {query}")
-    print("Searching PubMed Central for recent open access articles...")
+    print("Searching PubMed for articles...")
     
     try:
-        # Perform the search with last 90 days filter
-        pmids, metadata = searcher.search(query, max_results=5, recent_days=90)
+        # Perform the search
+        ids, metadata = searcher.search(query, max_results=5)
         
         total_found = metadata.get('count', '0')
         print(f"\nFound {total_found} total results")
         
-        if total_found == '0':
-            print("\nTrying broader search without date restriction...")
-            pmids, metadata = searcher.search(query, max_results=5)
-            print(f"Found {metadata.get('count', '0')} total results with broader search")
+        print(f"Retrieved {len(ids)} articles\n")
         
-        print(f"Retrieved {len(pmids)} articles\n")
-        
-        if not pmids:
+        if not ids:
             print("No articles found matching the criteria.")
             return
             
@@ -232,15 +274,18 @@ def demo_pmc_search():
         articles_data = []
         print("Retrieved articles:")
         
-        for pmid in pmids:
-            # Get basic article details
-            article_details = searcher.get_article_details(pmids).get(pmid, {})
+        # Get details for all articles at once to reduce API calls
+        articles_details = searcher.get_article_details(ids)
+        
+        for article_id in ids:
+            # Get article details
+            article_details = articles_details.get(article_id, {})
             
             # Get and format authors
             first_author, co_authors = searcher.format_authors(article_details.get('authors', []))
             
-            # Get abstract
-            abstract = searcher.get_article_abstract(pmid)
+            # Get abstract with delay between requests
+            abstract = searcher.get_article_abstract(article_id)
             
             # Get full text links if available
             full_text_links = []
@@ -253,7 +298,7 @@ def demo_pmc_search():
             
             # Prepare article data
             article_data = {
-                'pmcid': pmid,
+                'id': article_id,
                 'title': article_details.get('title', 'Not available'),
                 'first_author': first_author,
                 'co_authors': co_authors,
@@ -268,7 +313,7 @@ def demo_pmc_search():
             articles_data.append(article_data)
             
             # Print article details
-            print(f"\nPMC ID: {pmid}")
+            print(f"\nArticle ID: {article_id}")
             print(f"Title: {article_data['title']}")
             print(f"First Author: {article_data['first_author']}")
             if co_authors:
@@ -295,5 +340,5 @@ def demo_pmc_search():
         print(f"Unexpected error: {str(e)}")
 
 if __name__ == "__main__":
-    print("🔍 Testing direct PMC search functionality...")
-    demo_pmc_search()
+    print("🔍 Testing PubMed search functionality...")
+    demo_search()
