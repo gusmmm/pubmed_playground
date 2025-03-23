@@ -87,6 +87,12 @@
    - Dependencies
    - Dev tools
    - Test framework
+   - References folder for package guides
+
+2. Review Documentation
+   - Check references/ folder for package guides
+   - Study official API documentation
+   - Document key package usage patterns
 
 2. Create core structures
    - Base classes

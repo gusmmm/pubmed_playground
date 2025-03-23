@@ -13,6 +13,13 @@
 - Tests in tests/
 - Documentation in docs/
 - Examples in examples/
+- Package guides and texts in references/
+
+### References Usage
+- Check references/ folder for package guides before implementation
+- Use official package documentation alongside local references
+- Update references/ with new package documentation when added
+- Document usage patterns discovered from references
 
 ### Naming Conventions
 - Class names: CapitalizedWords
