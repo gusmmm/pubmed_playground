@@ -1,0 +1,168 @@
+{
+  "query": "suzetrigine",
+  "search_date": "2025-03-23T14:50:05.678021",
+  "metadata": {
+    "count": "9",
+    "retmax": "5",
+    "retstart": "0",
+    "querykey": "1",
+    "webenv": "MCID_67e01f90d40afc20010b8331",
+    "idlist": [
+      "39775738",
+      "39999259",
+      "40090791",
+      "40010720",
+      "39560856"
+    ],
+    "translationset": [],
+    "querytranslation": "\"suzetrigine\"[All Fields]"
+  },
+  "articles": [
+    {
+      "id": "39775738",
+      "title": "Pharmacology and Mechanism of Action of Suzetrigine, a Potent and Selective Na(V)1.8 Pain Signal Inhibitor for the Treatment of Moderate to Severe Pain.",
+      "first_author": "Osteen JD",
+      "co_authors": [
+        "Immani S",
+        "Tapley TL",
+        "Indersmitten T",
+        "Hurst NW",
+        "Healey T",
+        "Aertgeerts K",
+        "Negulescu PA",
+        "Lechner SM"
+      ],
+      "journal": "Pain and therapy",
+      "publication_date": "2025 Apr",
+      "abstract": "INTRODUCTION: There is a high unmet need for safe and effective non-opioid medicines to treat moderate to severe pain without risk of addiction. Voltage-gated sodium channel 1.8 (Na(V)1.8) is a genetically and pharmacologically validated pain target that is selectively expressed in peripheral pain-sensing neurons and not in the central nervous system (CNS). Suzetrigine (VX-548) is a potent and selective inhibitor of Na(V)1.8, which has demonstrated clinical efficacy and safety in multiple acute pain studies. Our study was designed to characterize the mechanism of action of suzetrigine and assess both nonclinical and clinical data to test the hypothesis that selective Na(V)1.8 inhibition translates into clinical efficacy and safety, including lack of addictive potential. METHODS: Preclinical pharmacology and mechanism of action studies were performed in vitro using electrophysiology and radiolabeled binding methods in cells recombinantly expressing human Na(V) channels, human proteins, and primary human dorsal root ganglion (DRG) sensory neurons. Safety and addictive potential assessments included in vitro secondary pharmacology studies, nonclinical repeat-dose toxicity and dependence studies in rats and/or monkeys, and a systematic analysis of adverse event data generated from 2447 participants from phase 3 acute pain studies of suzetrigine. RESULTS: Suzetrigine is selective against all other Na(V) subtypes (>/= 31,000-fold) and 180 other molecular targets. Suzetrigine inhibits Na(V)1.8 by binding to the protein's second voltage sensing domain (VSD2) to stabilize the closed state of the channel. This novel allosteric mechanism results in tonic inhibition of Na(V)1.8 and reduces pain signals in primary human DRG sensory neurons. Nonclinical and clinical safety assessments with suzetrigine demonstrate no adverse CNS, cardiovascular or behavioral effects and no evidence of addictive potential or dependence. CONCLUSIONS: The comprehensive pharmacology assessment presented here indicates that suzetrigine represents the first in a new class of non-opioid analgesics that are selective Na(V)1.8 pain signal inhibitors acting in the peripheral nervous system to safely treat pain without addictive potential. CI - (c) 2025. The Author(s). FAU - Osteen, Jeremiah D AU - Osteen JD AD - Pharmacology, Vertex Pharmaceuticals Incorporated, Boston, MA, USA. FAU - Immani, Swapna AU - Immani S AD - Pharmacology, Vertex Pharmaceuticals Incorporated, Boston, MA, USA. FAU - Tapley, Tim L AU - Tapley TL AD - Structural Biology and Protein Sciences, Vertex Pharmaceuticals Incorporated, Boston, MA, USA. FAU - Indersmitten, Tim AU - Indersmitten T AD - Pharmacology, Vertex Pharmaceuticals Incorporated, Boston, MA, USA. FAU - Hurst, Nicole W AU - Hurst NW AD - Preclinical Safety Assessment, Vertex Pharmaceuticals Incorporated, Boston, MA, USA. FAU - Healey, Tiffany AU - Healey T AD - Global Patient Safety, Vertex Pharmaceuticals Incorporated, Boston, MA, USA. FAU - Aertgeerts, Kathleen AU - Aertgeerts K AD - Structural Biology and Protein Sciences, Vertex Pharmaceuticals Incorporated, Boston, MA, USA. FAU - Negulescu, Paul A AU - Negulescu PA AD - Research Management, Vertex Pharmaceuticals Incorporated, 50 Northern Avenue, Boston, MA, 02210, USA. FAU - Lechner, Sandra M AU - Lechner SM AD - Research Management, Vertex Pharmaceuticals Incorporated, 50 Northern Avenue, Boston, MA, 02210, USA. sandra_lechner@vrtx.com. LA - eng PT - Journal Article DEP - 20250108 PL - New Zealand TA - Pain Ther JT - Pain and therapy JID - 101634491 PMC - PMC11914629 OTO - NOTNLM OT - Moderate to severe pain OT - NaV1.8 OT - Non-opioid analgesic OT - Selective pain signal inhibitor OT - Suzetrigine OT - VX-548 COIS- Declarations. Conflict of interest: All authors (Jeremiah D. Osteen, Swapna Immani, Tim L. Tapley, Tim Indersmitten, Nicole W. Hurst, Tiffany Healey, Kathleen Aertgeerts, Paul A. Negulescu, Sandra M. Lechner) are employees of Vertex Pharmaceuticals and own stock and/or options in the company. Ethical Approval: Animal studies were conducted in Sprague Dawley (CD(R)[Crl:CD(R)(SD)]) rats and cynomolgus monkeys. Animals were sourced from Charles River Laboratories (USA). Each study in animals was approved by the laboratory's Institutional Animal Care and Use Committee (IACUC). Animal care conformed to applicable national/international guidelines and the studies were conducted in accordance with Good Laboratory Practice (GLP). The clinical trial protocols were approved by a central institutional review board (Advarra Institutional Review Board, Columbia, MD, USA) and all sites accepted this central approval. The trials were conducted according to the International Council for Harmonization Good Clinical Practice guidelines and the principles of the Declaration of Helsinki. All participants provided written informed consent. EDAT- 2025/01/08 18:21 MHDA- 2025/01/08 18:22 PMCR- 2025/01/08 CRDT- 2025/01/08 17:11 PHST- 2024/10/08 00:00 [received] PHST- 2024/12/04 00:00 [accepted] PHST- 2025/01/08 18:22 [medline] PHST- 2025/01/08 18:21 [pubmed] PHST- 2025/01/08 17:11 [entrez] PHST- 2025/01/08 00:00 [pmc-release] AID - 10.1007/s40122-024-00697-0 [pii] AID - 697 [pii] AID - 10.1007/s40122-024-00697-0 [doi] PST - ppublish SO - Pain Ther. 2025 Apr;14(2):655-674. doi: 10.1007/s40122-024-00697-0. Epub 2025 Jan 8.",
+      "mesh_terms": [],
+      "keywords": [
+        "Moderate to severe pain",
+        "NaV1.8",
+        "Non-opioid analgesic",
+        "Selective pain signal inhibitor",
+        "Suzetrigine",
+        "VX-548"
+      ],
+      "full_text_links": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMCpmc-id: PMC11914629;",
+        "https://doi.org/10.1007/s40122-024-00697-0"
+      ],
+      "doi": "10.1007/s40122-024-00697-0"
+    },
+    {
+      "id": "39999259",
+      "title": "Suzetrigine.",
+      "first_author": null,
+      "co_authors": [],
+      "journal": "",
+      "publication_date": "2006",
+      "abstract": "No information is available on the clinical use of suzetrigine during breastfeeding. Because suzetrigine is more than 99% bound to plasma proteins and its active metabolite is more than 96% protein bound, the amounts in milk are likely to be low. If the mother requires suzetrigine, it is not a reason to discontinue breastfeeding. However, until more data become available, an alternate drug may be preferred, especially while nursing a newborn or preterm infant. LA - eng PT - Review PT - Book Chapter PL - Bethesda (MD) OTO - NLM OT - Suzetrigine OT - Journavx OT - VX-548 OT - VX548 OT - LOG73M21H5 OT - CHEMBL5314487 OT - SCHEMBL23462160 OT - GTPL12630 OT - VXC-548 OT - BDBM656481 OT - BDBM656501 OT - GLXC-27756 OT - EX-A7354 OT - AT41600 OT - VRT-1737548 OT - DA-78125 OT - HY-148800 OT - CS-0641183 OT - D12860 OT - 4-[[(2R,3S,4S,5R)-3-(3,4-difluoro-2-methoxyphenyl)-4,5-dimethyl-5-(trifluoromethyl)oxolane-2-carbonyl]amino]pyridine-2-carboxamide EDAT- 2025/02/15 00:00 CRDT- 2025/02/15 00:00 AID - NBK612374 [bookaccession]",
+      "mesh_terms": [],
+      "keywords": [
+        "Suzetrigine",
+        "Journavx",
+        "VX-548",
+        "VX548",
+        "LOG73M21H5",
+        "CHEMBL5314487",
+        "SCHEMBL23462160",
+        "GTPL12630",
+        "VXC-548",
+        "BDBM656481",
+        "BDBM656501",
+        "GLXC-27756",
+        "EX-A7354",
+        "AT41600",
+        "VRT-1737548",
+        "DA-78125",
+        "HY-148800",
+        "CS-0641183",
+        "D12860",
+        "4-[[(2R,3S,4S,5R)-3-(3,4-difluoro-2-methoxyphenyl)-4,5-dimethyl-5-(trifluoromethyl)oxolane-2-carbonyl]amino]pyridine-2-carboxamide"
+      ],
+      "full_text_links": [],
+      "doi": "Not available"
+    },
+    {
+      "id": "40090791",
+      "title": "Journavx (suzetrigine).",
+      "first_author": "Beninger P",
+      "co_authors": [],
+      "journal": "Clinical therapeutics",
+      "publication_date": "2025 Mar 15",
+      "abstract": "Abstract not available",
+      "mesh_terms": [],
+      "keywords": [],
+      "full_text_links": [
+        "https://doi.org/10.1016/j.clinthera.2025.02.008"
+      ],
+      "doi": "10.1016/j.clinthera.2025.02.008"
+    },
+    {
+      "id": "40010720",
+      "title": "Suzetrigine: The first Nav1.8 inhibitor approved for the treatment of moderate to severe acute pain.",
+      "first_author": "Hu S",
+      "co_authors": [
+        "Lyu D",
+        "Gao J"
+      ],
+      "journal": "Drug discoveries & therapeutics",
+      "publication_date": "2025 Mar 6",
+      "abstract": "Opioids are commonly prescribed for the management of moderate to severe pain, but their use is associated with dependency and other adverse effects. For decades, the development of safe and effective non-addictive alternatives for treating moderate to severe pain has seen limited progress. On January 30, 2025, the U.S. Food and Drug Administration approved suzetrigine, the first Nav1.8 inhibitor, for the treatment of moderate to severe acute pain. Nav1.8 is a voltage-gated sodium channel that is selectively expressed in peripheral nociceptive neurons, which are responsible for transmitting pain signals. By highly selectively inhibiting the Nav1.8 channel, suzetrigine can effectively alleviate pain. Unlike opioids, this drug does not induce euphoria or excitement in the brain, thereby eliminating concerns about addiction. Suzetrigine offers a novel therapeutic option and a potential combination for multimodal analgesia, with the promise of transforming acute pain management and establishing new treatment standards. FAU - Hu, Shasha AU - Hu S AD - Department of Pathology, The Affiliated Hospital of Qingdao University, Qingdao, Shandong, China. FAU - Lyu, Dong AU - Lyu D AD - Department of Burn and Plastic Surgery, Weihai Central Hospital Affiliated to Qingdao University, Weihai, Shandong, China. FAU - Gao, Jianjun AU - Gao J AD - Department of Pharmacology, School of Pharmacy, Qingdao University, Qingdao, Shandong, China. LA - eng PT - Journal Article PT - Review DEP - 20250227 PL - Japan TA - Drug Discov Ther JT - Drug discoveries & therapeutics JID - 101493809 RN - 0 (NAV1.8 Voltage-Gated Sodium Channel) RN - 0 (SCN10A protein, human) RN - 0 (Analgesics) RN - 0 (Voltage-Gated Sodium Channel Blockers) SB - IM MH - *Acute Pain/drug therapy MH - Humans MH - *NAV1.8 Voltage-Gated Sodium Channel MH - Drug Approval MH - United States MH - Analgesics/therapeutic use/pharmacology MH - Voltage-Gated Sodium Channel Blockers/therapeutic use/pharmacology MH - United States Food and Drug Administration MH - Animals OTO - NOTNLM OT - Nav1.8 OT - Opioids OT - pain OT - painful diabetic peripheral neuropathy (DPN) OT - painful lumbosacral radiculopathy (LSR) OT - postoperative EDAT- 2025/02/27 05:01 MHDA- 2025/03/10 07:59 CRDT- 2025/02/26 20:22 PHST- 2025/03/10 07:59 [medline] PHST- 2025/02/27 05:01 [pubmed] PHST- 2025/02/26 20:22 [entrez] AID - 10.5582/ddt.2025.01010 [doi] PST - ppublish SO - Drug Discov Ther. 2025 Mar 6;19(1):80-82. doi: 10.5582/ddt.2025.01010. Epub 2025 Feb 27.",
+      "mesh_terms": [
+        "Acute Pain",
+        "Humans",
+        "NAV1.8 Voltage-Gated Sodium Channel",
+        "Drug Approval",
+        "United States",
+        "Analgesics",
+        "Voltage-Gated Sodium Channel Blockers",
+        "United States Food and Drug Administration",
+        "Animals"
+      ],
+      "keywords": [
+        "Nav1.8",
+        "Opioids",
+        "pain",
+        "painful diabetic peripheral neuropathy (DPN)",
+        "painful lumbosacral radiculopathy (LSR)",
+        "postoperative"
+      ],
+      "full_text_links": [
+        "https://doi.org/10.5582/ddt.2025.01010"
+      ],
+      "doi": "10.5582/ddt.2025.01010"
+    },
+    {
+      "id": "39560856",
+      "title": "Drugs in Development to Manage Acute Pain.",
+      "first_author": "Oliver B",
+      "co_authors": [
+        "Devitt C",
+        "Park G",
+        "Razak A",
+        "Liu SM",
+        "Bergese SD"
+      ],
+      "journal": "Drugs",
+      "publication_date": "2025 Jan",
+      "abstract": "Acute pain, defined as short-term pain arising from injury or other noxious stimuli, affects patient outcomes, quality of life, and healthcare costs. Safe, effective treatment of acute pain is essential in preventing increased morbidity, mortality, and the transition to chronic pain. In this review, we explore some of the latest therapeutic agents, formulations, combinations, and administration routes of drugs emerging in clinical practice in the USA for the treatment of acute pain. These agents include VX-548 (Suzetrigine), Cebranopadol, AAT-076, Combogesic intravenous (IV), sublingual ketamine, XG004 (naproxen/pregabalin conjugate), and HTX-011 (Zynrelef). We analyze the pharmacodynamics, pharmacokinetics, development status, and clinical implications of these drugs, emphasizing the importance of finding an agent that provides both a strong safety profile and effective relief from acute pain. Our findings show promise but also highlight the need for further large-scale research to allow these drugs to be utilized in a clinical context for patients experiencing acute pain. CI - (c) 2024. The Author(s), under exclusive licence to Springer Nature Switzerland AG. FAU - Oliver, Brian AU - Oliver B AD - Department of Anesthesiology, Stony Brook Medicine, Stony Brook, NY, USA. FAU - Devitt, Catherine AU - Devitt C AD - Department of Anesthesiology, Stony Brook Medicine, Stony Brook, NY, USA. FAU - Park, Grace AU - Park G AD - Renaissance School of Medicine, Stony Brook University, Stony Brook, NY, USA. FAU - Razak, Alina AU - Razak A AD - Department of Anesthesiology, Stony Brook Medicine, Stony Brook, NY, USA. FAU - Liu, Sun Mei AU - Liu SM AD - Department of Anesthesiology, Stony Brook Medicine, Stony Brook, NY, USA. FAU - Bergese, Sergio D AU - Bergese SD AD - Department of Anesthesiology, Stony Brook Medicine, Stony Brook, NY, USA. Sergio.Bergese@stonybrookmedicine.edu. AD - Anesthesiology and Neurological Surgery, Stony Brook University Health Science Center, Stony Brook, NY, 11794-8480, USA. Sergio.Bergese@stonybrookmedicine.edu. LA - eng PT - Journal Article PT - Review DEP - 20241119 PL - New Zealand TA - Drugs JT - Drugs JID - 7600076 RN - 0 (Analgesics) RN - 690G0D6V8H (Ketamine) RN - 0 (((3-methoxythiophen-2-yl)methyl)((2-(9-(pyridin-2-yl)-6-oxaspiro(4.5)decan-9-yl)ethyl))amine) RN - 0 (Spiro Compounds) RN - 0 (Thiophenes) SB - IM MH - Humans MH - *Acute Pain/drug therapy MH - *Analgesics/therapeutic use/pharmacology/administration & dosage MH - Drug Development MH - Ketamine/therapeutic use/pharmacology/administration & dosage MH - Pain Management/methods MH - Spiro Compounds MH - Thiophenes COIS- Declarations. Funding: No funding was received for the preparation of this manuscript. Conflicts of Interest: B.O., C.D., G.P., A.R., S.L., and S.D.B. declare that they have no conflicts of interest that might be relevant to the contents of this manuscript. Ethics Approval: Not applicable for this review manuscript. Consent: Not applicable. Authors' Contributions: Conceptualization: A.R., S.L. and S.D.B. Investigation: B.O., C.D., G.P. and A.R. Writing-original draft preparation: B.O., C.D., G.P. and A.R. Writing-review and editing: B.O., C.D., G.P., A.R., S.L. and S.D.B. Supervision: S.L. and S.D.B. Data availability: All data generated or analyzed during this study are included in this published article. Code availability: Not applicable. EDAT- 2024/11/19 13:19 MHDA- 2025/01/17 18:22 CRDT- 2024/11/19 11:20 PHST- 2024/10/21 00:00 [accepted] PHST- 2025/01/17 18:22 [medline] PHST- 2024/11/19 13:19 [pubmed] PHST- 2024/11/19 11:20 [entrez] AID - 10.1007/s40265-024-02118-0 [pii] AID - 10.1007/s40265-024-02118-0 [doi] PST - ppublish SO - Drugs. 2025 Jan;85(1):11-19. doi: 10.1007/s40265-024-02118-0. Epub 2024 Nov 19.",
+      "mesh_terms": [
+        "Humans",
+        "Acute Pain",
+        "Analgesics",
+        "Drug Development",
+        "Ketamine",
+        "Pain Management",
+        "Spiro Compounds",
+        "Thiophenes"
+      ],
+      "keywords": [],
+      "full_text_links": [
+        "https://doi.org/10.1007/s40265-024-02118-0"
+      ],
+      "doi": "10.1007/s40265-024-02118-0"
+    }
+  ]
+}
