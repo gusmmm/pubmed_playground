@@ -492,7 +492,8 @@ class PubMedQueryAgent(BaseAgent):
         # Add clinical category if applicable
         if components['clinical_category'] and components['clinical_scope']:
             query_parts.append(
-                f"AND ({components['clinical_category']}/{components['clinical_scope']}[filter])"
+                f"AND ({components['clinical_category']}/{components['clinical_scope']}[Filter])"
+                # Fixed: Changed [filter] to [Filter] to ensure proper capitalization
             )
         
         # Add other filters
@@ -544,34 +545,218 @@ class PubMedQueryAgent(BaseAgent):
             # Get natural language query from user
             natural_query = self.get_natural_language_query()
             
+            # Analyze the query for implicit parameters
+            detected_params = self.analyze_natural_query(natural_query)
+            
             # Simplify query to basic PubMed format
             base_query = self.simplify_query(natural_query)
             self.console.print(f"\n[bold]Base query terms:[/bold] {base_query}")
             
-            # Check if this is a clinical query and get category
-            clinical_category, clinical_scope = self.determine_clinical_category(natural_query, base_query)
+            # Track terms to remove from base query
+            terms_to_remove = []
             
+            # Check if we detected the clinical category with high confidence
+            clinical_category = None
+            clinical_scope = None
+            
+            if detected_params and 'clinical_category' in detected_params:
+                param = detected_params['clinical_category']
+                if self.should_use_detected_parameter(param):
+                    # Map the detected category to one of our categories
+                    detected_value = param['value'].capitalize()
+                    for category in self.clinical_categories:
+                        if category.lower() == detected_value.lower():
+                            clinical_category = category
+                            clinical_scope = "Narrow"  # Default to narrow scope for more specific results
+                            
+                            # Add terms to remove based on category
+                            if category.lower() == "therapy":
+                                terms_to_remove.extend(["treatment", "therapy", "intervention"])
+                            elif category.lower() == "diagnosis":
+                                terms_to_remove.extend(["diagnosis", "diagnostic"])
+                            elif category.lower() == "etiology":
+                                terms_to_remove.extend(["cause", "etiology", "factor"])
+                            elif category.lower() == "prognosis":
+                                terms_to_remove.extend(["prognosis", "outcome", "survival"])
+                            
+                            # Inform the user about the automatic selection
+                            self.console.print(f"[green]Detected clinical category:[/green] {clinical_category} (Narrow scope)")
+                            
+                            # Offer chance to change
+                            if not Confirm.ask("\n[cyan]Use this clinical category?[/cyan]", default=True):
+                                clinical_category = None
+                                terms_to_remove = [t for t in terms_to_remove if t not in ["treatment", "therapy", "intervention", 
+                                                                                           "diagnosis", "diagnostic", "cause", "etiology", 
+                                                                                           "factor", "prognosis", "outcome", "survival"]]
+                            break
+            
+            # If not detected or user rejected, ask explicitly
+            if not clinical_category:
+                clinical_category, clinical_scope = self.determine_clinical_category(natural_query, base_query)
+                
+                # If user selected a category, add terms to remove
+                if clinical_category:
+                    if clinical_category.lower() == "therapy":
+                        terms_to_remove.extend(["treatment", "therapy", "intervention"])
+                    elif clinical_category.lower() == "diagnosis":
+                        terms_to_remove.extend(["diagnosis", "diagnostic"])
+                    elif clinical_category.lower() == "etiology":
+                        terms_to_remove.extend(["cause", "etiology", "factor"])
+                    elif clinical_category.lower() == "prognosis":
+                        terms_to_remove.extend(["prognosis", "outcome", "survival"])
+            
+            # Age group - check if detected first
+            age_filter = None
+            if detected_params and 'age_group' in detected_params:
+                param = detected_params['age_group']
+                if self.should_use_detected_parameter(param):
+                    detected_value = param['value'].lower()
+                    
+                    if "adult" in detected_value and not "elder" in detected_value:
+                        age_filter = "AND (alladult[Filter])"
+                        terms_to_remove.extend(["adult", "adults"])
+                        self.console.print("[green]Detected age group:[/green] Adults (18+)")
+                    elif "elder" in detected_value or "aged" in detected_value:
+                        age_filter = "AND \"adult\"[MeSH Terms] AND (aged[Filter])"
+                        terms_to_remove.extend(["elderly", "aged", "elder", "older"])
+                        self.console.print("[green]Detected age group:[/green] Elderly (65+)")
+                    elif "child" in detected_value:
+                        age_filter = "AND (allchild[Filter])"
+                        terms_to_remove.extend(["child", "children", "pediatric"])
+                        self.console.print("[green]Detected age group:[/green] Children (<18)")
+                    
+                    # Offer chance to change
+                    if age_filter and not Confirm.ask("\n[cyan]Use this age filter?[/cyan]", default=True):
+                        age_filter = None
+                        # Remove the age terms from terms_to_remove
+                        terms_to_remove = [t for t in terms_to_remove if t not in 
+                                         ["adult", "adults", "elderly", "aged", "elder", "older", "child", "children", "pediatric"]]
+            
+            # Time period - check if detected first
+            time_filter = None
+            if detected_params and 'time_period' in detected_params:
+                param = detected_params['time_period']
+                if self.should_use_detected_parameter(param):
+                    detected_value = param['value'].lower()
+                    
+                    if "recent" in detected_value or "last 5" in detected_value:
+                        time_filter = "AND (y_5[Filter])"
+                        terms_to_remove.extend(["recent", "new", "latest", "last"])
+                        self.console.print("[green]Detected time period:[/green] Last 5 years")
+                    elif "last year" in detected_value or "past year" in detected_value:
+                        time_filter = "AND (y_1[Filter])"
+                        terms_to_remove.extend(["recent", "new", "latest", "last", "year"])
+                        self.console.print("[green]Detected time period:[/green] Last year")
+                    elif "last 10" in detected_value or "past 10" in detected_value:
+                        time_filter = "AND (y_10[Filter])"
+                        terms_to_remove.extend(["decade", "ten", "years"])
+                        self.console.print("[green]Detected time period:[/green] Last 10 years")
+                    
+                    # Offer chance to change
+                    if time_filter and not Confirm.ask("\n[cyan]Use this time period?[/cyan]", default=True):
+                        time_filter = None
+                        # Remove the time terms from terms_to_remove
+                        terms_to_remove = [t for t in terms_to_remove if t not in 
+                                         ["recent", "new", "latest", "last", "year", "decade", "ten", "years"]]
+                        
+            # Article type - check if detected
+            article_filter = None
+            if detected_params and 'article_type' in detected_params:
+                param = detected_params['article_type']
+                if self.should_use_detected_parameter(param):
+                    detected_value = param['value'].lower()
+                    
+                    if "clinical trial" in detected_value:
+                        article_filter = "AND (clinicaltrial[Filter])"
+                        terms_to_remove.extend(["trial", "trials", "clinical"])
+                        self.console.print("[green]Detected article type:[/green] Clinical trial")
+                    elif "meta" in detected_value and "analysis" in detected_value:
+                        article_filter = "AND (meta-analysis[Filter])"
+                        terms_to_remove.extend(["meta", "analysis", "meta-analysis"])
+                        self.console.print("[green]Detected article type:[/green] Meta-analysis")
+                    elif "review" in detected_value and "systematic" in detected_value:
+                        article_filter = "AND (systematicreview[Filter])"
+                        terms_to_remove.extend(["review", "systematic"])
+                        self.console.print("[green]Detected article type:[/green] Systematic review")
+                    elif "review" in detected_value:
+                        article_filter = "AND (review[Filter])"
+                        terms_to_remove.extend(["review", "overview"])
+                        self.console.print("[green]Detected article type:[/green] Review")
+                    elif "rct" in detected_value or "randomized" in detected_value:
+                        article_filter = "AND (randomizedcontrolledtrial[Filter])"
+                        terms_to_remove.extend(["rct", "randomized", "controlled"])
+                        self.console.print("[green]Detected article type:[/green] Randomized controlled trial")
+                    
+                    # Offer chance to change
+                    if article_filter and not Confirm.ask("\n[cyan]Use this article type?[/cyan]", default=True):
+                        article_filter = None
+                        # Remove the article type terms from terms_to_remove
+                        terms_to_remove = [t for t in terms_to_remove if t not in 
+                                         ["trial", "trials", "clinical", "meta", "analysis", "meta-analysis", 
+                                          "review", "systematic", "overview", "rct", "randomized", "controlled"]]
+                        
+            # Now clean up the base query by removing redundant terms
+            cleaned_base_query = self.remove_detected_parameters_from_query(base_query, terms_to_remove)
+            
+            if cleaned_base_query != base_query:
+                self.console.print(f"\n[bold]Refined query terms:[/bold] {cleaned_base_query}")
+                self.console.print("[dim](Removed terms that are handled by filters)[/dim]")
+                    
             # Collect all query components
             components = {
-                'base_query': base_query,
+                'base_query': cleaned_base_query,  # Use the cleaned query
                 'clinical_category': clinical_category,
                 'clinical_scope': clinical_scope,
             }
             
-            # Get age group filter
-            components['age_filter'] = self.select_age_group()
+            # Continue with the rest of the method as before
             
-            # Get time period filter
-            components['time_filter'] = self.select_time_period()
+            # Age filter (already detected above)
+            components['age_filter'] = age_filter or self.select_age_group()
             
-            # Get text availability filter
+            # Time filter (already detected above)
+            components['time_filter'] = time_filter or self.select_time_period()
+            
+            # Article filter (already detected above)
+            components['article_filter'] = article_filter or self.select_article_type()
+            
+            # Text availability - always ask explicitly
             components['text_filter'] = self.select_text_availability()
             
-            # Get article type filter
-            components['article_filter'] = self.select_article_type()
+            # Subject filters - check if detected
+            subject_filters = []
             
-            # Get subject filters
-            components['subject_filters'] = self.select_subjects()
+            # Human studies
+            if detected_params and 'humans_only' in detected_params:
+                param = detected_params['humans_only']
+                if self.should_use_detected_parameter(param):
+                    detected_value = param['value'].lower()
+                    if detected_value == "yes":
+                        subject_filters.append("AND (humans[Filter])")
+                        self.console.print("[green]Detected subject filter:[/green] Human studies only")
+            
+            # Gender filter
+            if detected_params and 'gender' in detected_params:
+                param = detected_params['gender']
+                if self.should_use_detected_parameter(param):
+                    detected_value = param['value'].lower()
+                    if "female" in detected_value:
+                        subject_filters.append("AND (female[Filter])")
+                        self.console.print("[green]Detected gender filter:[/green] Female subjects")
+                    elif "male" in detected_value:
+                        subject_filters.append("AND (male[Filter])")
+                        self.console.print("[green]Detected gender filter:[/green] Male subjects")
+            
+            # If any filters were detected, ask if user wants to keep them
+            if subject_filters:
+                if Confirm.ask("\n[cyan]Use these subject filters?[/cyan]", default=True):
+                    components['subject_filters'] = subject_filters
+                else:
+                    # Ask explicitly if the user rejected the detected filters
+                    components['subject_filters'] = self.select_subjects()
+            else:
+                # Ask explicitly if nothing was detected
+                components['subject_filters'] = self.select_subjects()
             
             # Build the final query
             final_query = self.build_final_query(components)
@@ -593,6 +778,177 @@ class PubMedQueryAgent(BaseAgent):
         except KeyboardInterrupt:
             self.console.print("\n\n[yellow]PubMed query generation terminated by user.[/yellow]")
             return ""
+    
+    def analyze_natural_query(self, natural_query: str) -> Dict[str, Any]:
+        """
+        Analyze the natural language query to extract implicit parameters.
+        
+        Args:
+            natural_query: User's natural language query
+            
+        Returns:
+            Dictionary of detected parameters with confidence scores
+        """
+        # Create a prompt to analyze the query with EXPLICIT formatting instructions
+        prompt = f"""
+        Analyze this medical literature search query and extract key search parameters.
+        Query: "{natural_query}"
+        
+        Identify the following elements and output ONLY a valid JSON object:
+
+        1. Clinical category: (Therapy, Diagnosis, Etiology, Prognosis, or null)
+        2. Age group: (Adults, Children, Elderly, or null)
+        3. Time period: (Recent, Last year, Last 5 years, Last 10 years, or null)
+        4. Article types: (Review, Clinical trial, Meta-analysis, etc., or null)
+        5. Gender focus: (Male, Female, or null)
+        6. Human studies only: (Yes, No, or null)
+        7. Confidence: (High, Medium, Low) for each detected parameter
+
+        You must output a valid JSON object like this - with no additional text before or after:
+
+        {{
+          "clinical_category": {{
+            "value": "Therapy",
+            "confidence": "High"
+          }},
+          "age_group": {{
+            "value": "Adults",
+            "confidence": "High"
+          }},
+          "time_period": {{
+            "value": "Recent",
+            "confidence": "Medium"
+          }},
+          "article_type": {{
+            "value": "Clinical trial",
+            "confidence": "Low"
+          }},
+          "gender": {{
+            "value": null,
+            "confidence": "Low"
+          }},
+          "humans_only": {{
+            "value": "Yes",
+            "confidence": "Medium"
+          }}
+        }}
+        
+        Output ONLY the JSON object with no explanations or additional text.
+        """
+        
+        try:
+            # Query the AI
+            self.console.print(Panel("[cyan]Analyzing your query for parameters...[/cyan]", border_style="blue"))
+            response, _ = self.client.query(
+                query=prompt,
+                model=self.model,
+                temperature=0.1,
+                display_response=False
+            )
+            
+            # Clean up the response to ensure it's valid JSON
+            response_text = response.text.strip()
+            
+            # Remove any markdown code block markers
+            response_text = re.sub(r'^```json\s*', '', response_text)
+            response_text = re.sub(r'\s*```$', '', response_text)
+            
+            # Remove any extraneous text before or after the JSON object
+            json_start = response_text.find('{')
+            json_end = response_text.rfind('}') + 1
+            
+            if json_start >= 0 and json_end > json_start:
+                response_text = response_text[json_start:json_end]
+            
+            # Parse the JSON response
+            import json
+            try:
+                detected_params = json.loads(response_text)
+                return detected_params
+            except json.JSONDecodeError as e:
+                self.console.print(f"[yellow]Warning: Could not parse AI response as JSON: {e}[/yellow]")
+                self.log_error("JSON parsing error", e)
+                
+                # Debug information
+                self.console.print(f"[dim]Response text: {response_text[:100]}...[/dim]")
+                
+                # Return empty dict so the rest of the function works
+                return {}
+            
+        except Exception as e:
+            self.log_error("Error analyzing natural query", e)
+            return {}
+        
+    def should_use_detected_parameter(self, param: Dict[str, str]) -> bool:
+        """
+        Determine if a detected parameter should be used automatically.
+        
+        Args:
+            param: Parameter dict with value and confidence
+            
+        Returns:
+            True if the parameter should be used automatically
+        """
+        # Only use parameters with high confidence
+        if not param or 'value' not in param or 'confidence' not in param:
+            return False
+            
+        if param['value'] is None or param['value'] == "null":
+            return False
+            
+        return param['confidence'].lower() == "high"
+
+    def remove_detected_parameters_from_query(self, base_query: str, detected_terms: List[str]) -> str:
+        """
+        Remove redundant terms from base query that are already handled by filters.
+        
+        Args:
+            base_query: The original simplified query string
+            detected_terms: List of terms to remove
+            
+        Returns:
+            Cleaned query without redundant filter terms
+        """
+        if not detected_terms or not base_query:
+            return base_query
+            
+        # Remove parentheses for processing
+        query_text = base_query.strip('()')
+        query_terms = query_text.split()
+        
+        # Create a list of normalized terms for case-insensitive comparison
+        normalized_terms = [term.lower() for term in query_terms]
+        
+        # Create a list to track which terms to keep
+        keep_terms = [True] * len(query_terms)
+        
+        # For each detected term, mark corresponding query terms for removal
+        for term in detected_terms:
+            term_lower = term.lower()
+            # Handle both singular and plural forms
+            term_variants = [term_lower, f"{term_lower}s", f"{term_lower}es"]
+            
+            for i, norm_term in enumerate(normalized_terms):
+                if norm_term in term_variants or any(variant in norm_term for variant in term_variants):
+                    keep_terms[i] = False
+        
+        # Rebuild query with only the terms to keep
+        cleaned_terms = [term for i, term in enumerate(query_terms) if keep_terms[i]]
+        
+        # If we removed everything, keep at least the most important terms
+        if not cleaned_terms and query_terms:
+            # Keep nouns and medical terms which are likely the core topic
+            for i, term in enumerate(query_terms):
+                if len(term) > 4 and term.lower() not in ['adult', 'child', 'recent', 'study', 'paper', 'review', 
+                                                         'treatment', 'therapy', 'diagnosis', 'year', 'years']:
+                    cleaned_terms.append(term)
+        
+        # If still empty, keep the original terms as fallback
+        if not cleaned_terms:
+            cleaned_terms = query_terms
+        
+        # Return with parentheses
+        return f"({' '.join(cleaned_terms)})"
 
 
 # Create a convenience function for CLI usage
