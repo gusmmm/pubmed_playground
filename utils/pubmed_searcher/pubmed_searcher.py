@@ -562,7 +562,7 @@ def demo_search():
     
     # Example query
     query = "suzetrigine"
-    sort_by = "relevance"  # Options: relevance, pub_date, first_author, journal, title
+    sort_by = "relevance"  # Options: relevance, pub_date, Author, JournalName
     
     print(f"\nExecuting query: {query}")
     print(f"Sorting results by: {sort_by}")
