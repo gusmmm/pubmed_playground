@@ -1,0 +1,349 @@
+{
+  "query": "sjogren's syndrome diagnosis recent papers",
+  "timestamp": "2025-03-24T23:27:50.437385",
+  "num_results": 10,
+  "articles": [
+    {
+      "id": "34100160",
+      "pmid": "34100160",
+      "title": "Sjögren's syndrome: a systemic autoimmune disease.",
+      "first_author": "Negrini S",
+      "co_authors": [
+        "Emmi G",
+        "Greco M",
+        "Borro M",
+        "Sardanelli F",
+        "Murdaca G",
+        "Indiveri F",
+        "Puppo F"
+      ],
+      "journal": "Clinical and experimental medicine",
+      "publication_date": "2022 Feb",
+      "abstract": "Sjogren's syndrome is a chronic autoimmune disease characterized by ocular and oral dryness resulting from lacrimal and salivary gland dysfunction. Besides, a variety of systemic manifestations may occur, involving virtually any organ system. As a result, the disease is characterized by pleomorphic clinical manifestations whose characteristics and severity may vary greatly from one patient to another. Sjogren's syndrome can be defined as primary or secondary, depending on whether it occurs alone or in association with other systemic autoimmune diseases, respectively. The pathogenesis of Sjogren's syndrome is still elusive, nevertheless, different, not mutually exclusive, models involving genetic and environmental factors have been proposed to explain its development. Anyhow, the emergence of aberrant autoreactive B-lymphocytes, conducting to autoantibody production and immune complex formation, seems to be crucial in the development of the disease. The diagnosis of Sjogren's syndrome is based on characteristic clinical signs and symptoms, as well as on specific tests including salivary gland histopathology and autoantibodies. Recently, new classification criteria and disease activity scores have been developed primarily for research purposes and they can also be useful tools in everyday clinical practice. Treatment of Sjogren's syndrome ranges from local and symptomatic therapies aimed to control dryness to systemic medications, including disease-modifying agents and biological drugs. The objective of this review paper is to summarize the recent literature on Sjogren's syndrome, starting from its pathogenesis to current therapeutic options. CI - (c) 2021. The Author(s). FAU - Negrini, Simone AU - Negrini S AUID- ORCID: 0000-0003-1267-4320 AD - Department of Internal Medicine, Clinical Immunology and Translational Medicine Unit, University of Genoa and IRCCS Ospedale Policlinico San Martino, Viale Benedetto XV, 6, 16132, Genoa, Italy. negrini@unige.it. FAU - Emmi, Giacomo AU - Emmi G AD - Department of Experimental and Clinical Medicine, University of Florence, 50134, Florence, Italy. FAU - Greco, Monica AU - Greco M AD - Department of Internal Medicine, University of Genoa, 16132, Genoa, Italy. FAU - Borro, Matteo AU - Borro M AD - Department of Internal Medicine, University of Genoa, 16132, Genoa, Italy. FAU - Sardanelli, Federica AU - Sardanelli F AD - Department of Internal Medicine, University of Genoa, 16132, Genoa, Italy. FAU - Murdaca, Giuseppe AU - Murdaca G AD - Department of Internal Medicine, University of Genoa, 16132, Genoa, Italy. FAU - Indiveri, Francesco AU - Indiveri F AD - Department of Internal Medicine, University of Genoa, 16132, Genoa, Italy. FAU - Puppo, Francesco AU - Puppo F AD - Department of Internal Medicine, University of Genoa, 16132, Genoa, Italy. LA - eng PT - Journal Article PT - Review DEP - 20210607 PL - Italy TA - Clin Exp Med JT - Clinical and experimental medicine JID - 100973405 RN - 0 (Autoantibodies) SB - IM MH - Autoantibodies MH - *Autoimmune Diseases/diagnosis MH - Humans MH - Salivary Glands MH - *Sjogren's Syndrome/complications MH - *Xerostomia PMC - PMC8863725 OTO - NOTNLM OT - La/SSB antibody OT - Ro/SSA antibody OT - Sjogren's syndrome OT - Xerophthalmia OT - Xerostomia COIS- Authors declare that they have no conflict of interest. EDAT- 2021/06/09 06:00 MHDA- 2022/02/25 06:00 PMCR- 2021/06/07 CRDT- 2021/06/08 06:58 PHST- 2021/04/30 00:00 [received] PHST- 2021/05/26 00:00 [accepted] PHST- 2021/06/09 06:00 [pubmed] PHST- 2022/02/25 06:00 [medline] PHST- 2021/06/08 06:58 [entrez] PHST- 2021/06/07 00:00 [pmc-release] AID - 10.1007/s10238-021-00728-6 [pii] AID - 728 [pii] AID - 10.1007/s10238-021-00728-6 [doi] PST - ppublish SO - Clin Exp Med. 2022 Feb;22(1):9-25. doi: 10.1007/s10238-021-00728-6. Epub 2021 Jun 7.",
+      "mesh_terms": [
+        "Autoantibodies",
+        "Autoimmune Diseases",
+        "Humans",
+        "Salivary Glands",
+        "Sjogren's Syndrome",
+        "Xerostomia"
+      ],
+      "keywords": [
+        "La/SSB antibody",
+        "Ro/SSA antibody",
+        "Sj&#xf6;gren&#x2019;s syndrome",
+        "Xerophthalmia",
+        "Xerostomia"
+      ],
+      "full_text_links": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMCpmc-id: 8863725;",
+        "https://doi.org/10.1007/s10238-021-00728-6"
+      ],
+      "doi": "10.1007/s10238-021-00728-6",
+      "pmc_id": "pmc-id: 8863725;",
+      "research_insight": "This 2022 review article by Negrini et al. is highly relevant to the researcher's query on recent Sjögren's syndrome diagnosis papers, as it explicitly summarizes recent literature on the disease, including diagnostic criteria and disease activity scores developed for research and clinical practice. The paper's mention of \"new classification criteria and disease activity scores\" warrants further exploration, as these are crucial for accurate and timely diagnosis, which is the focus of the researcher's query. As a review, it provides a valuable overview of the current state of Sjögren's syndrome diagnosis within the broader context of its pathogenesis and treatment, making it a good starting point for understanding recent advancements in the field.\n"
+    },
+    {
+      "id": "35024595",
+      "pmid": "35024595",
+      "title": "Autoantibodies in Sjögren's syndrome and its classification criteria.",
+      "first_author": "Veenbergen S",
+      "co_authors": [
+        "Kozmar A",
+        "van Daele PLA",
+        "Schreurs MWJ"
+      ],
+      "journal": "Journal of translational autoimmunity",
+      "publication_date": "2022",
+      "abstract": "Sjogren's syndrome (SS) is a systemic autoimmune disease characterized by immune-mediated injury of exocrine glands. Extensive lymphocytic infiltrates may contribute to the destruction and loss of secretory function of glands. B-cell hyperactivity is a key feature of the disease resulting in the production of a diverse array of autoantibodies in these patients. Although not specific for SS, anti-Ro/SSA and anti-La/SSB antibodies have been useful biomarkers for disease classification and diagnosis. During recent years, novel autoantibodies have been discovered in SS. In this review, we summarize the historical role and clinical relevance that autoantibodies have played in the classification criteria of Sjogren's syndrome, discuss laboratory aspects in antibody detection and review the role of novel autoantibodies in predicting particular stages of the disease, clinical phenotypes and long-term complications. CI - (c) 2021 The Authors. FAU - Veenbergen, Sharon AU - Veenbergen S AD - Laboratory of Medical Immunology, Department of Immunology, Erasmus MC, University Medical Center Rotterdam, The Netherlands. FAU - Kozmar, Ana AU - Kozmar A AD - Department of Laboratory Diagnostics, University Hospital Center Zagreb, Croatia. FAU - van Daele, Paul L A AU - van Daele PLA AD - Department of Internal Medicine, Allergology & Clinical Immunology, Department of Immunology, Erasmus MC, University Medical Center Rotterdam, The Netherlands. FAU - Schreurs, Marco W J AU - Schreurs MWJ AD - Laboratory of Medical Immunology, Department of Immunology, Erasmus MC, University Medical Center Rotterdam, The Netherlands. LA - eng PT - Journal Article DEP - 20211227 PL - Netherlands TA - J Transl Autoimmun JT - Journal of translational autoimmunity JID - 101759413 PMC - PMC8728464 OTO - NOTNLM OT - Autoantibodies OT - Classification criteria OT - Sjogren's syndrome COIS- The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. EDAT- 2022/01/14 06:00 MHDA- 2022/01/14 06:01 PMCR- 2021/12/27 CRDT- 2022/01/13 12:35 PHST- 2021/11/22 00:00 [received] PHST- 2021/12/21 00:00 [revised] PHST- 2021/12/22 00:00 [accepted] PHST- 2022/01/13 12:35 [entrez] PHST- 2022/01/14 06:00 [pubmed] PHST- 2022/01/14 06:01 [medline] PHST- 2021/12/27 00:00 [pmc-release] AID - S2589-9090(21)00058-7 [pii] AID - 100138 [pii] AID - 10.1016/j.jtauto.2021.100138 [doi] PST - epublish SO - J Transl Autoimmun. 2021 Dec 27;5:100138. doi: 10.1016/j.jtauto.2021.100138. eCollection 2022.",
+      "mesh_terms": [],
+      "keywords": [
+        "Autoantibodies",
+        "Classification criteria",
+        "Sj&#xf6;gren's syndrome"
+      ],
+      "full_text_links": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMCpmc-id: 8728464;",
+        "https://doi.org/10.1016/j.jtauto.2021.100138"
+      ],
+      "doi": "10.1016/j.jtauto.2021.100138",
+      "pmc_id": "pmc-id: 8728464;",
+      "research_insight": "This 2022 review article directly addresses the researcher's query on recent Sjögren's syndrome diagnosis papers by focusing on the role of autoantibodies in SS classification criteria and diagnosis. The paper is particularly valuable because it summarizes the clinical relevance of established autoantibodies (anti-Ro/SSA and anti-La/SSB), discusses laboratory detection methods, and importantly, reviews the potential of novel autoantibodies to predict disease stages, clinical phenotypes, and long-term complications. Further exploration of the specific novel autoantibodies discussed in the review and their predictive power for different disease manifestations would be beneficial. This paper contributes to the field by providing an updated overview of autoantibody-based diagnostics and potential prognostic markers in Sjögren's syndrome.\n"
+    },
+    {
+      "id": "24422005",
+      "pmid": "24422005",
+      "title": "Diagnostic Approaches to Sjögren's syndrome: a Literature Review and Own Clinical Experience.",
+      "first_author": "Gomes Pde S",
+      "co_authors": [
+        "Juodzbalys G",
+        "Fernandes MH",
+        "Guobis Z"
+      ],
+      "journal": "Journal of oral & maxillofacial research",
+      "publication_date": "2012 Apr 1",
+      "abstract": "OBJECTIVES: The purpose of present paper is to critically address the recent advances on diagnostic procedures of Sjogren's syndrome, taking into account the attained local and systemic features of the disease. MATERIAL AND METHODS: A comprehensive review of the available literature regarding to the diagnostic approaches to Sjogren's syndrome was conducted. Eligible studies were identified by searching the electronic literature PubMed, Medline, Embase, and ScienceDirect databases for relevant reports (last search update January 2012) combining the MESH heading term \"Sjogren's syndrome\", with the words \"diagnosis, diagnostic procedures, salivary gland function, ocular tests, histopathology, salivary gland imaging, serology\". The authors checked the references of the selected articles to identify additional eligible publications and contacted the authors, if necessary. RESULTS: Presented article addresses the established diagnostic criteria for Sjogren's syndrome and critically evaluates the most commonly used diagnostic procedures, presenting data from author's own clinical experience. Diagnostic criteria for Sjogren's syndrome are required both by healthcare professionals and patients, namely in order to provide a rational basis for the assessment of the symptoms, establish an individual disease prognosis, and orientate the therapeutic intervention. CONCLUSIONS: Sjogren's syndrome is quite a common autoimmune disease of which the diagnosis and treatment are not easily established. Due to its systemic involvement, it can exhibit a wide range of clinical manifestations that contribute to confusion and delay in diagnosis. The use of proper diagnostic modalities will help to reduce the time to diagnosis and preserve the health and quality of life of patients with Sjogren's syndrome. FAU - Gomes, Pedro de Sousa AU - Gomes Pde S AD - Laboratory of Pharmacology and Cellular Biocompatibility, Faculty of Dental Medicine, University of Porto Porto Portugal. FAU - Juodzbalys, Gintaras AU - Juodzbalys G AD - Department of Maxillofacial Surgery, Medical Academy, Lithuanian University of Health Sciences Kaunas Lithuania. FAU - Fernandes, Maria Helena AU - Fernandes MH AD - Laboratory of Pharmacology and Cellular Biocompatibility, Faculty of Dental Medicine, University of Porto Porto Portugal. FAU - Guobis, Zygimantas AU - Guobis Z AD - Department of Dental and Oral Pathology, Medical Academy, Lithuanian University of Health Sciences Kaunas Lithuania. LA - eng PT - Journal Article PT - Review DEP - 20120401 PL - Lithuania TA - J Oral Maxillofac Res JT - Journal of oral & maxillofacial research JID - 101552108 PMC - PMC3886093 OTO - NOTNLM OT - Sjogren's syndrome OT - diagnosis. OT - minor salivary glands OT - oral pathology OT - salivary glands OT - xerophthalmia OT - xerostomia EDAT- 2012/01/01 00:00 MHDA- 2012/01/01 00:01 PMCR- 2012/04/01 CRDT- 2014/01/15 06:00 PHST- 2012/02/29 00:00 [received] PHST- 2012/03/20 00:00 [accepted] PHST- 2014/01/15 06:00 [entrez] PHST- 2012/01/01 00:00 [pubmed] PHST- 2012/01/01 00:01 [medline] PHST- 2012/04/01 00:00 [pmc-release] AID - v3n1e3ht [pii] AID - 10.5037/jomr.2012.3103 [doi] PST - epublish SO - J Oral Maxillofac Res. 2012 Apr 1;3(1):e3. doi: 10.5037/jomr.2012.3103.",
+      "mesh_terms": [],
+      "keywords": [
+        "Sjogren's syndrome",
+        "diagnosis.",
+        "minor salivary glands",
+        "oral pathology",
+        "salivary glands",
+        "xerophthalmia",
+        "xerostomia"
+      ],
+      "full_text_links": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMCpmc-id: 3886093;",
+        "https://doi.org/10.5037/jomr.2012.3103"
+      ],
+      "doi": "10.5037/jomr.2012.3103",
+      "pmc_id": "pmc-id: 3886093;",
+      "research_insight": "This 2012 review article directly addresses the researcher's query on recent papers regarding Sjogren's syndrome diagnosis by critically evaluating established diagnostic criteria and commonly used diagnostic procedures, incorporating the authors' clinical experience. The paper's emphasis on the challenges in diagnosis due to the systemic involvement and varied clinical manifestations of Sjogren's syndrome warrants further exploration of more recent advancements in diagnostic modalities, particularly in areas like serological markers or imaging techniques developed after 2012. As a review in the *Journal of Oral & Maxillofacial Research*, it provides a valuable perspective on the oral and maxillofacial manifestations of Sjogren's, a crucial aspect often overlooked in broader rheumatological literature.\n"
+    },
+    {
+      "id": "35961534",
+      "pmid": "35961534",
+      "title": "Updates in diagnostics, treatments, and correlations between oral and ocular manifestations of Sjogren's syndrome.",
+      "first_author": "Choudhry HS",
+      "co_authors": [
+        "Hosseini S",
+        "Choudhry HS",
+        "Fatahzadeh M",
+        "Khianey R",
+        "Dastjerdi MH"
+      ],
+      "journal": "The ocular surface",
+      "publication_date": "2022 Oct",
+      "abstract": "Sjogren's syndrome (SS) is characterized as an autoimmune disorder targeting secretory glands, including the lacrimal and salivary glands, causing dry eye and dry mouth predominantly in women over the age of 40. In this review, we summarize recent advancements in SS diagnostics, treatments, and our understanding of correlations between oral and ocular manifestations of SS. Google Scholar and PubMed databases were utilized to search peer-reviewed papers since 2016 on SS diagnosis, treatment, and correlations between oral and ocular manifestations. For diagnostics, we discuss the updated SS classification criteria by the American College of Rheumatology/European League Against Rheumatism (ACR/EULAR), new biomarkers, and compare studies of current diagnostic methods with alternative technologies. For treatments, we discuss topical, systemic, and surgical treatment developments in the management of oral and ocular symptoms of SS as there is still no cure for the disorder. Finally, we report studies that directly suggest correlations between the ocular surface disease and oral disease in SS, as well as shared abnormalities in the microbiome and cytokine expression that may be correlated. We conclude by stating limitations to our review as well as paths moving forward. Elucidating correlations between oral and ocular manifestations may be the key to furthering our understanding of SS pathogenesis as well as defining new standards for diagnosis and treatment. CI - Copyright (c) 2022 Elsevier Inc. All rights reserved. FAU - Choudhry, Hassaam S AU - Choudhry HS AD - Department of Ophthalmology and Visual Science, Rutgers New Jersey Medical School, 90 Bergen Street, Newark, NJ, 07103, USA. FAU - Hosseini, Shayan AU - Hosseini S AD - Department of Ophthalmology and Visual Science, Rutgers New Jersey Medical School, 90 Bergen Street, Newark, NJ, 07103, USA. FAU - Choudhry, Hannaan S AU - Choudhry HS AD - Department of Ophthalmology and Visual Science, Rutgers New Jersey Medical School, 90 Bergen Street, Newark, NJ, 07103, USA. FAU - Fatahzadeh, Mahnaz AU - Fatahzadeh M AD - Department of Diagnostic Science, Division of Oral Medicine, Rutgers School of Dental Medicine, 110 Bergen Street, Newark, NJ, 07103, USA. FAU - Khianey, Reena AU - Khianey R AD - Department of Medicine, Rheumatology, Rutgers New Jersey Medical School, 90 Bergen Street, Newark, NJ, 07103, USA. FAU - Dastjerdi, Mohammad H AU - Dastjerdi MH AD - Department of Ophthalmology and Visual Science, Rutgers New Jersey Medical School, 90 Bergen Street, Newark, NJ, 07103, USA. Electronic address: mhd45@njms.rutgers.edu. LA - eng PT - Journal Article PT - Review DEP - 20220810 PL - United States TA - Ocul Surf JT - The ocular surface JID - 101156063 SB - IM MH - Female MH - Humans MH - United States MH - *Sjogren's Syndrome/complications/diagnosis/therapy MH - *Dry Eye Syndromes/diagnosis/etiology/therapy MH - Salivary Glands/pathology MH - *Lacrimal Apparatus OTO - NOTNLM OT - Biomarkers OT - Correlations OT - Diagnostics OT - Dry eye disease OT - Keratoconjunctivitis sicca OT - Sjogren's syndrome OT - Treatments OT - Xerostomia COIS- Declaration of competing interest The authors declare no potential conflicts of interest. EDAT- 2022/08/13 06:00 MHDA- 2022/12/18 06:00 CRDT- 2022/08/12 19:26 PHST- 2021/11/20 00:00 [received] PHST- 2022/07/03 00:00 [revised] PHST- 2022/08/03 00:00 [accepted] PHST- 2022/08/13 06:00 [pubmed] PHST- 2022/12/18 06:00 [medline] PHST- 2022/08/12 19:26 [entrez] AID - S1542-0124(22)00073-8 [pii] AID - 10.1016/j.jtos.2022.08.001 [doi] PST - ppublish SO - Ocul Surf. 2022 Oct;26:75-87. doi: 10.1016/j.jtos.2022.08.001. Epub 2022 Aug 10.",
+      "mesh_terms": [
+        "Female",
+        "Humans",
+        "United States",
+        "Sjogren's Syndrome",
+        "Dry Eye Syndromes",
+        "Salivary Glands",
+        "Lacrimal Apparatus"
+      ],
+      "keywords": [
+        "Biomarkers",
+        "Correlations",
+        "Diagnostics",
+        "Dry eye disease",
+        "Keratoconjunctivitis sicca",
+        "Sjogren's syndrome",
+        "Treatments",
+        "Xerostomia"
+      ],
+      "full_text_links": [
+        "https://doi.org/10.1016/j.jtos.2022.08.001"
+      ],
+      "doi": "10.1016/j.jtos.2022.08.001",
+      "pmc_id": null,
+      "research_insight": "This 2022 review article directly addresses the researcher's query about recent Sjogren's Syndrome (SS) diagnosis papers by summarizing advancements in SS diagnostics, treatments, and correlations between oral and ocular manifestations since 2016. The discussion of updated ACR/EULAR classification criteria and new biomarkers for SS diagnosis is particularly relevant and warrants further exploration, as these advancements could significantly impact diagnostic accuracy and early intervention strategies. Given the focus on both oral and ocular manifestations and the exploration of shared abnormalities in the microbiome and cytokine expression, this review contributes to a more holistic understanding of SS pathogenesis and its systemic effects, bridging the gap between ophthalmology and rheumatology.\n"
+    },
+    {
+      "id": "33042142",
+      "pmid": "33042142",
+      "title": "Biomarkers and Diagnostic Testing for Renal Disease in Sjogren's Syndrome.",
+      "first_author": "Ramponi G",
+      "co_authors": [
+        "Folci M",
+        "Badalamenti S",
+        "Angelini C",
+        "Brunetta E"
+      ],
+      "journal": "Frontiers in immunology",
+      "publication_date": "2020",
+      "abstract": "Primary Sjogren's syndrome (pSS) is an autoimmune disorder in which lymphocytic infiltration leads to lacrimal and salivary glands dysfunction, which results in symptoms of dryness (xerophthalmia and xerostomia). Extraglandular features are common and may affect several organs. Renal involvement has long been known as one of the systemic complications of pSS. The most classical lesion observed in pSS is tubulointerstitial nephritis (TIN) and less frequently membranoproliferative glomerulonephritis (MPGN), which is related to cryoglobulinemia. In some cases, renal biopsy is necessary for the definitive diagnosis of kidney involvement. Patients may present with proximal renal tubular acidosis, distal renal tubular acidosis and chronic kidney disease. Response to treatment is usually favorable. However, occasionally severe and rarely lethal outcomes have been described. Recently, several case series and cross-sectional studies have been published which investigated the factors associated with renal involvement in pSS and the most accurate screening tests for early detection. The presence of xerophthalmia, anti-SSA and rheumatoid factor positivity, low C3 levels and other features have all shown either positive or inverse associations with the development of renal complications. Serum creatinine, alpha-1-microglobulin, cystatin-C have been evaluated as early detection biomarkers with variable accuracy. More advanced techniques may be necessary to confirm proximal and distal renal tubular acidosis, along with nephrogenic diabetes insipidus. The aim of the current paper is to summarize and critically examine these findings in order to provide updated guidance on serum biomarkers and further testing for kidney involvement in pSS. CI - Copyright (c) 2020 Ramponi, Folci, Badalamenti, Angelini and Brunetta. FAU - Ramponi, Giacomo AU - Ramponi G AD - Department of Nephrology, Humanitas Clinical and Research Center - Istituto di Ricovero e Cura a Carattere Scientifico (IRCCS), Milan, Italy. AD - Department of Biomedical Sciences, Humanitas University, Milan, Italy. FAU - Folci, Marco AU - Folci M AD - Department of Biomedical Sciences, Humanitas University, Milan, Italy. AD - Department of Internal Medicine and Hepatology, Humanitas Clinical and Research Center - IRCCS, Milan, Italy. FAU - Badalamenti, Salvatore AU - Badalamenti S AD - Department of Nephrology, Humanitas Clinical and Research Center - Istituto di Ricovero e Cura a Carattere Scientifico (IRCCS), Milan, Italy. AD - Department of Biomedical Sciences, Humanitas University, Milan, Italy. FAU - Angelini, Claudio AU - Angelini C AD - Department of Nephrology, Humanitas Clinical and Research Center - Istituto di Ricovero e Cura a Carattere Scientifico (IRCCS), Milan, Italy. AD - Department of Biomedical Sciences, Humanitas University, Milan, Italy. FAU - Brunetta, Enrico AU - Brunetta E AD - Department of Nephrology, Humanitas Clinical and Research Center - Istituto di Ricovero e Cura a Carattere Scientifico (IRCCS), Milan, Italy. AD - Department of Biomedical Sciences, Humanitas University, Milan, Italy. LA - eng PT - Journal Article PT - Review DEP - 20200917 PL - Switzerland TA - Front Immunol JT - Frontiers in immunology JID - 101560960 RN - 0 (Alpha-Globulins) RN - 0 (Biomarkers) RN - 0 (alpha-1-microglobulin) RN - AYI8EX34EU (Creatinine) SB - IM MH - Alpha-Globulins/urine MH - Autoimmunity MH - Biomarkers/blood/urine MH - Creatinine/blood MH - Diagnostic Techniques and Procedures MH - Glomerulonephritis, Membranoproliferative/*complications/*diagnosis/immunology/pathology MH - Humans MH - Kidney/pathology MH - Nephritis, Interstitial/*complications/*diagnosis/immunology/pathology MH - Risk Factors MH - Sjogren's Syndrome/*complications PMC - PMC7527442 OTO - NOTNLM OT - Sjogren's syndrome OT - autoimmunity OT - biomarkers OT - diagnostic test OT - renal disease EDAT- 2020/10/13 06:00 MHDA- 2021/05/04 06:00 PMCR- 2020/01/01 CRDT- 2020/10/12 05:29 PHST- 2020/05/14 00:00 [received] PHST- 2020/08/14 00:00 [accepted] PHST- 2020/10/12 05:29 [entrez] PHST- 2020/10/13 06:00 [pubmed] PHST- 2021/05/04 06:00 [medline] PHST- 2020/01/01 00:00 [pmc-release] AID - 10.3389/fimmu.2020.562101 [doi] PST - epublish SO - Front Immunol. 2020 Sep 17;11:562101. doi: 10.3389/fimmu.2020.562101. eCollection 2020.",
+      "mesh_terms": [
+        "Alpha-Globulins",
+        "Autoimmunity",
+        "Biomarkers",
+        "Creatinine",
+        "Diagnostic Techniques and Procedures",
+        "Glomerulonephritis, Membranoproliferative",
+        "Humans",
+        "Kidney",
+        "Nephritis, Interstitial",
+        "Risk Factors",
+        "Sjogren's Syndrome"
+      ],
+      "keywords": [
+        "Sjogren's syndrome",
+        "autoimmunity",
+        "biomarkers",
+        "diagnostic test",
+        "renal disease"
+      ],
+      "full_text_links": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMCpmc-id: 7527442;",
+        "https://doi.org/10.3389/fimmu.2020.562101"
+      ],
+      "doi": "10.3389/fimmu.2020.562101",
+      "pmc_id": "pmc-id: 7527442;",
+      "research_insight": "This 2020 review article by Ramponi et al. is highly relevant to the researcher's query on recent papers regarding Sjogren's syndrome diagnosis, as it specifically focuses on the diagnosis of renal involvement in pSS, a significant extraglandular manifestation. The paper summarizes and critically examines recent findings on serum biomarkers (creatinine, alpha-1-microglobulin, cystatin-C) and diagnostic testing for early detection of kidney disease in pSS, highlighting the variable accuracy of these biomarkers. Further exploration of the \"more advanced techniques\" mentioned for confirming proximal and distal renal tubular acidosis, and their practical application in clinical settings, would be valuable.\n"
+    },
+    {
+      "id": "37591179",
+      "pmid": "37591179",
+      "title": "Shared biomarkers of multi-tissue origin for primary Sjogren's syndrome and their importance in immune microenvironment alterations.",
+      "first_author": "Cai T",
+      "co_authors": [
+        "Xu J",
+        "Fang Y",
+        "Wu Y",
+        "Qin Q",
+        "Zhang JA"
+      ],
+      "journal": "Immunobiology",
+      "publication_date": "2023 Sep",
+      "abstract": "With the recent advancement in omics and molecular techniques, a wealth of new molecular biomarkers have become available for the diagnosis and classification of primary Sjogren's syndrome (pSS) patients. However, whether these biomarkers are universal is of great interest to us. In this study, we used various methods to obtain shared biomarkers derived from multiple tissue in pSS patients and to explore their relationship with immune microenvironment alterations. First we identified differentially expressed genes (DEGs) between pSS and healthy controls utilizing nine mRNA microarray datasets obtained from the Gene Expression Omnibus (GEO). Then, shared biomarkers were filtered out using robust rank aggregation (RRA), data integration analysis, weighted gene co-expression network analysis (WGCNA), and least absolute selection and shrinkage operator (LASSO) regression; their roles in pSS and association with changes in the immune microenvironment were also analyzed. In addition, these biomarkers were further confirmed with both the testing set and immunohistochemistry (IHC). As a result, ten biomarkers, i.e., EPSTI1, IFI44, IFIT1, IFIT2, IFIT3, MX1, OAS1, PARP9, SAMD9L and TRIM22, were identified. Receiver operating characteristic (ROC) curves showed that the ten genes could discriminate pSS from controls. Gene set enrichment analysis (GSEA) showed that the enrichment of immune-related gene sets was significant in pSS patients with high expression of either biomarker. Furthermore, the association between some immunocytes and these biomarkers was identified. In the two distinct molecular patterns of pSS patients based on the expressions of these biomarkers, the proportions of immunocytes were significantly different. Our study identified shared biomarkers of multi-tissue origin and revealed their relationship with altered immune microenvironment in pSS patients. These markers not only have diagnostic implications but also provide potential immunotherapeutic targets for the clinical treatment of pSS patients. CI - Copyright (c) 2023 Elsevier GmbH. All rights reserved. FAU - Cai, Tiantian AU - Cai T AD - Graduate School, Shanghai University of Traditional Chinese Medicine, Shanghai 201203, People's Republic of China; Department of Endocrinology & Rheumatology, Shanghai University of Medicine & Health Sciences Affiliated Zhoupu Hospital, Shanghai 201318, People's Republic of China. FAU - Xu, Jianbin AU - Xu J AD - Department of Endocrinology & Rheumatology, Shanghai University of Medicine & Health Sciences Affiliated Zhoupu Hospital, Shanghai 201318, People's Republic of China. FAU - Fang, Yudie AU - Fang Y AD - Department of Endocrinology & Rheumatology, Shanghai University of Medicine & Health Sciences Affiliated Zhoupu Hospital, Shanghai 201318, People's Republic of China. FAU - Wu, Yuqing AU - Wu Y AD - Department of Endocrinology & Rheumatology, Shanghai University of Medicine & Health Sciences Affiliated Zhoupu Hospital, Shanghai 201318, People's Republic of China. FAU - Qin, Qiu AU - Qin Q AD - Department of Endocrinology & Rheumatology, Shanghai University of Medicine & Health Sciences Affiliated Zhoupu Hospital, Shanghai 201318, People's Republic of China. Electronic address: yx20160908@163.com. FAU - Zhang, Jin-An AU - Zhang JA AD - Department of Endocrinology & Rheumatology, Shanghai University of Medicine & Health Sciences Affiliated Zhoupu Hospital, Shanghai 201318, People's Republic of China; Shanghai University of Traditional Chinese Medicine, Shanghai 201203, People's Republic of China. Electronic address: zhangjinan@hotmail.com. LA - eng PT - Journal Article PT - Research Support, Non-U.S. Gov't DEP - 20230809 PL - Netherlands TA - Immunobiology JT - Immunobiology JID - 8002742 RN - 0 (Transcription Factors) RN - 0 (Biomarkers) RN - 0 (RNA, Messenger) SB - IM MH - Humans MH - *Sjogren's Syndrome/diagnosis/genetics MH - Transcription Factors MH - Biomarkers MH - Gene Expression Profiling MH - RNA, Messenger OTO - NOTNLM OT - Biomarker OT - Immune microenvironment alteration OT - Multi-tissue origin OT - Sjogren's syndrome COIS- Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. EDAT- 2023/08/18 00:42 MHDA- 2023/08/29 12:43 CRDT- 2023/08/17 18:06 PHST- 2023/04/21 00:00 [received] PHST- 2023/07/18 00:00 [revised] PHST- 2023/08/07 00:00 [accepted] PHST- 2023/08/29 12:43 [medline] PHST- 2023/08/18 00:42 [pubmed] PHST- 2023/08/17 18:06 [entrez] AID - S0171-2985(23)04528-X [pii] AID - 10.1016/j.imbio.2023.152726 [doi] PST - ppublish SO - Immunobiology. 2023 Sep;228(5):152726. doi: 10.1016/j.imbio.2023.152726. Epub 2023 Aug 9.",
+      "mesh_terms": [
+        "Humans",
+        "Sjogren's Syndrome",
+        "Transcription Factors",
+        "Biomarkers",
+        "Gene Expression Profiling",
+        "RNA, Messenger"
+      ],
+      "keywords": [
+        "Biomarker",
+        "Immune microenvironment alteration",
+        "Multi-tissue origin",
+        "Sj&#xf6;gren&#x2019;s syndrome"
+      ],
+      "full_text_links": [
+        "https://doi.org/10.1016/j.imbio.2023.152726"
+      ],
+      "doi": "10.1016/j.imbio.2023.152726",
+      "pmc_id": null,
+      "research_insight": "This 2023 paper by Cai et al. is highly relevant to a researcher investigating recent papers on Sjogren's syndrome diagnosis because it identifies ten shared biomarkers (EPSTI1, IFI44, IFIT1, IFIT2, IFIT3, MX1, OAS1, PARP9, SAMD9L and TRIM22) of multi-tissue origin that can discriminate pSS from healthy controls, offering potential diagnostic value. The identified association between these biomarkers and specific immune cell populations warrants further investigation to understand the precise mechanisms by which these genes influence the immune microenvironment in pSS. This research contributes to the field by providing a refined set of potential diagnostic and therapeutic targets, moving beyond broad omics approaches to focus on specific, validated biomarkers.\n"
+    },
+    {
+      "id": "27738403",
+      "pmid": "27738403",
+      "title": "Sjögren's syndrome associated with systemic lupus erythematosus.",
+      "first_author": "Taşdemir M",
+      "co_authors": [
+        "Hasan C",
+        "Ağbaş A",
+        "Kasapçopur Ö",
+        "Canpolat N",
+        "Sever L",
+        "Çalışkan S"
+      ],
+      "journal": "Turk pediatri arsivi",
+      "publication_date": "2016 Sep",
+      "abstract": "Systemic lupus erythematosus and Sjogren's syndrome are chronic auto- inflammatory disorders which can lead to serious organ damage. Although systemic lupus erythematosus and Sjogren's syndrome were previously considered two forms of the same disease because of presence of clinical coexistence of these two conditions, the view that they are two different conditions with mutual characteristics has become prominent in recent years. In this paper, we reported a 16 year-old girl who was followed up with a diagnosis of Sjogren's syndrome for six years and then was observed to have overlap of systemic lupus erythematosus. In the baseline, she did not have any clinical or serological evidence for systemic lupus erythematosus. After six year, massive proteinuria and serological findings developed and systemic lupus erythematosus nephritis was diagnosed by kidney biopsy. Currently, systemic lupus erythematosus and Sjogren's syndrome cannot be differentiated definetely. We need more valuable diagnostic and classification criteria to differentiate these two important conditions. FAU - Tasdemir, Mehmet AU - Tasdemir M AD - Department of Pediatrics, Division of Pediatric Nephrology, Istanbul University Cerrahpasa School of Medicine, Istanbul, Turkey. FAU - Hasan, Chiar AU - Hasan C AD - Department of Pediatrics, Istanbul University Cerrahpasa School of Medicine, Istanbul, Turkey. FAU - Agbas, Ayse AU - Agbas A AD - Department of Pediatrics, Division of Pediatric Nephrology, Istanbul University Cerrahpasa School of Medicine, Istanbul, Turkey. FAU - Kasapcopur, Ozgur AU - Kasapcopur O AD - Department of Pediatrics, Division of Pediatric Rheumatology, Istanbul University Cerrahpasa School of Medicine, Istanbul, Turkey. FAU - Canpolat, Nur AU - Canpolat N AD - Department of Pediatrics, Division of Pediatric Nephrology, Istanbul University Cerrahpasa School of Medicine, Istanbul, Turkey. FAU - Sever, Lale AU - Sever L AD - Department of Pediatrics, Division of Pediatric Nephrology, Istanbul University Cerrahpasa School of Medicine, Istanbul, Turkey. FAU - Caliskan, Salim AU - Caliskan S AD - Department of Pediatrics, Division of Pediatric Nephrology, Istanbul University Cerrahpasa School of Medicine, Istanbul, Turkey. LA - eng PT - Case Reports PT - Journal Article DEP - 20160901 PL - Turkey TA - Turk Pediatri Ars JT - Turk pediatri arsivi JID - 9803140 PMC - PMC5047367 OTO - NOTNLM OT - Childhood OT - Sjogren's syndrome OT - systemic lupus erythematosus EDAT- 2016/10/16 06:00 MHDA- 2016/10/16 06:01 PMCR- 2016/09/01 CRDT- 2016/10/15 06:00 PHST- 2014/03/23 00:00 [received] PHST- 2014/07/17 00:00 [accepted] PHST- 2016/10/15 06:00 [entrez] PHST- 2016/10/16 06:00 [pubmed] PHST- 2016/10/16 06:01 [medline] PHST- 2016/09/01 00:00 [pmc-release] AID - tpa-51-3-166 [pii] AID - 10.5152/TurkPediatriArs.2016.2001 [doi] PST - epublish SO - Turk Pediatri Ars. 2016 Sep 1;51(3):166-168. doi: 10.5152/TurkPediatriArs.2016.2001. eCollection 2016 Sep.",
+      "mesh_terms": [],
+      "keywords": [
+        "Childhood",
+        "Sj&#xf6;gren&#x2019;s syndrome",
+        "systemic lupus erythematosus"
+      ],
+      "full_text_links": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMCpmc-id: 5047367;",
+        "https://doi.org/10.5152/TurkPediatriArs.2016.2001"
+      ],
+      "doi": "10.5152/TurkPediatriArs.2016.2001",
+      "pmc_id": "pmc-id: 5047367;",
+      "research_insight": "This 2016 case report is relevant to the researcher's query on recent Sjögren's syndrome diagnosis papers because it highlights the diagnostic challenges in differentiating Sjögren's syndrome from systemic lupus erythematosus, particularly when one condition develops after the other. The observation of a patient initially diagnosed with Sjögren's syndrome who later developed lupus nephritis warrants further investigation into the sequential development and overlap of these autoimmune diseases, especially regarding the predictive factors for developing lupus in Sjögren's patients. This paper contributes to the ongoing discussion within the field about refining diagnostic criteria to better distinguish and understand the relationship between these two conditions.\n"
+    },
+    {
+      "id": "37673192",
+      "pmid": "37673192",
+      "title": "Paraneoplastic autoimmune Laminin-332 syndrome (PALS): Anti-Laminin-332 mucous membrane pemphigoid as a prototype.",
+      "first_author": "Ahmed AR",
+      "co_authors": [
+        "Kalesinskas M",
+        "Kooper-Johnson S"
+      ],
+      "journal": "Autoimmunity reviews",
+      "publication_date": "2023 Oct",
+      "abstract": "IMPORTANCE: Laminin-332 is an important component of the basement membrane. Recently, autoantibodies to Laminin-332 have been described in several autoimmune diseases. Many of these autoimmune diseases have a high incidence of malignancy. The importance of Laminin-332 autoantibodies and its relationship to malignancy is highlighted by using Laminin-332 Pemphigoid (LM-332Pg) as a prototype. OBJECTIVE: To identify several autoimmune diseases that have autoantibodies to Laminin-332 present, and to determine the prevalence of malignancy in them. Using Laminin-332 Pemphigoid (LM-332Pg) as a prototype, to compare clinical profiles of LM-332Pg patients with and without cancer. By identifying the temporal detection of cancer, can the influence of autoantibodies to Laminin-332 on prognosis be determined. EVIDENCE REVIEW: A literature search was conducted to identify autoimmune and inflammatory diseases in which autoantibodies to Laminin-332 were present. Subsequently, the rate of malignancy in these autoimmune diseases was determined. A search for publications on LM-332Pg patients to determine cancer rates and clinical outcomes to examine if a relationship can be proposed, was performed. FINDINGS: Autoantibodies to Laminin-332 were detected in recent studies of systemic lupus erythematosus (SLE), psoriasis, bronchiolitis obliterans (BO), graft-vs-host disease (GVH), bullous pemphigoid (BP), lichen planus (LP), epidermolysis bullosa acquisita (EBA), and membranous glomerulonephropathy (MGN). A high incidence of cancer rate was reported in these autoimmune diseases including primary Sjogren's syndrome (pSS), systemic sclerosis (SS), dermatomyositis (DM), multiple sclerosis (MS), immune thrombocytopenia purpura (ITP), and rheumatoid arthritis (RA). Data analysis demonstrated that LM-332Pg patients had a higher risk of developing ovarian, uterine, lung, gastric cancers and leukemia. The incidence for breast cancer was lower, when compared with global cancer rates. Patients diagnosed with cancer after the presence of LM-332Pg had higher rates of mortality and lower rates of remission, compared to those diagnosed with cancer prior to the discovery/diagnosis of LM-332Pg. When studied, levels of Laminin-332 autoantibodies correlated with the presence or absence of malignancy. CONCLUSIONS AND RELEVANCE: Preliminary analysis suggests that autoantibodies to Laminin-332 are present in multiple autoimmune diseases, which also have a high incidence of malignancy. Detailed analysis of available data highlights that patients who developed LM-332Pg after cancer was diagnosed, had a more favorable prognosis, compared to patients who developed cancer when LM-332Pg was previously present. Preliminary data would suggest that autoantibodies to Laminin-332 could serve as an important biomarker in certain patients, for correlation with possible incidence of malignancy. CI - Copyright (c) 2023 The Authors. Published by Elsevier B.V. All rights reserved. FAU - Ahmed, A Razzaque AU - Ahmed AR AD - Department of Dermatology, Tufts University School of Medicine, Boston, MA 02111, USA; Center for Blistering Diseases, Boston, MA 02135, USA. Electronic address: arahmedmd@msn.com. FAU - Kalesinskas, Mikole AU - Kalesinskas M AD - Center for Blistering Diseases, Boston, MA 02135, USA. FAU - Kooper-Johnson, Sarah AU - Kooper-Johnson S AD - Center for Blistering Diseases, Boston, MA 02135, USA. LA - eng PT - Journal Article PT - Review DEP - 20230905 PL - Netherlands TA - Autoimmun Rev JT - Autoimmunity reviews JID - 101128967 RN - 0 (Laminin) RN - 0 (Autoantibodies) SB - IM MH - Humans MH - *Pemphigoid, Bullous MH - Laminin MH - *Pemphigoid, Benign Mucous Membrane MH - *Autoimmune Diseases MH - Autoantibodies MH - *Paraneoplastic Syndromes MH - *Neoplasms MH - Mucous Membrane/pathology OTO - NOTNLM OT - Anti-laminin-332 mucous membrane pemphigoid OT - Autoantibodies OT - Autoimmune diseases OT - Cancer biomarkers OT - Laminin-332 OT - Malignancy COIS- Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. EDAT- 2023/09/07 00:42 MHDA- 2023/10/02 06:42 CRDT- 2023/09/06 19:23 PHST- 2023/08/17 00:00 [received] PHST- 2023/09/03 00:00 [accepted] PHST- 2023/10/02 06:42 [medline] PHST- 2023/09/07 00:42 [pubmed] PHST- 2023/09/06 19:23 [entrez] AID - S1568-9972(23)00178-7 [pii] AID - 10.1016/j.autrev.2023.103444 [doi] PST - ppublish SO - Autoimmun Rev. 2023 Oct;22(10):103444. doi: 10.1016/j.autrev.2023.103444. Epub 2023 Sep 5.",
+      "mesh_terms": [
+        "Humans",
+        "Pemphigoid, Bullous",
+        "Laminin",
+        "Pemphigoid, Benign Mucous Membrane",
+        "Autoimmune Diseases",
+        "Autoantibodies",
+        "Paraneoplastic Syndromes",
+        "Neoplasms",
+        "Mucous Membrane"
+      ],
+      "keywords": [
+        "Anti-laminin-332 mucous membrane pemphigoid",
+        "Autoantibodies",
+        "Autoimmune diseases",
+        "Cancer biomarkers",
+        "Laminin-332",
+        "Malignancy"
+      ],
+      "full_text_links": [
+        "https://doi.org/10.1016/j.autrev.2023.103444"
+      ],
+      "doi": "10.1016/j.autrev.2023.103444",
+      "pmc_id": null,
+      "research_insight": "This paper is highly relevant to the researcher's query on Sjogren's syndrome diagnosis because it identifies primary Sjogren's syndrome (pSS) as one of the autoimmune diseases where autoantibodies to Laminin-332 are detected and associated with a high incidence of cancer. The finding that Laminin-332 autoantibody levels correlate with the presence or absence of malignancy in other autoimmune diseases suggests that further investigation into Laminin-332 autoantibodies as potential biomarkers for cancer risk stratification in pSS patients is warranted. This research connects the fields of autoimmunity, cancer biology, and biomarker discovery, potentially leading to improved diagnostic and prognostic tools for Sjogren's syndrome patients.\n"
+    },
+    {
+      "id": "3274169",
+      "pmid": "3274169",
+      "title": "[Recent advances in diagnosis of Sjogren's syndrome].",
+      "first_author": "Gallina G",
+      "co_authors": [
+        "Cumbo V",
+        "Noto F",
+        "Messina P"
+      ],
+      "journal": "Stomatologia mediterranea : SM",
+      "publication_date": "1988 Oct-Dec",
+      "abstract": "In this paper the authors review the classification and the clinical features of primary and secondary Sjogren's syndrome. Particular attention in focused on differential diagnosis, on clinical examination of the patients with chronic xerostomia and on its functional and pathological sequelae: rampant dental caries and oral candidiasis. Advanced in diagnostic procedures are described: salivary flow rate, salivary gland scintigraphy, parotid and submandibular scialography, Schirmer's test, Rose Bengal staining, minor salivary gland biopsy and serum immunological examinations. The relationships between scintigraphic and histologic result are discussed. The clinical features and the course of the disease provide further insight into the immunological pathogenesis of this syndrome. FAU - Gallina, G AU - Gallina G FAU - Cumbo, V AU - Cumbo V FAU - Noto, F AU - Noto F FAU - Messina, P AU - Messina P LA - ita PT - Journal Article TT - Recenti acquisizioni nella diagnosi della sindrome di Sjogren. PL - Italy TA - Stomatol Mediterr JT - Stomatologia mediterranea : SM JID - 8508471 MH - Candidiasis, Oral/etiology MH - Dental Caries/etiology MH - Diagnosis, Differential MH - Humans MH - Radionuclide Imaging MH - Saliva/analysis MH - Salivary Glands/diagnostic imaging MH - Sjogren's Syndrome/complications/*diagnosis/pathology EDAT- 1988/10/01 00:00 MHDA- 1988/10/01 00:01 CRDT- 1988/10/01 00:00 PHST- 1988/10/01 00:00 [pubmed] PHST- 1988/10/01 00:01 [medline] PHST- 1988/10/01 00:00 [entrez] PST - ppublish SO - Stomatol Mediterr. 1988 Oct-Dec;8(4):321-32.",
+      "mesh_terms": [
+        "Candidiasis, Oral",
+        "Dental Caries",
+        "Diagnosis, Differential",
+        "Humans",
+        "Radionuclide Imaging",
+        "Saliva",
+        "Salivary Glands",
+        "Sjogren's Syndrome"
+      ],
+      "keywords": [],
+      "full_text_links": [],
+      "doi": null,
+      "pmc_id": null,
+      "research_insight": "This 1988 paper by Gallina et al. is relevant to the researcher's query on recent Sjogren's syndrome diagnosis papers because it reviews diagnostic procedures like salivary flow rate, scintigraphy, and minor salivary gland biopsy, offering a historical perspective on the diagnostic landscape. The discussion of the relationship between scintigraphic and histologic results warrants further exploration, as it highlights early attempts to correlate imaging findings with tissue pathology, a concept still relevant in modern diagnostic approaches. While not \"recent,\" the paper provides a foundation for understanding the evolution of diagnostic methods in Sjogren's syndrome and could be useful for contextualizing more current research.\n"
+    },
+    {
+      "id": "11469517",
+      "pmid": "11469517",
+      "title": "Monitoring the disease activity.",
+      "first_author": "Asmussen K",
+      "co_authors": [],
+      "journal": "Scandinavian journal of rheumatology. Supplement",
+      "publication_date": "2001",
+      "abstract": "Primary Sjogren's syndrome is a chronic systemic rheumatic disease characterized as an autoimmune exocrinopathy or autoimmune epithelitis thereby suggesting a pathogenesis leading to tissue specific autoimmune lesion. The development of internationally approved criteria for the classification and diagnosis of Sjogren's syndrome has been a major scientific task for nearly two decades with consensus now approaching. In contrast, an international dialogue on how to develop additional common criteria for the assessment of disease activity, organ damage and outcome in Sjogren's syndrome has just recently been initiated. Such assessment criteria would provide useful measures for patient management and are mandatory for comparing efficacy between different clinical trials. The lack of common assessment criteria may be explained by missing uniform diagnostic criteria, by the multispeciality and systemic nature of the disease and the difficulties in separating out what is activity and what is damage in Sjogren's syndrome. Attempts are now made to overcome these problems. The purpose of this paper is to give a brief introduction to the concepts of disease activity, damage and outcome in Sjogren's syndrome with reference to the results obtained from a recent workshop on assessment tools in Sjogren's syndrome held in Oxford, England in March 2000. FAU - Asmussen, K AU - Asmussen K AD - Clinic for Orthopedic Medicine and Rehabilitation, Rigshospitalet, Copenhagen University Hospital, Denmark. drasmus@post8.tele.dk LA - eng PT - Journal Article PT - Review PL - Norway TA - Scand J Rheumatol Suppl JT - Scandinavian journal of rheumatology. Supplement JID - 0400360 SB - IM MH - Disease Progression MH - Female MH - Humans MH - Male MH - Monitoring, Physiologic/methods MH - Prognosis MH - *Quality of Life MH - Severity of Illness Index MH - Sjogren's Syndrome/*diagnosis/*physiopathology RF - 7 EDAT- 2001/07/27 10:00 MHDA- 2001/08/17 10:01 CRDT- 2001/07/27 10:00 PHST- 2001/07/27 10:00 [pubmed] PHST- 2001/08/17 10:01 [medline] PHST- 2001/07/27 10:00 [entrez] AID - 10.1080/030097401300232600 [doi] PST - ppublish SO - Scand J Rheumatol Suppl. 2001;115:23-6. doi: 10.1080/030097401300232600.",
+      "mesh_terms": [
+        "Disease Progression",
+        "Female",
+        "Humans",
+        "Male",
+        "Monitoring, Physiologic",
+        "Prognosis",
+        "Quality of Life",
+        "Severity of Illness Index",
+        "Sjogren's Syndrome"
+      ],
+      "keywords": [],
+      "full_text_links": [
+        "https://doi.org/10.1080/030097401300232600"
+      ],
+      "doi": "10.1080/030097401300232600",
+      "pmc_id": null,
+      "research_insight": "This 2001 paper by Asmussen is relevant to the researcher's query on recent Sjogren's Syndrome diagnosis papers because it discusses the development of internationally approved criteria for the classification and diagnosis of Sjogren's syndrome. While not a recent paper, it highlights the historical challenges in establishing uniform diagnostic criteria and the ongoing need for assessment tools for disease activity, organ damage, and outcome. The discussion of the Oxford workshop on assessment tools in Sjogren's syndrome held in March 2000 deserves further exploration to understand the specific assessment methods being considered at that time and how they influenced subsequent diagnostic approaches. This paper provides valuable context for understanding the evolution of diagnostic criteria and the complexities of assessing disease activity in Sjogren's Syndrome.\n"
+    }
+  ]
+}
