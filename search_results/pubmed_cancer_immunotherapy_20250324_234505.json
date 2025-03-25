@@ -1,0 +1,1048 @@
+{
+  "query": "cancer immunotherapy",
+  "timestamp": "2025-03-24T23:45:05.443448",
+  "num_results": 30,
+  "articles": [
+    {
+      "id": "30622344",
+      "pmid": "30622344",
+      "title": "Delivery technologies for cancer immunotherapy.",
+      "first_author": "Riley RS",
+      "co_authors": [
+        "June CH",
+        "Langer R",
+        "Mitchell MJ"
+      ],
+      "journal": "Nature reviews. Drug discovery",
+      "publication_date": "2019 Mar",
+      "abstract": "Immunotherapy has become a powerful clinical strategy for treating cancer. The number of immunotherapy drug approvals has been increasing, with numerous treatments in clinical and preclinical development. However, a key challenge in the broad implementation of immunotherapies for cancer remains the controlled modulation of the immune system, as these therapeutics have serious adverse effects including autoimmunity and nonspecific inflammation. Understanding how to increase the response rates to various classes of immunotherapy is key to improving efficacy and controlling these adverse effects. Advanced biomaterials and drug delivery systems, such as nanoparticles and the use of T cells to deliver therapies, could effectively harness immunotherapies and improve their potency while reducing toxic side effects. Here, we discuss these research advances, as well as the opportunities and challenges for integrating delivery technologies into cancer immunotherapy, and we critically analyse the outlook for these emerging areas. FAU - Riley, Rachel S AU - Riley RS AD - Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, USA. FAU - June, Carl H AU - June CH AUID- ORCID: 0000-0003-0241-3557 AD - Center for Cellular Immunotherapies, University of Pennsylvania, Philadelphia, PA, USA. AD - Abramson Cancer Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA. FAU - Langer, Robert AU - Langer R AD - Department of Chemical Engineering and Koch Institute for Integrative Cancer Research, Massachusetts Institute of Technology, Cambridge, MA, USA. rlanger@mit.edu. FAU - Mitchell, Michael J AU - Mitchell MJ AD - Department of Bioengineering, University of Pennsylvania, Philadelphia, PA, USA. mjmitch@seas.upenn.edu. AD - Abramson Cancer Center, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA. mjmitch@seas.upenn.edu. LA - eng GR - DP2 TR002776/TR/NCATS NIH HHS/United States GR - P30 CA014051/CA/NCI NIH HHS/United States GR - T32 HL007954/HL/NHLBI NIH HHS/United States PT - Journal Article PT - Research Support, N.I.H., Extramural PT - Research Support, Non-U.S. Gov't PT - Review PL - England TA - Nat Rev Drug Discov JT - Nature reviews. Drug discovery JID - 101124171 SB - IM MH - Animals MH - *Drug Delivery Systems MH - Humans MH - Immunotherapy/*methods MH - Nanoparticles/*administration & dosage/chemistry MH - Neoplasms/*drug therapy/immunology MH - *T-Lymphocytes PMC - PMC6410566 MID - NIHMS1014506 EDAT- 2019/01/10 06:00 MHDA- 2019/11/09 06:00 PMCR- 2019/03/11 CRDT- 2019/01/10 06:00 PHST- 2019/01/10 06:00 [pubmed] PHST- 2019/11/09 06:00 [medline] PHST- 2019/01/10 06:00 [entrez] PHST- 2019/03/11 00:00 [pmc-release] AID - 10.1038/s41573-018-0006-z [pii] AID - 10.1038/s41573-018-0006-z [doi] PST - ppublish SO - Nat Rev Drug Discov. 2019 Mar;18(3):175-196. doi: 10.1038/s41573-018-0006-z.",
+      "mesh_terms": [
+        "Animals",
+        "Drug Delivery Systems",
+        "Humans",
+        "Immunotherapy",
+        "Nanoparticles",
+        "Neoplasms",
+        "T-Lymphocytes"
+      ],
+      "keywords": [],
+      "full_text_links": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMCpmc-id: 6410566;manuscript-id: NIHMS1014506;",
+        "https://doi.org/10.1038/s41573-018-0006-z"
+      ],
+      "doi": "10.1038/s41573-018-0006-z",
+      "pmc_id": "pmc-id: 6410566;manuscript-id: NIHMS1014506;",
+      "research_insight": "This 2019 review article in *Nature Reviews Drug Discovery* is highly relevant to a researcher interested in cancer immunotherapy because it focuses on the critical challenge of improving efficacy and reducing adverse effects through advanced drug delivery systems. Specifically, the paper discusses the use of nanoparticles and T cells to deliver immunotherapies, offering a comprehensive overview of research advances, opportunities, and challenges in this emerging area. Further exploration of the specific biomaterials and delivery strategies that demonstrate the most promising preclinical and clinical results for targeted immune modulation would be valuable. The article's focus on delivery technologies directly addresses a key bottleneck in the broader field of cancer immunotherapy, which is the need for controlled and targeted immune system modulation.\n"
+    },
+    {
+      "id": "19650714",
+      "pmid": "19650714",
+      "title": "Cancer immunotherapy.",
+      "first_author": "Baxevanis CN",
+      "co_authors": [
+        "Perez SA",
+        "Papamichail M"
+      ],
+      "journal": "Critical reviews in clinical laboratory sciences",
+      "publication_date": "2009",
+      "abstract": "Recent scientific advances have expanded our understanding of the immune system and its response to malignant cells. The clinical goal of tumour immunotherapy is to provide either passive or active immunity against malignancies by harnessing the immune system to target tumours. Monoclonal antibodies, cytokines, cellular immunotherapy, and vaccines have increasingly become successful therapeutic agents for the treatment of solid and haematological cancers in preclinical models, clinical trials, and practice. In this article, we review recent advances in the immunotherapy of cancer, focusing on new strategies and future perspectives as well as on clinical trials attempting to enhance the efficacy of immunotherapeutic modalities and translate this knowledge into effective cancer therapies. FAU - Baxevanis, Constantin N AU - Baxevanis CN AD - Cancer Immunology and Immunotherapy Center, Saint Savas Cancer Hospital, Athens, Greece. FAU - Perez, Sonia A AU - Perez SA FAU - Papamichail, Michael AU - Papamichail M LA - eng PT - Journal Article PT - Review PL - England TA - Crit Rev Clin Lab Sci JT - Critical reviews in clinical laboratory sciences JID - 8914816 SB - IM MH - Animals MH - Humans MH - Immunotherapy/*methods MH - Neoplasms/*immunology/*therapy RF - 250 EDAT- 2009/08/05 09:00 MHDA- 2009/09/23 06:00 CRDT- 2009/08/05 09:00 PHST- 2009/08/05 09:00 [entrez] PHST- 2009/08/05 09:00 [pubmed] PHST- 2009/09/23 06:00 [medline] AID - 10.1080/10408360902937809 [doi] PST - ppublish SO - Crit Rev Clin Lab Sci. 2009;46(4):167-89. doi: 10.1080/10408360902937809.",
+      "mesh_terms": [
+        "Animals",
+        "Humans",
+        "Immunotherapy",
+        "Neoplasms"
+      ],
+      "keywords": [],
+      "full_text_links": [
+        "https://doi.org/10.1080/10408360902937809"
+      ],
+      "doi": "10.1080/10408360902937809",
+      "pmc_id": null,
+      "research_insight": "This 2009 review article by Baxevanis et al. provides a broad overview of cancer immunotherapy strategies, including monoclonal antibodies, cytokines, cellular immunotherapy, and vaccines, making it a valuable starting point for a researcher interested in the field. Given its publication date, the \"future perspectives\" section of the review, specifically regarding clinical trials aiming to enhance efficacy, warrants further exploration to understand how those predictions have materialized in the subsequent years. As a review in *Critical Reviews in Clinical Laboratory Sciences*, it offers a clinically-focused perspective on the translation of basic immunology into cancer therapeutics, highlighting the practical applications and challenges in the field.\n"
+    },
+    {
+      "id": "29860986",
+      "pmid": "29860986",
+      "title": "Immunotherapy and Prevention of Pancreatic Cancer.",
+      "first_author": "Morrison AH",
+      "co_authors": [
+        "Byrne KT",
+        "Vonderheide RH"
+      ],
+      "journal": "Trends in cancer",
+      "publication_date": "2018 Jun",
+      "abstract": "Pancreatic cancer is the third-leading cause of cancer mortality in the USA, recently surpassing breast cancer. A key component of pancreatic cancer's lethality is its acquired immune privilege, which is driven by an immunosuppressive microenvironment, poor T cell infiltration, and a low mutational burden. Although immunotherapies such as checkpoint blockade or engineered T cells have yet to demonstrate efficacy, a growing body of evidence suggests that orthogonal combinations of these and other strategies could unlock immunotherapy in pancreatic cancer. In this Review article, we discuss promising immunotherapies currently under investigation in pancreatic cancer and provide a roadmap for the development of prevention vaccines for this and other cancers. CI - Copyright (c) 2018 Elsevier Inc. All rights reserved. FAU - Morrison, Alexander H AU - Morrison AH AD - Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19014, USA. FAU - Byrne, Katelyn T AU - Byrne KT AD - Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19014, USA; Parker Institute for Cancer Immunotherapy, University of Pennsylvania, Philadelphia, PA 19014, USA. FAU - Vonderheide, Robert H AU - Vonderheide RH AD - Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19014, USA; Parker Institute for Cancer Immunotherapy, University of Pennsylvania, Philadelphia, PA 19014, USA; Abramson Cancer Center, University of Pennsylvania, Philadelphia, PA 19014, USA. Electronic address: rhv@upenn.edu. LA - eng GR - P30 CA016520/CA/NCI NIH HHS/United States GR - R01 CA169123/CA/NCI NIH HHS/United States GR - TL1 TR001880/TR/NCATS NIH HHS/United States PT - Journal Article PT - Research Support, N.I.H., Extramural PT - Research Support, Non-U.S. Gov't PT - Review DEP - 20180430 PL - United States TA - Trends Cancer JT - Trends in cancer JID - 101665956 RN - 0 (Cancer Vaccines) SB - IM MH - Cancer Vaccines/*administration & dosage MH - Humans MH - *Immunotherapy MH - Pancreatic Neoplasms/immunology/*therapy PMC - PMC6028935 MID - NIHMS958907 OTO - NOTNLM OT - immunotherapy OT - pancreatic cancer OT - prevention vaccines EDAT- 2018/06/05 06:00 MHDA- 2019/02/13 06:00 PMCR- 2019/06/01 CRDT- 2018/06/05 06:00 PHST- 2018/01/09 00:00 [received] PHST- 2018/03/30 00:00 [revised] PHST- 2018/04/03 00:00 [accepted] PHST- 2018/06/05 06:00 [entrez] PHST- 2018/06/05 06:00 [pubmed] PHST- 2019/02/13 06:00 [medline] PHST- 2019/06/01 00:00 [pmc-release] AID - S2405-8033(18)30090-6 [pii] AID - 10.1016/j.trecan.2018.04.001 [doi] PST - ppublish SO - Trends Cancer. 2018 Jun;4(6):418-428. doi: 10.1016/j.trecan.2018.04.001. Epub 2018 Apr 30.",
+      "mesh_terms": [
+        "Cancer Vaccines",
+        "Humans",
+        "Immunotherapy",
+        "Pancreatic Neoplasms"
+      ],
+      "keywords": [
+        "immunotherapy",
+        "pancreatic cancer",
+        "prevention vaccines"
+      ],
+      "full_text_links": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMCpmc-id: 6028935;manuscript-id: NIHMS958907;",
+        "https://doi.org/10.1016/j.trecan.2018.04.001"
+      ],
+      "doi": "10.1016/j.trecan.2018.04.001",
+      "pmc_id": "pmc-id: 6028935;manuscript-id: NIHMS958907;",
+      "research_insight": "This 2018 review article in *Trends in Cancer* is highly relevant to a researcher interested in cancer immunotherapy, as it specifically addresses the challenges and potential of immunotherapy for pancreatic cancer, a notoriously difficult-to-treat malignancy. The paper highlights the immunosuppressive microenvironment and poor T cell infiltration in pancreatic cancer as key obstacles, while also pointing towards promising combination strategies and the potential for prevention vaccines. Further exploration should focus on the specific \"orthogonal combinations\" of immunotherapies mentioned, as these represent a potential avenue for overcoming the inherent resistance of pancreatic cancer to immune-based treatments.\n"
+    },
+    {
+      "id": "31526550",
+      "pmid": "31526550",
+      "title": "Cancer and the Immune System: The History and Background of Immunotherapy.",
+      "first_author": "Abbott M",
+      "co_authors": [
+        "Ustoyev Y"
+      ],
+      "journal": "Seminars in oncology nursing",
+      "publication_date": "2019 Oct",
+      "abstract": "OBJECTIVE: This article will outline the link between the immune system and cancer, and provide a historical timeline of immunotherapy developmental milestones. DATA SOURCES: Published data and peer reviewed publications/manuscripts, and textbook chapters. CONCLUSION: Science has provided a greater understanding of the interactions between cancer and the human immune system. As this knowledge has grown, there has been significant progress in the development of clinically effective cancer immunotherapies. IMPLICATIONS FOR NURSING PRACTICE: Nurses' knowledge of the different types of immunity and the interaction of cancer cells with the immune system provides foundational knowledge for understanding cancer immunotherapy. Familiarity with the history of cancer immunotherapy will allow nurses to better comprehend why immunotherapy is now a pillar of cancer treatment that continues to develop. This knowledge will translate to better understanding and provision of care for patients receiving immunotherapy for the treatment of cancer. CI - Copyright (c) 2019 Elsevier Inc. All rights reserved. FAU - Abbott, Maura AU - Abbott M AD - Columbia University School of Nursing, New York, NY; Columbia University Irving Medical Center, New York, NY. Electronic address: ma3425@cumc.columbia.edu. FAU - Ustoyev, Yelena AU - Ustoyev Y AD - Columbia University Irving Medical Center, New York, NY. LA - eng PT - Journal Article PT - Review DEP - 20190913 PL - United States TA - Semin Oncol Nurs JT - Seminars in oncology nursing JID - 8504688 RN - 0 (Immunologic Factors) SB - IM MH - Humans MH - Immune System/*physiology MH - Immunologic Factors/*therapeutic use MH - Immunotherapy/*methods MH - Neoplasms/*immunology/*therapy MH - Oncology Nursing/*methods OTO - NOTNLM OT - Adaptive immunity OT - Cancer immunotherapy OT - History OT - Immunotherapy history OT - Innate immunity EDAT- 2019/09/19 06:00 MHDA- 2020/04/29 06:00 CRDT- 2019/09/19 06:00 PHST- 2019/09/19 06:00 [pubmed] PHST- 2020/04/29 06:00 [medline] PHST- 2019/09/19 06:00 [entrez] AID - S0749-2081(19)30105-6 [pii] AID - 10.1016/j.soncn.2019.08.002 [doi] PST - ppublish SO - Semin Oncol Nurs. 2019 Oct;35(5):150923. doi: 10.1016/j.soncn.2019.08.002. Epub 2019 Sep 13.",
+      "mesh_terms": [
+        "Humans",
+        "Immune System",
+        "Immunologic Factors",
+        "Immunotherapy",
+        "Neoplasms",
+        "Oncology Nursing"
+      ],
+      "keywords": [
+        "Adaptive immunity",
+        "Cancer immunotherapy",
+        "History",
+        "Immunotherapy history",
+        "Innate immunity"
+      ],
+      "full_text_links": [
+        "https://doi.org/10.1016/j.soncn.2019.08.002"
+      ],
+      "doi": "10.1016/j.soncn.2019.08.002",
+      "pmc_id": null,
+      "research_insight": "This article is important for a researcher studying cancer immunotherapy because it provides a historical overview of the field's development and the fundamental link between the immune system and cancer. The paper's outline of immunotherapy developmental milestones and discussion of innate and adaptive immunity in the context of cancer immunology are particularly relevant. Further exploration of the specific clinically effective cancer immunotherapies mentioned in the conclusion would be valuable, as the article serves as a foundation for understanding the current landscape of immunotherapy and its evolution within oncology.\n"
+    },
+    {
+      "id": "31944278",
+      "pmid": "31944278",
+      "title": "A review of cancer immunotherapy toxicity.",
+      "first_author": "Kennedy LB",
+      "co_authors": [
+        "Salama AKS"
+      ],
+      "journal": "CA: a cancer journal for clinicians",
+      "publication_date": "2020 Mar",
+      "abstract": "Cancer immunotherapies, including checkpoint inhibitors and adoptive cell therapy, manipulate the immune system to recognize and attack cancer cells. These therapies have the potential to induce durable responses in multiple solid and hematologic malignancies and thus have transformed treatment algorithms for numerous tumor types. Cancer immunotherapies lead to unique toxicity profiles distinct from the toxicities of other cancer therapies, depending on their mechanism of action. These toxicities often require specific management, which can include steroids and immune-modulating therapy and for which consensus guidelines have been published. This review will focus on the toxicities of checkpoint inhibitors and chimeric antigen receptor T cells, including pathophysiology, diagnosis, and management. CI - (c) 2020 American Cancer Society. FAU - Kennedy, Lucy Boyce AU - Kennedy LB AUID- ORCID: 0000-0001-6644-8922 AD - Hematology/Oncology, Duke University, Durham, North Carolina. FAU - Salama, April K S AU - Salama AKS AD - Division of Medical Oncology, Duke University, Durham, North Carolina. LA - eng PT - Journal Article PT - Review DEP - 20200116 PL - United States TA - CA Cancer J Clin JT - CA: a cancer journal for clinicians JID - 0370647 RN - 0 (Immunologic Factors) SB - IM MH - Humans MH - Immunologic Factors/*therapeutic use MH - Immunotherapy/*methods MH - Neoplasms/*therapy OTO - NOTNLM OT - checkpoint inhibitor OT - chimeric antigen receptor (CAR) T cells OT - cytokine release syndrome OT - cytotoxic T-lymphocyte antigen 4 (CTLA-4) OT - immune effector cell-associated neurotoxicity syndrome (ICANS) OT - immune-related adverse events (irAEs) OT - programmed cell death protein 1 (PD-1) EDAT- 2020/01/17 06:00 MHDA- 2020/09/09 06:00 CRDT- 2020/01/17 06:00 PHST- 2020/01/17 06:00 [pubmed] PHST- 2020/09/09 06:00 [medline] PHST- 2020/01/17 06:00 [entrez] AID - 10.3322/caac.21596 [doi] PST - ppublish SO - CA Cancer J Clin. 2020 Mar;70(2):86-104. doi: 10.3322/caac.21596. Epub 2020 Jan 16.",
+      "mesh_terms": [
+        "Humans",
+        "Immunologic Factors",
+        "Immunotherapy",
+        "Neoplasms"
+      ],
+      "keywords": [
+        "checkpoint inhibitor",
+        "chimeric antigen receptor (CAR) T cells",
+        "cytokine release syndrome",
+        "cytotoxic T-lymphocyte antigen 4 (CTLA-4)",
+        "immune effector cell-associated neurotoxicity syndrome (ICANS)",
+        "immune-related adverse events (irAEs)",
+        "programmed cell death protein 1 (PD-1)"
+      ],
+      "full_text_links": [
+        "https://doi.org/10.3322/caac.21596"
+      ],
+      "doi": "10.3322/caac.21596",
+      "pmc_id": null,
+      "research_insight": "This 2020 review article by Kennedy et al. in *CA: A Cancer Journal for Clinicians* is highly relevant to a researcher studying cancer immunotherapy because it focuses specifically on the toxicities associated with checkpoint inhibitors and CAR T-cell therapy, two major modalities within the field. The paper's detailed discussion of the pathophysiology, diagnosis, and management of immune-related adverse events (irAEs) warrants further exploration, particularly regarding the long-term effects and optimal management strategies for specific irAEs. Understanding and mitigating these toxicities is crucial for improving the safety and efficacy of cancer immunotherapy, directly impacting clinical translation and patient outcomes.\n"
+    },
+    {
+      "id": "31311655",
+      "pmid": "31311655",
+      "title": "Integrative Approaches to Cancer Immunotherapy.",
+      "first_author": "Szeto GL",
+      "co_authors": [
+        "Finley SD"
+      ],
+      "journal": "Trends in cancer",
+      "publication_date": "2019 Jul",
+      "abstract": "Cancer immunotherapy aims to arm patients with cancer-fighting immunity. Many new cancer-specific immunotherapeutic drugs have gained approval in the past several years, demonstrating immunotherapy's efficacy and promise as an anticancer modality. Despite these successes, several outstanding questions remain for cancer immunotherapy, including how to make immunotherapy more efficacious in a broader range of cancer types and patients, and how to predict which patients will respond or not respond to therapy. We present a case for integrative systems approaches that will answer these questions. This involves applying mechanistic and statistical modeling, establishing consistent and widely adopted experimental tools to generate systems-level data, and creating sustained mechanisms of support. If implemented, these approaches will lead to major advances in cancer treatment. CI - Copyright (c) 2019 Elsevier Inc. All rights reserved. FAU - Szeto, Gregory L AU - Szeto GL AD - Department of Chemical, Biochemical, and Environmental Engineering, University of Maryland, Baltimore County, 1000 Hilltop Circle, Baltimore, MD 21250, USA; Marlene and Stewart Greenebaum Comprehensive Cancer Center, University of Maryland, Baltimore, MD 21201, USA. Electronic address: gszeto@umbc.edu. FAU - Finley, Stacey D AU - Finley SD AD - Department of Biomedical Engineering, University of Southern California, 1042 Downey Way, DRB 140, Los Angeles, CA 90089, USA; Mork Family Department of Chemical Engineering and Materials Science, University of Southern California, 925 Bloom Walk, HED 216, Los Angeles, CA 90089, USA; Department of Biological Sciences, University of Southern California, 3616 Trousdale Parkway, AHF 107, Los Angeles, CA 90089, USA. Electronic address: sfinley@usc.edu. LA - eng GR - P30 CA014089/CA/NCI NIH HHS/United States PT - Journal Article PT - Review PL - United States TA - Trends Cancer JT - Trends in cancer JID - 101665956 SB - IM MH - Combined Modality Therapy/methods MH - Computational Biology/methods MH - Disease Susceptibility/immunology MH - Humans MH - *Immunotherapy/adverse effects/methods MH - Immunotherapy, Adoptive MH - Machine Learning MH - Models, Theoretical MH - Neoplasms/immunology/metabolism/*therapy MH - Research Design MH - Treatment Outcome PMC - PMC7467854 MID - NIHMS1621125 OTO - NOTNLM OT - bioinformatics OT - computational modeling OT - machine learning OT - systems approaches OT - systems-level data EDAT- 2019/07/18 06:00 MHDA- 2020/07/01 06:00 PMCR- 2020/09/03 CRDT- 2019/07/18 06:00 PHST- 2019/04/04 00:00 [received] PHST- 2019/05/17 00:00 [revised] PHST- 2019/05/30 00:00 [accepted] PHST- 2019/07/18 06:00 [entrez] PHST- 2019/07/18 06:00 [pubmed] PHST- 2020/07/01 06:00 [medline] PHST- 2020/09/03 00:00 [pmc-release] AID - S2405-8033(19)30102-5 [pii] AID - 10.1016/j.trecan.2019.05.010 [doi] PST - ppublish SO - Trends Cancer. 2019 Jul;5(7):400-410. doi: 10.1016/j.trecan.2019.05.010.",
+      "mesh_terms": [
+        "Combined Modality Therapy",
+        "Computational Biology",
+        "Disease Susceptibility",
+        "Humans",
+        "Immunotherapy",
+        "Immunotherapy, Adoptive",
+        "Machine Learning",
+        "Models, Theoretical",
+        "Neoplasms",
+        "Research Design",
+        "Treatment Outcome"
+      ],
+      "keywords": [
+        "bioinformatics",
+        "computational modeling",
+        "machine learning",
+        "systems approaches",
+        "systems-level data"
+      ],
+      "full_text_links": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMCpmc-id: 7467854;manuscript-id: NIHMS1621125;",
+        "https://doi.org/10.1016/j.trecan.2019.05.010"
+      ],
+      "doi": "10.1016/j.trecan.2019.05.010",
+      "pmc_id": "pmc-id: 7467854;manuscript-id: NIHMS1621125;",
+      "research_insight": "This 2019 *Trends in Cancer* review article by Szeto et al. is highly relevant to a researcher interested in cancer immunotherapy because it addresses the critical challenges of improving efficacy across cancer types and predicting patient response. The paper advocates for integrative systems approaches, including mechanistic and statistical modeling, and the generation of systems-level data, which suggests a shift towards more personalized and data-driven immunotherapy strategies. Further exploration of the specific computational models and experimental tools mentioned in the article would be valuable, as these represent concrete avenues for advancing the field beyond current limitations.\n"
+    },
+    {
+      "id": "31615865",
+      "pmid": "31615865",
+      "title": "New Approaches on Cancer Immunotherapy.",
+      "first_author": "Cha JH",
+      "co_authors": [
+        "Chan LC",
+        "Song MS",
+        "Hung MC"
+      ],
+      "journal": "Cold Spring Harbor perspectives in medicine",
+      "publication_date": "2020 Aug 3",
+      "abstract": "Metastasis, which occurs when cancer cells disseminate from the primary tumor site to other parts of the body, is the primary cause of mortality in patients, and the recurrence of multiple metastatic tumors is an obstacle to eliminating cancer. Recent clinical studies demonstrated that patients who respond to immunotherapy have longer survival rates with lower metastatic relapse, suggesting that immunotherapy may be one of the solutions to overcome cancer metastasis. Indeed, various host immune cells not only shape the tumor microenvironment but also participate in multiple stages of metastasis. Therefore, to improve clinical outcome, it is critical to understand the immunological events associated with tumor development and progression. In this article, we summarize those events that are involved in tumor progression and discuss immunotherapies that can potentially target cancer metastasis. CI - Copyright (c) 2020 Cold Spring Harbor Laboratory Press; all rights reserved. FAU - Cha, Jong-Ho AU - Cha JH AD - Department of Molecular and Cellular Oncology, University of Texas MD Anderson Cancer Center, Houston, Texas 77030, USA. AD - Department of Biomedical Sciences, College of Medicine, Inha University, Incheon 22212, South Korea. FAU - Chan, Li-Chuan AU - Chan LC AD - Department of Molecular and Cellular Oncology, University of Texas MD Anderson Cancer Center, Houston, Texas 77030, USA. AD - Graduate School of Biomedical Sciences, University of Texas Health Science Center, Houston, Texas 77030, USA. FAU - Song, Min Sup AU - Song MS AD - Department of Molecular and Cellular Oncology, University of Texas MD Anderson Cancer Center, Houston, Texas 77030, USA. FAU - Hung, Mien-Chie AU - Hung MC AD - Department of Molecular and Cellular Oncology, University of Texas MD Anderson Cancer Center, Houston, Texas 77030, USA. AD - Graduate School of Biomedical Sciences, University of Texas Health Science Center, Houston, Texas 77030, USA. AD - Graduate Institute of Biomedical Sciences and Center for Molecular Medicine, China Medical University, Taichung 404, Taiwan. AD - Department of Biotechnology, Asia University, Taichung 413, Taiwan. LA - eng GR - P30 CA016672/CA/NCI NIH HHS/United States GR - R01 CA058880/CA/NCI NIH HHS/United States GR - R01 CA211615/CA/NCI NIH HHS/United States GR - U01 CA201777/CA/NCI NIH HHS/United States PT - Journal Article PT - Research Support, N.I.H., Extramural PT - Research Support, Non-U.S. Gov't PT - Review DEP - 20200803 PL - United States TA - Cold Spring Harb Perspect Med JT - Cold Spring Harbor perspectives in medicine JID - 101571139 SB - IM MH - Disease Progression MH - Immunotherapy/*methods MH - Molecular Targeted Therapy/methods MH - *Neoplasm Metastasis MH - Neoplasms/drug therapy/*immunology MH - Tumor Microenvironment/drug effects PMC - PMC7156317 MID - NIHMS1061950 EDAT- 2019/10/17 06:00 MHDA- 2021/07/22 06:00 PMCR- 2022/08/01 CRDT- 2019/10/17 06:00 PHST- 2019/10/17 06:00 [pubmed] PHST- 2021/07/22 06:00 [medline] PHST- 2019/10/17 06:00 [entrez] PHST- 2022/08/01 00:00 [pmc-release] AID - cshperspect.a036863 [pii] AID - a036863 [pii] AID - 10.1101/cshperspect.a036863 [doi] PST - epublish SO - Cold Spring Harb Perspect Med. 2020 Aug 3;10(8):a036863. doi: 10.1101/cshperspect.a036863.",
+      "mesh_terms": [
+        "Disease Progression",
+        "Immunotherapy",
+        "Molecular Targeted Therapy",
+        "Neoplasm Metastasis",
+        "Neoplasms",
+        "Tumor Microenvironment"
+      ],
+      "keywords": [],
+      "full_text_links": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMCpmc-id: 7156317;manuscript-id: NIHMS1061950;",
+        "https://doi.org/10.1101/cshperspect.a036863"
+      ],
+      "doi": "10.1101/cshperspect.a036863",
+      "pmc_id": "pmc-id: 7156317;manuscript-id: NIHMS1061950;",
+      "research_insight": "This 2020 review article by Cha et al. in *Cold Spring Harbor Perspectives in Medicine* is highly relevant to a researcher interested in cancer immunotherapy because it directly addresses the role of immunotherapy in overcoming cancer metastasis, a major cause of mortality. The paper summarizes immunological events involved in tumor progression and discusses immunotherapies targeting metastasis, making it a valuable overview of the field. Further exploration of the specific mechanisms by which different immune cell types interact with metastatic tumor cells, as discussed in the review, could lead to the development of more targeted and effective immunotherapeutic strategies.\n"
+    },
+    {
+      "id": "38158304",
+      "pmid": "38158304",
+      "title": "Cancer Immunotherapy.",
+      "first_author": "Bergman PJ",
+      "co_authors": [],
+      "journal": "The Veterinary clinics of North America. Small animal practice",
+      "publication_date": "2024 May",
+      "abstract": "The enhanced understanding of immunology experienced over the last 5 decades afforded through the tools of molecular biology has recently translated into cancer immunotherapy becoming one of the most exciting and rapidly expanding fields. Human cancer immunotherapy is now recognized as one of the pillars of treatment alongside surgery, radiation, and chemotherapy. The field of veterinary cancer immunotherapy has also rapidly advanced in the last decade with a handful of commercially available products and a plethora of investigational cancer immunotherapies, which will hopefully expand our veterinary oncology treatment toolkit over time. CI - Copyright (c) 2023 Elsevier Inc. All rights reserved. FAU - Bergman, Philip J AU - Bergman PJ AD - Clinical Studies, VCA; Katonah Bedford Veterinary Center, Bedford Hills, NY, USA; Memorial Sloan-Kettering Cancer Center, New York, NY, USA. Electronic address: philip.bergman@vca.com. LA - eng PT - Journal Article PT - Review DEP - 20231228 PL - United States TA - Vet Clin North Am Small Anim Pract JT - The Veterinary clinics of North America. Small animal practice JID - 7809942 SB - IM MH - Animals MH - Humans MH - *Neoplasms/therapy/veterinary MH - Immunotherapy/veterinary OTO - NOTNLM OT - Cancer OT - Cancer vaccine OT - Canine OT - Feline OT - Immunotherapy OT - Monoclonal antibody COIS- Disclosure Dr P.J. Bergman is a co-inventor on patent US7556805B2 and was the veterinary principal investigator for the canine melanoma vaccine Oncept which received USDA-CVB conditional licensure in 2007 and full licensure in December of 2009. He also receives a minority royalty stream payment. EDAT- 2024/01/02 11:43 MHDA- 2024/03/25 06:44 CRDT- 2023/12/29 21:55 PHST- 2024/03/25 06:44 [medline] PHST- 2024/01/02 11:43 [pubmed] PHST- 2023/12/29 21:55 [entrez] AID - S0195-5616(23)00170-5 [pii] AID - 10.1016/j.cvsm.2023.12.002 [doi] PST - ppublish SO - Vet Clin North Am Small Anim Pract. 2024 May;54(3):441-468. doi: 10.1016/j.cvsm.2023.12.002. Epub 2023 Dec 28.",
+      "mesh_terms": [
+        "Animals",
+        "Humans",
+        "Neoplasms",
+        "Immunotherapy"
+      ],
+      "keywords": [
+        "Cancer",
+        "Cancer vaccine",
+        "Canine",
+        "Feline",
+        "Immunotherapy",
+        "Monoclonal antibody"
+      ],
+      "full_text_links": [
+        "https://doi.org/10.1016/j.cvsm.2023.12.002"
+      ],
+      "doi": "10.1016/j.cvsm.2023.12.002",
+      "pmc_id": null,
+      "research_insight": "This 2024 review article by Bergman in *The Veterinary Clinics of North America* is highly relevant to a researcher interested in cancer immunotherapy because it provides an overview of the advancements in both human and veterinary applications of this treatment modality. The discussion of commercially available and investigational veterinary cancer immunotherapies, particularly for canine and feline cancers, warrants further exploration, as it highlights the practical applications and future directions of immunotherapy in animal oncology. Given the increasing interest in translational research and the potential for animal models to inform human cancer treatment, this article bridges the gap between human and veterinary immunotherapy, making it valuable for researchers in the broader field.\n"
+    },
+    {
+      "id": "30309862",
+      "pmid": "30309862",
+      "title": "Mouse Models for Cancer Immunotherapy Research.",
+      "first_author": "Olson B",
+      "co_authors": [
+        "Li Y",
+        "Lin Y",
+        "Liu ET",
+        "Patnaik A"
+      ],
+      "journal": "Cancer discovery",
+      "publication_date": "2018 Nov",
+      "abstract": "Immunotherapy has revolutionized cancer therapy, largely attributed to the success of immune-checkpoint blockade. However, there are subsets of patients across multiple cancers who have not shown robust responses to these agents. A major impediment to progress in the field is the availability of faithful mouse models that recapitulate the complexity of human malignancy and immune contexture within the tumor microenvironment. These models are urgently needed across all malignancies to interrogate and predict antitumor immune responses and therapeutic efficacy in clinical trials. Herein, we seek to review pros and cons of different cancer mouse models, and how they can be used as platforms to predict efficacy and resistance to cancer immunotherapies.Significance: Although immunotherapy has shown substantial benefit in the treatment of a variety of malignancies, a key hurdle toward the advancement of these therapies is the availability of immunocompetent preclinical mouse models that recapitulate human disease. Here, we review the evolution of preclinical mouse models and their utility as coclinical platforms for mechanistic interrogation of cancer immunotherapies. Cancer Discov; 8(11); 1358-65. (c)2018 AACR. CI - (c)2018 American Association for Cancer Research. FAU - Olson, Brian AU - Olson B AD - Section of Hematology/Oncology, Department of Medicine, University of Chicago, Chicago, Illinois. FAU - Li, Yadi AU - Li Y AD - Section of Hematology/Oncology, Department of Medicine, University of Chicago, Chicago, Illinois. FAU - Lin, Yu AU - Lin Y AD - Section of Hematology/Oncology, Department of Medicine, University of Chicago, Chicago, Illinois. FAU - Liu, Edison T AU - Liu ET AD - The Jackson Laboratory Cancer Center, Bar Harbor, Maine. FAU - Patnaik, Akash AU - Patnaik A AD - Section of Hematology/Oncology, Department of Medicine, University of Chicago, Chicago, Illinois. apatnaik@medicine.bsd.uchicago.edu. LA - eng GR - P50 CA180995/CA/NCI NIH HHS/United States PT - Journal Article PT - Review DEP - 20181011 PL - United States TA - Cancer Discov JT - Cancer discovery JID - 101561693 SB - IM MH - Animals MH - *Biomedical Research MH - *Disease Models, Animal MH - Humans MH - *Immunotherapy MH - Mice MH - Neoplasms/*immunology/*therapy PMC - PMC8725605 MID - NIHMS1030236 COIS- Disclosure of Potential Conflicts of Interest E.T. Liu is President and CEO of The Jackson Laboratory. No potential conflicts of interest were disclosed by the other authors. EDAT- 2018/10/13 06:00 MHDA- 2019/11/09 06:00 PMCR- 2022/01/04 CRDT- 2018/10/13 06:00 PHST- 2018/01/12 00:00 [received] PHST- 2018/06/25 00:00 [revised] PHST- 2018/08/23 00:00 [accepted] PHST- 2018/10/13 06:00 [pubmed] PHST- 2019/11/09 06:00 [medline] PHST- 2018/10/13 06:00 [entrez] PHST- 2022/01/04 00:00 [pmc-release] AID - 2159-8290.CD-18-0044 [pii] AID - 10.1158/2159-8290.CD-18-0044 [doi] PST - ppublish SO - Cancer Discov. 2018 Nov;8(11):1358-1365. doi: 10.1158/2159-8290.CD-18-0044. Epub 2018 Oct 11.",
+      "mesh_terms": [
+        "Animals",
+        "Biomedical Research",
+        "Disease Models, Animal",
+        "Humans",
+        "Immunotherapy",
+        "Mice",
+        "Neoplasms"
+      ],
+      "keywords": [],
+      "full_text_links": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMCpmc-id: 8725605;manuscript-id: NIHMS1030236;",
+        "https://doi.org/10.1158/2159-8290.CD-18-0044"
+      ],
+      "doi": "10.1158/2159-8290.CD-18-0044",
+      "pmc_id": "pmc-id: 8725605;manuscript-id: NIHMS1030236;",
+      "research_insight": "This 2018 *Cancer Discovery* review article by Olson et al. is highly relevant to a researcher studying cancer immunotherapy because it directly addresses the critical need for improved mouse models that accurately reflect human cancer and immune responses to predict immunotherapy efficacy. The paper's discussion of the pros and cons of different mouse models, including their ability to recapitulate the tumor microenvironment, warrants further exploration, specifically focusing on the advancements in humanized mouse models and their ability to predict patient response to specific immunotherapies. This review contributes to the field by highlighting a major bottleneck in immunotherapy research and guiding researchers toward selecting and utilizing appropriate preclinical models for mechanistic studies and drug development.\n"
+    },
+    {
+      "id": "33282961",
+      "pmid": "33282961",
+      "title": "Cancer Vaccines: Toward the Next Breakthrough in Cancer Immunotherapy.",
+      "first_author": "Igarashi Y",
+      "co_authors": [
+        "Sasada T"
+      ],
+      "journal": "Journal of immunology research",
+      "publication_date": "2020",
+      "abstract": "Until now, three types of well-recognized cancer treatments have been developed, i.e., surgery, chemotherapy, and radiotherapy; these either remove or directly attack the cancer cells. These treatments can cure cancer at earlier stages but are frequently ineffective for treating cancer in the advanced or recurrent stages. Basic and clinical research on the tumor microenvironment, which consists of cancerous, stromal, and immune cells, demonstrates the critical role of antitumor immunity in cancer development and progression. Cancer immunotherapies have been proposed as the fourth cancer treatment. In particular, clinical application of immune checkpoint inhibitors, such as anti-CTLA-4 and anti-PD-1/PD-L1 antibodies, in various cancer types represents a major breakthrough in cancer therapy. Nevertheless, accumulating data regarding immune checkpoint inhibitors demonstrate that these are not always effective but are instead only effective in limited cancer populations. Indeed, several issues remain to be solved to improve their clinical efficacy; these include low cancer cell antigenicity and poor infiltration and/or accumulation of immune cells in the cancer microenvironment. Therefore, to accelerate the further development of cancer immunotherapies, more studies are necessary. In this review, we will summarize the current status of cancer immunotherapies, especially cancer vaccines, and discuss the potential problems and solutions for the next breakthrough in cancer immunotherapy. CI - Copyright (c) 2020 Yuka Igarashi and Tetsuro Sasada. FAU - Igarashi, Yuka AU - Igarashi Y AUID- ORCID: 0000-0002-7270-2285 AD - Kanagawa Cancer Center, Research Institute, Division of Cancer Immunotherapy, Japan. FAU - Sasada, Tetsuro AU - Sasada T AD - Kanagawa Cancer Center, Research Institute, Division of Cancer Immunotherapy, Japan. AD - Kanagawa Cancer Center, Cancer Vaccine and Immunotherapy Center, Japan. LA - eng PT - Journal Article PT - Review DEP - 20201117 PL - Egypt TA - J Immunol Res JT - Journal of immunology research JID - 101627166 RN - 0 (Biomarkers) RN - 0 (Cancer Vaccines) SB - IM MH - Animals MH - Biomarkers MH - Cancer Vaccines/classification/*therapeutic use MH - Clinical Studies as Topic MH - Combined Modality Therapy MH - Disease Management MH - Disease Susceptibility MH - Humans MH - *Immunotherapy/methods MH - Neoplasms/etiology/mortality/*therapy MH - Treatment Outcome MH - Tumor Escape PMC - PMC7685825 COIS- The authors declare that there is no conflict of interest regarding the publication of this paper. EDAT- 2020/12/08 06:00 MHDA- 2021/08/24 06:00 PMCR- 2020/11/17 CRDT- 2020/12/07 05:36 PHST- 2020/07/22 00:00 [received] PHST- 2020/09/26 00:00 [revised] PHST- 2020/09/30 00:00 [accepted] PHST- 2020/12/07 05:36 [entrez] PHST- 2020/12/08 06:00 [pubmed] PHST- 2021/08/24 06:00 [medline] PHST- 2020/11/17 00:00 [pmc-release] AID - 10.1155/2020/5825401 [doi] PST - epublish SO - J Immunol Res. 2020 Nov 17;2020:5825401. doi: 10.1155/2020/5825401. eCollection 2020.",
+      "mesh_terms": [
+        "Animals",
+        "Biomarkers",
+        "Cancer Vaccines",
+        "Clinical Studies as Topic",
+        "Combined Modality Therapy",
+        "Disease Management",
+        "Disease Susceptibility",
+        "Humans",
+        "Immunotherapy",
+        "Neoplasms",
+        "Treatment Outcome",
+        "Tumor Escape"
+      ],
+      "keywords": [],
+      "full_text_links": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMCpmc-id: 7685825;",
+        "https://doi.org/10.1155/2020/5825401"
+      ],
+      "doi": "10.1155/2020/5825401",
+      "pmc_id": "pmc-id: 7685825;",
+      "research_insight": "This 2020 review article from the *Journal of Immunology Research* is highly relevant to a researcher interested in cancer immunotherapy, specifically cancer vaccines. It summarizes the current state of cancer immunotherapies, focusing on cancer vaccines, and discusses the limitations of immune checkpoint inhibitors, highlighting the need for improved strategies. The paper's discussion of low cancer cell antigenicity and poor immune cell infiltration as barriers to effective immunotherapy warrants further exploration, as these are key challenges in the field that cancer vaccines aim to address.\n"
+    },
+    {
+      "id": "32710082",
+      "pmid": "32710082",
+      "title": "TGFβ biology in cancer progression and immunotherapy.",
+      "first_author": "Derynck R",
+      "co_authors": [
+        "Turley SJ",
+        "Akhurst RJ"
+      ],
+      "journal": "Nature reviews. Clinical oncology",
+      "publication_date": "2021 Jan",
+      "abstract": "TGFbeta signalling has key roles in cancer progression: most carcinoma cells have inactivated their epithelial antiproliferative response and benefit from increased TGFbeta expression and autocrine TGFbeta signalling through effects on gene expression, release of immunosuppressive cytokines and epithelial plasticity. As a result, TGFbeta enables cancer cell invasion and dissemination, stem cell properties and therapeutic resistance. TGFbeta released by cancer cells, stromal fibroblasts and other cells in the tumour microenvironment further promotes cancer progression by shaping the architecture of the tumour and by suppressing the antitumour activities of immune cells, thus generating an immunosuppressive environment that prevents or attenuates the efficacy of anticancer immunotherapies. The repression of TGFbeta signalling is therefore considered a prerequisite and major avenue to enhance the efficacy of current and forthcoming immunotherapies, including in tumours comprising cancer cells that are not TGFbeta responsive. Herein, we introduce the mechanisms underlying TGFbeta signalling in tumours and their microenvironment and discuss approaches to inhibit these signalling mechanisms as well as the use of these approaches in cancer immunotherapies and their potential adverse effects. FAU - Derynck, Rik AU - Derynck R AD - Department of Cell and Tissue Biology, University of California at San Francisco (UCSF), San Francisco, CA, USA. rik.derynck@ucsf.edu. AD - Department of Anatomy, UCSF, San Francisco, CA, USA. rik.derynck@ucsf.edu. AD - Helen Diller Family Comprehensive Cancer Center, UCSF, San Francisco, CA, USA. rik.derynck@ucsf.edu. FAU - Turley, Shannon J AU - Turley SJ AD - Department of Cancer Immunology, Genentech, South San Francisco, CA, USA. turley.shannon@gene.com. FAU - Akhurst, Rosemary J AU - Akhurst RJ AUID- ORCID: 0000-0002-4474-9668 AD - Department of Anatomy, UCSF, San Francisco, CA, USA. rosemary.akhurst@ucsf.edu. AD - Helen Diller Family Comprehensive Cancer Center, UCSF, San Francisco, CA, USA. rosemary.akhurst@ucsf.edu. LA - eng GR - R01 CA210561/CA/NCI NIH HHS/United States PT - Journal Article PT - Review DEP - 20200724 PL - England TA - Nat Rev Clin Oncol JT - Nature reviews. Clinical oncology JID - 101500077 RN - 0 (Transforming Growth Factor beta) SB - IM MH - Animals MH - Disease Progression MH - Humans MH - Immunotherapy/*methods MH - Neoplasms/metabolism/pathology/*therapy MH - Signal Transduction MH - Transforming Growth Factor beta/*metabolism PMC - PMC9721352 MID - NIHMS1845039 EDAT- 2020/07/28 06:00 MHDA- 2021/03/12 06:00 PMCR- 2022/12/05 CRDT- 2020/07/26 06:00 PHST- 2020/06/07 00:00 [accepted] PHST- 2020/07/28 06:00 [pubmed] PHST- 2021/03/12 06:00 [medline] PHST- 2020/07/26 06:00 [entrez] PHST- 2022/12/05 00:00 [pmc-release] AID - 10.1038/s41571-020-0403-1 [pii] AID - 10.1038/s41571-020-0403-1 [doi] PST - ppublish SO - Nat Rev Clin Oncol. 2021 Jan;18(1):9-34. doi: 10.1038/s41571-020-0403-1. Epub 2020 Jul 24.",
+      "mesh_terms": [
+        "Animals",
+        "Disease Progression",
+        "Humans",
+        "Immunotherapy",
+        "Neoplasms",
+        "Signal Transduction",
+        "Transforming Growth Factor beta"
+      ],
+      "keywords": [],
+      "full_text_links": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMCpmc-id: 9721352;manuscript-id: NIHMS1845039;",
+        "https://doi.org/10.1038/s41571-020-0403-1"
+      ],
+      "doi": "10.1038/s41571-020-0403-1",
+      "pmc_id": "pmc-id: 9721352;manuscript-id: NIHMS1845039;",
+      "research_insight": "This 2021 review article by Derynck et al. in *Nature Reviews Clinical Oncology* is highly relevant to cancer immunotherapy research because it directly addresses the role of TGFβ signaling in creating an immunosuppressive tumor microenvironment that hinders the efficacy of immunotherapies. The paper details the mechanisms by which TGFβ promotes cancer progression and suppresses anti-tumor immune responses, suggesting that inhibiting TGFβ signaling is a crucial strategy for enhancing immunotherapy effectiveness. Further exploration of the specific approaches to inhibit TGFβ signaling discussed in the article, including their potential adverse effects, is warranted to optimize combination therapies involving TGFβ inhibition and immunotherapy.\n"
+    },
+    {
+      "id": "37691932",
+      "pmid": "37691932",
+      "title": "Cancer immunotherapies: advances and bottlenecks.",
+      "first_author": "Rui R",
+      "co_authors": [
+        "Zhou L",
+        "He S"
+      ],
+      "journal": "Frontiers in immunology",
+      "publication_date": "2023",
+      "abstract": "Immunotherapy has ushered in a new era in cancer treatment, and cancer immunotherapy continues to be rejuvenated. The clinical goal of cancer immunotherapy is to prime host immune system to provide passive or active immunity against malignant tumors. Tumor infiltrating leukocytes (TILs) play an immunomodulatory role in tumor microenvironment (TME) which is closely related to immune escape of tumor cells, thus influence tumor progress. Several cancer immunotherapies, include immune checkpoint inhibitors (ICIs), cancer vaccine, adoptive cell transfer (ACT), have shown great efficacy and promise. In this review, we will summarize the recent research advances in tumor immunotherapy, including the molecular mechanisms and clinical effects as well as limitations of immunotherapy. CI - Copyright (c) 2023 Rui, Zhou and He. FAU - Rui, Rui AU - Rui R AD - Department of Urology, Peking University First Hospital, Beijing, China. AD - The Institution of Urology, Peking University, Beijing, China. AD - Beijing Key Laboratory of Urogenital Diseases (Male) Molecular Diagnosis and Treatment Center, Beijing, China. AD - National Urological Cancer Center, Beijing, China. FAU - Zhou, Liqun AU - Zhou L AD - Department of Urology, Peking University First Hospital, Beijing, China. AD - The Institution of Urology, Peking University, Beijing, China. AD - Beijing Key Laboratory of Urogenital Diseases (Male) Molecular Diagnosis and Treatment Center, Beijing, China. AD - National Urological Cancer Center, Beijing, China. FAU - He, Shiming AU - He S AD - Department of Urology, Peking University First Hospital, Beijing, China. AD - The Institution of Urology, Peking University, Beijing, China. AD - Beijing Key Laboratory of Urogenital Diseases (Male) Molecular Diagnosis and Treatment Center, Beijing, China. AD - National Urological Cancer Center, Beijing, China. LA - eng PT - Journal Article PT - Research Support, Non-U.S. Gov't PT - Review DEP - 20230824 PL - Switzerland TA - Front Immunol JT - Frontiers in immunology JID - 101560960 SB - IM MH - *Immunotherapy MH - Immunomodulation MH - Immunity, Active MH - Immunotherapy, Adoptive MH - Adoptive Transfer MH - *Neoplasms/therapy PMC - PMC10484345 OTO - NOTNLM OT - cancer immunotherapy OT - immune checkpoint blockade OT - neoadjuvant immunotherapy OT - tumor microenvironment COIS- The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest. EDAT- 2023/09/11 06:42 MHDA- 2023/09/12 06:41 PMCR- 2023/01/01 CRDT- 2023/09/11 04:30 PHST- 2023/04/26 00:00 [received] PHST- 2023/07/26 00:00 [accepted] PHST- 2023/09/12 06:41 [medline] PHST- 2023/09/11 06:42 [pubmed] PHST- 2023/09/11 04:30 [entrez] PHST- 2023/01/01 00:00 [pmc-release] AID - 10.3389/fimmu.2023.1212476 [doi] PST - epublish SO - Front Immunol. 2023 Aug 24;14:1212476. doi: 10.3389/fimmu.2023.1212476. eCollection 2023.",
+      "mesh_terms": [
+        "Immunotherapy",
+        "Immunomodulation",
+        "Immunity, Active",
+        "Immunotherapy, Adoptive",
+        "Adoptive Transfer",
+        "Neoplasms"
+      ],
+      "keywords": [
+        "cancer immunotherapy",
+        "immune checkpoint blockade",
+        "neoadjuvant immunotherapy",
+        "tumor microenvironment"
+      ],
+      "full_text_links": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMCpmc-id: 10484345;",
+        "https://doi.org/10.3389/fimmu.2023.1212476"
+      ],
+      "doi": "10.3389/fimmu.2023.1212476",
+      "pmc_id": "pmc-id: 10484345;",
+      "research_insight": "This 2023 review article from *Frontiers in Immunology* directly addresses the researcher's query on cancer immunotherapy by summarizing recent advances, molecular mechanisms, clinical effects, and limitations of various immunotherapy approaches like ICIs, cancer vaccines, and ACT. The paper's focus on the tumor microenvironment (TME) and the role of tumor-infiltrating leukocytes (TILs) in immune escape highlights a critical area for further exploration, particularly regarding strategies to modulate the TME to enhance immunotherapy efficacy. As a recent overview of the field, this article provides a valuable foundation for understanding current challenges and future directions in cancer immunotherapy research.\n"
+    },
+    {
+      "id": "34403771",
+      "pmid": "34403771",
+      "title": "Advances in clinical immunotherapy for gastric cancer.",
+      "first_author": "Li K",
+      "co_authors": [
+        "Zhang A",
+        "Li X",
+        "Zhang H",
+        "Zhao L"
+      ],
+      "journal": "Biochimica et biophysica acta. Reviews on cancer",
+      "publication_date": "2021 Dec",
+      "abstract": "Gastric cancer (GC) is one of the most malignant human cancers with increasing incidence worldwide, ranking among the top five malignant tumors worldwide in terms of incidence and mortality. The clinical efficacy of conventional therapies is limited, and the median overall survival (mOS) for advanced-stage gastric cancer is only about 8 months. Emerging as one of breakthroughs for cancer therapy, immunotherapy has become an effective treatment modality after surgery, chemotherapy, radiotherapy, and targeted therapy. In this review, we have summarized the progresses of clinical development of immunotherapies for gastric cancer. Major advances with immune checkpoint inhibitors (ICIs) have started to change the clinical practice for gastric cancer treatment and prognosis. Additionally, combination therapies with other modalities, such as targeted therapies, are expected to push immunotherapies to front-line. In this review, the efficacy of ICIs and targeted therapy alone or combination with existing therapies gastric cancer treatment was described and the predictive value of biomarkers for immunotherapies in gastric cancer treatment is also discussed. CI - Copyright (c) 2021. Published by Elsevier B.V. FAU - Li, Kexin AU - Li K AD - Research Center, the Fourth Hospital of Hebei Medical University, Shijiazhuang, China. FAU - Zhang, Ashley AU - Zhang A AD - Research Center, the Fourth Hospital of Hebei Medical University, Shijiazhuang, China. FAU - Li, Xiaoya AU - Li X AD - Research Center, the Fourth Hospital of Hebei Medical University, Shijiazhuang, China. FAU - Zhang, Hongtao AU - Zhang H AD - University of Pennsylvania School of Medicine Philadelphia, 252 John Morgan Building, 36th Street and Hamilton Walk, Philadelphia, United States. Electronic address: zhanghon@pennmedicine.upenn.edu. FAU - Zhao, Lianmei AU - Zhao L AD - Research Center, the Fourth Hospital of Hebei Medical University, Shijiazhuang, China. Electronic address: zhaolianmei@hbydsy.com. LA - eng PT - Journal Article PT - Research Support, Non-U.S. Gov't PT - Review DEP - 20210814 PL - Netherlands TA - Biochim Biophys Acta Rev Cancer JT - Biochimica et biophysica acta. Reviews on cancer JID - 9806362 RN - 0 (Biomarkers, Tumor) RN - 0 (Immune Checkpoint Inhibitors) SB - IM MH - Biomarkers, Tumor/pharmacology/*therapeutic use MH - Female MH - Humans MH - Immune Checkpoint Inhibitors/pharmacology/*therapeutic use MH - Immunotherapy/*methods MH - Male MH - Stomach Neoplasms/*drug therapy/immunology OTO - NOTNLM OT - Biomarkers OT - Gastric cancer OT - Immune checkpoint inhibitors (ICIs) OT - Immunotherapy EDAT- 2021/08/18 06:00 MHDA- 2021/11/25 06:00 CRDT- 2021/08/17 20:14 PHST- 2021/04/08 00:00 [received] PHST- 2021/07/14 00:00 [revised] PHST- 2021/08/12 00:00 [accepted] PHST- 2021/08/18 06:00 [pubmed] PHST- 2021/11/25 06:00 [medline] PHST- 2021/08/17 20:14 [entrez] AID - S0304-419X(21)00113-X [pii] AID - 10.1016/j.bbcan.2021.188615 [doi] PST - ppublish SO - Biochim Biophys Acta Rev Cancer. 2021 Dec;1876(2):188615. doi: 10.1016/j.bbcan.2021.188615. Epub 2021 Aug 14.",
+      "mesh_terms": [
+        "Biomarkers, Tumor",
+        "Female",
+        "Humans",
+        "Immune Checkpoint Inhibitors",
+        "Immunotherapy",
+        "Male",
+        "Stomach Neoplasms"
+      ],
+      "keywords": [
+        "Biomarkers",
+        "Gastric cancer",
+        "Immune checkpoint inhibitors (ICIs)",
+        "Immunotherapy"
+      ],
+      "full_text_links": [
+        "https://doi.org/10.1016/j.bbcan.2021.188615"
+      ],
+      "doi": "10.1016/j.bbcan.2021.188615",
+      "pmc_id": null,
+      "research_insight": "This 2021 review article on \"Advances in clinical immunotherapy for gastric cancer\" is highly relevant to a researcher interested in cancer immunotherapy, as it specifically focuses on the progress of immunotherapy in treating gastric cancer, a major area of unmet clinical need. The paper's discussion of immune checkpoint inhibitors (ICIs) and combination therapies, along with the predictive value of biomarkers, warrants further exploration to understand how these factors can be optimized for improved patient outcomes. Given the limited efficacy of conventional treatments for gastric cancer, this review contributes to the growing body of knowledge on immunotherapy's potential to revolutionize treatment strategies for this deadly disease.\n"
+    },
+    {
+      "id": "34856152",
+      "pmid": "34856152",
+      "title": "Immunotherapy for cancer treatment during pregnancy.",
+      "first_author": "Borgers JSW",
+      "co_authors": [
+        "Heimovaara JH",
+        "Cardonick E",
+        "Dierickx D",
+        "Lambertini M",
+        "Haanen JBAG",
+        "Amant F"
+      ],
+      "journal": "The Lancet. Oncology",
+      "publication_date": "2021 Dec",
+      "abstract": "Immunotherapy has greatly improved outcomes for subgroups of patients with cancer. As indications keep expanding, there is an unmet need to gain a better understanding of the effect of these therapies on pregnancy and fertility. During pregnancy, substantial adaptations occur in the maternal immune system to maintain protection against pathogens while avoiding detrimental reactions to the semi-allogeneic fetus. The pathways involved in the establishment of this fetomaternal tolerance can be hijacked by cancers. Immunotherapies that target these inhibitory pathways, or that directly interact with the regulatory immune cells involved in tolerance mechanisms, might therefore result in complications during pregnancy. Similarly, by activating the patient's immune system with immunotherapy, a broad range of immune-related adverse events can occur that could negatively affect the fetus or impede a future desired pregnancy. This Review summarises preclinical and clinical data related to the use of immunotherapy during pregnancy, including all approved immune checkpoint inhibitors, recombinant cytokines, cell therapies, vaccines, and immunomodulatory drugs. CI - Copyright (c) 2021 Elsevier Ltd. All rights reserved. FAU - Borgers, Jessica S W AU - Borgers JSW AD - Department of Medical Oncology, Antoni van Leeuwenhoek-Netherlands Cancer Institute, Amsterdam, Netherlands. FAU - Heimovaara, Joosje H AU - Heimovaara JH AD - Department of Oncology, KU Leuven, Leuven, Belgium. FAU - Cardonick, Elyce AU - Cardonick E AD - Department of Obstetrics and Gynecology, Cooper University Health Care, Camden, NJ, USA. FAU - Dierickx, Daan AU - Dierickx D AD - Laboratory of Experimental Haematology, KU Leuven, Leuven, Belgium; Department of Haematology, University Hospitals Leuven, Leuven, Belgium. FAU - Lambertini, Matteo AU - Lambertini M AD - Department of Medical Oncology, Clinical di Oncologia Medica, IRCCS Ospedale Policlinico San Martino, Genova, Italy; Department of Internal Medicine and Medical Specialties, School of Medicine, University of Genova, Genova, Italy. FAU - Haanen, John B A G AU - Haanen JBAG AD - Department of Medical Oncology, Antoni van Leeuwenhoek-Netherlands Cancer Institute, Amsterdam, Netherlands. FAU - Amant, Frederic AU - Amant F AD - Department of Surgical Oncology, Antoni van Leeuwenhoek-Netherlands Cancer Institute, Amsterdam, Netherlands; Department of Oncology, KU Leuven, Leuven, Belgium. Electronic address: frederic.amant@uzleuven.be. LA - eng PT - Journal Article PT - Research Support, Non-U.S. Gov't PT - Review PL - England TA - Lancet Oncol JT - The Lancet. Oncology JID - 100957246 RN - 0 (Immune Checkpoint Inhibitors) RN - 0 (Immunomodulating Agents) SB - IM MH - Cell- and Tissue-Based Therapy/*methods MH - Female MH - Humans MH - Immune Checkpoint Inhibitors/*therapeutic use MH - *Immune Tolerance MH - Immunomodulating Agents/*therapeutic use MH - Immunotherapy/*methods MH - Neoplasms/immunology/*therapy MH - Pregnancy COIS- Declaration of interests DD acted as a consultant for Sanofi, Roche, Atara, Incyte, Novartis, Amgen, and Takeda; received speaker honoraria from Sanofi, Incyte, Takeda, and Atara, outside the submitted work; and holds a mandate for Clinical and Translational Research from Kom op tegen Kanker. ML acted as a consultant for Roche, Novartis, Lilly, and AstraZeneca; and received speaker honoraria from Roche, Novartis, Lilly, Pfizer, Sandoz, and Takeda, outside the submitted work. JBAGH is adviser to Achilles Therapeutics, Bristol-Myers Squibb, BioNTech USA, Ipsen, Gadeta, Immunocore, Merck Sharpe & Dohme, Merck Serono, Molecular Partners, Neogene Therapeutics, Novartis, Pfizer, Roche-Genentech, Sanofi, Seattle Genetics, and Third Rock Ventures; is a stockholder in Neogene Therapeutics; and is a recipient of grants or research support from Bristol-Myers Squibb, Merck Sharpe & Dohme, Novartis, Neogene Therapeutics, Asher Bio, and BioNTech USA. All other authors declare no competing interests. EDAT- 2021/12/03 06:00 MHDA- 2022/01/11 06:00 CRDT- 2021/12/02 20:10 PHST- 2021/06/21 00:00 [received] PHST- 2021/08/17 00:00 [revised] PHST- 2021/08/23 00:00 [accepted] PHST- 2021/12/02 20:10 [entrez] PHST- 2021/12/03 06:00 [pubmed] PHST- 2022/01/11 06:00 [medline] AID - S1470-2045(21)00525-8 [pii] AID - 10.1016/S1470-2045(21)00525-8 [doi] PST - ppublish SO - Lancet Oncol. 2021 Dec;22(12):e550-e561. doi: 10.1016/S1470-2045(21)00525-8.",
+      "mesh_terms": [
+        "Cell- and Tissue-Based Therapy",
+        "Female",
+        "Humans",
+        "Immune Checkpoint Inhibitors",
+        "Immune Tolerance",
+        "Immunomodulating Agents",
+        "Immunotherapy",
+        "Neoplasms",
+        "Pregnancy"
+      ],
+      "keywords": [],
+      "full_text_links": [
+        "https://doi.org/10.1016/S1470-2045(21)00525-8"
+      ],
+      "doi": "10.1016/S1470-2045(21)00525-8",
+      "pmc_id": null,
+      "research_insight": "This review article is highly relevant to a researcher studying cancer immunotherapy because it specifically addresses the impact of various immunotherapy approaches (checkpoint inhibitors, cytokines, cell therapies, etc.) on pregnancy, a critical and often overlooked aspect. The paper highlights the potential complications arising from immunotherapy's interaction with fetomaternal tolerance mechanisms and immune-related adverse events affecting the fetus or future pregnancies. Further exploration is warranted regarding the long-term effects of specific immunotherapies on offspring health and development, as current data is limited. This research contributes to the broader field by providing a comprehensive overview of the risks and considerations for using immunotherapy in pregnant cancer patients, a population often excluded from clinical trials.\n"
+    },
+    {
+      "id": "30523282",
+      "pmid": "30523282",
+      "title": "Cancer immunoediting and resistance to T cell-based immunotherapy.",
+      "first_author": "O'Donnell JS",
+      "co_authors": [
+        "Teng MWL",
+        "Smyth MJ"
+      ],
+      "journal": "Nature reviews. Clinical oncology",
+      "publication_date": "2019 Mar",
+      "abstract": "Anticancer immunotherapies involving the use of immune-checkpoint inhibitors or adoptive cellular transfer have emerged as new therapeutic pillars within oncology. These treatments function by overcoming or relieving tumour-induced immunosuppression, thereby enabling immune-mediated tumour clearance. While often more effective and better tolerated than traditional and targeted therapies, many patients have innate or acquired resistance to immunotherapies. Cancer immunoediting is the process whereby the immune system can both constrain and promote tumour development, which proceeds through three phases termed elimination, equilibrium and escape. Throughout these phases, tumour immunogenicity is edited, and immunosuppressive mechanisms that enable disease progression are acquired. The mechanisms of resistance to immunotherapy seem to broadly overlap with those used by cancers as they undergo immunoediting to evade detection by the immune system. In this Review, we discuss how a deeper understanding of the mechanisms underlying the cancer immunoediting process can provide insight into the development of resistance to immunotherapies and the strategies that can be used to overcome such resistance. FAU - O'Donnell, Jake S AU - O'Donnell JS AD - Immunology in Cancer and Infection Laboratory, QIMR Berghofer Medical Research Institute, Queensland, Australia. AD - Cancer Immunoregulation and Immunotherapy Laboratory, QIMR Berghofer Medical Research Institute, Queensland, Australia. AD - School of Medicine, The University of Queensland, Queensland, Australia. FAU - Teng, Michele W L AU - Teng MWL AD - Cancer Immunoregulation and Immunotherapy Laboratory, QIMR Berghofer Medical Research Institute, Queensland, Australia. Michele.Teng@qimrberghofer.edu.au. AD - School of Medicine, The University of Queensland, Queensland, Australia. Michele.Teng@qimrberghofer.edu.au. FAU - Smyth, Mark J AU - Smyth MJ AUID- ORCID: 0000-0001-7098-7240 AD - Immunology in Cancer and Infection Laboratory, QIMR Berghofer Medical Research Institute, Queensland, Australia. Mark.Smyth@qimrberghofer.edu.au. AD - School of Medicine, The University of Queensland, Queensland, Australia. Mark.Smyth@qimrberghofer.edu.au. LA - eng PT - Journal Article PT - Research Support, Non-U.S. Gov't PT - Review PL - England TA - Nat Rev Clin Oncol JT - Nature reviews. Clinical oncology JID - 101500077 RN - 0 (Immunologic Factors) SB - IM MH - Adoptive Transfer MH - Disease Progression MH - *Drug Resistance, Neoplasm MH - Humans MH - Immunologic Factors/therapeutic use MH - Immunotherapy/*methods MH - Neoplasms/*immunology/therapy MH - T-Lymphocytes/*immunology MH - Tumor Microenvironment EDAT- 2018/12/12 06:00 MHDA- 2019/07/10 06:00 CRDT- 2018/12/08 06:00 PHST- 2018/12/12 06:00 [pubmed] PHST- 2019/07/10 06:00 [medline] PHST- 2018/12/08 06:00 [entrez] AID - 10.1038/s41571-018-0142-8 [pii] AID - 10.1038/s41571-018-0142-8 [doi] PST - ppublish SO - Nat Rev Clin Oncol. 2019 Mar;16(3):151-167. doi: 10.1038/s41571-018-0142-8.",
+      "mesh_terms": [
+        "Adoptive Transfer",
+        "Disease Progression",
+        "Drug Resistance, Neoplasm",
+        "Humans",
+        "Immunologic Factors",
+        "Immunotherapy",
+        "Neoplasms",
+        "T-Lymphocytes",
+        "Tumor Microenvironment"
+      ],
+      "keywords": [],
+      "full_text_links": [
+        "https://doi.org/10.1038/s41571-018-0142-8"
+      ],
+      "doi": "10.1038/s41571-018-0142-8",
+      "pmc_id": null,
+      "research_insight": "This 2019 review article in *Nature Reviews Clinical Oncology* is highly relevant to a researcher studying cancer immunotherapy because it directly addresses the critical issue of resistance to T cell-based immunotherapies. It explains how the process of cancer immunoediting, specifically the elimination, equilibrium, and escape phases, contributes to the development of resistance mechanisms. Further exploration should focus on the specific immunosuppressive mechanisms acquired by tumors during immunoediting and how these mechanisms can be targeted to overcome resistance and improve immunotherapy efficacy. This review is important to the field because it provides a framework for understanding and addressing a major obstacle in the successful application of cancer immunotherapy.\n"
+    },
+    {
+      "id": "34671902",
+      "pmid": "34671902",
+      "title": "Harnessing the immune system against cancer: current immunotherapy approaches and therapeutic targets.",
+      "first_author": "Kumar AR",
+      "co_authors": [
+        "Devan AR",
+        "Nair B",
+        "Vinod BS",
+        "Nath LR"
+      ],
+      "journal": "Molecular biology reports",
+      "publication_date": "2021 Dec",
+      "abstract": "Cancer immunotherapy is a rapidly evolving concept that has been given the tag \"fifth pillar\" of cancer therapy while radiation therapy, chemotherapy, surgery and targeted therapy remain the other four pillars. This involves the stimulation of the immune system to control tumor growth and it specifically targets the neoplastic cells rather than the normal cells. Conventional chemotherapy has many limitations which include drug resistance, recurrence of cancer and severe adverse effects. Immunology has made major treatment breakthroughs for several cancers such as colorectal cancer, prostate cancer, breast cancer, lung cancer, liver cancer, kidney cancer, stomach cancer, acute lymphoblastic leukaemia etc. Currently, therapeutic strategies harnessing the immune system involve Checkpoint inhibitors, Chimeric antigen receptor T cells (CAR T cells), Monoclonal antibodies, Cancer vaccines, Cytokines, Radio-immunotherapy and Oncolytic virus therapy. The molecular characterization of several tumor antigens (TA) indicates that these TA can be utilized as promising candidates in cancer immunotherapy strategies. Here in this review, we highlight and summarize the different categories of emerging cancer immunotherapies along with the immunologically recognized tumor antigens involved in the tumor microenvironment. CI - (c) 2021. The Author(s), under exclusive licence to Springer Nature B.V. FAU - Kumar, Ayana R AU - Kumar AR AD - Department of Pharmacognosy, Amrita School of Pharmacy, Amrita Vishwa Vidyapeetham, AIMS Health Science Campus, Ponekkara P. O., Kochi, Kerala, 682041, India. FAU - Devan, Aswathy R AU - Devan AR AD - Department of Pharmacognosy, Amrita School of Pharmacy, Amrita Vishwa Vidyapeetham, AIMS Health Science Campus, Ponekkara P. O., Kochi, Kerala, 682041, India. FAU - Nair, Bhagyalakshmi AU - Nair B AD - Department of Pharmacognosy, Amrita School of Pharmacy, Amrita Vishwa Vidyapeetham, AIMS Health Science Campus, Ponekkara P. O., Kochi, Kerala, 682041, India. FAU - Vinod, Balachandran S AU - Vinod BS AD - Department of Biochemistry, Sree Narayana College, Kollam, Kerala, 691001, India. drvinodsnc@gmail.com. FAU - Nath, Lekshmi R AU - Nath LR AUID- ORCID: 0000-0002-7726-7219 AD - Department of Pharmacognosy, Amrita School of Pharmacy, Amrita Vishwa Vidyapeetham, AIMS Health Science Campus, Ponekkara P. O., Kochi, Kerala, 682041, India. lekshmirnath@aims.amrita.edu. LA - eng GR - P30 CA008748/CA/NCI NIH HHS/United States GR - Project ID: K-PHAR-20-627/Amrita Vishwa Vidyapeetham University/ PT - Journal Article PT - Review DEP - 20211020 PL - Netherlands TA - Mol Biol Rep JT - Molecular biology reports JID - 0403234 RN - 0 (Antibodies, Monoclonal) RN - 0 (Antigens, Neoplasm) RN - 0 (Antineoplastic Agents, Immunological) RN - 0 (Biomarkers, Tumor) RN - 0 (Immunologic Factors) SB - IM MH - Antibodies, Monoclonal/pharmacology MH - Antigens, Neoplasm/immunology/therapeutic use MH - Antineoplastic Agents, Immunological/therapeutic use MH - Biomarkers, Tumor MH - Humans MH - Immune System/drug effects MH - Immunologic Factors/immunology MH - Immunotherapy/*methods/trends MH - Molecular Targeted Therapy/methods/trends MH - Neoplasms/*immunology/*therapy MH - Tumor Microenvironment/drug effects PMC - PMC8605995 MID - NIHMS1751836 OTO - NOTNLM OT - CAR T cells OT - CTLA-4 OT - Cancer immunotherapy OT - Cancer vaccines OT - Checkpoint inhibitor OT - Cytokines OT - Monoclonal antibodies OT - Oncolytic viruses OT - PD-1 OT - PD-L1 COIS- Conflict of interest The authors declare that they have no competing interests. EDAT- 2021/10/22 06:00 MHDA- 2022/03/01 06:00 PMCR- 2022/12/01 CRDT- 2021/10/21 06:18 PHST- 2021/02/27 00:00 [received] PHST- 2021/09/15 00:00 [accepted] PHST- 2021/10/22 06:00 [pubmed] PHST- 2022/03/01 06:00 [medline] PHST- 2021/10/21 06:18 [entrez] PHST- 2022/12/01 00:00 [pmc-release] AID - 10.1007/s11033-021-06752-9 [pii] AID - 10.1007/s11033-021-06752-9 [doi] PST - ppublish SO - Mol Biol Rep. 2021 Dec;48(12):8075-8095. doi: 10.1007/s11033-021-06752-9. Epub 2021 Oct 20.",
+      "mesh_terms": [
+        "Antibodies, Monoclonal",
+        "Antigens, Neoplasm",
+        "Antineoplastic Agents, Immunological",
+        "Biomarkers, Tumor",
+        "Humans",
+        "Immune System",
+        "Immunologic Factors",
+        "Immunotherapy",
+        "Molecular Targeted Therapy",
+        "Neoplasms",
+        "Tumor Microenvironment"
+      ],
+      "keywords": [
+        "CAR T cells",
+        "CTLA-4",
+        "Cancer immunotherapy",
+        "Cancer vaccines",
+        "Checkpoint inhibitor",
+        "Cytokines",
+        "Monoclonal antibodies",
+        "Oncolytic viruses",
+        "PD-1",
+        "PD-L1"
+      ],
+      "full_text_links": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMCpmc-id: 8605995;manuscript-id: NIHMS1751836;",
+        "https://doi.org/10.1007/s11033-021-06752-9"
+      ],
+      "doi": "10.1007/s11033-021-06752-9",
+      "pmc_id": "pmc-id: 8605995;manuscript-id: NIHMS1751836;",
+      "research_insight": "This 2021 review article in *Molecular Biology Reports* is highly relevant to a researcher interested in cancer immunotherapy as it provides a broad overview of current approaches, including checkpoint inhibitors, CAR T cells, and cancer vaccines, and highlights immunologically recognized tumor antigens. The discussion of specific tumor antigens as promising candidates for immunotherapy strategies warrants further exploration, particularly regarding their role in different cancer types and their potential for personalized immunotherapy approaches. As immunotherapy is considered the \"fifth pillar\" of cancer therapy, this review contributes to the field by summarizing the latest advancements and potential therapeutic targets, offering a valuable starting point for researchers seeking to understand the current landscape and future directions of cancer immunotherapy.\n"
+    },
+    {
+      "id": "38685033",
+      "pmid": "38685033",
+      "title": "CD8(+) T cell-based cancer immunotherapy.",
+      "first_author": "Chen Y",
+      "co_authors": [
+        "Yu D",
+        "Qian H",
+        "Shi Y",
+        "Tao Z"
+      ],
+      "journal": "Journal of translational medicine",
+      "publication_date": "2024 Apr 29",
+      "abstract": "The immune system in humans is a defense department against both exogenous and endogenous hazards, where CD8(+) T cells play a crucial role in opposing pathological threats. Various immunotherapies based on CD8(+) T cells have emerged in recent decades, showing their promising results in treating intractable diseases. However, in the fight against the constantly changing and evolving cancers, the formation and function of CD8(+) T cells can be challenged by tumors that might train a group of accomplices to resist the T cell killing. As cancer therapy stepped into the era of immunotherapy, understanding the physiological role of CD8(+) T cells, studying the machinery of tumor immune escape, and thereby formulating different therapeutic strategies become the imperative missions for clinical and translational researchers to fulfill. After brief basics of CD8(+) T cell-based biology is covered, this review delineates the mechanisms of tumor immune escape and discusses different cancer immunotherapy regimens with their own advantages and setbacks, embracing challenges and perspectives in near future. CI - (c) 2024. The Author(s). FAU - Chen, Yanxia AU - Chen Y AD - Jiangsu Key Laboratory of Medical Science and Laboratory Medicine, Department of Laboratory Medicine, School of Medicine, Jiangsu University, Zhenjiang, Jiangsu, 212013, China. FAU - Yu, Dingning AU - Yu D AD - Jiangsu Key Laboratory of Medical Science and Laboratory Medicine, Department of Laboratory Medicine, School of Medicine, Jiangsu University, Zhenjiang, Jiangsu, 212013, China. AD - Department of Laboratory Medicine, Shaoxing People's Hospital, Shaoxing, Zhejiang, 312000, China. FAU - Qian, Hui AU - Qian H AD - Jiangsu Key Laboratory of Medical Science and Laboratory Medicine, Department of Laboratory Medicine, School of Medicine, Jiangsu University, Zhenjiang, Jiangsu, 212013, China. AD - Zhenjiang Key Laboratory of High Technology Research on Exosomes Foundation and Transformation Application, School of Medicine, Jiangsu University, Zhenjiang, Jiangsu, 212013, China. FAU - Shi, Yinghong AU - Shi Y AD - Jiangsu Key Laboratory of Medical Science and Laboratory Medicine, Department of Laboratory Medicine, School of Medicine, Jiangsu University, Zhenjiang, Jiangsu, 212013, China. shiwuyisunny@163.com. AD - Zhenjiang Key Laboratory of High Technology Research on Exosomes Foundation and Transformation Application, School of Medicine, Jiangsu University, Zhenjiang, Jiangsu, 212013, China. shiwuyisunny@163.com. FAU - Tao, Zhimin AU - Tao Z AUID- ORCID: 0000-0002-9765-2720 AD - Jiangsu Key Laboratory of Medical Science and Laboratory Medicine, Department of Laboratory Medicine, School of Medicine, Jiangsu University, Zhenjiang, Jiangsu, 212013, China. jsutao@ujs.edu.cn. AD - Zhenjiang Key Laboratory of High Technology Research on Exosomes Foundation and Transformation Application, School of Medicine, Jiangsu University, Zhenjiang, Jiangsu, 212013, China. jsutao@ujs.edu.cn. AD - Department of Emergency Medicine, The Affiliated Hospital of Jiangsu University, Zhenjiang, Jiangsu, 212001, China. jsutao@ujs.edu.cn. LA - eng GR - BK20230528/Natural Science Foundation of Jiangsu Province/ GR - 82303767/National Natural Science Foundation of China/ PT - Journal Article PT - Research Support, Non-U.S. Gov't PT - Review DEP - 20240429 PL - England TA - J Transl Med JT - Journal of translational medicine JID - 101190741 SB - IM MH - Humans MH - *Neoplasms/immunology/therapy MH - *Immunotherapy/methods MH - *CD8-Positive T-Lymphocytes/immunology MH - Animals MH - Tumor Escape/immunology PMC - PMC11057112 OTO - NOTNLM OT - CAR-T OT - CD8+ T cell OT - Cancer therapy OT - Checkpoint inhibitor OT - Solid tumor EDAT- 2024/04/30 00:42 MHDA- 2024/04/30 06:46 PMCR- 2024/04/29 CRDT- 2024/04/29 23:51 PHST- 2024/01/05 00:00 [received] PHST- 2024/03/26 00:00 [accepted] PHST- 2024/04/30 06:46 [medline] PHST- 2024/04/30 00:42 [pubmed] PHST- 2024/04/29 23:51 [entrez] PHST- 2024/04/29 00:00 [pmc-release] AID - 10.1186/s12967-024-05134-6 [pii] AID - 5134 [pii] AID - 10.1186/s12967-024-05134-6 [doi] PST - epublish SO - J Transl Med. 2024 Apr 29;22(1):394. doi: 10.1186/s12967-024-05134-6.",
+      "mesh_terms": [
+        "Humans",
+        "Neoplasms",
+        "Immunotherapy",
+        "CD8-Positive T-Lymphocytes",
+        "Animals",
+        "Tumor Escape"
+      ],
+      "keywords": [
+        "CAR-T",
+        "CD8+ T cell",
+        "Cancer therapy",
+        "Checkpoint inhibitor",
+        "Solid tumor"
+      ],
+      "full_text_links": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMCpmc-id: 11057112;",
+        "https://doi.org/10.1186/s12967-024-05134-6"
+      ],
+      "doi": "10.1186/s12967-024-05134-6",
+      "pmc_id": "pmc-id: 11057112;",
+      "research_insight": "This 2024 review article in the *Journal of Translational Medicine* is highly relevant to a researcher interested in cancer immunotherapy, as it specifically focuses on CD8+ T cell-based approaches. The paper delineates mechanisms of tumor immune escape and discusses various immunotherapy regimens, including CAR-T and checkpoint inhibitors, highlighting both their advantages and setbacks, which is crucial for understanding the current landscape of the field. Further exploration of the challenges and future perspectives outlined in the review, particularly regarding overcoming tumor resistance mechanisms, would be beneficial for identifying potential research directions.\n"
+    },
+    {
+      "id": "33500721",
+      "pmid": "33500721",
+      "title": "Cancer photo-immunotherapy: from bench to bedside.",
+      "first_author": "Wang M",
+      "co_authors": [
+        "Rao J",
+        "Wang M",
+        "Li X",
+        "Liu K",
+        "Naylor MF",
+        "Nordquist RE",
+        "Chen WR",
+        "Zhou F"
+      ],
+      "journal": "Theranostics",
+      "publication_date": "2021",
+      "abstract": "Targeted therapy and immunotherapy in combination is considered the ideal strategy for treating metastatic cancer, as it can eliminate the primary tumors and induce host immunity to control distant metastases. Phototherapy, a promising targeted therapy, eradicates primary tumors using an appropriate dosage of focal light irradiation, while initiating antitumor immune responses through induced immunogenic tumor cell death. Recently, phototherapy has been employed to improve the efficacy of immunotherapies such as chimeric antigen receptor T-cell therapy and immune checkpoint inhibitors. Phototherapy and immunoadjuvant therapy have been used in combination clinically, wherein the induced immunogenic cell death and enhanced antigen presentation synergy, inducing a systemic antitumor immune response to control residual tumor cells at the treatment site and distant metastases. This review summarizes studies on photo-immunotherapy, the combination of phototherapy and immunotherapy, especially focusing on the development and progress of this unique combination from a benchtop project to a promising clinical therapy for metastatic cancer. CI - (c) The author(s). FAU - Wang, Miao AU - Wang M AD - School of Biomedical Engineering, Hainan University, Haikou, 570228, China. FAU - Rao, Jie AU - Rao J AD - School of Biomedical Engineering, Hainan University, Haikou, 570228, China. FAU - Wang, Meng AU - Wang M AD - College of Physics and Optoelectronic Engineering, Shenzhen University, Shenzhen, 518060, China. FAU - Li, Xiaosong AU - Li X AD - Department of Oncology, the First Affiliated Hospital of Chinese PLA General Hospital, Beijing 100048, China. FAU - Liu, Kaili AU - Liu K AD - Stephenson School of Biomedical Engineering, The University of Oklahoma, Norman, OK 73019, USA. FAU - Naylor, Mark F AU - Naylor MF AD - Baylor Scott & White Healthcare, Waco, Texas 76712, USA. FAU - Nordquist, Robert E AU - Nordquist RE AD - Immunophotonics, Inc., 4320 Forest Park Ave., #303 (BAL), St. Louis, MO 63108, USA. FAU - Chen, Wei R AU - Chen WR AD - Stephenson School of Biomedical Engineering, The University of Oklahoma, Norman, OK 73019, USA. FAU - Zhou, Feifan AU - Zhou F AD - School of Biomedical Engineering, Hainan University, Haikou, 570228, China. LA - eng GR - R01 CA205348/CA/NCI NIH HHS/United States PT - Journal Article PT - Research Support, N.I.H., Extramural PT - Research Support, Non-U.S. Gov't PT - Review DEP - 20210101 PL - Australia TA - Theranostics JT - Theranostics JID - 101552395 SB - IM MH - Animals MH - Combined Modality Therapy MH - Humans MH - Immunotherapy/*methods MH - Neoplasms/immunology/pathology/*therapy MH - Phototherapy/*methods PMC - PMC7797676 OTO - NOTNLM OT - Cancer OT - combination therapy OT - immunotherapy OT - photo-immunotherapy OT - phototherapy COIS- Competing Interests: The authors have declared that no competing interest exists. EDAT- 2021/01/28 06:00 MHDA- 2021/08/17 06:00 PMCR- 2021/01/01 CRDT- 2021/01/27 05:51 PHST- 2020/09/09 00:00 [received] PHST- 2020/11/18 00:00 [accepted] PHST- 2021/01/27 05:51 [entrez] PHST- 2021/01/28 06:00 [pubmed] PHST- 2021/08/17 06:00 [medline] PHST- 2021/01/01 00:00 [pmc-release] AID - thnov11p2218 [pii] AID - 10.7150/thno.53056 [doi] PST - epublish SO - Theranostics. 2021 Jan 1;11(5):2218-2231. doi: 10.7150/thno.53056. eCollection 2021.",
+      "mesh_terms": [
+        "Animals",
+        "Combined Modality Therapy",
+        "Humans",
+        "Immunotherapy",
+        "Neoplasms",
+        "Phototherapy"
+      ],
+      "keywords": [
+        "Cancer",
+        "combination therapy",
+        "immunotherapy",
+        "photo-immunotherapy",
+        "phototherapy"
+      ],
+      "full_text_links": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMCpmc-id: 7797676;",
+        "https://doi.org/10.7150/thno.53056"
+      ],
+      "doi": "10.7150/thno.53056",
+      "pmc_id": "pmc-id: 7797676;",
+      "research_insight": "This \"Theranostics\" review article on cancer photo-immunotherapy is highly relevant to a researcher interested in cancer immunotherapy. It specifically addresses the combination of phototherapy with immunotherapy to enhance anti-tumor immune responses, a promising strategy for treating metastatic cancer. Further exploration should focus on the clinical translation of specific photo-immunotherapy approaches, particularly the optimization of light dosage and immunoadjuvant combinations to maximize immunogenic cell death and systemic anti-tumor immunity. This work contributes to the broader field of cancer immunotherapy by providing a comprehensive overview of a novel combination therapy that aims to overcome limitations of single-agent approaches.\n"
+    },
+    {
+      "id": "37328642",
+      "pmid": "37328642",
+      "title": "Antigen presentation in cancer - mechanisms and clinical implications for immunotherapy.",
+      "first_author": "Yang K",
+      "co_authors": [
+        "Halima A",
+        "Chan TA"
+      ],
+      "journal": "Nature reviews. Clinical oncology",
+      "publication_date": "2023 Sep",
+      "abstract": "Over the past decade, the emergence of effective immunotherapies has revolutionized the clinical management of many types of cancers. However, long-term durable tumour control is only achieved in a fraction of patients who receive these therapies. Understanding the mechanisms underlying clinical response and resistance to treatment is therefore essential to expanding the level of clinical benefit obtained from immunotherapies. In this Review, we describe the molecular mechanisms of antigen processing and presentation in tumours and their clinical consequences. We examine how various aspects of the antigen-presentation machinery (APM) shape tumour immunity. In particular, we discuss genomic variants in HLA alleles and other APM components, highlighting their influence on the immunopeptidomes of both malignant cells and immune cells. Understanding the APM, how it is regulated and how it changes in tumour cells is crucial for determining which patients will respond to immunotherapy and why some patients develop resistance. We focus on recently discovered molecular and genomic alterations that drive the clinical outcomes of patients receiving immune-checkpoint inhibitors. An improved understanding of how these variables mediate tumour-immune interactions is expected to guide the more precise administration of immunotherapies and reveal potentially promising directions for the development of new immunotherapeutic approaches. CI - (c) 2023. Springer Nature Limited. FAU - Yang, Kailin AU - Yang K AD - Department of Radiation Oncology, Taussig Cancer Center, Cleveland Clinic, Cleveland, OH, USA. FAU - Halima, Ahmed AU - Halima A AD - Department of Radiation Oncology, Taussig Cancer Center, Cleveland Clinic, Cleveland, OH, USA. FAU - Chan, Timothy A AU - Chan TA AUID- ORCID: 0000-0002-9265-0283 AD - Department of Radiation Oncology, Taussig Cancer Center, Cleveland Clinic, Cleveland, OH, USA. chant2@ccf.org. AD - Center for Immunotherapy and Precision Immuno-Oncology, Cleveland Clinic, Cleveland, OH, USA. chant2@ccf.org. AD - National Center for Regenerative Medicine, Cleveland, OH, USA. chant2@ccf.org. AD - Case Comprehensive Cancer Center, Cleveland, OH, USA. chant2@ccf.org. LA - eng GR - T32 CA094186/CA/NCI NIH HHS/United States GR - U54 CA274513/CA/NCI NIH HHS/United States GR - R01 CA205426/CA/NCI NIH HHS/United States GR - R35 CA232097/CA/NCI NIH HHS/United States PT - Journal Article PT - Research Support, N.I.H., Extramural PT - Research Support, Non-U.S. Gov't PT - Review DEP - 20230616 PL - England TA - Nat Rev Clin Oncol JT - Nature reviews. Clinical oncology JID - 101500077 SB - IM MH - Humans MH - *Antigen Presentation MH - *Neoplasms/therapy/drug therapy MH - Immunotherapy EDAT- 2023/06/17 05:11 MHDA- 2023/08/21 06:42 CRDT- 2023/06/16 23:28 PHST- 2023/05/25 00:00 [accepted] PHST- 2023/08/21 06:42 [medline] PHST- 2023/06/17 05:11 [pubmed] PHST- 2023/06/16 23:28 [entrez] AID - 10.1038/s41571-023-00789-4 [pii] AID - 10.1038/s41571-023-00789-4 [doi] PST - ppublish SO - Nat Rev Clin Oncol. 2023 Sep;20(9):604-623. doi: 10.1038/s41571-023-00789-4. Epub 2023 Jun 16.",
+      "mesh_terms": [
+        "Humans",
+        "Antigen Presentation",
+        "Neoplasms",
+        "Immunotherapy"
+      ],
+      "keywords": [],
+      "full_text_links": [
+        "https://doi.org/10.1038/s41571-023-00789-4"
+      ],
+      "doi": "10.1038/s41571-023-00789-4",
+      "pmc_id": null,
+      "research_insight": "This 2023 review article in *Nature Reviews Clinical Oncology* is highly relevant to a researcher studying cancer immunotherapy because it directly addresses the mechanisms of antigen presentation (APM) in tumors and their clinical implications for immunotherapy response and resistance. Specifically, the paper highlights the role of genomic variants in HLA alleles and other APM components in shaping tumor immunity and influencing patient outcomes with immune-checkpoint inhibitors, which deserves further exploration. Understanding the APM and its regulation is crucial for determining which patients will respond to immunotherapy and why some patients develop resistance, which is a central challenge in the field of cancer immunotherapy.\n"
+    },
+    {
+      "id": "30902563",
+      "pmid": "30902563",
+      "title": "Mechanisms and therapeutic potentials of cancer immunotherapy in combination with radiotherapy and/or chemotherapy.",
+      "first_author": "Yu WD",
+      "co_authors": [
+        "Sun G",
+        "Li J",
+        "Xu J",
+        "Wang X"
+      ],
+      "journal": "Cancer letters",
+      "publication_date": "2019 Jun 28",
+      "abstract": "Immunotherapies based on T cells have gained significant success in the treatment of diverse cancers, however, several limitations also exist, including low response, acquired resistance and severe side effects, which lead to unfavorable outcomes. Recent studies found that traditional therapies, radiotherapy and/or chemotherapy may affect the immune condition in situ and cause abscopal effect, which may improve the response of immunotherapies, enhance the efficiency, and reduce the untoward effect. Here, we review the mechanisms uncovering the cancer immunotherapy and immunogenic effects of radiotherapy and chemotherapy, aiming to highlight the principles underlying the therapeutic potentials of cancer immunotherapy in combination with radiotherapy and/or chemotherapy and ultimately guide better designs for future synergistic cancer therapies. CI - Copyright (c) 2019 Elsevier B.V. All rights reserved. FAU - Yu, Wei-Di AU - Yu WD AD - Liver Transplantation Center of the First Affiliated Hospital and Collaborative Innovation Center for Cancer Personalized Medicine, Nanjing Medical University, Nanjing, Jiangsu Province, PR China. FAU - Sun, Guan AU - Sun G AD - Department of Neurosurgery, Yancheng City No.1 People's Hospital, The Fourth Affiliated Hospital of Nantong University, Yancheng, Jiangsu Province, PR China. FAU - Li, Jun AU - Li J AD - Department of General Surgery, The Affiliated Jiangning Hospital of Nanjing Medical University, 168 Gushan Road, Nanjing, Jiangsu Province, PR China. FAU - Xu, Jiang AU - Xu J AD - Department of Rehabilitation, Huai'an Second People's Hospital, The Affiliated Huai'an Hospital of Xuzhou Medical University, Huai'an, China. Electronic address: haeyxj@126.com. FAU - Wang, Xiaochen AU - Wang X AD - Liver Transplantation Center of the First Affiliated Hospital and Collaborative Innovation Center for Cancer Personalized Medicine, Nanjing Medical University, Nanjing, Jiangsu Province, PR China. Electronic address: wangxc@njmu.edu.cn. LA - eng PT - Journal Article PT - Research Support, Non-U.S. Gov't PT - Review DEP - 20190319 PL - Ireland TA - Cancer Lett JT - Cancer letters JID - 7600053 RN - 0 (Antineoplastic Agents, Immunological) RN - 0 (Cancer Vaccines) SB - IM MH - Animals MH - Antineoplastic Agents, Immunological/adverse effects/*therapeutic use MH - Cancer Vaccines/adverse effects/*therapeutic use MH - Chemotherapy, Adjuvant MH - Humans MH - Immunotherapy/adverse effects/*methods MH - *Immunotherapy, Adoptive/adverse effects MH - *Lymphocytes, Tumor-Infiltrating/drug effects/immunology/radiation effects MH - Neoplasms/immunology/pathology/*therapy MH - Radiotherapy, Adjuvant MH - *T-Lymphocytes/drug effects/immunology/radiation effects MH - Tumor Escape MH - Tumor Microenvironment OTO - NOTNLM OT - Cancer immunity OT - Chemotherapy OT - Immunotherapy OT - Radiotherapy EDAT- 2019/03/25 06:00 MHDA- 2020/02/25 06:00 CRDT- 2019/03/24 06:00 PHST- 2019/01/02 00:00 [received] PHST- 2019/02/08 00:00 [revised] PHST- 2019/02/13 00:00 [accepted] PHST- 2019/03/25 06:00 [pubmed] PHST- 2020/02/25 06:00 [medline] PHST- 2019/03/24 06:00 [entrez] AID - S0304-3835(19)30134-X [pii] AID - 10.1016/j.canlet.2019.02.048 [doi] PST - ppublish SO - Cancer Lett. 2019 Jun 28;452:66-70. doi: 10.1016/j.canlet.2019.02.048. Epub 2019 Mar 19.",
+      "mesh_terms": [
+        "Animals",
+        "Antineoplastic Agents, Immunological",
+        "Cancer Vaccines",
+        "Chemotherapy, Adjuvant",
+        "Humans",
+        "Immunotherapy",
+        "Immunotherapy, Adoptive",
+        "Lymphocytes, Tumor-Infiltrating",
+        "Neoplasms",
+        "Radiotherapy, Adjuvant",
+        "T-Lymphocytes",
+        "Tumor Escape",
+        "Tumor Microenvironment"
+      ],
+      "keywords": [
+        "Cancer immunity",
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "full_text_links": [
+        "https://doi.org/10.1016/j.canlet.2019.02.048"
+      ],
+      "doi": "10.1016/j.canlet.2019.02.048",
+      "pmc_id": null,
+      "research_insight": "This \"Cancer Letters\" article is highly relevant to a researcher studying cancer immunotherapy because it directly addresses the limitations of immunotherapy and explores the synergistic potential of combining it with traditional cancer treatments like radiotherapy and chemotherapy. The paper's focus on the mechanisms by which radiotherapy and chemotherapy can modulate the immune response and enhance immunotherapy efficacy, particularly through the abscopal effect, deserves further exploration to understand how to optimize treatment sequencing and dosage for maximal benefit. This review contributes to the broader field by providing a concise overview of the principles underlying combined modality cancer therapy, potentially guiding the design of more effective and less toxic treatment strategies.\n"
+    },
+    {
+      "id": "29992233",
+      "pmid": "29992233",
+      "title": "Cancer immunotherapy for metastasis: past, present and future.",
+      "first_author": "Wang X",
+      "co_authors": [
+        "Fan S",
+        "Pan H",
+        "Chen W",
+        "Wang H"
+      ],
+      "journal": "Briefings in functional genomics",
+      "publication_date": "2019 Mar 22",
+      "abstract": "Cancer is a complex and refractory disease, which can disseminate from primary site to a different site even at an early stage. Cancer immunotherapy harnesses host immune system to battle against cancer, but only a minority of patients benefit from it. Genetic-based technologies have significantly promoted the development of cancer immunotherapy. Here we describe genetic-based cancer immunotherapies in three aspects: recombinant cancer vaccine, immune checkpoint blockade therapy and adoptive cell transfer. In the future, multi-disciplinary collaboration will greatly increase the scope and effectiveness of cancer immunotherpy. CI - (c) The Author(s) 2018. Published by Oxford University Press. All rights reserved. For permissions, please email: journals.permissions@oup.com. FAU - Wang, Xiaobo AU - Wang X AD - Department of Orthopaedics, The First Affiliated Hospital, Sun Yat-sen University, 58 Zhongshan Second Road, Guangzhou, P.R. China. FAU - Fan, Shaoyi AU - Fan S AD - Department of Traditional Chinese Medicine, Guangdong Provincial Hospital of Chinese Medicine, Guangzhou, China. FAU - Pan, Hehai AU - Pan H AD - Department of Orthopaedics, The First Affiliated Hospital, Sun Yat-sen University, 58 Zhongshan Second Road, Guangzhou, P.R. China. FAU - Chen, Wenli AU - Chen W AD - Department of Neurosurgery, The First Affiliated Hospital, Sun Yat-sen University, 58 Zhongshan Second Road, Guangzhou, P.R. China. FAU - Wang, Hua AU - Wang H AD - Department of Orthopaedics, The First Affiliated Hospital, Sun Yat-sen University, 58 Zhongshan Second Road, Guangzhou, P.R. China. LA - eng PT - Journal Article PT - Research Support, Non-U.S. Gov't PT - Review PL - England TA - Brief Funct Genomics JT - Briefings in functional genomics JID - 101528229 RN - 0 (Cancer Vaccines) MH - Animals MH - Cancer Vaccines/*administration & dosage/immunology MH - Humans MH - Immunotherapy/*methods MH - Neoplasm Metastasis MH - Neoplasms/*drug therapy/immunology/pathology OTO - NOTNLM OT - adoptive cell transfer (ACT) OT - cancer immunotherapy OT - gene OT - immune checkpoint blockade OT - vaccines EDAT- 2018/07/12 06:00 MHDA- 2019/08/06 06:00 CRDT- 2018/07/12 06:00 PHST- 2018/07/12 06:00 [pubmed] PHST- 2019/08/06 06:00 [medline] PHST- 2018/07/12 06:00 [entrez] AID - 5050883 [pii] AID - 10.1093/bfgp/ely022 [doi] PST - ppublish SO - Brief Funct Genomics. 2019 Mar 22;18(2):140-146. doi: 10.1093/bfgp/ely022.",
+      "mesh_terms": [
+        "Animals",
+        "Cancer Vaccines",
+        "Humans",
+        "Immunotherapy",
+        "Neoplasm Metastasis",
+        "Neoplasms"
+      ],
+      "keywords": [
+        "adoptive cell transfer (ACT)",
+        "cancer immunotherapy",
+        "gene",
+        "immune checkpoint blockade",
+        "vaccines"
+      ],
+      "full_text_links": [
+        "https://doi.org/10.1093/bfgp/ely022"
+      ],
+      "doi": "10.1093/bfgp/ely022",
+      "pmc_id": null,
+      "research_insight": "This 2019 review article in *Briefings in Functional Genomics* is relevant to a researcher studying cancer immunotherapy because it specifically addresses the application of genetic-based immunotherapies (recombinant cancer vaccines, immune checkpoint blockade, and adoptive cell transfer) in the context of cancer metastasis. The paper's focus on genetic approaches and the challenge of treating metastatic cancer suggests further exploration of the specific genetic modifications or targets that show the most promise in improving immunotherapy efficacy against disseminated disease. This article contributes to the broader field by highlighting the importance of multidisciplinary collaboration to enhance the scope and effectiveness of cancer immunotherapy, particularly for metastatic cancers.\n"
+    },
+    {
+      "id": "29778737",
+      "pmid": "29778737",
+      "title": "Cancer immunotherapy efficacy and patients' sex: a systematic review and meta-analysis.",
+      "first_author": "Conforti F",
+      "co_authors": [
+        "Pala L",
+        "Bagnardi V",
+        "De Pas T",
+        "Martinetti M",
+        "Viale G",
+        "Gelber RD",
+        "Goldhirsch A"
+      ],
+      "journal": "The Lancet. Oncology",
+      "publication_date": "2018 Jun",
+      "abstract": "BACKGROUND: Despite the acknowledged sex-related dimorphism in immune system response, little is known about the effect of patients' sex on the efficacy of immune checkpoint inhibitors as cancer treatments. We did a systematic review and meta-analysis to assess the heterogeneity of immune checkpoint inhibitor efficacy between men and women. METHODS: We systematically searched PubMed, MEDLINE, Embase, and Scopus, from database inception to Nov 30, 2017, for randomised controlled trials of immune checkpoint inhibitors (inhibitors of PD-1, CTLA-4, or both) that had available hazard ratios (HRs) for death according to patients' sex. We also reviewed abstracts and presentations from all major conference proceedings. We excluded non-randomised trials and considered only papers published in English. The primary endpoint was to assess the difference in efficacy of immune checkpoint inhibitors between men and women, measured in terms of the difference in overall survival log(HR) reported in male and female study participants. We calculated the pooled overall survival HR and 95% CI in men and women using a random-effects model, and assessed the heterogeneity between the two estimates using an interaction test. FINDINGS: Of 7133 studies identified in our search, there were 20 eligible randomised controlled trials of immune checkpoint inhibitors (ipilimumab, tremelimumab, nivolumab, or pembrolizumab) that reported overall survival according to patients' sex. Overall, 11 351 patients with advanced or metastatic cancers (7646 [67%] men and 3705 [33%] women) were included in the analysis; the most common types of cancer were melanoma (3632 [32%]) and non-small-cell lung cancer (3482 [31%]). The pooled overall survival HR was 0.72 (95% CI 0.65-0.79) in male patients treated with immune checkpoint inhibitors, compared with men treated in control groups. In women treated with immune checkpoint inhibitors, the pooled overall survival HR compared with control groups was 0.86 (95% CI 0.79-0.93). The difference in efficacy between men and women treated with immune checkpoint inhibitors was significant (p=0.0019). INTERPRETATION: Immune checkpoint inhibitors can improve overall survival for patients with advanced cancers such as melanoma and non-small-cell lung cancer, but the magnitude of benefit is sex-dependent. Future research should guarantee greater inclusion of women in trials and focus on improving the effectiveness of immunotherapies in women, perhaps exploring different immunotherapeutic approaches in men and women. FUNDING: None. CI - Copyright (c) 2018 Elsevier Ltd. All rights reserved. FAU - Conforti, Fabio AU - Conforti F AD - Division of Medical Oncology for Melanoma & Sarcoma, European Institute of Oncology, Milan, Italy. Electronic address: fabio.conforti@ieo.it. FAU - Pala, Laura AU - Pala L AD - Division of Medical Oncology for Melanoma & Sarcoma, European Institute of Oncology, Milan, Italy. FAU - Bagnardi, Vincenzo AU - Bagnardi V AD - Department of Statistics and Quantitative Methods, University of Milan-Bicocca, Milan, Italy. FAU - De Pas, Tommaso AU - De Pas T AD - Division of Medical Oncology for Melanoma & Sarcoma, European Institute of Oncology, Milan, Italy. FAU - Martinetti, Marco AU - Martinetti M AD - Department of Statistics and Quantitative Methods, University of Milan-Bicocca, Milan, Italy. FAU - Viale, Giuseppe AU - Viale G AD - Department of Pathology, European Institute of Oncology & State University of Milan, Milan, Italy. FAU - Gelber, Richard D AU - Gelber RD AD - Department of Biostatistics and Computational Biology, Dana-Farber Cancer Institute, Harvard Medical School, Harvard T.H. Chan School of Public Health, Boston, MA, USA; Frontier Science & Technology Research Foundation, Boston, MA, USA. FAU - Goldhirsch, Aron AU - Goldhirsch A AD - Division of Medical Oncology for Melanoma & Sarcoma, European Institute of Oncology, Milan, Italy. LA - eng PT - Journal Article PT - Meta-Analysis PT - Systematic Review DEP - 20180516 PL - England TA - Lancet Oncol JT - The Lancet. Oncology JID - 100957246 RN - 0 (Antineoplastic Agents, Immunological) SB - IM CIN - Lancet Oncol. 2018 Jun;19(6):716-717. doi: 10.1016/S1470-2045(18)30270-5. PMID: 29778735 CIN - Eur Urol. 2018 Dec;74(6):e139-e140. doi: 10.1016/j.eururo.2018.07.004. PMID: 30031571 CIN - Lancet Oncol. 2018 Aug;19(8):e374. doi: 10.1016/S1470-2045(18)30446-7. PMID: 30102224 CIN - Lancet Oncol. 2018 Aug;19(8):e375. doi: 10.1016/S1470-2045(18)30443-1. PMID: 30102225 CIN - Lancet Oncol. 2018 Aug;19(8):e376. doi: 10.1016/S1470-2045(18)30483-2. PMID: 30102226 CIN - Lancet Oncol. 2018 Aug;19(8):e377. doi: 10.1016/S1470-2045(18)30517-5. PMID: 30102227 CIN - Lancet Oncol. 2018 Aug;19(8):e378. doi: 10.1016/S1470-2045(18)30531-X. PMID: 30102228 CIN - Lancet Oncol. 2018 Aug;19(8):e379. doi: 10.1016/S1470-2045(18)30445-5. PMID: 30102229 CIN - Lancet Oncol. 2018 Aug;19(8):e380-e381. doi: 10.1016/S1470-2045(18)30535-7. PMID: 30102230 CIN - Eur Urol. 2019 Feb;75(2):e34-e35. doi: 10.1016/j.eururo.2018.08.034. PMID: 30224196 CIN - Transl Lung Cancer Res. 2018 Sep;7(Suppl 3):S211-S213. doi: 10.21037/tlcr.2018.08.05. PMID: 30393604 MH - Antineoplastic Agents, Immunological/adverse effects/*therapeutic use MH - Female MH - Health Status Disparities MH - Healthcare Disparities MH - Humans MH - Immunotherapy/adverse effects/*methods MH - Male MH - Neoplasms/*drug therapy/immunology/mortality/pathology MH - Risk Factors MH - Sex Characteristics MH - Sex Factors MH - Treatment Outcome EDAT- 2018/05/21 06:00 MHDA- 2019/04/10 06:00 CRDT- 2018/05/21 06:00 PHST- 2018/02/04 00:00 [received] PHST- 2018/03/27 00:00 [revised] PHST- 2018/03/28 00:00 [accepted] PHST- 2018/05/21 06:00 [pubmed] PHST- 2019/04/10 06:00 [medline] PHST- 2018/05/21 06:00 [entrez] AID - S1470-2045(18)30261-4 [pii] AID - 10.1016/S1470-2045(18)30261-4 [doi] PST - ppublish SO - Lancet Oncol. 2018 Jun;19(6):737-746. doi: 10.1016/S1470-2045(18)30261-4. Epub 2018 May 16.",
+      "mesh_terms": [
+        "Antineoplastic Agents, Immunological",
+        "Female",
+        "Health Status Disparities",
+        "Healthcare Disparities",
+        "Humans",
+        "Immunotherapy",
+        "Male",
+        "Neoplasms",
+        "Risk Factors",
+        "Sex Characteristics",
+        "Sex Factors",
+        "Treatment Outcome"
+      ],
+      "keywords": [],
+      "full_text_links": [
+        "https://doi.org/10.1016/S1470-2045(18)30261-4"
+      ],
+      "doi": "10.1016/S1470-2045(18)30261-4",
+      "pmc_id": null,
+      "research_insight": "This meta-analysis of 20 randomized controlled trials directly addresses the efficacy of cancer immunotherapy, specifically immune checkpoint inhibitors, in relation to patient sex, a critical factor often overlooked. The finding that men derive a significantly greater survival benefit from these therapies compared to women (HR 0.72 vs 0.86) warrants further investigation into the underlying biological mechanisms driving this sex-dependent response, such as hormonal influences or differences in immune cell populations. This study highlights the need for personalized immunotherapy approaches and greater representation of women in clinical trials to optimize treatment outcomes for all patients, contributing to a more nuanced understanding of immunotherapy's impact on cancer treatment.\n"
+    },
+    {
+      "id": "36657325",
+      "pmid": "36657325",
+      "title": "Rationale for LDH-targeted cancer immunotherapy.",
+      "first_author": "Miholjcic TBS",
+      "co_authors": [
+        "Halse H",
+        "Bonvalet M",
+        "Bigorgne A",
+        "Rouanne M",
+        "Dercle L",
+        "Shankar V",
+        "Marabelle A"
+      ],
+      "journal": "European journal of cancer (Oxford, England : 1990)",
+      "publication_date": "2023 Mar",
+      "abstract": "Immunotherapies have significantly improved the survival of patients in many cancers over the last decade. However, primary and secondary resistances are encountered in most patients. Unravelling resistance mechanisms to cancer immunotherapies is an area of active investigation. Elevated levels of circulating enzyme lactate dehydrogenase (LDH) have been historically considered in oncology as a marker of bad prognosis, usually attributed to elevated tumour burden and cancer metabolism. Recent evidence suggests that elevated LDH levels could be independent from tumour burden and contain a negative predictive value, which could help in guiding treatment strategies in immuno-oncology. In this review, we decipher the rationale supporting the potential of LDH-targeted therapeutic strategies to tackle the direct immunosuppressive effects of LDH on a wide range of immune cells, and enhance the survival of patients treated with cancer immunotherapies. CI - Copyright (c) 2022 The Author(s). Published by Elsevier Ltd.. All rights reserved. FAU - Miholjcic, Tina B S AU - Miholjcic TBS AD - Faculte de Medecine, Universite de Geneve, Geneve, Switzerland; Laboratoire de Recherche Translationnelle en Immunotherapie (LRTI), INSERM U1015, Gustave Roussy, Villejuif, France. FAU - Halse, Heloise AU - Halse H AD - Laboratoire de Recherche Translationnelle en Immunotherapie (LRTI), INSERM U1015, Gustave Roussy, Villejuif, France; INSERM UMR 1163, Imagine Institute, Universite de Paris, F-75015 Paris, France. FAU - Bonvalet, Melodie AU - Bonvalet M AD - Laboratoire de Recherche Translationnelle en Immunotherapie (LRTI), INSERM U1015, Gustave Roussy, Villejuif, France. FAU - Bigorgne, Amelie AU - Bigorgne A AD - Laboratoire de Recherche Translationnelle en Immunotherapie (LRTI), INSERM U1015, Gustave Roussy, Villejuif, France; INSERM UMR 1163, Imagine Institute, Universite de Paris, F-75015 Paris, France. FAU - Rouanne, Mathieu AU - Rouanne M AD - Laboratoire de Recherche Translationnelle en Immunotherapie (LRTI), INSERM U1015, Gustave Roussy, Villejuif, France; Department of Microbiology and Immunology, Vagelos College of Physicians and Surgeons, Columbia University, New York, NY, USA; Departement d'Urologie, Hopital Foch, UVSQ, Universite Paris-Saclay, 92150 Suresnes, France. FAU - Dercle, Laurent AU - Dercle L AD - Department of Radiology, New York Presbyterian Hospital, Columbia University Irving Medical Center, New York, NY, USA. FAU - Shankar, Vishnu AU - Shankar V AD - Immunology Program, School of Medicine, Stanford University, CA, USA. FAU - Marabelle, Aurelien AU - Marabelle A AD - Laboratoire de Recherche Translationnelle en Immunotherapie (LRTI), INSERM U1015, Gustave Roussy, Villejuif, France; Departement d'Innovation Therapeutique et d'Essais Precoces (DITEP), Gustave Roussy, 94805 Villejuif, France; Centre d'Investigation Clinique BIOTHERIS, INSERM CIC1428, Gustave Roussy, Villejuif, France; Faculte de Medecine, Universite Paris-Saclay, Le Kremlin-Bicetre, France. Electronic address: aurelien.marabelle@gustaveroussy.fr. LA - eng PT - Journal Article PT - Research Support, Non-U.S. Gov't PT - Review DEP - 20221214 PL - England TA - Eur J Cancer JT - European journal of cancer (Oxford, England : 1990) JID - 9005373 RN - EC 1.1.1.27 (L-Lactate Dehydrogenase) SB - IM MH - Humans MH - *Immunotherapy MH - *L-Lactate Dehydrogenase/metabolism MH - *Neoplasms/metabolism/therapy MH - Prognosis OTO - NOTNLM OT - Cancer OT - Immunosuppression OT - Immunotherapy OT - Lactate dehydrogenase (LDH) COIS- Conflict of interest statement The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. EDAT- 2023/01/20 06:00 MHDA- 2023/02/15 06:00 CRDT- 2023/01/19 18:15 PHST- 2022/11/18 00:00 [received] PHST- 2022/11/23 00:00 [accepted] PHST- 2023/01/20 06:00 [pubmed] PHST- 2023/02/15 06:00 [medline] PHST- 2023/01/19 18:15 [entrez] AID - S0959-8049(22)01782-8 [pii] AID - 10.1016/j.ejca.2022.11.032 [doi] PST - ppublish SO - Eur J Cancer. 2023 Mar;181:166-178. doi: 10.1016/j.ejca.2022.11.032. Epub 2022 Dec 14.",
+      "mesh_terms": [
+        "Humans",
+        "Immunotherapy",
+        "L-Lactate Dehydrogenase",
+        "Neoplasms",
+        "Prognosis"
+      ],
+      "keywords": [
+        "Cancer",
+        "Immunosuppression",
+        "Immunotherapy",
+        "Lactate dehydrogenase (LDH)"
+      ],
+      "full_text_links": [
+        "https://doi.org/10.1016/j.ejca.2022.11.032"
+      ],
+      "doi": "10.1016/j.ejca.2022.11.032",
+      "pmc_id": null,
+      "research_insight": "This 2023 review article directly addresses the researcher's interest in cancer immunotherapy by exploring the role of lactate dehydrogenase (LDH) as a potential target to overcome resistance to these therapies. The paper highlights recent evidence suggesting that elevated LDH levels, independent of tumor burden, can negatively predict immunotherapy outcomes, and proposes LDH-targeted strategies to counteract the immunosuppressive effects of LDH on immune cells. Further investigation into the specific mechanisms by which LDH suppresses different immune cell types and the efficacy of various LDH-targeting approaches in preclinical models is warranted, as this could lead to novel combination therapies that enhance the effectiveness of existing immunotherapies.\n"
+    },
+    {
+      "id": "32942725",
+      "pmid": "32942725",
+      "title": "Nano-Enhanced Cancer Immunotherapy: Immunology Encounters Nanotechnology.",
+      "first_author": "Bockamp E",
+      "co_authors": [
+        "Rosigkeit S",
+        "Siegl D",
+        "Schuppan D"
+      ],
+      "journal": "Cells",
+      "publication_date": "2020 Sep 15",
+      "abstract": "Cancer immunotherapy utilizes the immune system to fight cancer and has already moved from the laboratory to clinical application. However, and despite excellent therapeutic outcomes in some hematological and solid cancers, the regular clinical use of cancer immunotherapies reveals major limitations. These include the lack of effective immune therapy options for some cancer types, unresponsiveness to treatment by many patients, evolving therapy resistance, the inaccessible and immunosuppressive nature of the tumor microenvironment (TME), and the risk of potentially life-threatening immune toxicities. Given the potential of nanotechnology to deliver, enhance, and fine-tune cancer immunotherapeutic agents, the combination of cancer immunotherapy with nanotechnology can overcome some of these limitations. In this review, we summarize innovative reports and novel strategies that successfully combine nanotechnology and cancer immunotherapy. We also provide insight into how nanoparticular combination therapies can be used to improve therapy responsiveness, to reduce unwanted toxicity, and to overcome adverse effects of the TME. FAU - Bockamp, Ernesto AU - Bockamp E AD - Institute of Translational Immunology, University Medical Center, Johannes Gutenberg University Mainz, 55131 Mainz, Germany. AD - Research Center for Immunotherapy, University Medical Center, Johannes Gutenberg University Mainz, 55131 Mainz, Germany. FAU - Rosigkeit, Sebastian AU - Rosigkeit S AD - Institute of Translational Immunology, University Medical Center, Johannes Gutenberg University Mainz, 55131 Mainz, Germany. AD - Research Center for Immunotherapy, University Medical Center, Johannes Gutenberg University Mainz, 55131 Mainz, Germany. FAU - Siegl, Dominik AU - Siegl D AD - Institute of Translational Immunology, University Medical Center, Johannes Gutenberg University Mainz, 55131 Mainz, Germany. AD - Research Center for Immunotherapy, University Medical Center, Johannes Gutenberg University Mainz, 55131 Mainz, Germany. FAU - Schuppan, Detlef AU - Schuppan D AD - Institute of Translational Immunology, University Medical Center, Johannes Gutenberg University Mainz, 55131 Mainz, Germany. AD - Research Center for Immunotherapy, University Medical Center, Johannes Gutenberg University Mainz, 55131 Mainz, Germany. AD - Division of Gastroenterology, Beth Israel Deaconess Medical Center, Harvard Medical School, Boston, MA 02215, USA. LA - eng PT - Journal Article PT - Research Support, Non-U.S. Gov't PT - Review DEP - 20200915 PL - Switzerland TA - Cells JT - Cells JID - 101600052 SB - IM MH - Animals MH - Combined Modality Therapy MH - Drug Delivery Systems/methods MH - Humans MH - Immunotherapy/*methods MH - Mice MH - Nanotechnology/*methods MH - Neoplasms/*immunology/*therapy MH - Tumor Microenvironment/*immunology PMC - PMC7565449 OTO - NOTNLM OT - CAR T cell therapy OT - PD-1 OT - PD-L1 OT - bi-specific antibody therapy OT - immune checkpoint inhibitor OT - macrophage OT - myeloid derived suppressor cells (MDSC) OT - siRNA OT - toll like receptor (TLR) OT - tumor microenvironment COIS- The authors declare no conflict of interest. EDAT- 2020/09/19 06:00 MHDA- 2021/03/30 06:00 PMCR- 2020/09/01 CRDT- 2020/09/18 01:02 PHST- 2020/08/17 00:00 [received] PHST- 2020/09/07 00:00 [revised] PHST- 2020/09/11 00:00 [accepted] PHST- 2020/09/18 01:02 [entrez] PHST- 2020/09/19 06:00 [pubmed] PHST- 2021/03/30 06:00 [medline] PHST- 2020/09/01 00:00 [pmc-release] AID - cells9092102 [pii] AID - cells-09-02102 [pii] AID - 10.3390/cells9092102 [doi] PST - epublish SO - Cells. 2020 Sep 15;9(9):2102. doi: 10.3390/cells9092102.",
+      "mesh_terms": [
+        "Animals",
+        "Combined Modality Therapy",
+        "Drug Delivery Systems",
+        "Humans",
+        "Immunotherapy",
+        "Mice",
+        "Nanotechnology",
+        "Neoplasms",
+        "Tumor Microenvironment"
+      ],
+      "keywords": [
+        "CAR T cell therapy",
+        "PD-1",
+        "PD-L1",
+        "bi-specific antibody therapy",
+        "immune checkpoint inhibitor",
+        "macrophage",
+        "myeloid derived suppressor cells (MDSC)",
+        "siRNA",
+        "toll like receptor (TLR)",
+        "tumor microenvironment"
+      ],
+      "full_text_links": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMCpmc-id: 7565449;",
+        "https://doi.org/10.3390/cells9092102"
+      ],
+      "doi": "10.3390/cells9092102",
+      "pmc_id": "pmc-id: 7565449;",
+      "research_insight": "This \"Nano-Enhanced Cancer Immunotherapy\" review article is highly relevant to a researcher interested in cancer immunotherapy because it directly addresses the limitations of current immunotherapies and proposes nanotechnology as a means to overcome them. The specific aspect of nanoparticulate combination therapies to improve therapy responsiveness and reduce toxicity, particularly within the tumor microenvironment (TME), warrants further exploration. This review connects the fields of immunology and nanotechnology to advance cancer treatment, offering insights into innovative strategies for enhancing immunotherapy efficacy and mitigating adverse effects.\n"
+    },
+    {
+      "id": "28321816",
+      "pmid": "28321816",
+      "title": "Cancer Imaging in Immunotherapy.",
+      "first_author": "Eleneen Y",
+      "co_authors": [
+        "Colen RR"
+      ],
+      "journal": "Advances in experimental medicine and biology",
+      "publication_date": "2017",
+      "abstract": "Immune therapeutics are revolutionizing cancer treatments. In tandem, new and confounding imaging characteristics have appeared that are distinct from those typically seen with conventional cytotoxic therapies. In fact, only 10% of patients on immunotherapy may show tumor shrinkage, typical of positive responses on conventional therapy. Conversely, those on immune therapies may initially demonstrate a delayed response, transient enlargement followed by tumor shrinkage, stable size, or the appearance of new lesions. New imaging response criteria such as the immune-related Response Evaluation Criteria in Solid Tumors (irRECIST) and immune-related Response Criteria (irRC) are being implemented in many trials. However, FDA approval of emerging therapies including immunotherapies still relies on the current RECIST criteria. In this review, we review the traditional and new imaging response criteria for evaluation of solid tumors and briefly touch on some of the more commonly associated immunotherapy-induced adverse events. FAU - Eleneen, Yousra AU - Eleneen Y AD - Department of Cancer Systems Imaging and Diagnostic Radiology-Neuro Imaging, The University of Texas MD Anderson Cancer Center, T. Boone Pickens Academic Towe (FCT16.5037), 1515 Holcombe Blvd., Unit 1482, Houston, TX, 77030, USA. FAU - Colen, Rivka R AU - Colen RR AD - Department of Cancer Systems Imaging and Diagnostic Radiology-Neuro Imaging, The University of Texas MD Anderson Cancer Center, T. Boone Pickens Academic Towe (FCT16.5037), 1515 Holcombe Blvd., Unit 1482, Houston, TX, 77030, USA. rcolen@mdanderson.org. LA - eng PT - Journal Article PT - Review PL - United States TA - Adv Exp Med Biol JT - Advances in experimental medicine and biology JID - 0121103 SB - IM MH - Animals MH - Diagnostic Imaging/*methods MH - Endpoint Determination/*methods MH - Humans MH - Immunotherapy/adverse effects/*methods MH - Neoplasms/*diagnostic imaging/immunology/pathology/*therapy MH - Predictive Value of Tests MH - Reproducibility of Results MH - Treatment Outcome MH - Tumor Burden OTO - NOTNLM OT - Cancer imaging OT - Immune imaging criteria OT - Immunotherapy OT - irRC OT - irRECIST EDAT- 2017/03/23 06:00 MHDA- 2017/09/13 06:00 CRDT- 2017/03/22 06:00 PHST- 2017/03/22 06:00 [entrez] PHST- 2017/03/23 06:00 [pubmed] PHST- 2017/09/13 06:00 [medline] AID - 10.1007/978-3-319-53156-4_7 [doi] PST - ppublish SO - Adv Exp Med Biol. 2017;995:141-153. doi: 10.1007/978-3-319-53156-4_7.",
+      "mesh_terms": [
+        "Animals",
+        "Diagnostic Imaging",
+        "Endpoint Determination",
+        "Humans",
+        "Immunotherapy",
+        "Neoplasms",
+        "Predictive Value of Tests",
+        "Reproducibility of Results",
+        "Treatment Outcome",
+        "Tumor Burden"
+      ],
+      "keywords": [
+        "Cancer imaging",
+        "Immune imaging criteria",
+        "Immunotherapy",
+        "irRC",
+        "irRECIST"
+      ],
+      "full_text_links": [
+        "https://doi.org/10.1007/978-3-319-53156-4_7"
+      ],
+      "doi": "10.1007/978-3-319-53156-4_7",
+      "pmc_id": null,
+      "research_insight": "This 2017 review article by Eleneen et al. is highly relevant to a researcher studying cancer immunotherapy because it addresses the challenges of using traditional imaging techniques to assess treatment response. Specifically, it highlights the limitations of RECIST criteria and introduces immune-related response criteria (irRECIST and irRC) designed to better capture the unique response patterns observed in immunotherapy, such as pseudo-progression. Further exploration of the discrepancy between irRECIST/irRC and FDA-approved RECIST criteria for immunotherapy approval is warranted, as this impacts clinical trial design and the translation of research findings into clinical practice. The paper contributes to the broader field by emphasizing the need for specialized imaging approaches in immunotherapy and highlighting the evolving understanding of treatment response beyond simple tumor shrinkage.\n"
+    },
+    {
+      "id": "32301025",
+      "pmid": "32301025",
+      "title": "Cancer Imaging in Immunotherapy.",
+      "first_author": "Ayoub M",
+      "co_authors": [
+        "Eleneen Y",
+        "Colen RR"
+      ],
+      "journal": "Advances in experimental medicine and biology",
+      "publication_date": "2020",
+      "abstract": "Immune therapeutics are revolutionizing cancer treatments. In tandem, new and confounding imaging characteristics have appeared that are distinct from those typically seen with conventional cytotoxic therapies. In fact, only 10% of patients on immunotherapy may show tumor shrinkage, typical of positive responses on conventional therapy. Conversely, those on immune therapies may initially demonstrate a delayed response, transient enlargement followed by tumor shrinkage, stable size, or the appearance of new lesions. New imaging response criteria, such as the immune-related Response Evaluation Criteria in Solid Tumors (irRECIST) and immune-related Response Criteria (irRC), are being implemented in many trials. However, FDA approval of emerging therapies, including immunotherapies, still relies on the current RECIST criteria. In this chapter, we review the traditional and new imaging response criteria for evaluation of solid tumors and briefly touch on some of the more commonly associated immunotherapy-induced adverse events. FAU - Ayoub, Mira AU - Ayoub M AD - Hillman Cancer Center - Department of Radiology, University of Pittsburgh Medical Center, Pittsburgh, PA, USA. FAU - Eleneen, Yousra AU - Eleneen Y AD - Hillman Cancer Center - Department of Radiology, University of Pittsburgh Medical Center, Pittsburgh, PA, USA. FAU - Colen, Rivka R AU - Colen RR AD - Hillman Cancer Center - Department of Radiology, University of Pittsburgh Medical Center, Pittsburgh, PA, USA. colenrr@upmc.edu. LA - eng PT - Journal Article PT - Review PL - United States TA - Adv Exp Med Biol JT - Advances in experimental medicine and biology JID - 0121103 SB - IM MH - Humans MH - *Immunotherapy/adverse effects MH - Neoplasms/*diagnostic imaging/immunology/pathology/*therapy MH - Response Evaluation Criteria in Solid Tumors OTO - NOTNLM OT - Cancer imaging OT - Immune imaging criteria OT - Immunotherapy OT - irRC OT - irRECIST EDAT- 2020/04/18 06:00 MHDA- 2020/07/02 06:00 CRDT- 2020/04/18 06:00 PHST- 2020/04/18 06:00 [entrez] PHST- 2020/04/18 06:00 [pubmed] PHST- 2020/07/02 06:00 [medline] AID - 10.1007/978-3-030-41008-7_18 [doi] PST - ppublish SO - Adv Exp Med Biol. 2020;1244:309-324. doi: 10.1007/978-3-030-41008-7_18.",
+      "mesh_terms": [
+        "Humans",
+        "Immunotherapy",
+        "Neoplasms",
+        "Response Evaluation Criteria in Solid Tumors"
+      ],
+      "keywords": [
+        "Cancer imaging",
+        "Immune imaging criteria",
+        "Immunotherapy",
+        "irRC",
+        "irRECIST"
+      ],
+      "full_text_links": [
+        "https://doi.org/10.1007/978-3-030-41008-7_18"
+      ],
+      "doi": "10.1007/978-3-030-41008-7_18",
+      "pmc_id": null,
+      "research_insight": "This 2020 review article by Ayoub et al. is highly relevant to a researcher studying cancer immunotherapy because it addresses the challenges of using traditional imaging techniques to assess treatment response. It highlights the discrepancies between conventional RECIST criteria and the unique response patterns observed with immunotherapy, such as pseudo-progression, and introduces immune-related response criteria (irRECIST and irRC). Further exploration of the practical application and validation of irRECIST and irRC in diverse cancer types and treatment regimens is warranted, as the paper notes that FDA approval still relies on RECIST. This review contributes to the field by emphasizing the need for adapted imaging strategies to accurately evaluate immunotherapy efficacy and avoid misinterpreting treatment responses.\n"
+    },
+    {
+      "id": "35387984",
+      "pmid": "35387984",
+      "title": "Engineering strategies to enhance oncolytic viruses in cancer immunotherapy.",
+      "first_author": "Tian Y",
+      "co_authors": [
+        "Xie D",
+        "Yang L"
+      ],
+      "journal": "Signal transduction and targeted therapy",
+      "publication_date": "2022 Apr 6",
+      "abstract": "Oncolytic viruses (OVs) are emerging as potentially useful platforms in treatment methods for patients with tumors. They preferentially target and kill tumor cells, leaving healthy cells unharmed. In addition to direct oncolysis, the essential and attractive aspect of oncolytic virotherapy is based on the intrinsic induction of both innate and adaptive immune responses. To further augment this efficacious response, OVs have been genetically engineered to express immune regulators that enhance or restore antitumor immunity. Recently, combinations of OVs with other immunotherapies, such as immune checkpoint inhibitors (ICIs), chimeric antigen receptors (CARs), antigen-specific T-cell receptors (TCRs) and autologous tumor-infiltrating lymphocytes (TILs), have led to promising progress in cancer treatment. This review summarizes the intrinsic mechanisms of OVs, describes the optimization strategies for using armed OVs to enhance the effects of antitumor immunity and highlights rational combinations of OVs with other immunotherapies in recent preclinical and clinical studies. CI - (c) 2022. The Author(s). FAU - Tian, Yaomei AU - Tian Y AD - State Key Laboratory of Biotherapy and Cancer Center/Collaborative Innovation Center for Biotherapy, West China Hospital, Sichuan University, No. 17, Section 3, South Renmin Road, 610041, Chengdu, Sichuan, People's Republic of China. AD - College of Bioengineering, Sichuan University of Science & Engineering, No. 519, Huixing Road, 643000, Zigong, Sichuan, People's Republic of China. FAU - Xie, Daoyuan AU - Xie D AD - State Key Laboratory of Biotherapy and Cancer Center/Collaborative Innovation Center for Biotherapy, West China Hospital, Sichuan University, No. 17, Section 3, South Renmin Road, 610041, Chengdu, Sichuan, People's Republic of China. FAU - Yang, Li AU - Yang L AD - State Key Laboratory of Biotherapy and Cancer Center/Collaborative Innovation Center for Biotherapy, West China Hospital, Sichuan University, No. 17, Section 3, South Renmin Road, 610041, Chengdu, Sichuan, People's Republic of China. yl.tracy73@gmail.com. LA - eng PT - Journal Article PT - Research Support, Non-U.S. Gov't PT - Review DEP - 20220406 PL - England TA - Signal Transduct Target Ther JT - Signal transduction and targeted therapy JID - 101676423 RN - 0 (Receptors, Chimeric Antigen) SB - IM MH - Humans MH - Immunotherapy/methods MH - *Neoplasms/genetics/therapy MH - *Oncolytic Virotherapy/methods MH - *Oncolytic Viruses/genetics MH - *Receptors, Chimeric Antigen PMC - PMC8987060 COIS- The authors declare no competing interests. EDAT- 2022/04/08 06:00 MHDA- 2022/04/09 06:00 PMCR- 2022/04/06 CRDT- 2022/04/07 05:28 PHST- 2021/11/03 00:00 [received] PHST- 2022/03/02 00:00 [accepted] PHST- 2022/03/01 00:00 [revised] PHST- 2022/04/07 05:28 [entrez] PHST- 2022/04/08 06:00 [pubmed] PHST- 2022/04/09 06:00 [medline] PHST- 2022/04/06 00:00 [pmc-release] AID - 10.1038/s41392-022-00951-x [pii] AID - 951 [pii] AID - 10.1038/s41392-022-00951-x [doi] PST - epublish SO - Signal Transduct Target Ther. 2022 Apr 6;7(1):117. doi: 10.1038/s41392-022-00951-x.",
+      "mesh_terms": [
+        "Humans",
+        "Immunotherapy",
+        "Neoplasms",
+        "Oncolytic Virotherapy",
+        "Oncolytic Viruses",
+        "Receptors, Chimeric Antigen"
+      ],
+      "keywords": [],
+      "full_text_links": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMCpmc-id: 8987060;",
+        "https://doi.org/10.1038/s41392-022-00951-x"
+      ],
+      "doi": "10.1038/s41392-022-00951-x",
+      "pmc_id": "pmc-id: 8987060;",
+      "research_insight": "This 2022 review article on \"Engineering strategies to enhance oncolytic viruses in cancer immunotherapy\" is highly relevant to a researcher interested in cancer immunotherapy, as it directly addresses the use of oncolytic viruses (OVs) as a platform for enhancing antitumor immunity. The paper's discussion of rational combinations of OVs with other immunotherapies like immune checkpoint inhibitors (ICIs) and CAR-T cells is particularly important and warrants further exploration, especially regarding the mechanisms underlying synergistic effects and potential strategies to overcome resistance. This review contributes to the broader field of cancer immunotherapy by providing an overview of how OVs can be engineered and combined with other modalities to improve treatment efficacy.\n"
+    },
+    {
+      "id": "34209842",
+      "pmid": "34209842",
+      "title": "Immune Aging and Immunotherapy in Cancer.",
+      "first_author": "Kaiser M",
+      "co_authors": [
+        "Semeraro MD",
+        "Herrmann M",
+        "Absenger G",
+        "Gerger A",
+        "Renner W"
+      ],
+      "journal": "International journal of molecular sciences",
+      "publication_date": "2021 Jun 29",
+      "abstract": "Immune functions decline as we age, while the incidence of cancer rises. The advent of immune checkpoint blockade (ICB) has not only revolutionized cancer therapy, but also spawned great interest in identifying predictive biomarkers, since only one third of patients show treatment response. The aging process extensively affects the adaptive immune system and thus T cells, which are the main target of ICB. In this review, we address age-related changes regarding the adaptive immune system with a focus on T cells and their implication on carcinogenesis and ICB. Differences between senescence, exhaustion, and anergy are defined and current knowledge, treatment strategies, and studies exploring T cell aging as a biomarker for ICB are discussed. Finally, novel approaches to improve immunotherapies and to identify biomarkers of response to ICB are presented and their potential is assessed in a comparative analysis. FAU - Kaiser, Melanie AU - Kaiser M AD - Molecular and Cell Biology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037, USA. AD - Clinical Institute of Medical and Chemical Laboratory Diagnostics, Medical University of Graz, 8036 Graz, Austria. FAU - Semeraro, Maria Donatella AU - Semeraro MD AUID- ORCID: 0000-0002-1733-1215 AD - Clinical Institute of Medical and Chemical Laboratory Diagnostics, Medical University of Graz, 8036 Graz, Austria. FAU - Herrmann, Markus AU - Herrmann M AD - Clinical Institute of Medical and Chemical Laboratory Diagnostics, Medical University of Graz, 8036 Graz, Austria. FAU - Absenger, Gudrun AU - Absenger G AUID- ORCID: 0000-0002-9788-4134 AD - Division of Oncology, Department of Internal Medicine, Medical University of Graz, 8036 Graz, Austria. FAU - Gerger, Armin AU - Gerger A AD - Division of Oncology, Department of Internal Medicine, Medical University of Graz, 8036 Graz, Austria. FAU - Renner, Wilfried AU - Renner W AD - Clinical Institute of Medical and Chemical Laboratory Diagnostics, Medical University of Graz, 8036 Graz, Austria. LA - eng PT - Journal Article PT - Review DEP - 20210629 PL - Switzerland TA - Int J Mol Sci JT - International journal of molecular sciences JID - 101092791 RN - 0 (Immune Checkpoint Inhibitors) SB - IM MH - Adaptive Immunity/physiology MH - Aging/*immunology MH - Humans MH - Immune Checkpoint Inhibitors/therapeutic use MH - *Immunotherapy/adverse effects/methods MH - *Neoplasms/immunology/pathology/therapy MH - T-Lymphocytes/immunology/physiology PMC - PMC8269421 OTO - NOTNLM OT - T cells OT - aging OT - biomarker OT - cancer OT - exhaustion OT - immune checkpoint inhibitors OT - senescence COIS- The authors declare no conflict of interest. EDAT- 2021/07/03 06:00 MHDA- 2021/08/03 06:00 PMCR- 2021/06/29 CRDT- 2021/07/02 01:39 PHST- 2021/05/24 00:00 [received] PHST- 2021/06/22 00:00 [revised] PHST- 2021/06/25 00:00 [accepted] PHST- 2021/07/02 01:39 [entrez] PHST- 2021/07/03 06:00 [pubmed] PHST- 2021/08/03 06:00 [medline] PHST- 2021/06/29 00:00 [pmc-release] AID - ijms22137016 [pii] AID - ijms-22-07016 [pii] AID - 10.3390/ijms22137016 [doi] PST - epublish SO - Int J Mol Sci. 2021 Jun 29;22(13):7016. doi: 10.3390/ijms22137016.",
+      "mesh_terms": [
+        "Adaptive Immunity",
+        "Aging",
+        "Humans",
+        "Immune Checkpoint Inhibitors",
+        "Immunotherapy",
+        "Neoplasms",
+        "T-Lymphocytes"
+      ],
+      "keywords": [
+        "T cells",
+        "aging",
+        "biomarker",
+        "cancer",
+        "exhaustion",
+        "immune checkpoint inhibitors",
+        "senescence"
+      ],
+      "full_text_links": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMCpmc-id: 8269421;",
+        "https://doi.org/10.3390/ijms22137016"
+      ],
+      "doi": "10.3390/ijms22137016",
+      "pmc_id": "pmc-id: 8269421;",
+      "research_insight": "This 2021 review article directly addresses the intersection of cancer immunotherapy and the aging immune system, a critical consideration given the increasing age of cancer patients. It highlights the impact of age-related changes in T cells on the efficacy of immune checkpoint blockade (ICB) and explores the potential of T cell aging as a biomarker for predicting treatment response. Further exploration of the novel approaches presented to improve immunotherapies in older patients, particularly those targeting T cell senescence and exhaustion, is warranted, as this could lead to more effective and personalized cancer treatments in this vulnerable population.\n"
+    },
+    {
+      "id": "34994316",
+      "pmid": "34994316",
+      "title": "Natural Killer Cell-targeted Immunotherapy for Cancer.",
+      "first_author": "Tang J",
+      "co_authors": [
+        "Zhu Q",
+        "Li Z",
+        "Yang J",
+        "Lai Y"
+      ],
+      "journal": "Current stem cell research & therapy",
+      "publication_date": "2022",
+      "abstract": "Natural Killer (NK) cells were initially described in the early 1970s as major histocompatibility complex unrestricted killers due to their ability to spontaneously kill certain tumor cells. In the past decade, the field of NK cell-based treatment has been accelerating exponentially, holding a dominant position in cancer immunotherapy innovation. Generally, research on NK cell-mediated antitumor therapies can be categorized into three areas: choosing the optimal source of allogeneic NK cells to yield massively amplified \"off-the-shelf\" products, improving NK cell cytotoxicity and longevity, and engineering NK cells with the ability of tumor-specific recognition. In this review, we focused on NK cell manufacturing techniques, some auxiliary methods to enhance the therapeutic efficacy of NK cells, chimeric antigen receptor NK cells, and monoclonal antibodies targeting inhibitory receptors, which can significantly augment the antitumor activity of NK cells. Notably, emerging evidence suggests that NK cells are a promising constituent of multipronged therapeutic strategies, strengthening immune responses to cancer. CI - Copyright(c) Bentham Science Publishers; For any queries, please email at epub@benthamscience.net. FAU - Tang, Jingyi AU - Tang J AD - School of Basic Medicine, Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, China. FAU - Zhu, Qi AU - Zhu Q AD - Sichuan Fine Arts Institute, Chongqing, China. FAU - Li, Zhaoyang AU - Li Z AD - Xinjiang Medical University, Urumqi, Xinjiang Uygur Autonomous Region, China. FAU - Yang, Jiahui AU - Yang J AD - School of Basic Medicine, Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, China. FAU - Lai, Yu AU - Lai Y AD - School of Basic Medicine, Chengdu University of Traditional Chinese Medicine, Chengdu, Sichuan, China. LA - eng GR - XSGG2020001/Xinglin Scholar Research Promotion Project of Chengdu University of TCM/ PT - Journal Article PT - Review PL - United Arab Emirates TA - Curr Stem Cell Res Ther JT - Current stem cell research & therapy JID - 101272517 SB - IM MH - Cell- and Tissue-Based Therapy MH - Humans MH - *Immunotherapy/methods MH - Immunotherapy, Adoptive/methods MH - Killer Cells, Natural MH - *Neoplasms/pathology OTO - NOTNLM OT - NK cells OT - cancerous cells OT - chimeric antigen receptor OT - genetic engineering OT - immunotherapy OT - inhibitory checkpoints EDAT- 2022/01/08 06:00 MHDA- 2022/08/19 06:00 CRDT- 2022/01/07 08:44 PHST- 2021/08/23 00:00 [received] PHST- 2021/10/12 00:00 [revised] PHST- 2021/11/15 00:00 [accepted] PHST- 2022/01/08 06:00 [pubmed] PHST- 2022/08/19 06:00 [medline] PHST- 2022/01/07 08:44 [entrez] AID - CSCR-EPUB-120036 [pii] AID - 10.2174/1574888X17666220107101722 [doi] PST - ppublish SO - Curr Stem Cell Res Ther. 2022;17(6):513-526. doi: 10.2174/1574888X17666220107101722.",
+      "mesh_terms": [
+        "Cell- and Tissue-Based Therapy",
+        "Humans",
+        "Immunotherapy",
+        "Immunotherapy, Adoptive",
+        "Killer Cells, Natural",
+        "Neoplasms"
+      ],
+      "keywords": [
+        "NK cells",
+        "cancerous cells",
+        "chimeric antigen receptor",
+        "genetic engineering",
+        "immunotherapy",
+        "inhibitory checkpoints"
+      ],
+      "full_text_links": [
+        "https://doi.org/10.2174/1574888X17666220107101722"
+      ],
+      "doi": "10.2174/1574888X17666220107101722",
+      "pmc_id": null,
+      "research_insight": "This 2022 review article by Tang et al. on NK cell-targeted immunotherapy is highly relevant to a researcher interested in cancer immunotherapy, as it provides an overview of the current landscape of NK cell-based cancer treatments, a rapidly evolving area. The paper's focus on NK cell manufacturing techniques, methods to enhance therapeutic efficacy, CAR-NK cells, and monoclonal antibodies targeting inhibitory receptors highlights specific strategies for improving NK cell-mediated antitumor activity, deserving further exploration into the synergistic effects of combining these approaches for enhanced cancer control. By summarizing these key areas, the article contributes to the broader field of cancer immunotherapy by showcasing the potential of NK cells as a promising component of multi-pronged therapeutic strategies.\n"
+    },
+    {
+      "id": "35125331",
+      "pmid": "35125331",
+      "title": "Transcriptional determinants of cancer immunotherapy response and resistance.",
+      "first_author": "Gupta R",
+      "co_authors": [
+        "Mehta A",
+        "Wajapeyee N"
+      ],
+      "journal": "Trends in cancer",
+      "publication_date": "2022 May",
+      "abstract": "The host immune response is a potent defense mechanism against cancer development and progression. To survive, cancer cells must develop mechanisms to evade the immune response. Based on this knowledge, a series of new therapies collectively referred to as immunotherapies have been developed and translated to the clinic for treating cancer patients. Although some cancer subtypes have shown strong clinical responses, including curative outcomes in some patients, immunotherapies have not worked as desired for some subtypes and forms of cancers. We provide an overview of the transcriptional mechanisms that drive the response and resistance to immunotherapies. We also discuss possible interventions to enhance the outcomes of immunotherapies by targeting dysregulated transcriptional networks in cancer cells. CI - Copyright (c) 2022 Elsevier Inc. All rights reserved. FAU - Gupta, Romi AU - Gupta R AD - Department of Biochemistry and Molecular Genetics, University of Alabama at Birmingham, Birmingham, AL 35233, USA; O'Neal Comprehensive Cancer Center, University of Alabama at Birmingham, Birmingham, AL 35233, USA. FAU - Mehta, Amitkumar AU - Mehta A AD - O'Neal Comprehensive Cancer Center, University of Alabama at Birmingham, Birmingham, AL 35233, USA; Division of Hematology and Oncology, University of Alabama at Birmingham, Birmingham, AL, USA. FAU - Wajapeyee, Narendra AU - Wajapeyee N AD - Department of Biochemistry and Molecular Genetics, University of Alabama at Birmingham, Birmingham, AL 35233, USA; O'Neal Comprehensive Cancer Center, University of Alabama at Birmingham, Birmingham, AL 35233, USA. Electronic address: nwajapey@uab.edu. LA - eng GR - R01 CA200919/CA/NCI NIH HHS/United States GR - R01 CA257046/CA/NCI NIH HHS/United States GR - R01 CA218008/CA/NCI NIH HHS/United States GR - R03 CA230815/CA/NCI NIH HHS/United States GR - R01 CA233481/CA/NCI NIH HHS/United States GR - R03 CA248913/CA/NCI NIH HHS/United States GR - R21 CA195077/CA/NCI NIH HHS/United States PT - Journal Article PT - Research Support, N.I.H., Extramural PT - Review DEP - 20220203 PL - United States TA - Trends Cancer JT - Trends in cancer JID - 101665956 SB - IM MH - Humans MH - *Immunotherapy MH - *Neoplasms/genetics/therapy PMC - PMC9035058 MID - NIHMS1777775 OTO - NOTNLM OT - epigenetics OT - gene regulation OT - immunotherapy OT - transcription COIS- Declaration of interests A.M. has received research funding from Incyte, Takeda, Forty Seven Inc/Gilead, Juno Pharmaceuticals/Bristol Myers Squibb (BMS), Celgene/BMS, Innate Pharmaceuticals, Seattle Genetics, TG Therapeutics, Affimed, Merck, Kite/Gilead, Roche-Genentech, and I-MAB. A.M. has also served as a consultant, speaker, or on the advisory board of Gilead, Astra Zeneca, Pharmacyclics, Seattle Genetics, Incyte, Morphosys/Incyte, TG Therapeutics, Kyowa Kirin, Novartis, and BMS. R.G. and N.W. declare no conflicts of interest. EDAT- 2022/02/08 06:00 MHDA- 2022/04/23 06:00 PMCR- 2023/05/01 CRDT- 2022/02/07 05:26 PHST- 2021/12/07 00:00 [received] PHST- 2022/01/12 00:00 [accepted] PHST- 2022/02/08 06:00 [pubmed] PHST- 2022/04/23 06:00 [medline] PHST- 2022/02/07 05:26 [entrez] PHST- 2023/05/01 00:00 [pmc-release] AID - S2405-8033(22)00015-2 [pii] AID - 10.1016/j.trecan.2022.01.008 [doi] PST - ppublish SO - Trends Cancer. 2022 May;8(5):404-415. doi: 10.1016/j.trecan.2022.01.008. Epub 2022 Feb 3.",
+      "mesh_terms": [
+        "Humans",
+        "Immunotherapy",
+        "Neoplasms"
+      ],
+      "keywords": [
+        "epigenetics",
+        "gene regulation",
+        "immunotherapy",
+        "transcription"
+      ],
+      "full_text_links": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMCpmc-id: 9035058;manuscript-id: NIHMS1777775;",
+        "https://doi.org/10.1016/j.trecan.2022.01.008"
+      ],
+      "doi": "10.1016/j.trecan.2022.01.008",
+      "pmc_id": "pmc-id: 9035058;manuscript-id: NIHMS1777775;",
+      "research_insight": "This 2022 review article in *Trends in Cancer* by Gupta et al. is highly relevant to a researcher studying cancer immunotherapy because it focuses on the transcriptional mechanisms driving both response and resistance to these therapies. Specifically, the discussion of interventions targeting dysregulated transcriptional networks to enhance immunotherapy outcomes warrants further exploration, as this could lead to novel strategies for overcoming resistance. Given the increasing importance of personalized medicine, understanding the transcriptional landscape in relation to immunotherapy response is crucial for advancing the field and improving patient outcomes.\n"
+    }
+  ]
+}

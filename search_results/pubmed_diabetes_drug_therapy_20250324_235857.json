@@ -1,0 +1,360 @@
+{
+  "query": "diabetes drug therapy",
+  "timestamp": "2025-03-24T23:58:57.427720",
+  "num_results": 10,
+  "articles": [
+    {
+      "id": "10612269",
+      "pmid": "10612269",
+      "title": "Drug-induced diabetes insipidus: incidence, prevention and management.",
+      "first_author": "Bendz H",
+      "co_authors": [
+        "Aurell M"
+      ],
+      "journal": "Drug safety",
+      "publication_date": "1999 Dec",
+      "abstract": "Drug-induced diabetes insipidus is always of the nephrogenic type, i.e. unresponsiveness of the kidneys to the action of antidiuretic hormone. This condition is easily diagnosed by measuring urinary concentrating capacity during a thirst test (e.g. 12 hours of water deprivation) or by administration of a modified antidiuretic hormone, desmopressin, to demonstrate the renal unresponsiveness. Drug-induced nephrogenic diabetes insipidus is not a common disorder except in patients receiving treatment with lithium salts for affective disorders where it may affect about 10% of patients treated long term (15 years). Drug-induced nephrogenic diabetes insipidus caused by other drugs usually occurs in critically ill patients in intensive care units receiving a multitude of drugs dominated by antimicrobials and cytostatics. A search of the World Health Organization's adverse effect database revealed 359 reports of drug-induced diabetes insipidus. Lithium was the most common cause (159 reports) followed by foscarnet (15) and clozapine (10). Treatment is symptomatic in most patients and the offending drug should be stopped. If urine volumes exceed 4 L/day, treatment with thiazides and amiloride has been advocated, and nonsteroidal anti-inflammatory drugs, such as indomethacin, may be tried in severe cases. Prevention of lithium-induced nephrogenic diabetes insipidus is an important aspect of the treatment of affective disorders. In patients treated long term it appears to be only partly reversible upon lithium discontinuation. Close monitoring of the treatment aiming at 12-hour trough value of 0.4 to 0.6 mmol/L is recommended. Yearly measurement of the urinary volume/day is effective in making both the patient and the physician aware of the development of the drug-induced nephrogenic diabetes insipidus. The condition is a serious adverse effect because of the risk of developing dehydration and aggravation of drug intoxications. FAU - Bendz, H AU - Bendz H AD - Department of Psychiatry, University Hospital Lund, Sweden. FAU - Aurell, M AU - Aurell M LA - eng PT - Journal Article PT - Review PL - New Zealand TA - Drug Saf JT - Drug safety JID - 9002928 RN - 9FN79X2M3F (Lithium) SB - IM MH - Animals MH - Diabetes Insipidus/*chemically induced/epidemiology/*prevention & control/therapy MH - Humans MH - Incidence MH - Lithium/*adverse effects MH - Renal Insufficiency/*complications RF - 51 EDAT- 1999/12/28 00:00 MHDA- 1999/12/28 00:01 CRDT- 1999/12/28 00:00 PHST- 1999/12/28 00:00 [pubmed] PHST- 1999/12/28 00:01 [medline] PHST- 1999/12/28 00:00 [entrez] AID - 10.2165/00002018-199921060-00002 [doi] PST - ppublish SO - Drug Saf. 1999 Dec;21(6):449-56. doi: 10.2165/00002018-199921060-00002.",
+      "mesh_terms": [
+        "Animals",
+        "Diabetes Insipidus",
+        "Humans",
+        "Incidence",
+        "Lithium",
+        "Renal Insufficiency"
+      ],
+      "keywords": [],
+      "full_text_links": [
+        "https://doi.org/10.2165/00002018-199921060-00002"
+      ],
+      "doi": "10.2165/00002018-199921060-00002",
+      "pmc_id": null,
+      "research_insight": "This 1999 review article is relevant to the researcher's query on diabetes drug therapy because it focuses on *drug-induced* diabetes insipidus, a condition where certain medications cause the kidneys to become unresponsive to antidiuretic hormone. While not directly about treating diabetes mellitus, it highlights a significant adverse effect of other drug therapies, particularly lithium, and discusses management strategies for this specific type of diabetes insipidus. Further exploration should focus on the specific mechanisms by which these drugs induce nephrogenic diabetes insipidus, as understanding these mechanisms could inform the development of safer drug alternatives or preventative measures.\n"
+    },
+    {
+      "id": "27156767",
+      "pmid": "27156767",
+      "title": "Diabetes insipidus in infants and children.",
+      "first_author": "Dabrowski E",
+      "co_authors": [
+        "Kadakia R",
+        "Zimmerman D"
+      ],
+      "journal": "Best practice & research. Clinical endocrinology & metabolism",
+      "publication_date": "2016 Mar",
+      "abstract": "Diabetes insipidus, the inability to concentrate urine resulting in polyuria and polydipsia, can have different manifestations and management considerations in infants and children compared to adults. Central diabetes insipidus, secondary to lack of vasopressin production, is more common in children than is nephrogenic diabetes insipidus, the inability to respond appropriately to vasopressin. The goal of treatment in both forms of diabetes insipidus is to decrease urine output and thirst while allowing for appropriate fluid balance, normonatremia and ensuring an acceptable quality of life for each patient. An infant's obligate need to consume calories as liquid and the need for readjustment of medication dosing in growing children both present unique challenges for diabetes insipidus management in the pediatric population. Treatment modalities typically include vasopressin or thiazide diuretics. Special consideration must be given when managing diabetes insipidus in the adipsic patient, post-surgical patient, and in those undergoing chemotherapy or receiving medications that alter free water clearance. CI - Copyright (c) 2016 Elsevier Ltd. All rights reserved. FAU - Dabrowski, Elizabeth AU - Dabrowski E AD - Division of Endocrinology, Ann and Robert H. Lurie Children's Hospital of Chicago, Northwestern University Feinberg School of Medicine, 225 East Chicago Avenue, Box 54, Chicago, IL 60611, USA. Electronic address: Edabrowski@luriechildrens.org. FAU - Kadakia, Rachel AU - Kadakia R AD - Division of Endocrinology, Ann and Robert H. Lurie Children's Hospital of Chicago, Northwestern University Feinberg School of Medicine, 225 East Chicago Avenue, Box 54, Chicago, IL 60611, USA. Electronic address: Rkadakia@luriechildrens.org. FAU - Zimmerman, Donald AU - Zimmerman D AD - Division of Endocrinology, Ann and Robert H. Lurie Children's Hospital of Chicago, Northwestern University Feinberg School of Medicine, 225 East Chicago Avenue, Box 54, Chicago, IL 60611, USA. Electronic address: Dzimmerman@luriechildrens.org. LA - eng PT - Journal Article PT - Review DEP - 20160227 PL - Netherlands TA - Best Pract Res Clin Endocrinol Metab JT - Best practice & research. Clinical endocrinology & metabolism JID - 101120682 RN - 0 (Diuretics) SB - IM MH - Child MH - Diabetes Insipidus/*diagnosis/drug therapy/epidemiology/etiology MH - Disease Management MH - Diuretics/therapeutic use MH - Humans MH - Infant OTO - NOTNLM OT - diabetes insipidus OT - nephrogenic diabetes insipidus OT - polydipsia OT - polyuria OT - vasopressin EDAT- 2016/05/10 06:00 MHDA- 2017/06/07 06:00 CRDT- 2016/05/10 06:00 PHST- 2016/05/10 06:00 [entrez] PHST- 2016/05/10 06:00 [pubmed] PHST- 2017/06/07 06:00 [medline] AID - S1521-690X(16)00011-7 [pii] AID - 10.1016/j.beem.2016.02.006 [doi] PST - ppublish SO - Best Pract Res Clin Endocrinol Metab. 2016 Mar;30(2):317-28. doi: 10.1016/j.beem.2016.02.006. Epub 2016 Feb 27.",
+      "mesh_terms": [
+        "Child",
+        "Diabetes Insipidus",
+        "Disease Management",
+        "Diuretics",
+        "Humans",
+        "Infant"
+      ],
+      "keywords": [
+        "diabetes insipidus",
+        "nephrogenic diabetes insipidus",
+        "polydipsia",
+        "polyuria",
+        "vasopressin"
+      ],
+      "full_text_links": [
+        "https://doi.org/10.1016/j.beem.2016.02.006"
+      ],
+      "doi": "10.1016/j.beem.2016.02.006",
+      "pmc_id": null,
+      "research_insight": "This article, \"Diabetes insipidus in infants and children,\" is relevant to a researcher studying diabetes drug therapy because it specifically discusses the treatment modalities for diabetes insipidus (DI) in a pediatric population, including the use of vasopressin and thiazide diuretics. The unique challenges of managing DI in infants and children, such as the need for calorie intake as liquid and medication adjustments for growth, deserve further exploration as they directly impact drug selection and dosage strategies. This review contributes to the field by highlighting the distinct considerations for DI management in children compared to adults, an area often overlooked in broader discussions of diabetes therapies.\n"
+    },
+    {
+      "id": "35146976",
+      "pmid": "35146976",
+      "title": "Nephrogenic diabetes insipidus: a comprehensive overview.",
+      "first_author": "Vaz de Castro PAS",
+      "co_authors": [
+        "Bitencourt L",
+        "de Oliveira Campos JL",
+        "Fischer BL",
+        "Soares de Brito SBC",
+        "Soares BS",
+        "Drummond JB",
+        "Simões E Silva AC"
+      ],
+      "journal": "Journal of pediatric endocrinology & metabolism : JPEM",
+      "publication_date": "2022 Apr 26",
+      "abstract": "Nephrogenic diabetes insipidus (NDI) is characterized by the inability to concentrate urine that results in polyuria and polydipsia, despite having normal or elevated plasma concentrations of arginine vasopressin (AVP). In this study, we review the clinical aspects and diagnosis of NDI, the various etiologies, current treatment options and potential future developments. NDI has different clinical manifestations and approaches according to the etiology. Hereditary forms of NDI are mainly caused by mutations in the genes that encode key proteins in the AVP signaling pathway, while acquired causes are normally associated with specific drug exposure, especially lithium, and hydroelectrolytic disorders. Clinical manifestations of the disease vary according to the degree of dehydration and hyperosmolality, being worse when renal water losses cannot be properly compensated by fluid intake. Regarding the diagnosis of NDI, it is important to consider the symptoms of the patient and the diagnostic tests, including the water deprivation test and the baseline plasma copeptin measurement, a stable surrogate biomarker of AVP release. Without proper treatment, patients may developcomplications leading to high morbidity and mortality, such as severe dehydration and hypernatremia. In that sense, the treatment of NDI consists in decreasing the urine output, while allowing appropriate fluid balance, normonatremia, and ensuring an acceptable quality of life. Therefore, therapeutic options include nonpharmacological interventions, including sufficient water intake and a low-sodium diet, and pharmacological treatment. The main medications used for NDI are thiazide diuretics, nonsteroidal anti-inflammatory drugs (NSAIDs), and amiloride, used isolated or in combination. CI - (c) 2022 Walter de Gruyter GmbH, Berlin/Boston. FAU - Vaz de Castro, Pedro Alves Soares AU - Vaz de Castro PAS AD - Interdisciplinary Laboratory of Medical Investigation, Unit of Pediatric Nephrology, Faculty of Medicine, Federal University of Minas Gerais (UFMG), Belo Horizonte, Brazil. FAU - Bitencourt, Leticia AU - Bitencourt L AD - Interdisciplinary Laboratory of Medical Investigation, Unit of Pediatric Nephrology, Faculty of Medicine, Federal University of Minas Gerais (UFMG), Belo Horizonte, Brazil. FAU - de Oliveira Campos, Juliana Lacerda AU - de Oliveira Campos JL AD - Interdisciplinary Laboratory of Medical Investigation, Unit of Pediatric Nephrology, Faculty of Medicine, Federal University of Minas Gerais (UFMG), Belo Horizonte, Brazil. FAU - Fischer, Bruna Luisa AU - Fischer BL AD - Interdisciplinary Laboratory of Medical Investigation, Unit of Pediatric Nephrology, Faculty of Medicine, Federal University of Minas Gerais (UFMG), Belo Horizonte, Brazil. FAU - Soares de Brito, Stephanie Bruna Camilo AU - Soares de Brito SBC AD - Interdisciplinary Laboratory of Medical Investigation, Unit of Pediatric Nephrology, Faculty of Medicine, Federal University of Minas Gerais (UFMG), Belo Horizonte, Brazil. FAU - Soares, Beatriz Santana AU - Soares BS AD - Division of Endocrinology, Department of Internal Medicine, Faculty of Medicine, UFMG, Belo Horizonte, Brazil. FAU - Drummond, Juliana Beaudette AU - Drummond JB AD - Division of Endocrinology, Department of Internal Medicine, Faculty of Medicine, UFMG, Belo Horizonte, Brazil. FAU - Simoes E Silva, Ana Cristina AU - Simoes E Silva AC AUID- ORCID: 0000-0001-9222-3882 AD - Interdisciplinary Laboratory of Medical Investigation, Unit of Pediatric Nephrology, Faculty of Medicine, Federal University of Minas Gerais (UFMG), Belo Horizonte, Brazil. LA - eng PT - Journal Article PT - Review DEP - 20220211 PL - Germany TA - J Pediatr Endocrinol Metab JT - Journal of pediatric endocrinology & metabolism : JPEM JID - 9508900 RN - 113-79-1 (Arginine Vasopressin) SB - IM MH - Arginine Vasopressin/genetics MH - *Diabetes Insipidus MH - *Diabetes Insipidus, Nephrogenic/diagnosis/etiology/therapy MH - *Diabetes Mellitus MH - Humans MH - Mutation MH - Polyuria/diagnosis MH - Quality of Life OTO - NOTNLM OT - arginine vasopressin OT - copeptin OT - diuretics OT - nephrogenic diabetes insipidus OT - polyuria-polydipsia syndrome OT - water deprivation test EDAT- 2022/02/12 06:00 MHDA- 2022/04/02 06:00 CRDT- 2022/02/11 05:49 PHST- 2021/08/31 00:00 [received] PHST- 2022/01/26 00:00 [accepted] PHST- 2022/02/12 06:00 [pubmed] PHST- 2022/04/02 06:00 [medline] PHST- 2022/02/11 05:49 [entrez] AID - jpem-2021-0566 [pii] AID - 10.1515/jpem-2021-0566 [doi] PST - epublish SO - J Pediatr Endocrinol Metab. 2022 Feb 11;35(4):421-434. doi: 10.1515/jpem-2021-0566. Print 2022 Apr 26.",
+      "mesh_terms": [
+        "Arginine Vasopressin",
+        "Diabetes Insipidus",
+        "Diabetes Insipidus, Nephrogenic",
+        "Diabetes Mellitus",
+        "Humans",
+        "Mutation",
+        "Polyuria",
+        "Quality of Life"
+      ],
+      "keywords": [
+        "arginine vasopressin",
+        "copeptin",
+        "diuretics",
+        "nephrogenic diabetes insipidus",
+        "polyuria-polydipsia syndrome",
+        "water deprivation test"
+      ],
+      "full_text_links": [
+        "https://doi.org/10.1515/jpem-2021-0566"
+      ],
+      "doi": "10.1515/jpem-2021-0566",
+      "pmc_id": null,
+      "research_insight": "This article, a comprehensive review of nephrogenic diabetes insipidus (NDI), is tangentially relevant to the researcher's query on diabetes drug therapy because it discusses pharmacological treatments for NDI, including thiazide diuretics, NSAIDs, and amiloride, which could offer insights into drug mechanisms or potential repurposing strategies relevant to diabetes mellitus. The discussion of drug-induced NDI, particularly lithium, warrants further exploration as it might reveal drug-target interactions or side effects that could inform the development or refinement of diabetes drugs. While NDI and diabetes mellitus are distinct conditions, understanding the pharmacological management of NDI and the mechanisms of drug-induced NDI can contribute to a broader understanding of renal physiology and drug action, potentially informing research in diabetes drug therapy.\n"
+    },
+    {
+      "id": "22433947",
+      "pmid": "22433947",
+      "title": "Diabetes insipidus--diagnosis and management.",
+      "first_author": "Di Iorgi N",
+      "co_authors": [
+        "Napoli F",
+        "Allegri AE",
+        "Olivieri I",
+        "Bertelli E",
+        "Gallizia A",
+        "Rossi A",
+        "Maghnie M"
+      ],
+      "journal": "Hormone research in paediatrics",
+      "publication_date": "2012",
+      "abstract": "Central diabetes insipidus (CDI) is the end result of a number of conditions that affect the hypothalamic-neurohypophyseal system. The known causes include germinoma/craniopharyngioma, Langerhans cell histiocytosis (LCH), local inflammatory, autoimmune or vascular diseases, trauma resulting from surgery or an accident, sarcoidosis, metastases and midline cerebral and cranial malformations. In rare cases, the underlying cause can be genetic defects in vasopressin synthesis that are inherited as autosomal dominant, autosomal recessive or X-linked recessive traits. The diagnosis of the underlying condition is challenging and raises several concerns for patients and parents as it requires long-term follow-up. Proper etiological diagnosis can be achieved via a series of steps that start with clinical observations and then progress to more sophisticated tools. Specifically, MRI identification of pituitary hyperintensity in the posterior part of the sella, now considered a clear marker of neurohypophyseal functional integrity, together with the careful analysis of pituitary stalk shape and size, have provided the most striking findings contributing to the diagnosis and understanding of some forms of 'idiopathic' CDI. MRI STIR (short-inversion-time inversion recovery sequencing) is a promising technology for the early identification of LCH-dependent CDI. CI - Copyright (c) 2012 S. Karger AG, Basel. FAU - Di Iorgi, Natascia AU - Di Iorgi N AD - Department of Pediatrics, IRCCS G. Gaslini, University of Genoa, Largo Gerolamo Gaslini 5, Genoa, Italy. FAU - Napoli, Flavia AU - Napoli F FAU - Allegri, Anna Elsa Maria AU - Allegri AE FAU - Olivieri, Irene AU - Olivieri I FAU - Bertelli, Enrica AU - Bertelli E FAU - Gallizia, Annalisa AU - Gallizia A FAU - Rossi, Andrea AU - Rossi A FAU - Maghnie, Mohamad AU - Maghnie M LA - eng PT - Journal Article PT - Review DEP - 20120316 PL - Switzerland TA - Horm Res Paediatr JT - Hormone research in paediatrics JID - 101525157 RN - 0 (Antidiuretic Agents) RN - ENR1LLB0FP (Deamino Arginine Vasopressin) SB - IM MH - Adult MH - Age Factors MH - Animals MH - Antidiuretic Agents/administration & dosage/adverse effects/therapeutic use MH - Child MH - Deamino Arginine Vasopressin/administration & dosage/adverse effects/therapeutic use MH - Diabetes Insipidus/*diagnosis/etiology/genetics/*therapy MH - Diabetes Insipidus, Nephrogenic/diagnosis/etiology/genetics/therapy MH - Diabetes Insipidus, Neurogenic/diagnosis/etiology/genetics/therapy MH - Drug Monitoring MH - Fluid Therapy MH - Humans MH - Infant EDAT- 2012/03/22 06:00 MHDA- 2012/08/22 06:00 CRDT- 2012/03/22 06:00 PHST- 2011/09/13 00:00 [received] PHST- 2012/01/10 00:00 [accepted] PHST- 2012/03/22 06:00 [entrez] PHST- 2012/03/22 06:00 [pubmed] PHST- 2012/08/22 06:00 [medline] AID - 000336333 [pii] AID - 10.1159/000336333 [doi] PST - ppublish SO - Horm Res Paediatr. 2012;77(2):69-84. doi: 10.1159/000336333. Epub 2012 Mar 16.",
+      "mesh_terms": [
+        "Adult",
+        "Age Factors",
+        "Animals",
+        "Antidiuretic Agents",
+        "Child",
+        "Deamino Arginine Vasopressin",
+        "Diabetes Insipidus",
+        "Diabetes Insipidus, Nephrogenic",
+        "Diabetes Insipidus, Neurogenic",
+        "Drug Monitoring",
+        "Fluid Therapy",
+        "Humans",
+        "Infant"
+      ],
+      "keywords": [],
+      "full_text_links": [
+        "https://doi.org/10.1159/000336333"
+      ],
+      "doi": "10.1159/000336333",
+      "pmc_id": null,
+      "research_insight": "This article, \"Diabetes insipidus--diagnosis and management,\" while not directly addressing \"diabetes drug therapy\" as in diabetes mellitus, is tangentially relevant because it discusses the diagnosis and therapy of diabetes insipidus (DI), a different condition characterized by fluid imbalance. Specifically, the paper reviews the use of antidiuretic agents like Deamino Arginine Vasopressin (DDAVP) in treating DI, which could be of interest if the researcher is exploring the broader landscape of drug therapies for fluid balance disorders. Further exploration of the \"Drug Monitoring\" aspect and the adverse effects of antidiuretic agents mentioned in the MeSH terms could be valuable, as it touches upon the practical considerations of using these medications. The article contributes to the field of pediatric endocrinology by providing a comprehensive overview of DI diagnosis and management, particularly in children, and highlighting advancements in diagnostic imaging techniques.\n"
+    },
+    {
+      "id": "35191944",
+      "pmid": "35191944",
+      "title": "Hypernatremia.",
+      "first_author": "Kamel KS",
+      "co_authors": [
+        "Schreiber M",
+        "Harel Z"
+      ],
+      "journal": "JAMA",
+      "publication_date": "2022 Feb 22",
+      "abstract": "Abstract not available",
+      "mesh_terms": [
+        "Adult",
+        "Antidiuretic Agents",
+        "Deamino Arginine Vasopressin",
+        "Diabetes Insipidus",
+        "Humans",
+        "Hypernatremia",
+        "Male",
+        "Postoperative Complications",
+        "Saline Solution, Hypertonic",
+        "Sodium"
+      ],
+      "keywords": [],
+      "full_text_links": [
+        "https://doi.org/10.1001/jama.2022.1376"
+      ],
+      "doi": "10.1001/jama.2022.1376",
+      "pmc_id": null,
+      "research_insight": "This JAMA article on hypernatremia, while seemingly unrelated to diabetes drug therapy at first glance, is important because hypernatremia can be a complication of certain diabetes treatments or co-exist with diabetes insipidus, as indicated by the MeSH terms \"Diabetes Insipidus\" and the presence of \"Antidiuretic Agents\" and \"Deamino Arginine Vasopressin\" (a synthetic vasopressin analog used to treat diabetes insipidus). The potential for drug-induced hypernatremia or the management of hypernatremia in patients with both diabetes and diabetes insipidus deserves further exploration, particularly regarding the interaction between diabetes medications and treatments for hypernatremia. This article contributes to the broader understanding of electrolyte imbalances that can arise in the context of diabetes management, a critical aspect of patient safety and therapeutic efficacy.\n"
+    },
+    {
+      "id": "32383239",
+      "pmid": "32383239",
+      "title": "Diabetes or endocrinopathy admitted in the COVID-19 ward.",
+      "first_author": "Clotman K",
+      "co_authors": [
+        "Twickler MB"
+      ],
+      "journal": "European journal of clinical investigation",
+      "publication_date": "2020 Jul",
+      "abstract": "The Covid-19 pandemic confronted us with unknown clinical pictures, also in diabetology and endocrinology. Sharing clinical experiences is therefore of enormous importance. Actually, information about the care given in the Covid-19 ward (in contrast to that provided in the Emergency Room/ICU) is still sparse. The last weeks we built experience and gathered knowledge while giving hospital care to patients who had a pre-existent endocrine disease (and diabetes; most patients suffered from a type two diabetes). In our contribution we presented our insights obtained from this intensive period obtained in the Covid-19 ward. CI - (c) 2020 Stichting European Society for Clinical Investigation Journal Foundation. FAU - Clotman, Katrien AU - Clotman K AD - Department of Endocrinology, Diabetology and Nephrology, AZ Klina/Sint Jozef, Brasschaat, Belgium. FAU - Twickler, Marcel B AU - Twickler MB AUID- ORCID: 0000-0001-8738-207X AD - Department of Endocrinology, Diabetology and Metabolic Disease, AZ Monica, Antwerp, Belgium. AD - Faculty of Medicine and Health Sciences, University of Antwerp, Antwerp, Belgium. LA - eng PT - Journal Article DEP - 20200524 PL - England TA - Eur J Clin Invest JT - European journal of clinical investigation JID - 0245331 RN - 0 (Blood Glucose) RN - 0 (Glycated Hemoglobin A) RN - 0 (Hypoglycemic Agents) RN - 0 (Insulin) RN - 0 (hemoglobin A1c protein, human) SB - IM MH - Adrenal Insufficiency/complications/drug therapy MH - Belgium MH - Betacoronavirus MH - Blood Glucose/metabolism MH - COVID-19 MH - Coronavirus Infections/complications/metabolism/*therapy MH - Diabetes Complications MH - Diabetes Insipidus/complications/therapy MH - Diabetes Mellitus/drug therapy/metabolism MH - Diabetes Mellitus, Type 2/complications/*drug therapy/metabolism MH - Disease Management MH - Glycated Hemoglobin/metabolism MH - Hospital Units MH - Hospitalization MH - Humans MH - Hyperglycemia/*drug therapy/etiology/metabolism MH - Hypoglycemic Agents/*therapeutic use MH - Insulin/*therapeutic use MH - Pandemics MH - Pneumonia, Viral/complications/metabolism/*therapy MH - SARS-CoV-2 PMC - PMC7262001 OTO - NOTNLM OT - COVID-19 OT - diabetes OT - endocrinology COIS- Both authors have no conflict of interest. EDAT- 2020/05/10 06:00 MHDA- 2020/10/24 06:00 PMCR- 2020/05/24 CRDT- 2020/05/09 06:00 PHST- 2020/04/25 00:00 [received] PHST- 2020/05/03 00:00 [revised] PHST- 2020/05/03 00:00 [accepted] PHST- 2020/05/10 06:00 [pubmed] PHST- 2020/10/24 06:00 [medline] PHST- 2020/05/09 06:00 [entrez] PHST- 2020/05/24 00:00 [pmc-release] AID - ECI13262 [pii] AID - 10.1111/eci.13262 [doi] PST - ppublish SO - Eur J Clin Invest. 2020 Jul;50(7):e13262. doi: 10.1111/eci.13262. Epub 2020 May 24.",
+      "mesh_terms": [
+        "Adrenal Insufficiency",
+        "Belgium",
+        "Betacoronavirus",
+        "Blood Glucose",
+        "COVID-19",
+        "Coronavirus Infections",
+        "Diabetes Complications",
+        "Diabetes Insipidus",
+        "Diabetes Mellitus",
+        "Diabetes Mellitus, Type 2",
+        "Disease Management",
+        "Glycated Hemoglobin",
+        "Hospital Units",
+        "Hospitalization",
+        "Humans",
+        "Hyperglycemia",
+        "Hypoglycemic Agents",
+        "Insulin",
+        "Pandemics",
+        "Pneumonia, Viral",
+        "SARS-CoV-2"
+      ],
+      "keywords": [
+        "COVID-19",
+        "diabetes",
+        "endocrinology"
+      ],
+      "full_text_links": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7262001/",
+        "https://doi.org/10.1111/eci.13262"
+      ],
+      "doi": "10.1111/eci.13262",
+      "pmc_id": "7262001",
+      "research_insight": "This article is relevant to the researcher's query on diabetes drug therapy because it shares clinical experiences of managing diabetes and other endocrinopathies in a COVID-19 ward, specifically focusing on patients with type 2 diabetes. The insights gained from treating hyperglycemia in these patients with hypoglycemic agents and insulin deserve further exploration, particularly regarding the specific drug therapies used and their effectiveness in the context of COVID-19. This paper contributes to the field by providing real-world observations on diabetes management during the pandemic, an area where information was initially scarce.\n"
+    },
+    {
+      "id": "32005690",
+      "pmid": "32005690",
+      "title": "Diabetes Insipidus.",
+      "first_author": "Weiner A",
+      "co_authors": [
+        "Vuguin P"
+      ],
+      "journal": "Pediatrics in review",
+      "publication_date": "2020 Feb",
+      "abstract": "Abstract not available",
+      "mesh_terms": [
+        "Antidiuretic Agents",
+        "Deamino Arginine Vasopressin",
+        "Diabetes Insipidus",
+        "Humans"
+      ],
+      "keywords": [],
+      "full_text_links": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC74260341615259/",
+        "https://doi.org/10.1542/pir.2018-0337"
+      ],
+      "doi": "10.1542/pir.2018-0337",
+      "pmc_id": "74260341615259",
+      "research_insight": "This \"Diabetes Insipidus\" review article from *Pediatrics in Review* (2020) is relevant to a researcher studying diabetes drug therapy because it specifically addresses the use of antidiuretic agents, particularly Deamino Arginine Vasopressin (DDAVP), in treating Diabetes Insipidus. The role of DDAVP and other antidiuretic agents in managing different types of Diabetes Insipidus, especially in pediatric populations, warrants further exploration. This article contributes to the broader field of diabetes research by focusing on a less common, but clinically significant, form of diabetes and its specific pharmacological management.\n"
+    },
+    {
+      "id": "16444918",
+      "pmid": "16444918",
+      "title": "Diabetes insipidus: diagnosis and treatment of a complex disease.",
+      "first_author": "Makaryus AN",
+      "co_authors": [
+        "McFarlane SI"
+      ],
+      "journal": "Cleveland Clinic journal of medicine",
+      "publication_date": "2006 Jan",
+      "abstract": "Diabetes insipidus, characterized by excretion of copious volumes of dilute urine, can be life-threatening if not properly diagnosed and managed. It can be caused by two fundamentally different defects: inadequate or impaired secretion of antidiuretic hormone (ADH) from the posterior pituitary gland (neurogenic or central diabetes insipidus) or impaired or insufficient renal response to ADH (nephrogenic diabetes insipidus). The distinction is essential for effective treatment. FAU - Makaryus, Amgad N AU - Makaryus AN AD - North Shore University Hospital, New York University School of Medicine, Manhasset, NY, USA. FAU - McFarlane, Samy I AU - McFarlane SI LA - eng PT - Journal Article PT - Review PL - United States TA - Cleve Clin J Med JT - Cleveland Clinic journal of medicine JID - 8703441 SB - IM MH - Diabetes Insipidus/complications/*diagnosis/physiopathology/*therapy MH - Diabetes Insipidus, Nephrogenic/chemically induced/diagnosis/genetics MH - Diabetes Insipidus, Neurogenic/drug therapy/physiopathology MH - Humans MH - Polyuria/etiology RF - 15 EDAT- 2006/02/01 09:00 MHDA- 2006/02/24 09:00 CRDT- 2006/02/01 09:00 PHST- 2006/02/01 09:00 [pubmed] PHST- 2006/02/24 09:00 [medline] PHST- 2006/02/01 09:00 [entrez] AID - 10.3949/ccjm.73.1.65 [doi] PST - ppublish SO - Cleve Clin J Med. 2006 Jan;73(1):65-71. doi: 10.3949/ccjm.73.1.65.",
+      "mesh_terms": [
+        "Diabetes Insipidus",
+        "Diabetes Insipidus, Nephrogenic",
+        "Diabetes Insipidus, Neurogenic",
+        "Humans",
+        "Polyuria"
+      ],
+      "keywords": [],
+      "full_text_links": [
+        "https://doi.org/10.3949/ccjm.73.1.65"
+      ],
+      "doi": "10.3949/ccjm.73.1.65",
+      "pmc_id": null,
+      "research_insight": "This 2006 review article on diabetes insipidus is tangentially relevant to a researcher studying \"diabetes drug therapy\" because it discusses the diagnosis and treatment of a different type of diabetes, diabetes insipidus, which is related to ADH rather than insulin. While not directly addressing drug therapies for diabetes mellitus, the article's discussion of neurogenic diabetes insipidus and its treatment with ADH analogs could offer a comparative perspective on hormone replacement therapies. The specific aspect deserving further exploration is the section on neurogenic diabetes insipidus treatment, as it may provide insights into the challenges and strategies involved in hormone-related drug therapies, even if the hormones and diseases are distinct.\n"
+    },
+    {
+      "id": "36683321",
+      "pmid": "36683321",
+      "title": "New developments and concepts in the diagnosis and management of diabetes insipidus (AVP-deficiency and resistance).",
+      "first_author": "Angelousi A",
+      "co_authors": [
+        "Alexandraki KI",
+        "Mytareli C",
+        "Grossman AB",
+        "Kaltsas G"
+      ],
+      "journal": "Journal of neuroendocrinology",
+      "publication_date": "2023 Jan",
+      "abstract": "Diabetes insipidus (DI) is a disorder characterised by the excretion of large amounts of hypotonic urine, with a prevalence of 1 per 25,000 population. Central DI (CDI), better now referred to as arginine vasopressin (AVP)-deficiency, is the most common form of DI resulting from deficiency of the hormone AVP from the pituitary. The less common nephrogenic DI (NDI) or AVP-resistance develops secondary to AVP resistance in the kidneys. The majority of causes of DI are acquired, with CDI developing when more than 80% of AVP-secreting neurons are damaged. Inherited/familial CDI causes account for approximately 1% of cases. Although the pathogenesis of NDI is unclear, more than 280 disease-causing mutations affecting the AVP2 protein or AVP V2 receptor, as well as in aquaporin 2 (AQP2), have been described. Although the cAMP/protein kinase A pathway remains the major regulatory pathway of AVP/AQP2 action, in vitro data have also revealed additional cAMP independent pathways of NDI pathogenesis. Diagnosing partial forms of DI, and distinguishing them from primary polydipsia, can be challenging, previously necessitating the use of the water deprivation test. However, measurements of circulating copeptin levels, especially after stimulation, are increasingly replacing the classical tests in clinical practice because of their ease of use and high sensitivity and specificity. The treatment of CDI relies on desmopressin administration, whereas NDI requires the management of any underlying diseases, removal of offending drugs and, in some cases, administration of diuretics. A better understanding of the pathophysiology of DI has led to novel evolving therapeutic agents that are under clinical trial. CI - (c) 2023 British Society for Neuroendocrinology. FAU - Angelousi, Anna AU - Angelousi A AUID- ORCID: 0000-0003-0906-3617 AD - First Department of Internal Medicine, Unit of Endocrinology, Laikon Hospital, Athens, Greece. FAU - Alexandraki, Krystallenia I AU - Alexandraki KI AUID- ORCID: 0000-0003-2398-6768 AD - Second Department of Surgery, Aretaieio Hospital Athens, Medical School, Athens, Greece. FAU - Mytareli, Chrysoula AU - Mytareli C AD - First Department of Internal Medicine, Unit of Endocrinology, Laikon Hospital, Athens, Greece. FAU - Grossman, Ashley B AU - Grossman AB AUID- ORCID: 0000-0003-1176-6186 AD - Green Templeton College, University of Oxford, Oxford, UK. AD - Centre for Endocrinology, Barts and the London School of Medicine, London, UK. AD - NET Unit, Royal Free Hospital, London, UK. FAU - Kaltsas, Gregory AU - Kaltsas G AD - First Department of Propaedeutic Internal Medicine, Laikon Hospital, National & Kapodistrian University of Athens, Athens, Greece. LA - eng PT - Journal Article PT - Research Support, Non-U.S. Gov't PT - Review DEP - 20230122 PL - United States TA - J Neuroendocrinol JT - Journal of neuroendocrinology JID - 8913461 RN - 0 (Aquaporin 2) RN - 0 (Receptors, Vasopressin) SB - IM CIN - J Neuroendocrinol. 2024 Sep;36(9):e13426. doi: 10.1111/jne.13426. PMID: 38964868 MH - Humans MH - Aquaporin 2/genetics MH - *Diabetes Insipidus/diagnosis/drug therapy/genetics MH - *Diabetes Insipidus, Neurogenic/diagnosis/drug therapy/genetics MH - *Diabetes Insipidus, Nephrogenic/diagnosis/genetics/therapy MH - Receptors, Vasopressin/genetics MH - *Diabetes Mellitus OTO - NOTNLM OT - aquaporin OT - desmomicronpressin OT - diabetes insipidus OT - investigation OT - vasopressin EDAT- 2023/01/24 06:00 MHDA- 2023/02/02 06:00 CRDT- 2023/01/23 01:33 PHST- 2022/12/10 00:00 [revised] PHST- 2022/10/25 00:00 [received] PHST- 2022/12/29 00:00 [accepted] PHST- 2023/01/24 06:00 [pubmed] PHST- 2023/02/02 06:00 [medline] PHST- 2023/01/23 01:33 [entrez] AID - 10.1111/jne.13233 [doi] PST - ppublish SO - J Neuroendocrinol. 2023 Jan;35(1):e13233. doi: 10.1111/jne.13233. Epub 2023 Jan 22.",
+      "mesh_terms": [
+        "Humans",
+        "Aquaporin 2",
+        "Diabetes Insipidus",
+        "Diabetes Insipidus, Neurogenic",
+        "Diabetes Insipidus, Nephrogenic",
+        "Receptors, Vasopressin",
+        "Diabetes Mellitus"
+      ],
+      "keywords": [
+        "aquaporin",
+        "desm&#x3bf;pressin",
+        "diabetes insipidus",
+        "investigation",
+        "vasopressin"
+      ],
+      "full_text_links": [
+        "https://doi.org/10.1111/jne.13233"
+      ],
+      "doi": "10.1111/jne.13233",
+      "pmc_id": null,
+      "research_insight": "This article, while not directly focused on diabetes mellitus drug therapy, is relevant because it discusses the diagnosis and management of diabetes insipidus (DI), a condition that can be confused with diabetes mellitus due to similar symptoms like excessive thirst and urination. The paper's discussion of novel therapeutic agents under clinical trial for nephrogenic DI (AVP-resistance) warrants further exploration, as understanding these emerging therapies could potentially offer insights into drug development strategies applicable to other metabolic disorders. This review contributes to the broader field of endocrinology by providing an updated overview of DI pathophysiology, diagnostic advancements (copeptin measurements), and treatment options, highlighting the evolving landscape of managing this complex disorder.\n"
+    },
+    {
+      "id": "26813151",
+      "pmid": "26813151",
+      "title": "Evaluation and treatment of hypernatremia: a practical guide for physicians.",
+      "first_author": "Liamis G",
+      "co_authors": [
+        "Filippatos TD",
+        "Elisaf MS"
+      ],
+      "journal": "Postgraduate medicine",
+      "publication_date": "2016",
+      "abstract": "Hypernatremia (serum sodium concentration >145 mEq/L) is a common electrolyte disorder with increased morbidity and mortality especially in the elderly and critically ill patients. The review presents the main pathogenetic mechanisms of hypernatremia, provides specific directions for the evaluation of patients with increased sodium levels and describes a detailed algorithm for the proper correction of hypernatremia. Furthermore, two representative cases of hypovolemic and hypervolemic hypernatremia are presented along with practical clues for their proper evaluation and treatment. Accurate diagnosis and appropriate treatment is crucial since undercorrection or overcorrection of hypernatremia are both associated with poor patients' prognosis. FAU - Liamis, George AU - Liamis G AD - a Department of Internal Medicine , School of Medicine, University of Ioannina , Ioannina , Greece. FAU - Filippatos, Theodosios D AU - Filippatos TD AD - a Department of Internal Medicine , School of Medicine, University of Ioannina , Ioannina , Greece. FAU - Elisaf, Moses S AU - Elisaf MS AD - a Department of Internal Medicine , School of Medicine, University of Ioannina , Ioannina , Greece. LA - eng PT - Journal Article PT - Review DEP - 20160223 PL - England TA - Postgrad Med JT - Postgraduate medicine JID - 0401147 SB - IM MH - Acute Disease MH - Algorithms MH - Chronic Disease MH - Dehydration/*complications/diagnosis/therapy MH - Diabetes Insipidus/complications/diagnosis/therapy MH - Diuresis MH - Drug-Related Side Effects and Adverse Reactions/diagnosis/etiology/therapy MH - Fluid Therapy/*methods MH - Humans MH - Hypernatremia/diagnosis/*etiology/therapy MH - Hypovolemia/*complications/diagnosis/therapy MH - Practice Guidelines as Topic MH - Water Loss, Insensible MH - Water-Electrolyte Imbalance/complications/diagnosis/therapy OTO - NOTNLM OT - Sodium OT - correction OT - hypernatremia OT - hypovolemia OT - water deficit EDAT- 2016/01/28 06:00 MHDA- 2016/08/02 06:00 CRDT- 2016/01/28 06:00 PHST- 2016/01/28 06:00 [entrez] PHST- 2016/01/28 06:00 [pubmed] PHST- 2016/08/02 06:00 [medline] AID - 10.1080/00325481.2016.1147322 [doi] PST - ppublish SO - Postgrad Med. 2016;128(3):299-306. doi: 10.1080/00325481.2016.1147322. Epub 2016 Feb 23.",
+      "mesh_terms": [
+        "Acute Disease",
+        "Algorithms",
+        "Chronic Disease",
+        "Dehydration",
+        "Diabetes Insipidus",
+        "Diuresis",
+        "Drug-Related Side Effects and Adverse Reactions",
+        "Fluid Therapy",
+        "Humans",
+        "Hypernatremia",
+        "Hypovolemia",
+        "Practice Guidelines as Topic",
+        "Water Loss, Insensible",
+        "Water-Electrolyte Imbalance"
+      ],
+      "keywords": [
+        "Sodium",
+        "correction",
+        "hypernatremia",
+        "hypovolemia",
+        "water deficit"
+      ],
+      "full_text_links": [
+        "https://doi.org/10.1080/00325481.2016.1147322"
+      ],
+      "doi": "10.1080/00325481.2016.1147322",
+      "pmc_id": null,
+      "research_insight": "This article on hypernatremia is relevant to a researcher studying diabetes drug therapy because it discusses diabetes insipidus as a cause of hypernatremia and addresses drug-related side effects that can contribute to electrolyte imbalances. The section on drug-related side effects and adverse reactions warrants further exploration to identify specific diabetes medications that may increase the risk of hypernatremia. This information is crucial for understanding potential complications of diabetes treatment and informing safer prescribing practices within the broader field of endocrinology and diabetes management.\n"
+    }
+  ]
+}
